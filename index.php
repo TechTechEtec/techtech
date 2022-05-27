@@ -36,7 +36,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
     <!-- TAILWIND Import -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Home</title>
+    <title>Welcome</title>
 
     <!-- Tailwind configuration -->
     <script>
