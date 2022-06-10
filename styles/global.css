@@ -1,0 +1,73 @@
+:root{
+  --blue: hsl(194, 100%, 50%)
+  --darker-purple: hsl(238, 60%, 16%)
+  --dark-purple: hsl(255, 45%, 41%)
+  --purple: hsl(252, 100%, 68%)
+  --light-purple: hsl(281, 100%, 88%)
+  --pink: hsl(334, 100%, 64%)
+  --orange: hsl(32, 100%, 61%)
+	}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    @media (max-width: 1080px) {
+        font-size: 93.75%; // 15px
+    }
+    @media (max-width: 720px){
+        font-size: 87.5%; // 14px
+    }
+}  
+
+body{
+    -webkit-font-smoothing: antialiased;
+    background: url("../public/assets/background.svg");
+
+    background-size:cover;
+    background-repeat: no-repeat;
+
+
+}
+
+body, input, textarea, button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+h1, h2, h3, h4, h5, h6, strong, b {
+    font-weight: 600; 
+}
+button {
+    cursor:pointer;
+}
+[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: grey #e5e5e5;
+    box-sizing: border-box;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #e5e5e5;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 20px;
+    border:none;
+}
