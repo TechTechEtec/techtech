@@ -1,6 +1,6 @@
 <?php 
 
-  require("./src/services/db/connection.php");
+  //require("./src/services/db/connection.php");
 
 ?>
 
@@ -99,10 +99,29 @@
         </section>
 
         <!-- second section -->
-        <section id="second" class="mt-14 h-screen w-[90vw] m-auto bg-orange"></section>
+        <section id="second" class="mt-14 h-screen w-[90vw] m-auto ">
+
+          <h1 class="text-3xl font-bold text-darkpurple mb-8">Comece a aprender agora mesmo!</h1>
+          <div class="flex w-full h-auto justify-around items-center text-pink text-xl">
+
+          <div class="text-center">
+            <img class="shadow-xl rounded-md" src="./public/assets/plano_de_curso.png" alt="Plano de Curso">
+            <p class="mt-4">Plano de Curso</p>
+          </div>
+
+          <div class="text-center">
+            <img class="shadow-xl rounded-md" src="./public/assets/escolas_participantes.png" alt="Escolas Participantes">
+            <p class="mt-4">Escolas Participantes</p>
+          </div>
+
+          <div class="text-center">
+            <img class="shadow-xl rounded-md" src="./public/assets/equipe.png" alt="Equipe">
+            <p class="mt-4">Equipe</p>
+          </div>
+        </section>
 
         <!-- second section -->
-        <section class="mt-14 h-screen w-[90vw] m-auto bg-pink"></section>
+        <footer class="mt-14 h-screen w-[90vw] m-auto bg-pink"></footer>
       </main>
 
       <!-- FOOTER CONTENT -->

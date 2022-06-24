@@ -7,7 +7,7 @@ tailwind.config = {
         darkpurple: "hsl(255, 45%, 41%)",
         purple: "hsl(252, 100%, 68%)",
         lightpurple: "hsl(281, 100%, 88%)",
-        pink: "hsl(334, 100%, 64%)",
+        pink: "#F208F6",
         orange: "hsl(32, 100%, 61%)",
         black: "#181818",
       },
