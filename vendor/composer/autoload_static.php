@@ -31,8 +31,8 @@ class ComposerStaticInit64055db55acc0b3de4e2a8d59da24765
     public static $prefixDirsPsr4 = array (
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -56,6 +56,16 @@ class ComposerStaticInit64055db55acc0b3de4e2a8d59da24765
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'P' => 
+        array (
+            'Parsedown' => 
+            array (
+                0 => __DIR__ . '/..' . '/erusev/parsedown',
+            ),
+        ),
+    );
+
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
@@ -65,6 +75,7 @@ class ComposerStaticInit64055db55acc0b3de4e2a8d59da24765
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit64055db55acc0b3de4e2a8d59da24765::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit64055db55acc0b3de4e2a8d59da24765::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit64055db55acc0b3de4e2a8d59da24765::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit64055db55acc0b3de4e2a8d59da24765::$classMap;
 
         }, null, ClassLoader::class);
