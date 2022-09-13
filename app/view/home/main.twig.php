@@ -1,49 +1,19 @@
-<?php 
+{% extends "partials/body.twig.php" %}
 
-  //require("./src/services/db/connection.php");
+{% block title %} Home | Techtech {% endblock %}
 
-?>
+{% block body %}
+<div>
 
-<!DOCTYPE html>
-
-<html lang="pt-br" class="scroll-smooth">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <meta charset="UTF-8"/>
-    <!-- Meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="shortcut icon" href="public/assets/techtechlogo.svg">
-    <!-- Fonts --> 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
-
-    <!-- TAILWIND Import -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- PHOSPOR ICONS --> 
-    <script src="https://unpkg.com/phosphor-icons"></script>
-    <title>Home</title>
-
-    <!-- Tailwind configuration -->
-    <script src="./theme/tailwindcss.js"></script>
-
-    <!-- CSS Reset -->
-    <link rel="stylesheet" href="./styles/global.css" type="text/css"/>
-  </script>
-  </head>
-  <body class="overflow-x-hidden">
-
-      <!-- MAIN CONTENT --> 
+ <!-- MAIN CONTENT --> 
       
-      <header class="flex justify-between p-4 items-center">
+ <header class="flex justify-between p-4 items-center">
         <div class="absolute w-[130vw] h-[50rem] bg-lightpurple top-[-80%] left-[-20%] skew-y-3 -rotate-[20deg] z-[-1] p-6 ">
           <div class="relative w-full h-full bg-lightpurple brightness-[1.15]"></div>
         </div>
 
         <!-- Logo -->
-        <img class="flex-none w-20 h-20" src="./public/assets/techtechlogo.svg" alt="TechTech Logo">
+        <img class="flex-none w-20 h-20" src="{{BASE}}/svgs/techtechlogo.svg" alt="TechTech Logo">
 
         <!-- NAVIGATION -->
         <nav>
@@ -84,7 +54,7 @@
             </div>
 
             <div class="flex-1">
-              <img class="w-full" src="./public/assets/techbo_svgs/techbo_showingvideo.png" alt="techbo mostrando vídeo">
+              <img class="w-full" src="{{BASE}}/imgs/techbo_showingvideo.png" alt="techbo mostrando vídeo">
             </div>
           </div>
 
@@ -105,17 +75,17 @@
           <div class="flex w-full h-auto justify-around items-center text-pink text-xl">
 
           <div class="text-center">
-            <img class="shadow-xl rounded-md" src="./public/assets/plano_de_curso.png" alt="Plano de Curso">
+            <img class="shadow-xl rounded-md" src="{{BASE}}/imgs/plano_de_curso.png" alt="Plano de Curso">
             <p class="mt-4">Plano de Curso</p>
           </div>
 
           <div class="text-center">
-            <img class="shadow-xl rounded-md" src="./public/assets/escolas_participantes.png" alt="Escolas Participantes">
+            <img class="shadow-xl rounded-md" src="{{BASE}}/imgs/escolas_participantes.png" alt="Escolas Participantes">
             <p class="mt-4">Escolas Participantes</p>
           </div>
 
           <div class="text-center">
-            <img class="shadow-xl rounded-md" src="./public/assets/equipe.png" alt="Equipe">
+            <img class="shadow-xl rounded-md" src="{{BASE}}/imgs/equipe.png" alt="Equipe">
             <p class="mt-4">Equipe</p>
           </div>
         </section>
@@ -127,10 +97,5 @@
       <!-- FOOTER CONTENT -->
 
       <footer></footer>
-
-
-  </body>
-</html>
-
-
-
+</div>
+{% endblock %}
