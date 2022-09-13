@@ -1,6 +1,6 @@
 <?php
 
-# função usada para debugar código na tela
+# função usada para debugar código na tela "die dump = dd"
 
 function dd($params = [], $die = true){
 

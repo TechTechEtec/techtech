@@ -18,10 +18,10 @@ class RouterCore {
     private function initialize() {
         $this->method = $_SERVER['REQUEST_METHOD'];
         $uri = $_SERVER['REQUEST_URI'];
+
+        if(strpos($uri, "?"))
+            $uri = mb_substr($uri, 0, strpos($uri, "?"));
         
-        // 1° way to replace dd(str_replace('/techtech', '', $uri));
-        
-        // 2° way:
         $ex = explode('/', $uri); # split the string where is the /
         $uri = $this->normalizeURI($ex);
 
@@ -70,7 +70,6 @@ class RouterCore {
             }
         }
     }
-
 
     private function executeController($get) {
         
