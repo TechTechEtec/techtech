@@ -1,6 +1,13 @@
 {
+  "name": "techtech/educationapp",
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/"
+    }
+  },
   "require": {
     "rafaelwendel/phpsupabase": "^0.0.1",
-    "erusev/parsedown": "^1.7"
+    "erusev/parsedown": "^1.7",
+    "twig/twig": "^3.4"
   }
 }
