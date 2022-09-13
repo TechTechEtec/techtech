@@ -85,7 +85,7 @@
           </div>
 
           <div class="text-center">
-            <img class="shadow-xl rounded-md" src=".{{BASE}}/imgs/equipe.png" alt="Equipe">
+            <img class="shadow-xl rounded-md" src="{{BASE}}/imgs/equipe.png" alt="Equipe">
             <p class="mt-4">Equipe</p>
           </div>
         </section>
