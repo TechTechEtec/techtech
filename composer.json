@@ -1,5 +1,5 @@
 {
-  "name": "techtech/educationapp",
+  "name": "techtech/techtech",
   "autoload": {
     "psr-4": {
       "app\\": "app/"
