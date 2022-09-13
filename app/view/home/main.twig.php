@@ -1,6 +1,6 @@
 {% extends "partials/body.twig.php" %}
 
-{% block title %}  Home | TechTech {% endblock %}
+{% block title %} Home | Techtech {% endblock %}
 
 {% block body %}
 <div>

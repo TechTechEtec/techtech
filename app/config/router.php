@@ -1,7 +1,6 @@
 <?php 
 
-$this->get('/', function() {
-    (new \app\controller\RouteController)->index();
-});
+$this->get('/', 'RouteController@home');
+
  
 # Demais rotas irão aqui

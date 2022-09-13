@@ -16,11 +16,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
 
         <!-- TAILWIND Import -->
-        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 
         <!-- PHOSPOR ICONS --> 
         <script src="https://unpkg.com/phosphor-icons"></script>
-        <title>Home</title>
 
         <!-- Tailwind configuration -->
         <script src="{{BASE}}/vendor/tailwindcss.js"></script>
@@ -30,7 +29,6 @@
         <title>{% block title %}{% endblock %}</title>
     </head>
     <body class="overflow-x-hidden">
-        {% include "partials/header.twig.php" %} <!-- Here will be included the Header -->
         {% block body %}{% endblock %}  <!-- Here will be included the main body of the page -->
     </body>
 </html>
