@@ -19,6 +19,10 @@ class RouteController extends Controller {
     public function chooseRegisterPerfil() {
         $this->load("chooseRegisterPerfil/main");
     }
+    
+    public function  student() {
+        $this->load("student/main");
+    }
 
     public function teste(){
        $query =  Input::get('pes'); // Irá pegar o parametro  ?pes da URL
