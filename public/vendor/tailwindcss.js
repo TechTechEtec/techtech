@@ -24,5 +24,10 @@ tailwind.config = {
 
       "2xl": "1536px",
     },
+    fontFamily: {
+      'normal': ['Roboto', 'sans-serif'],
+      "cartton": ["Nerko", "sans-serif"],
+      "clean": ["Mukta", "sans-serif"]
+    }
   },
 };
