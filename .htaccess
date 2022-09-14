@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{THE_REQUEST} public/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+RewriteRule ^((?!public/).*)$ techtech/public/$1 [L,NC]
+
+# This code will redirect the user to /public/index.php when the URL is incorrect or doesn't exist

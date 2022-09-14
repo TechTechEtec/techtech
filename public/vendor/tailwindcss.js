@@ -10,7 +10,19 @@ tailwind.config = {
         pink: "#F208F6",
         orange: "hsl(32, 100%, 61%)",
         black: "#181818",
+        white: "#fff",
       },
+    },
+    screens: {
+      sm: "460px",
+
+      md: "768px",
+
+      lg: "1024px",
+
+      xl: "1280px",
+
+      "2xl": "1536px",
     },
   },
 };
