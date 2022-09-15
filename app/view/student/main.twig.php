@@ -20,7 +20,7 @@
     <div class="flex flex-col items-center justify-center bg-white box-content h-1014 w-1440 p-4 border-4">
 
         <!-- Nome -->
-        <div class="mt-4 font-bold">
+        <div class="mt-4 font-bold flex flex-col">
             <label for="nome">Nome</label>
             <input
             id="nome"
@@ -29,7 +29,7 @@
         </div>
 
         <!-- E-mail -->
-        <div class="mt-4 font-bold">
+        <div class="mt-4 font-bold flex flex-col">
             <label for="email">E-mail</label>
             <input
             id="email"
@@ -38,7 +38,7 @@
         </div>
 
         <!-- Nascimento -->
-        <div class="mt-4 font-bold">
+        <div class="mt-4 font-bold flex flex-col w-full">
             <label for="data de nascimento">Data de Nascimento</label>
             <input
             id="data de nascimento"
@@ -48,7 +48,7 @@
 
         <!-- Instituição -->
 
-        <div class="mt-4 font-bold">
+        <div class="mt-4 font-bold flex flex-col">
             <label class="" for="instituição">Instituição</label>
             <input
             id="instituição"
@@ -58,7 +58,7 @@
 
         <!-- Senha -->
 
-        <div class="mt-4 font-bold">
+        <div class="mt-4 font-bold flex flex-col">
             <label for="senha">Senha</label>
             <input
             id="senha"
