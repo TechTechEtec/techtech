@@ -5,7 +5,19 @@
 {% block body %}
 <div class="w-screen h-screen bg-[url({{BASE}}/imgs/background.png)] bg-contain bg-no-repeat bg-center bg-lightpurple relative overflow-x-hidden flex flex-row items-center justify-center">
 
-<div class="bg-white box-content h-1014 w-1440 p-4 border-4">
+    <div class="bg-white box-content h-1014 w-1440 p-4 border-4 flex flex-col items-center justify-center mr-4">
+        
+        <h1 class="text-orange font-bold">
+            Escolha seu Avatar!
+        </h1>
+
+        <button class="bg-pink rounded-md px-14 h-10 text-white flex items-center group mt-4">
+            <span class="pl-2">Aluno</span>
+        </button>
+
+    </div>
+
+    <div class="flex flex-col items-center justify-center bg-white box-content h-1014 w-1440 p-4 border-4">
 
         <!-- Nome -->
         <div class="mt-4 font-bold">
@@ -53,14 +65,14 @@
             type="text"
             >
 
+        </div>
+        
             <!-- botão -->
-            <button class="bg-orange rounded-md px-10 h-10 text-white flex items-center group mt-4">
+            <button class="bg-orange rounded-md px-12 h-10 text-white flex items-center group mt-4">
                 <i class="ph-user"></i>
                 <span class="pl-2">Cadastro</span>
             </button>
-
-        </div>
     </div>
-
+    
 </div>
 {% endblock %}
