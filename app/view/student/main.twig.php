@@ -5,9 +5,14 @@
 {% block body %}
 <div class="w-screen h-screen bg-[url({{BASE}}/imgs/background.png)] bg-contain bg-no-repeat bg-center bg-lightpurple relative overflow-x-hidden flex flex-row items-center justify-center">
 
-    <div class="bg-white box-content h-1014 w-1440 p-4 border-4 flex flex-col items-center justify-center mr-4">
+    <div class="flex flex-col items-center justify-center mr-2">
         
-        <h1 class="text-orange font-bold">
+        <button class="bg-purple h-32 w-32 rounded-lg mb-16">
+            <i class="ph-user text-5xl text-white mt-1 ml-2"></i>
+            <span class="pl-2"></span>
+        </button>
+
+        <h1 class="text-orange font-bold mb-4">
             Escolha seu Avatar!
         </h1>
 
@@ -17,10 +22,10 @@
 
     </div>
 
-    <div class="flex flex-col items-center justify-center bg-white box-content h-1014 w-1440 p-4 border-4">
+    <div class="flex space-y-2 flex-col rounded-lg items-center justify-center bg-white px-32 py-8 shadow-lg">
 
         <!-- Nome -->
-        <div class="mt-4 font-bold flex flex-col">
+        <div class="mt-2 font-bold flex flex-col">
             <label for="nome">Nome</label>
             <input
             id="nome"
@@ -29,7 +34,7 @@
         </div>
 
         <!-- E-mail -->
-        <div class="mt-4 font-bold flex flex-col">
+        <div class="mt-2 font-bold flex flex-col">
             <label for="email">E-mail</label>
             <input
             id="email"
@@ -38,7 +43,7 @@
         </div>
 
         <!-- Nascimento -->
-        <div class="mt-4 font-bold flex flex-col w-full">
+        <div class="mt-2 font-bold flex flex-col w-full">
             <label for="data de nascimento">Data de Nascimento</label>
             <input
             id="data de nascimento"
@@ -48,7 +53,7 @@
 
         <!-- Instituição -->
 
-        <div class="mt-4 font-bold flex flex-col">
+        <div class="mt-2 font-bold flex flex-col">
             <label class="" for="instituição">Instituição</label>
             <input
             id="instituição"
@@ -58,7 +63,7 @@
 
         <!-- Senha -->
 
-        <div class="mt-4 font-bold flex flex-col">
+        <div class="mt-2 font-bold flex flex-col">
             <label for="senha">Senha</label>
             <input
             id="senha"
