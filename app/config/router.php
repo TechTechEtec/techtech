@@ -4,5 +4,7 @@ $this->get('/', 'RouteController@home');
 
 $this->get('/teste', 'RouteController@teste');
 
-$this->get('/modelteste', 'SoloStudentController@fetch');
+$this->get('/getstudent', 'SoloStudentController@fetch');
+
+$this->get('/registudent', 'SoloStudentController@insert');
 # Demais rotas irão aqui
