@@ -14,9 +14,12 @@ class SoloStudentController extends Controller {
     }
 
     public function fetch() {
-        $this->load("modelteste\main", [
-            "resultadodamodel"=>$this->soloStudentModel-> fetch()
-        ]);
+
+         $db_response = $this->soloStudentModel->fetch();
+
+        console_log($db_response);
+
+        $this->load("modelteste\main");
 
     }
 }
