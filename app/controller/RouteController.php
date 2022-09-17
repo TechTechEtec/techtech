@@ -20,6 +20,10 @@ class RouteController extends Controller {
         $this->load("chooseRegisterPerfil/main");
     }
     
+    public function class() {
+        $this->load("classs/main");
+    }
+
     public function student() {
         $this->load("student/main");
     }
