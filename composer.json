@@ -6,7 +6,7 @@
     }
   },
   "require": {
-    "rafaelwendel/phpsupabase": "^0.0.1",
+    "rafaelwendel/phpsupabase": "^0.0.2",
     "erusev/parsedown": "^1.7",
     "twig/twig": "^3.4"
   }

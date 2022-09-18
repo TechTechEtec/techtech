@@ -4,9 +4,7 @@ namespace app\controller;
 
 use app\core\Controller;
 
-use  app\classes\Input;
-
-# Controller que irá gerenciar nossas rotas
+# Controller that manage our routes
 
 class RouteController extends Controller {
 
@@ -15,26 +13,18 @@ class RouteController extends Controller {
     public function home() {
         $this->load("home/main");
     }
-
-    public function chooseRegisterPerfil() {
-        $this->load("chooseRegisterPerfil/main");
-    }
     
-    public function class() {
-        $this->load("classs/main");
-    }
-
-    public function student() {
+    public function signupStudent() {
         $this->load("student/main");
     }
-
-    public function teste(){
-       $query =  Input::get('pes'); // Irá pegar o parametro  ?pes da URL
-
-        $this->load("teste/main", [
-            "query" => $query
-        ]);
+    
+    public function signupClass() {
+        $this->load("class/main");
     }
 
-   # As demais rotas irão aqui
+    public function chooseSignup() {
+        $this->load("choose-signup/main");
+    }
+
+   # Routes will be here.
 }

@@ -1,4 +1,9 @@
 tailwind.config = {
+  content: ["../../app/**/*.{php,html,js}"],
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
   theme: {
     extend: {
       colors: {
