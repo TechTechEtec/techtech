@@ -83,7 +83,7 @@ class StudentModel extends Model{
         }
     }
 
-    public function addClass(string $id_student, string $cod_class){  # Update Student on DataBase
+    public function addClass(string $id_student, string $cod_class){  # Add a class to student by using ID on DataBase
 
         $class = [
             'cod_class'    => $cod_class,
