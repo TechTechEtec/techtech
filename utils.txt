@@ -1,0 +1,9 @@
+content: "";
+position: absolute;
+width: calc(100% + 50em);
+left: 50%;
+height: 10em;
+top: -3em;
+border-radius: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);

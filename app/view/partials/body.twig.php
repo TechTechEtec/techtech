@@ -24,6 +24,9 @@
         <!-- Tailwind configuration -->
         <script src="{{BASE}}/vendor/tailwindcss.js"></script>
 
+        <!-- JavaScript files -->
+        <script src="{{BASE}}/js/toggleHomeMenu.js"></script>
+
         <!-- CSS Reset -->
         <link rel="stylesheet" href="{{BASE}}/css/global.css" type="text/css"/>
         <title>{% block title %}{% endblock %}</title>

@@ -16,12 +16,17 @@ tailwind.config = {
         orange: "hsl(32, 100%, 61%)",
         black: "#181818",
         white: "#fff",
+        grey: "#DADDE1",
       },
     },
     screens: {
       sm: "460px",
 
+      "2sm": "595px",
+
       md: "768px",
+
+      "2md": "900px",
 
       lg: "1024px",
 
@@ -30,9 +35,9 @@ tailwind.config = {
       "2xl": "1536px",
     },
     fontFamily: {
-      'normal': ['Roboto', 'sans-serif'],
-      "cartton": ["Nerko", "sans-serif"],
-      "clean": ["Mukta", "sans-serif"]
-    }
+      normal: ["Roboto", "sans-serif"],
+      cartoon: ["Nerko", "sans-serif"],
+      clean: ["Mukta", "sans-serif"],
+    },
   },
 };
