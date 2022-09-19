@@ -103,8 +103,13 @@
       
     </section>
 
-    <!-- Parallax Effecct -->
-    <div class="hidden md:visible bg-[url({{BASE}}/imgs/parallax.png)] min-h-[150px] md:min-h-[250px] bg-fixed bg-center bg-no-repeat bg-cover parallax"></div>
+    <!-- Parallax Effect -->
+    <div class="hidden md:block bg-[url({{BASE}}/imgs/parallax.png)] min-h-[200px] md:min-h-[400px] bg-fixed bg-center bg-repeat-y bg-contain parallax"></div>
+
+    <!-- Alternative parallax Effect to mobile devices -->
+  
+    <img class="block md:hidden" src="{{BASE}}/imgs/parallax.png" alt="parallax static image used on mobile devices" class="w-full h-auto"/>
+    
 
     <!-- third section -->
     <section class="px-6 mt-14 py-6 w-[90vw] m-auto">
@@ -120,10 +125,10 @@
   </main>
 
   <!-- FOOTER CONTENT --> 
-  <footer class="flex flex-col-reverse md:flex-row flex-wrap justify-evenly items-center w-[85%] mx-auto h-auto gap-10 md:gap-4 p-6">
+  <footer class="flex flex-col-reverse lg:flex-row flex-wrap justify-evenly items-center w-[85%] mx-auto h-auto gap-10 md:gap-4 p-6">
 
       <!-- Logo -->
-      <img class=" w-30 h-30" src="{{BASE}}/imgs/techtech_footer_logo.png" alt="TechTech Footer Logo">
+      <img class="w-30 h-30" src="{{BASE}}/imgs/techtech_footer_logo.png" alt="TechTech Footer Logo">
 
       <!-- Links -->
       <div class="flex-1 flex flex-row gap-4 w-full p-4 w-full flex-wrap items-start justify-center">
@@ -152,7 +157,7 @@
 
 
     <!-- Form -->
-    <form method="post" class="flex-1 flex w-full md:w-auto flex-col items-stretch justify-start gap-6">
+    <form method="post" class="flex-1 flex w-full lg:w-auto flex-col items-stretch justify-start gap-6">
 
       <input type="text" id="name" name="name" placeholder="Seu nome" class="w-full h-[50px] rounded-lg bg-white border-black border-[1px] border-solid p-2 text-black"/>
 
