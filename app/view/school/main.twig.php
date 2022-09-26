@@ -1,12 +1,12 @@
 {% extends "partials/body.twig.php" %}
 
-{% block title %} Login Instituição | Techtech {% endblock %}
+{% block title %} Cadastro Instituição | Techtech {% endblock %}
 
 {% block body %}
 <div class="w-screen h-screen bg-[url({{BASE}}/imgs/background.png)] bg-contain bg-no-repeat bg-center bg-darkerPurple relative overflow-x-hidden flex flex-row items-center justify-center">
 
 
-    <div class="flex space-y-2 grid-cols rounded-lg items-center justify-center bg-white px-20 py-20 shadow-lg">
+    <div class="flex space-y-2 grid-cols rounded-md items-center justify-center bg-white px-12 py-12 shadow-lg">
 
         <div class="flex flex-col items-center justify-center mr-32">
             
@@ -30,7 +30,7 @@
         <!-- Nome -->
         <div class="mt-2 font-bold flex flex-col">
             <label for="nome">Nome da Instituição</label>
-            <input
+            <input class="rounded-md h-8 w-full"
             id="nome"
             type="text"
             >
@@ -39,7 +39,7 @@
         <!-- E-mail -->
         <div class="mt-2 font-bold flex flex-col">
             <label for="email">E-mail Institucional</label>
-            <input
+            <input class="rounded-md h-8 w-full"
             id="email"
             type="text"
             >
@@ -49,7 +49,7 @@
 
         <div class="mt-2 font-bold flex flex-col">
             <label for="senha">Senha</label>
-            <input
+            <input class="rounded-md h-8 w-full"
             id="senha"
             type="text"
             >
@@ -57,7 +57,7 @@
         </div>
         
             <!-- botão -->
-            <button class="bg-orange rounded-md px-6 h-10 text-white flex items-center group mt-4">
+            <button class="bg-orange rounded-md px-6 h-10 text-white flex items-center group mt-8">
                 <span class="pl-2">Cadastre suas Turmas</span>
             </button>
     </div>
