@@ -83,18 +83,5 @@ class StudentModel extends Model{
         }
     }
 
-    public function addClass(string $id_student, string $cod_class){  # Add a class to student by using ID on DataBase
-
-        $class = [
-            'cod_class'    => $cod_class,
-        ];
-        
-        try {
-            $data = $this->db->update($id_student, $class);
-            return $data;
-        }
-        catch(Exception $e) {
-            echo $e->getMessage();
-        }
-    }
+    
 }
