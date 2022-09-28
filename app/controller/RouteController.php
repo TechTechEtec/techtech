@@ -34,5 +34,9 @@ class RouteController extends Controller {
         $this->load("choose-signup/main");
     }
 
+    public function signin() {
+        $this->load("signin/main");
+    }
+
    # Routes will be here.
 }

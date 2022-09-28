@@ -14,6 +14,8 @@ $this->get('/signup-class','RouteController@signupClass');
 
 $this->get('/choose-signup', 'RouteController@chooseSignup');
 
+$this->get('/signin', 'RouteController@signin');
+
 // All Controller Route needs to start with @ character in URL
 
 # Controller Student
