@@ -2,21 +2,21 @@
 
 namespace app\controller;
 
-use app\model\StudentModel;
+use app\model\TeacherModel;
 use app\core\Controller;
 
 use  app\classes\Input;
 
-class StudentController extends Controller {
-    private $studentModel;
+class TeacherController extends Controller{
+    private $teacherModel;
 
-    public function __construct(){ 
-        $this->studentModel = new StudentModel();
+    public function __construct() {
+        $this->teacherModel = new TeacherModel();
     }
 
     public function fetchAll() {
 
-        $db_response = $this->studentModel->fetchAll();
+        $db_response = $this->teacherModel->fetchAll();
 
         console_log($db_response);
     }
@@ -24,20 +24,19 @@ class StudentController extends Controller {
     public function fetchById() {
         $id = Input::post('id');
 
-        $db_response = $this->studentModel->fetchById($id);
+        $db_response = $this->teacherModel->fetchById($id);
 
         console_log($db_response);
     }
 
     public function register(){
-        $student = (object)[
+        $teacher = (object)[
             'name'      => Input::post('name'),
             'email'    => Input::post('email'),
-            'birthday' => Input::post('birthday'),
             'password' => Input::post('password'),
         ];
 
-        if (!$this->registerValidate($student)) {
+        if (!$this->registerValidate($teacher)) {
             return  $this->showMessage(
                 'Formulário inválido', 
                 'Os dados fornecidos são inválidos',
@@ -46,7 +45,7 @@ class StudentController extends Controller {
             );
         }
 
-        $db_response = $this->studentModel->register($student);
+        $db_response = $this->teacherModel->register($teacher);
 
         if ($db_response <= 0) {
             echo 'Erro no Cadastro';
@@ -58,15 +57,14 @@ class StudentController extends Controller {
     }
 
     public function update(){
-        $student = (object)[
+        $teacher = (object)[
             "id"        => Input::post('id'),
             'name'      => Input::post('name'),
             'email'    => Input::post('email'),
-            'birthday' => Input::post('birthday'),
             'password' => Input::post('password'),
         ];
 
-        if (!$this->updateValidate($student)) {
+        if (!$this->updateValidate($teacher)) {
             return  $this->showMessage(
                 'Formulário inválido', 
                 'Os dados fornecidos são inválidos',
@@ -75,7 +73,7 @@ class StudentController extends Controller {
             );
         }
 
-        $db_response = $this->studentModel->update($student);
+        $db_response = $this->teacherModel->update($teacher);
 
         if ($db_response <= 0) {
             echo 'Erro no Cadastro';
@@ -86,33 +84,32 @@ class StudentController extends Controller {
 
     }
 
-
-    private function registerValidate(Object $student){
+    private function registerValidate(Object $teacher){
   
-        if (strlen($student->name) < 3)
+        if (strlen($teacher->name) < 3)
             return false;
 
-        if (strlen($student->email) < 10)
+        if (strlen($teacher->email) < 10)
             return false;
 
-        if (strlen($student->password) < 8)
+        if (strlen($teacher->password) < 8)
             return false;
 
         return true;
     }
 
-    private function updateValidate(Object $student){
+    private function updateValidate(Object $teacher){
   
-        if(property_exists($student, "name"))
-            if (strlen($student->name) < 3)
+        if(property_exists($teacher, "name"))
+            if (strlen($teacher->name) < 3)
                 return false;
 
-        if(property_exists($student, "email"))
-            if (strlen($student->email) < 10)
+        if(property_exists($teacher, "email"))
+            if (strlen($teacher->email) < 10)
                 return false;
 
-        if(property_exists($student, "password"))
-            if (strlen($student->password) < 8)
+        if(property_exists($teacher, "password"))
+            if (strlen($teacher->password) < 8)
                 return false;
 
         return true;

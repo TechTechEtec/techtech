@@ -19,18 +19,17 @@ class SchoolModel extends Model{
     public function fetchAll(){   # Get All Schools from DataBase
         try {
             $listSchools= $this->db->fetchAll()->getResult(); 
+         
             return $listSchools;
         }
         catch(Exception $e) {
             echo $e->getMessage();
         }
-       
-    
     }
 
     public function fetchById(string $id){   # Get All Schools from DataBase
         try {
-            $schools = $this->db->findBy("id", $id)->getResult();
+            $school = $this->db->findBy("id", $id)->getResult();
             return $school;
         }
         catch(Exception $e) {
@@ -42,7 +41,7 @@ class SchoolModel extends Model{
         $newSchool = [
             'name'      => $school->name,
             'email'    => $school->email,
-            'password' => $school->password,
+            'password' => hash('sha256', $school->password),
         ];
         
         try {
@@ -60,14 +59,14 @@ class SchoolModel extends Model{
         $updatedData = [];
 
 
-        if(property_exists($$school, "name"))
-            $updatedData["name"] = $$school->name;
+        if(property_exists($school, "name"))
+            $updatedData["name"] = $school->name;
 
         if(property_exists($school, "email"))
             $updatedData["email"] = $school->email;
             
         if(property_exists($school, "password"))
-            $updatedData["password"] = $student->password;
+            $updatedData["password"] = hash('sha256', $school->password);
         
         
         try {

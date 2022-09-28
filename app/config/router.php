@@ -22,7 +22,24 @@ $this->get('/@signup-student', 'StudentController@register'); # needs queries NA
 
 $this->get('/@update-student', 'StudentController@update'); # needs queries NAME, EMAIL, PASSWORD, BIRTHDAY and ID in POST submission
 
-$this->get('/@addclass-student', 'StudentController@addClass'); # needs queries ID_STUDENT and COD_CLASS in POST submission
+# Controller School
+
+$this->get('/@schools', 'SchoolController@fetchAll'); # ----
+
+$this->get('/@school', 'SchoolController@fetchById'); # needs queries ID in POST submission
+
+$this->get('/@signup-school', 'SchoolController@register'); # needs queries NAME, EMAIL, PASSWORD and BIRTHDAY in POST submission
+
+$this->get('/@update-school', 'SchoolController@update'); # needs queries NAME, EMAIL, PASSWORD, BIRTHDAY and ID in POST submission
+
+# Controller Teacher
 
 
+$this->get('/@teachers', 'TeacherController@fetchAll'); # ----
+
+$this->get('/@teacher', 'TeacherController@fetchById'); # needs queries ID in POST submission
+
+$this->get('/@signup-teacher', 'TeacherController@register'); # needs queries NAME, EMAIL, PASSWORD and BIRTHDAY in POST submission
+
+$this->get('/@update-teacher', 'TeacherController@update'); # needs queries NAME, EMAIL, PASSWORD, BIRTHDAY and ID in POST submission
 

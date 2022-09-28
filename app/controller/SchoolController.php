@@ -2,21 +2,21 @@
 
 namespace app\controller;
 
-use app\model\StudentModel;
+use app\model\SchoolModel;
 use app\core\Controller;
 
 use  app\classes\Input;
 
-class StudentController extends Controller {
-    private $studentModel;
+class SchoolController extends Controller{
+    private $schoolModel;
 
-    public function __construct(){ 
-        $this->studentModel = new StudentModel();
+    public function __construct() {
+        $this->schoolModel = new SchoolModel();
     }
 
     public function fetchAll() {
 
-        $db_response = $this->studentModel->fetchAll();
+        $db_response = $this->schoolModel->fetchAll();
 
         console_log($db_response);
     }
@@ -24,20 +24,19 @@ class StudentController extends Controller {
     public function fetchById() {
         $id = Input::post('id');
 
-        $db_response = $this->studentModel->fetchById($id);
+        $db_response = $this->schoolModel->fetchById($id);
 
         console_log($db_response);
     }
 
     public function register(){
-        $student = (object)[
+        $school = (object)[
             'name'      => Input::post('name'),
             'email'    => Input::post('email'),
-            'birthday' => Input::post('birthday'),
             'password' => Input::post('password'),
         ];
 
-        if (!$this->registerValidate($student)) {
+        if (!$this->registerValidate($school)) {
             return  $this->showMessage(
                 'Formulário inválido', 
                 'Os dados fornecidos são inválidos',
@@ -46,7 +45,7 @@ class StudentController extends Controller {
             );
         }
 
-        $db_response = $this->studentModel->register($student);
+        $db_response = $this->schoolModel->register($school);
 
         if ($db_response <= 0) {
             echo 'Erro no Cadastro';
@@ -58,15 +57,14 @@ class StudentController extends Controller {
     }
 
     public function update(){
-        $student = (object)[
+        $school = (object)[
             "id"        => Input::post('id'),
             'name'      => Input::post('name'),
             'email'    => Input::post('email'),
-            'birthday' => Input::post('birthday'),
             'password' => Input::post('password'),
         ];
 
-        if (!$this->updateValidate($student)) {
+        if (!$this->updateValidate($school)) {
             return  $this->showMessage(
                 'Formulário inválido', 
                 'Os dados fornecidos são inválidos',
@@ -75,7 +73,7 @@ class StudentController extends Controller {
             );
         }
 
-        $db_response = $this->studentModel->update($student);
+        $db_response = $this->schoolModel->update($school);
 
         if ($db_response <= 0) {
             echo 'Erro no Cadastro';
@@ -86,33 +84,32 @@ class StudentController extends Controller {
 
     }
 
-
-    private function registerValidate(Object $student){
+    private function registerValidate(Object $school){
   
-        if (strlen($student->name) < 3)
+        if (strlen($school->name) < 3)
             return false;
 
-        if (strlen($student->email) < 10)
+        if (strlen($school->email) < 10)
             return false;
 
-        if (strlen($student->password) < 8)
+        if (strlen($school->password) < 8)
             return false;
 
         return true;
     }
 
-    private function updateValidate(Object $student){
+    private function updateValidate(Object $school){
   
-        if(property_exists($student, "name"))
-            if (strlen($student->name) < 3)
+        if(property_exists($school, "name"))
+            if (strlen($school->name) < 3)
                 return false;
 
-        if(property_exists($student, "email"))
-            if (strlen($student->email) < 10)
+        if(property_exists($school, "email"))
+            if (strlen($school->email) < 10)
                 return false;
 
-        if(property_exists($student, "password"))
-            if (strlen($student->password) < 8)
+        if(property_exists($school, "password"))
+            if (strlen($school->password) < 8)
                 return false;
 
         return true;

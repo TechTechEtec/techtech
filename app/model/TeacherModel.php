@@ -42,7 +42,7 @@ class TeacherModel extends Model{
         $newTeacher = [
             'name'     => $teacher->name,
             'email'    => $teacher->email,
-            'password' => $$teacher->password,
+            'password' => hash("sha256", $teacher->password),
         ];
         
         try {
@@ -67,9 +67,7 @@ class TeacherModel extends Model{
             $updatedData["email"] = $teacher->email;
             
         if(property_exists($teacher, "password"))
-            $updatedData["password"] = $teacher->password;
-    
-        
+            $updatedData["password"] =hash("sha256",  $teacher->password);
         
         try {
             $data = $this->db->update($teacher->id, $updatedData);
@@ -79,10 +77,8 @@ class TeacherModel extends Model{
             echo $e->getMessage();
         }
     }
-
-
 }
 
  # ADD LATER INFOS FROM SUPABASE 
  # id_school
- #id_class
+ # id_class

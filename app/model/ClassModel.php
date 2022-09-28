@@ -45,7 +45,7 @@ class ClassModel extends Model{
         ];
         
         try {
-            $data = $this->db->insert($newClass);
+            $data = $this->db->insert($newTeacher);
             return $data;
         }
         catch(Exception $e) {

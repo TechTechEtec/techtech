@@ -43,7 +43,7 @@ class StudentModel extends Model{
             'name'      => $student->name,
             'email'    => $student->email,
             'birthday' => $student->birthday,
-            'password' => $student->password,
+            'password' => hash('sha256', $student->password),
         ];
         
         try {
@@ -68,7 +68,7 @@ class StudentModel extends Model{
             $updatedData["email"] = $student->email;
             
         if(property_exists($student, "password"))
-            $updatedData["password"] = $student->password;
+            $updatedData["password"] = hash('sha256', $student->password);
     
         if(property_exists($student, "birthday"))
             $updatedData["birthday"] = $student->birthday;
@@ -82,6 +82,4 @@ class StudentModel extends Model{
             echo $e->getMessage();
         }
     }
-
-    
 }
