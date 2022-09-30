@@ -12,7 +12,7 @@
  
             <div class="mt-2 font-bold flex flex-col">
                 <label for="nome">Nome da Turma</label>
-                <input class="rounded-md h-8 w-full"
+                <input class="bg-grey rounded-md h-8 w-full"
                 id="nome"
                 type="text"
                 >
@@ -21,7 +21,7 @@
 
             <div class="mt-2 font-bold flex flex-col">
                 <label for="email">Professor da Turma</label>
-                <input class="rounded-md h-8 w-full"
+                <input class="bg-grey rounded-md h-8 w-full"
                 id="professor"
                 type="text"
                 >
@@ -29,7 +29,7 @@
 
             <div class="mt-2 font-bold flex flex-col">
                 <label for="senha">Senha da Turma</label>
-                <input class="rounded-md h-8 w-full"
+                <input class="bg-grey rounded-md h-8 w-full"
                 id="senha"
                 type="text"
                 >

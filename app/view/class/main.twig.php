@@ -10,16 +10,16 @@
 
         <div class="flex flex-col items-center justify-center mr-32">
             
-            <button class="bg-grey h-28 w-28 rounded-lg mb-8">
-                <i class="ph-user text-5xl text-black mt-1 ml-2"></i>
+            <button class="bg-darkpurple hover:bg-purple h-20 w-20 rounded-full mb-8">
+                <i class="ph-user text-5xl text-white mt-1 ml-2"></i>
                 <span class="pl-2"></span>
             </button>
 
-            <h1 class="text-orange font-bold mb-6">
+            <h1 class="text-orange font-bold mt-6">
                 Escolha seu Avatar!
             </h1>
 
-            <button class="bg-purple rounded-md h-10 w-36 text-white flex items-center justify-center group mt-2">
+            <button class="bg-darkpurple hover:bg-purple rounded-md px-12 h-10 text-white flex items-center group mt-8">
                 <span class="pl-2">Turma</span>
             </button>
 
@@ -30,7 +30,7 @@
         
         <div class="mb-2 font-bold flex flex-col">
             <label for="nome">Nome</label>
-            <input class="rounded-md h-8 w-full"
+            <input class="bg-grey rounded-md h-8 w-full"
             id="nome"
             type="text"
             >
@@ -38,7 +38,7 @@
 
         <div class="mt-6 font-bold flex flex-col">
             <label for="senha da turma">Senha da Turma</label>
-            <input class="rounded-md h-8 w-full"
+            <input class="bg-grey rounded-md h-8 w-full"
             id="senha da turma"
             type="text"
             >
