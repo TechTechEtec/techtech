@@ -2,21 +2,21 @@
 
 namespace app\controller;
 
-use app\model\SchoolModel;
+use app\model\ClassModel;
 use app\core\Controller;
 
 use  app\classes\Input;
 
-class SchoolController extends Controller{
-    private $schoolModel;
+class ClassController extends Controller{
+    private $classModel;
 
     public function __construct() {
-        $this->schoolModel = new SchoolModel();
+        $this->classModel = new ClassModel();
     }
 
     public function fetchAll() {
 
-        $db_response = $this->schoolModel->fetchAll();
+        $db_response = $this->classModel->fetchAll();
 
         console_log($db_response);
     }
@@ -24,19 +24,18 @@ class SchoolController extends Controller{
     public function fetchById() {
         $id = Input::post('id');
 
-        $db_response = $this->schoolModel->fetchById($id);
+        $db_response = $this->classModel->fetchById($id);
 
         console_log($db_response);
     }
 
     public function register(){
-        $school = (object)[
+        $class = (object)[
             'name'      => Input::post('name'),
-            'email'    => Input::post('email'),
-            'password' => Input::post('password'),
+            'code'    => Input::post('code'),
         ];
 
-        if (!$this->registerValidate($school)) {
+        if (!$this->registerValidate($class)) {
             return  $this->showMessage(
                 'Formulário inválido', 
                 'Os dados fornecidos são inválidos',
@@ -45,7 +44,7 @@ class SchoolController extends Controller{
             );
         }
 
-        $db_response = $this->schoolModel->register($school);
+        $db_response = $this->classModel->register($class);
 
         if ($db_response <= 0) {
             echo 'Erro no Cadastro';
@@ -57,14 +56,13 @@ class SchoolController extends Controller{
     }
 
     public function update(){
-        $school = (object)[
+        $class = (object)[
             "id"        => Input::post('id'),
             'name'      => Input::post('name'),
-            'email'    => Input::post('email'),
-            'password' => Input::post('password'),
+            'code'    => Input::post('code'),
         ];
 
-        if (!$this->updateValidate($school)) {
+        if (!$this->updateValidate($class)) {
             return  $this->showMessage(
                 'Formulário inválido', 
                 'Os dados fornecidos são inválidos',
@@ -73,7 +71,7 @@ class SchoolController extends Controller{
             );
         }
 
-        $db_response = $this->schoolModel->update($school);
+        $db_response = $this->classModel->update($class);
 
         if ($db_response <= 0) {
             echo 'Erro no Cadastro';
@@ -84,32 +82,25 @@ class SchoolController extends Controller{
 
     }
 
-    private function registerValidate(Object $school){
+    private function registerValidate(Object $class){
   
-        if (strlen($school->name) < 3)
+        if (strlen($class->name) < 3)
             return false;
 
-        if (strlen($school->email) < 10)
-            return false;
-
-        if (strlen($school->password) < 8)
+        if (strlen($class->code) !== 6)
             return false;
 
         return true;
     }
 
-    private function updateValidate(Object $school){
+    private function updateValidate(Object $class){
   
-        if(property_exists($school, "name"))
-            if (strlen($school->name) < 3)
+        if(property_exists($class, "name"))
+            if (strlen($class->name) < 3)
                 return false;
 
-        if(property_exists($school, "email"))
-            if (strlen($school->email) < 10)
-                return false;
-
-        if(property_exists($school, "password"))
-            if (strlen($school->password) < 8)
+        if(property_exists($class, "code"))
+            if (strlen($class->code) !== 6)
                 return false;
 
         return true;

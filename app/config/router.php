@@ -1,6 +1,6 @@
 <?php 
 
-# Pages
+# PAGES
 
 $this->get('/', 'RouteController@home');
 
@@ -12,7 +12,7 @@ $this->get('/choose-signup', 'RouteController@chooseSignup');
 
 // All Controller Route needs to start with @ character in URL
 
-# Controller Student
+# Controller STUDENT
 
 $this->get('/@students', 'StudentController@fetchAll'); # ----
 
@@ -22,7 +22,7 @@ $this->get('/@signup-student', 'StudentController@register'); # needs queries NA
 
 $this->get('/@update-student', 'StudentController@update'); # needs queries NAME, EMAIL, PASSWORD, BIRTHDAY and ID in POST submission
 
-# Controller School
+# Controller SCHOOL
 
 $this->get('/@schools', 'SchoolController@fetchAll'); # ----
 
@@ -32,8 +32,7 @@ $this->get('/@signup-school', 'SchoolController@register'); # needs queries NAME
 
 $this->get('/@update-school', 'SchoolController@update'); # needs queries NAME, EMAIL, PASSWORD, BIRTHDAY and ID in POST submission
 
-# Controller Teacher
-
+# Controller TEACHER
 
 $this->get('/@teachers', 'TeacherController@fetchAll'); # ----
 
@@ -43,3 +42,12 @@ $this->get('/@signup-teacher', 'TeacherController@register'); # needs queries NA
 
 $this->get('/@update-teacher', 'TeacherController@update'); # needs queries NAME, EMAIL, PASSWORD, BIRTHDAY and ID in POST submission
 
+# Controller CLASS
+
+$this->get('/@classes', 'ClassController@fetchAll'); # ----
+
+$this->get('/@class', 'ClassController@fetchById'); # needs queries ID in POST submission
+
+$this->get('/@signup-class', 'ClassController@register'); # needs queries NAME, EMAIL, PASSWORD and BIRTHDAY in POST submission
+
+$this->get('/@update-class', 'ClassController@update'); # needs queries NAME, EMAIL, PASSWORD, BIRTHDAY and ID in POST submission

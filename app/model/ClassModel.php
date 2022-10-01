@@ -41,7 +41,7 @@ class ClassModel extends Model{
     public function register(object $class){ # Register Class on DataBase
         $newClass = [
             'name'     => $class->name,
-            'code class'    => $class->code_class,
+            'code'    => $class->code,
         ];
         
         try {
@@ -58,14 +58,11 @@ class ClassModel extends Model{
 
         $updatedData = [];
 
-
         if(property_exists($class, "name"))
             $updatedData["name"] = $class->name;
 
-        if(property_exists($class, "code class"))
-            $updatedData["email"] = $class->code_class;
-
-
+        if(property_exists($class, "code"))
+            $updatedData["code"] = $class->code;
         
         try {
             $data = $this->db->update($class->id, $updatedData);
@@ -75,6 +72,4 @@ class ClassModel extends Model{
             echo $e->getMessage();
         }
     }
-
-
 }

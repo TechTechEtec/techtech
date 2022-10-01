@@ -41,7 +41,7 @@ class StudentController extends Controller {
             return  $this->showMessage(
                 'Formulário inválido', 
                 'Os dados fornecidos são inválidos',
-                BASE  . '/',
+                BASE ,
                 422
             );
         }
@@ -70,7 +70,7 @@ class StudentController extends Controller {
             return  $this->showMessage(
                 'Formulário inválido', 
                 'Os dados fornecidos são inválidos',
-                BASE  . '/',
+                BASE,
                 422
             );
         }
