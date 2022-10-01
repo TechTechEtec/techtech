@@ -14,13 +14,13 @@ class Controller {
         echo $twig->render($view . '.twig.php', $params);
     }
 
-    public function showMessage(string $titulo, string $descricao, string $link = null, int $httpCode = 200)
+    public function showMessage(string $title, string $message, string $link = null, int $httpCode = 200)
     {
         http_response_code($httpCode);
 
         $this->load('partials/message', [
-            'titulo'    => $titulo,
-            'descricao' => $descricao,
+            'title'    => $title,
+            'message' => $message,
             'link'      => $link
         ]);
     }
