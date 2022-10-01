@@ -6,9 +6,15 @@ $this->get('/', 'RouteController@home');
 
 $this->get('/signup-student', 'RouteController@signupStudent');
 
-$this->get('/signup-classs','RouteController@signupClass');
+$this->get('/signup-school','RouteController@signupSchool');
+
+$this->get('/create-class','RouteController@createClass');
+
+$this->get('/signup-class','RouteController@signupClass');
 
 $this->get('/choose-signup', 'RouteController@chooseSignup');
+
+$this->get('/signin', 'RouteController@signin');
 
 // All Controller Route needs to start with @ character in URL
 

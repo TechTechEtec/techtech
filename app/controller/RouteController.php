@@ -14,6 +14,14 @@ class RouteController extends Controller {
         $this->load("home/main");
     }
     
+    public function signupSchool() {
+        $this->load("school/main");
+    }
+       
+    public function createClass() {
+        $this->load("create-class/main");
+    }
+    
     public function signupStudent() {
         $this->load("student/main");
     }
@@ -24,6 +32,10 @@ class RouteController extends Controller {
 
     public function chooseSignup() {
         $this->load("choose-signup/main");
+    }
+
+    public function signin() {
+        $this->load("signin/main");
     }
 
    # Routes will be here.
