@@ -86,16 +86,6 @@ class StudentController extends Controller {
 
     }
 
-    public function addClass(){  # Update Student on DataBase
-
-        $id_student = Input::post("id_student");
-        $cod_class = Input::post("cod_class");
-        
-        $db_response = $this->studentModel->addClass($id_student, $cod_class);
-        
-        console_log($db_response);
-    }
-
     private function registerValidate(Object $student){
   
         if (strlen($student->name) < 3)

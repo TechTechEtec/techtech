@@ -39,7 +39,7 @@ class ClassModel extends Model{
     }
 
     public function register(object $class){ # Register Class on DataBase
-        $newTeacher = [
+        $newClass = [
             'name'     => $class->name,
             'code class'    => $class->code_class,
         ];
