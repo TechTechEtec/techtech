@@ -86,7 +86,6 @@ class StudentController extends Controller {
 
     }
 
-
     private function registerValidate(Object $student){
   
         if (strlen($student->name) < 3)
