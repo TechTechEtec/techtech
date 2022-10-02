@@ -32,7 +32,7 @@ class TeacherController extends Controller{
 
     // AJAX Controller
     public function fetchById() {
-        $id = Input::post('id');
+        $id = Input::get('id');
 
         $result = $this->teacherModel->fetchById($id);
 
@@ -103,7 +103,7 @@ class TeacherController extends Controller{
 
         if ($result <= 0) {
             return  $this->showMessage(
-                'Erro ao Cadastrar Novo Professor', 
+                'Erro para atualizar professor', 
                 'Algum Erro interno está impedindo a atualização dos dados. É recomendado que atualize o navegador e tente novamente. Caso o erro persista, tente mais tarde ou informe a equipe de desenvolvimento em: techtechetec@gmail.com',
                 BASE,
                 422

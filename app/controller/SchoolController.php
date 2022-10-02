@@ -14,19 +14,33 @@ class SchoolController extends Controller{
         $this->schoolModel = new SchoolModel();
     }
 
-    public function fetchAll() {
+     // AJAX Controller
+     public function fetchAll() {
 
-        $db_response = $this->schoolModel->fetchAll();
+        $result = $this->schoolModel->fetchAll();
 
-        console_log($db_response);
+        if(is_array($result)){
+            return $this->load("components/list", [
+                 'schools' => $result
+             ]);     
+         }
+ 
+        return  $this->showMessage('Erro para buscar escolas', $result, BASE);
     }
 
+    // AJAX Controller
     public function fetchById() {
-        $id = Input::post('id');
+        $id = Input::get('id');
 
-        $db_response = $this->schoolModel->fetchById($id);
+        $result = $this->schoolModel->fetchById($id);
 
-        console_log($db_response);
+        if(is_array($result)){
+            return $this->load("components/item", [
+                'school' => $result
+            ]);
+         }
+
+        return  $this->showMessage('Erro para buscar escola pelo ID', $result, BASE);
     }
 
     public function register(){
@@ -45,14 +59,21 @@ class SchoolController extends Controller{
             );
         }
 
-        $db_response = $this->schoolModel->register($school);
+        $result = $this->schoolModel->register($school);
 
-        if ($db_response <= 0) {
-            echo 'Erro no Cadastro';
+        if ($result <= 0) {
+            return  $this->showMessage(
+                'Erro ao Cadastrar Nova Escola', 
+                'Algum Erro interno está impedindo o cadastro. É recomendado que atualize o navegador e tente novamente. Caso o erro persista, tente mais tarde ou informe a equipe de desenvolvimento em: techtechetec@gmail.com',
+                BASE,
+                422
+            );
             die();
         }
 
-        console_log($db_response);
+        return $this->load("signin/main", [
+            'user' => $result
+        ]);
 
     }
 
@@ -76,12 +97,17 @@ class SchoolController extends Controller{
         $db_response = $this->schoolModel->update($school);
 
         if ($db_response <= 0) {
-            echo 'Erro no Cadastro';
+            return  $this->showMessage(
+                'Erro para atualizar escola', 
+                'Algum Erro interno está impedindo a atualização dos dados. É recomendado que atualize o navegador e tente novamente. Caso o erro persista, tente mais tarde ou informe a equipe de desenvolvimento em: techtechetec@gmail.com',
+                BASE,
+                422
+            );
+
             die();
         }
 
-        console_log($db_response);
-
+        echo '<script>window.history.back();</script>';
     }
 
     private function registerValidate(Object $school){

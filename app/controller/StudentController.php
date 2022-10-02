@@ -103,7 +103,7 @@ class StudentController extends Controller {
 
         if ($result <= 0) {
             return  $this->showMessage(
-                'Erro ao Cadastrar Novo Professor', 
+                'Erro para atualizar estudante', 
                 'Algum Erro interno está impedindo a atualização. É recomendado que atualize o navegador e tente novamente. Caso o erro persista, tente mais tarde ou informe a equipe de desenvolvimento em: techtechetec@gmail.com',
                 BASE,
                 422
