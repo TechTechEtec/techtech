@@ -4,39 +4,38 @@ namespace app\controller;
 
 use app\core\Controller;
 
-# Controller that manage our routes
+# Controller that manages our routes
 
 class RouteController extends Controller {
 
     public function __construct() {}
 
-    public function home() {
-        $this->load("home/main");
-    }
-    
-    public function signupSchool() {
-        $this->load("school/main");
-    }
-       
-    public function createClass() {
-        $this->load("create-class/main");
-    }
-    
-    public function signupStudent() {
-        $this->load("student/main");
-    }
-    
-    public function signupClass() {
-        $this->load("class/main");
+    public function dashboard() {
+        $this->load("dashboard/main");
     }
 
-    public function chooseSignup() {
-        $this->load("choose-signup/main");
+    public function home() {
+        $this->load("home/main");
     }
 
     public function signin() {
         $this->load("signin/main");
     }
 
-   # Routes will be here.
+    public function chooseSignup() {
+        $this->load("choose-signup/main");
+    }
+
+    public function signupSchool() {
+        $this->load("signup-school/main");
+    }
+       
+    public function signupClass() {
+        $this->load("signup-class/main");
+    }
+    
+    public function signupStudent() {
+        $this->load("signup-student/main");
+    }
+    
 }

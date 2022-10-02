@@ -16,17 +16,31 @@ class StudentController extends Controller {
 
     public function fetchAll() {
 
-        $db_response = $this->studentModel->fetchAll();
+        $result = $this->studentModel->fetchAll();
 
-        console_log($db_response);
+        if(is_array($result)){
+           return $this->load("dashboard/main", [
+                'students' => $result
+            ]);
+        }
+
+        return  $this->showMessage('Erro para buscar usuários', $result, BASE);
+
     }
 
     public function fetchById() {
         $id = Input::post('id');
 
-        $db_response = $this->studentModel->fetchById($id);
+        $result = $this->studentModel->fetchById($id);
 
-        console_log($db_response);
+        if(is_array($result)){
+            return $this->load("dashboard/main", [
+                 'student' => $result
+             ]);
+         }
+
+        return  $this->showMessage('Erro para buscar usuário pelo ID', $result, BASE);
+
     }
 
     public function register(){

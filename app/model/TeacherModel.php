@@ -22,7 +22,7 @@ class TeacherModel extends Model{
             return $listTeachers;
         }
         catch(Exception $e) {
-            echo $e->getMessage();
+            return $e->getMessage();
         }
        
     
@@ -34,7 +34,7 @@ class TeacherModel extends Model{
             return $teacher;
         }
         catch(Exception $e) {
-            echo $e->getMessage();
+            return $e->getMessage();
         }
     }
 
@@ -50,7 +50,7 @@ class TeacherModel extends Model{
             return $data;
         }
         catch(Exception $e) {
-            echo $e->getMessage();
+            return $e->getMessage();
         }
         
     }
@@ -58,7 +58,6 @@ class TeacherModel extends Model{
     public function update(object $teacher){  # Update Teacher on DataBase
 
         $updatedData = [];
-
 
         if(property_exists($teacher, "name"))
             $updatedData["name"] = $teacher->name;
@@ -74,7 +73,7 @@ class TeacherModel extends Model{
             return $data;
         }
         catch(Exception $e) {
-            echo $e->getMessage();
+            return $e->getMessage();
         }
     }
 }

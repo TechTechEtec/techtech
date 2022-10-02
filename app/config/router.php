@@ -4,11 +4,11 @@
 
 $this->get('/', 'RouteController@home');
 
+$this->get('/dashboard', 'RouteController@dashboard');
+
 $this->get('/signup-student', 'RouteController@signupStudent');
 
 $this->get('/signup-school','RouteController@signupSchool');
-
-$this->get('/create-class','RouteController@createClass');
 
 $this->get('/signup-class','RouteController@signupClass');
 

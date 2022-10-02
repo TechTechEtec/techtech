@@ -22,9 +22,8 @@ class StudentModel extends Model{
             return $listStudents;
         }
         catch(Exception $e) {
-            echo $e->getMessage();
+            return $e->getMessage();
         }
-       
     
     }
 
@@ -34,7 +33,7 @@ class StudentModel extends Model{
             return $student;
         }
         catch(Exception $e) {
-            echo $e->getMessage();
+            return $e->getMessage();
         }
     }
 
@@ -51,7 +50,7 @@ class StudentModel extends Model{
             return $data;
         }
         catch(Exception $e) {
-            echo $e->getMessage();
+            return $e->getMessage();
         }
         
     }
@@ -59,7 +58,6 @@ class StudentModel extends Model{
     public function update(object $student){  # Update Student on DataBase
 
         $updatedData = [];
-
 
         if(property_exists($student, "name"))
             $updatedData["name"] = $student->name;
@@ -79,7 +77,7 @@ class StudentModel extends Model{
             return $data;
         }
         catch(Exception $e) {
-            echo $e->getMessage();
+            return $e->getMessage();
         }
     }
 }
