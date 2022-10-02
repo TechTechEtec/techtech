@@ -56,8 +56,8 @@
           <p class="text-gray-600 text-justify mt-10 mb-5  text-lg font-medium subpixel-antialiased">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fugit aut dolorem, officiis quo aliquam deserunt hic perferendis, praesentium quisquam eligendi amet, dolorum atque praesentium quisquam eligendi amet, dolorum atque</p>
 
           <div class="flex flex-row gap-4 justify-start items-center w-full mt-6">
-            <button class="bg-orange text-darkerPurple font-bold p-2 rounded-xl hover:-translate-y-1 transition">Cadastre-se</button>
-            <button class="bg-orange text-darkerPurple font-bold p-2 rounded-xl hover:-translate-y-1 transition">Cadastre sua escola</button>
+            <a href="{{BASE}}/signup-student" class="bg-orange text-darkerPurple font-bold p-2 rounded-xl hover:-translate-y-1 transition">Cadastre-se</a>
+            <a href="{{BASE}}/signup-school" class="bg-orange text-darkerPurple font-bold p-2 rounded-xl hover:-translate-y-1 transition">Cadastre sua escola</a>
           </div>
 
         </div>

@@ -13,6 +13,7 @@ tailwind.config = {
         purple: "hsl(252, 100%, 68%)",
         lightpurple: "hsl(281, 100%, 88%)",
         pink: "#F208F6",
+        "pink-500": "#D71C6D",
         orange: "hsl(32, 100%, 61%)",
         black: "#181818",
         white: "#fff",
