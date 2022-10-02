@@ -14,19 +14,33 @@ class ClassController extends Controller{
         $this->classModel = new ClassModel();
     }
 
-    public function fetchAll() {
+     // AJAX Controller
+     public function fetchAll() {
 
-        $db_response = $this->classModel->fetchAll();
+        $result = $this->classModel->fetchAll();
 
-        console_log($db_response);
+        if(is_array($result)){
+           return $this->load("components/list", [
+                'classes' => $result
+            ]);     
+        }
+
+        return  $this->showMessage('Erro para buscar turmas', $result, BASE);
     }
 
-    public function fetchById() {
-        $id = Input::post('id');
+     // AJAX Controller
+     public function fetchById() {
+        $id = Input::get('id');
 
-        $db_response = $this->classModel->fetchById($id);
+        $result = $this->classModel->fetchById($id);
 
-        console_log($db_response);
+        if(is_array($result)){
+            return $this->load("components/item", [
+                'class' => $result
+            ]);
+         }
+
+        return  $this->showMessage('Erro para buscar turma pelo ID', $result, BASE);
     }
 
     public function register(){
@@ -44,14 +58,21 @@ class ClassController extends Controller{
             );
         }
 
-        $db_response = $this->classModel->register($class);
+        $result = $this->classModel->register($class);
 
-        if ($db_response <= 0) {
-            echo 'Erro no Cadastro';
+        if ($result <= 0) {
+            return  $this->showMessage(
+                'Erro ao Cadastrar Nova Turma', 
+                'Algum Erro interno está impedindo o cadastro. É recomendado que atualize o navegador e tente novamente. Caso o erro persista, tente mais tarde ou informe a equipe de desenvolvimento em: techtechetec@gmail.com',
+                BASE,
+                422
+            );
             die();
         }
 
-        console_log($db_response);
+        return $this->load("signin/main", [
+            'user' => $result
+        ]);
 
     }
 
@@ -71,15 +92,19 @@ class ClassController extends Controller{
             );
         }
 
-        $db_response = $this->classModel->update($class);
+        $result = $this->classModel->update($class);
 
-        if ($db_response <= 0) {
-            echo 'Erro no Cadastro';
+        if ($result <= 0) {
+            return  $this->showMessage(
+                'Erro para atualizar turma', 
+                'Algum Erro interno está impedindo a atualização dos dados. É recomendado que atualize o navegador e tente novamente. Caso o erro persista, tente mais tarde ou informe a equipe de desenvolvimento em: techtechetec@gmail.com',
+                BASE,
+                422
+            );
             die();
         }
 
-        console_log($db_response);
-
+        echo '<script>window.history.back();</script>';
     }
 
     private function registerValidate(Object $class){
