@@ -14,35 +14,37 @@ class StudentController extends Controller {
         $this->studentModel = new StudentModel();
     }
 
+    // AJAX Controller
     public function fetchAll() {
 
         $result = $this->studentModel->fetchAll();
 
         if(is_array($result)){
-           return $this->load("dashboard/main", [
+           return $this->load("components/list", [
                 'students' => $result
-            ]);
+            ]);     
         }
 
-        return  $this->showMessage('Erro para buscar usuários', $result, BASE);
+        return  $this->showMessage('Erro para buscar estudantes', $result, BASE);
 
     }
 
+    // AJAX Controller
     public function fetchById() {
-        $id = Input::post('id');
+        $id = Input::get('id');
 
         $result = $this->studentModel->fetchById($id);
 
         if(is_array($result)){
-            return $this->load("dashboard/main", [
-                 'student' => $result
-             ]);
+            return $this->load("components/item", [
+                'student' => $result
+            ]);
          }
 
-        return  $this->showMessage('Erro para buscar usuário pelo ID', $result, BASE);
-
+        return  $this->showMessage('Erro para buscar estudante pelo ID', $result, BASE);
     }
 
+    // Router Controller
     public function register(){
         $student = (object)[
             'name'      => Input::post('name'),
@@ -60,17 +62,25 @@ class StudentController extends Controller {
             );
         }
 
-        $db_response = $this->studentModel->register($student);
+        $result = $this->studentModel->register($student);
 
-        if ($db_response <= 0) {
-            echo 'Erro no Cadastro';
+        if ($result <= 0) {
+            return  $this->showMessage(
+                'Erro ao Cadastrar Novo Aluno', 
+                'Algum Erro interno está impedindo o cadastro. É recomendado que atualize o navegador e tente novamente. Caso o erro persista, tente mais tarde ou informe a equipe de desenvolvimento em: techtechetec@gmail.com',
+                BASE,
+                422
+            );
+
             die();
         }
 
-        console_log($db_response);
-
+        return $this->load("signin/main", [
+            'user' => $result
+        ]);
     }
 
+    // Router Controller
     public function update(){
         $student = (object)[
             "id"        => Input::post('id'),
@@ -89,14 +99,20 @@ class StudentController extends Controller {
             );
         }
 
-        $db_response = $this->studentModel->update($student);
+        $result = $this->studentModel->update($student);
 
-        if ($db_response <= 0) {
-            echo 'Erro no Cadastro';
+        if ($result <= 0) {
+            return  $this->showMessage(
+                'Erro ao Cadastrar Novo Professor', 
+                'Algum Erro interno está impedindo a atualização. É recomendado que atualize o navegador e tente novamente. Caso o erro persista, tente mais tarde ou informe a equipe de desenvolvimento em: techtechetec@gmail.com',
+                BASE,
+                422
+            );
+
             die();
         }
 
-        console_log($db_response);
+       echo '<script>window.history.back();</script>';
 
     }
 

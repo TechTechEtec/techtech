@@ -14,21 +14,38 @@ class TeacherController extends Controller{
         $this->teacherModel = new TeacherModel();
     }
 
+    // AJAX Controller
     public function fetchAll() {
 
-        $db_response = $this->teacherModel->fetchAll();
+        $result = $this->teacherModel->fetchAll();
 
-        console_log($db_response);
+        if(is_array($result)){
+            return $this->load("components/list", [
+                 'teachers' => $result
+             ]);     
+         }
+ 
+        return  $this->showMessage('Erro para buscar professores', $result, BASE);
+
+
     }
 
+    // AJAX Controller
     public function fetchById() {
         $id = Input::post('id');
 
-        $db_response = $this->teacherModel->fetchById($id);
+        $result = $this->teacherModel->fetchById($id);
 
-        console_log($db_response);
+        if(is_array($result)){
+            return $this->load("components/item", [
+                'teacher' => $result
+            ]);
+         }
+
+        return  $this->showMessage('Erro para buscar estudante pelo ID', $result, BASE);
     }
 
+    // Router Controller
     public function register(){
         $teacher = (object)[
             'name'      => Input::post('name'),
@@ -45,17 +62,26 @@ class TeacherController extends Controller{
             );
         }
 
-        $db_response = $this->teacherModel->register($teacher);
+        $result = $this->teacherModel->register($teacher);
 
-        if ($db_response <= 0) {
-            echo 'Erro no Cadastro';
+        if ($result <= 0) {
+            return  $this->showMessage(
+                'Erro ao Cadastrar Novo Professor', 
+                'Algum Erro interno está impedindo o cadastro. É recomendado que atualize o navegador e tente novamente. Caso o erro persista, tente mais tarde ou informe a equipe de desenvolvimento em: techtechetec@gmail.com',
+                BASE,
+                422
+            );
+
             die();
         }
 
-        console_log($db_response);
+        return $this->load("signin/main", [
+            'user' => $result
+        ]);
 
     }
 
+    // Router Controller
     public function update(){
         $teacher = (object)[
             "id"        => Input::post('id'),
@@ -73,15 +99,20 @@ class TeacherController extends Controller{
             );
         }
 
-        $db_response = $this->teacherModel->update($teacher);
+        $result = $this->teacherModel->update($teacher);
 
-        if ($db_response <= 0) {
-            echo 'Erro no Cadastro';
+        if ($result <= 0) {
+            return  $this->showMessage(
+                'Erro ao Cadastrar Novo Professor', 
+                'Algum Erro interno está impedindo a atualização dos dados. É recomendado que atualize o navegador e tente novamente. Caso o erro persista, tente mais tarde ou informe a equipe de desenvolvimento em: techtechetec@gmail.com',
+                BASE,
+                422
+            );
+
             die();
         }
 
-        console_log($db_response);
-
+        echo '<script>window.history.back();</script>';
     }
 
     private function registerValidate(Object $teacher){

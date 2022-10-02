@@ -30,6 +30,9 @@
         <!-- CSS Reset -->
         <link rel="stylesheet" href="{{BASE}}/css/global.css" type="text/css"/>
         <title>{% block title %}{% endblock %}</title>
+
+        <!-- JQUERY TO AJAX REQUESTS -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     </head>
     <body class="overflow-x-hidden">
         {% block body %}{% endblock %}  <!-- Here will be included the main body of the page -->

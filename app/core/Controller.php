@@ -2,8 +2,6 @@
 
 namespace app\core;
 
-// Classe Controller que será extendida para ser usada na routerController.
-// Aqui está a configuração do Twig.
 
 class Controller {
     protected function load(string $view, $params = []) {

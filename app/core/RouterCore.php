@@ -31,7 +31,7 @@ class RouterCore {
 
         $this->uri = implode('/', $this->normalizeURI($uri)); # Returns a String by dividing the array elements with slash (/)
         if(DEBUG_URI)
-            dd($this->uri);
+            ownDD($this->uri);
     }
 
     private function get($router, $call) {
