@@ -37,5 +37,9 @@ class RouteController extends Controller {
     public function signupStudent() {
         $this->load("signup-student/main");
     }
+
+    public function portfolio() {
+        $this->load("portfolio/main");
+    }
     
 }
