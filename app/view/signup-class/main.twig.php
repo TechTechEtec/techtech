@@ -8,38 +8,41 @@
 
     <div class="flex space-y-2 grid-cols rounded-md items-center justify-center bg-white px-12 py-8 shadow-lg">
 
-        <div class="flex flex-col items-center justify-center mr-32">
+        <form class="flex flex-col items-center justify-center mr-32" method="post" action="{{BASE}}@signup-class">
  
             <div class="mt-2 font-bold flex flex-col">
-                <label for="nome">Nome da Turma</label>
+                <label for="name">Nome da Turma</label>
                 <input class="bg-grey rounded-md h-8 w-full"
-                id="nome"
+                id="name"
                 type="text"
+                name="name"
                 >
             </div>
 
 
             <div class="mt-2 font-bold flex flex-col">
-                <label for="email">Professor da Turma</label>
+                <label for="teacher">Professor da Turma</label>
                 <input class="bg-grey rounded-md h-8 w-full"
-                id="professor"
+                id="teacher"
                 type="text"
+                name="teacher"
                 >
             </div>
 
             <div class="mt-2 font-bold flex flex-col">
-                <label for="senha">Senha da Turma</label>
+                <label for="password">Senha da Turma</label>
                 <input class="bg-grey rounded-md h-8 w-full"
-                id="senha"
+                id="password"
                 type="text"
+                name="password"
                 >
             </div>
         
-            <button class="bg-orange rounded-md h-10 w-48 text-white flex items-center justify-center group mt-4">
+            <button class="bg-orange rounded-md h-10 w-48 text-white flex items-center justify-center group mt-4" type="submit">
                 <span class="pl-2">Criar Turma</span>
             </button>
 
-        </div>
+        </form>
 
         <div class="flex flex-col items-center mr-4">
             

@@ -47,11 +47,13 @@ class StudentController extends Controller {
     // Router Controller
     public function register(){
         $student = (object)[
-            'name'      => Input::post('name'),
+            'name'     => Input::post('name'),
             'email'    => Input::post('email'),
             'birthday' => Input::post('birthday'),
             'password' => Input::post('password'),
         ];
+
+        console_log($student);
 
         if (!$this->registerValidate($student)) {
             return  $this->showMessage(

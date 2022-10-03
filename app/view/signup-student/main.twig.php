@@ -25,13 +25,14 @@
 
         </div>
 
-        <div class="flex flex-col items-center">
+        <form class="flex flex-col items-center" method="post" action="{{BASE}}@signup-school">
 
             <div class="mt-2 font-bold flex flex-col">
-                <label for="nome">Nome</label>
+                <label for="name">Nome</label>
                 <input class="bg-grey rounded-md h-8 w-full"
-                id="nome"
+                id="name"
                 type="text"
+                name="name"
                 >
             </div>
 
@@ -40,29 +41,32 @@
                 <input class="bg-grey rounded-md h-8 w-full"
                 id="email"
                 type="text"
+                name="email"
                 >
             </div>
 
             <div class="mt-2 font-bold flex flex-col w-full">
-                <label for="data de nascimento">Data de Nascimento</label>
+                <label for="birthday">Data de Nascimento</label>
                 <input class="bg-grey rounded-md h-8 w-full"
-                id="data de nascimento"
+                id="birthday"
                 type="date"
+                name="birthday"
                 >
             </div>
 
             <div class="mt-2 font-bold flex flex-col">
-                <label for="senha">Senha</label>
+                <label for="password">Senha</label>
                 <input class="bg-grey rounded-md h-8 w-full"
-                id="senha"
-                type="text"
+                id="password"
+                type="password"
+                name="password"
                 >
             </div>
 
-            <button class="bg-orange rounded-md px-12 h-10 text-white flex items-center group mt-8">
-                <span class="pl-2">Cadastro</span>
+            <button class="bg-orange rounded-md px-12 h-10 text-white flex items-center group mt-8" type="submit">
+                <span class="pl-2">Cadastrar</span>
             </button>
-        </div>
+         </form>
 
 </div>
         

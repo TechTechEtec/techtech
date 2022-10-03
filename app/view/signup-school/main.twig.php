@@ -24,14 +24,15 @@
             
         </div>
 
-        <div class="flex flex-col items-center">
+        <form class="flex flex-col items-center" method="post" action="{{BASE}}@signup-school">
 
             <!-- Nome -->
             <div class="mt-2 font-bold flex flex-col">
-                <label for="nome">Nome da Instituição</label>
+                <label for="name">Nome da Instituição</label>
                 <input class="bg-grey rounded-md h-8 w-full"
-                id="nome"
+                id="name"
                 type="text"
+                name="name"
                 >
             </div>
 
@@ -41,24 +42,26 @@
                 <input class="bg-grey rounded-md h-8 w-full"
                 id="email"
                 type="text"
+                name="email"
                 >
             </div>
 
             <!-- Senha -->
             <div class="mt-2 font-bold flex flex-col">
-                <label for="senha">Senha</label>
+                <label for="password">Senha</label>
                 <input class="bg-grey rounded-md h-8 w-full"
                 id="senha"
-                type="text"
+                type="password"
+                name="password"
                 >
 
             </div>
             
                 <!-- botão -->
-                <button class="bg-orange rounded-md px-6 h-10 text-white flex items-center group mt-8">
+                <button class="bg-orange rounded-md px-6 h-10 text-white flex items-center group mt-8" type="submit">
                     <span class="pl-2">Cadastre suas Turmas</span>
                 </button>
-        </div>
+        </form>
 
 </div>
         

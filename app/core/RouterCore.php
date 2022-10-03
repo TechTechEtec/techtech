@@ -47,7 +47,7 @@ class RouterCore {
                 $this->executeGet();        
             break;
             case 'POST':
-                
+                $this->executePost();   
             break;
         }
     }
@@ -67,6 +67,23 @@ class RouterCore {
                 }else{
                     $this->executeController($get['call']);
                 }
+            }
+        }
+    }
+
+    private function executePost()
+    {
+        foreach ($this->getArr as $get) {
+            $r = substr($get['router'], 1);
+            if (substr($r, -1) == '/') {
+                $r = substr($r, 0, -1);
+            }
+            if ($r == $this->uri) {
+                if (is_callable($get['call'])) {
+                    $get['call']();
+                    return;
+                }
+                $this->executeController($get['call']);
             }
         }
     }
