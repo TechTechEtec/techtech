@@ -8,6 +8,8 @@ $this->get('/dashboard', 'RouteController@dashboard');
 
 $this->get('/signup-student', 'RouteController@signupStudent');
 
+$this->get('/signup-teacher', 'RouteController@signupTeacher');
+
 $this->get('/signup-school','RouteController@signupSchool');
 
 $this->get('/signup-class','RouteController@signupClass');
