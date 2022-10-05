@@ -3,7 +3,7 @@
 {% block title %} Portfolio | Techtech {% endblock %}
 
 {% block body %} 
-  <div class="w-screen h-[40rem] m-0 rounded-b-full z-[-1] p-6 bg-darkerpurple bg-[url({{BASE}}/svgs/Random_shit.svg)] bg-cover bg-repeat-x absolute bg-cover">
+  <div class="w-screen h-[40rem] m-0 rounded-b-full z-[-1] p-6 bg-darkerpurple bg-[url({{BASE}}/svgs/Random_shit.svg)] bg-cover bg-repeat-x absolute bg-cover" data-aos="fade-down">
   </div>
 
   <header> 
@@ -33,18 +33,18 @@
   
       <div class="flex flex-wrap  gap-x-8 items-center justify-center mt-[6rem] sm:ml-0  ml-[-9rem]">
          <div clas="flex flex-col text-3xl sm:text-2xl">
-          <h1 class="font-bold flex justify-left text-left sm:text-4xl md:text-6xl lg:text6xl lg:ml-[3rem] text-orange ">TechTech</h1>
-          <p class="font-bold flex justify-left text-left sm:text-2xl md:text-4xl lg:text6xl lg:ml-[3rem] text-lightpurple">Lógica de Programação para Crianças</p>
+          <h1 class="font-bold flex justify-left text-left sm:text-4xl md:text-6xl lg:text6xl lg:ml-[3rem] text-orange" data-aos="zoom-in-up">TechTech</h1>
+          <p class="font-bold flex justify-left text-left sm:text-2xl md:text-4xl lg:text6xl lg:ml-[3rem] text-lightpurple" data-aos="zoom-in-up">Lógica de Programação para Crianças</p>
          </div>
          <lottie-player src="https://lottie.host/eca6cef8-106c-4b29-abcf-2b01a8d4fe26/tA9wrpf6hA.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay class="w-0 h-0 md:w-40 md:h-40 lg:w-[40rem] lg:h-[40rem] mt-[-4rem]"></lottie-player>
       </div>
   </header>
 
   <main>
-    <section class="p-7 bg-white lg:p-32 mt-[25rem] lg:mt-[16rem] w-screen h-full shadow-xl">
+    <section class="p-7 bg-white lg:p-32 mt-[25rem] lg:mt-[15rem] w-screen h-full shadow-xl" data-aos="fade-up">
           <h1 class="text-4xl text-lightpurple font-bold"><a id="techtech"></a>TechTech</h1><br>
           <div class="flex flex-row lg:space-x-15 lg:gap-x-28">
-          <lottie-player src="https://lottie.host/726cfe36-37c2-495b-b50e-719740134a8d/2go1Vp4tyZ.json" background="transparent" speed="1" loop autoplay class="w-0 h-0 md:w-0 md:h-0 lg:w-64 lg:h-64"></lottie-player>
+          <lottie-player src="https://lottie.host/726cfe36-37c2-495b-b50e-719740134a8d/2go1Vp4tyZ.json" background="transparent" speed="1" loop autoplay class="w-0 h-0 md:w-0 md:h-0 lg:w-64 lg:h-64 mt-[7rem]"></lottie-player>
           <div class="space-y-3">
               <p class="w-[22rem] md:w-[40rem] font-clean text-xl text-justify mt-[3rem]">A TechTech é um projeto sem fins lucrativos desenvolvido por estudantes, para auxiliar estudantes. </p>
               <p class="w-[22rem] md:w-[40rem] font-clean text-xl text-justify">Diante da modernização do mundo e do mercado de trabalho é essencial introduzir disciplinas tecnológicas logo na infância. Por essa razão criou-se essa solução para amparar as crianças do ensino público nesse processo de inovação.</p>
@@ -53,7 +53,7 @@
           </div>
     </section><hr>
 
-    <section class="p-12 lg:p-32 bg-white w-screen h-full shadow-md">
+    <section class="p-12 lg:p-32 bg-white w-screen h-full shadow-md" data-aos="fade-up">
         <h1 class="text-4xl text-darkerpurple font-bold float-right"><a id="platform">Plataforma</a></h1>
         <div class="flex flex-row lg:space-x-15 lg:gap-x-28">
         <div class="space-y-3">
@@ -67,26 +67,30 @@
       </div>
     </section><hr>
 
-    <section class="p-12 lg:p-32 w-screen h-full shadow-md">
+    <section class="p-12 lg:p-32 w-screen h-full shadow-md" data-aos="fade-up">
         <h1 class="text-4xl text-darkpurple font-bold"><a id="plan">Plano de Curso</a></h1><br>
-        <div class="flex flex-row lg:space-x-15 lg:">
-          <lottie-player src="https://lottie.host/5f1b8566-eb71-4861-82f5-1379e29fc48a/hJ99ijOAbk.json" background="transparent" speed="1" loop autoplay class="w-0 h-0 md:w-0 md:h-0 lg:w-64 lg:h-64"></lottie-player>
+        <div class="flex flex-row lg:space-x-15 lg:gap-x-28">
+          <lottie-player src="https://lottie.host/5f1b8566-eb71-4861-82f5-1379e29fc48a/hJ99ijOAbk.json" background="transparent" speed="1" loop autoplay class="w-0 h-0 md:w-0 md:h-0 lg:w-64 lg:h-64 mt-[7rem]"></lottie-player>
           <div class="space-y-3">
               <p class="w-[22rem] md:w-[40rem] font-clean text-xl text-justify mt-[3rem]">O curso disponibilizado pela TechTech foi pensado para atender o público infantil do início ao fim, por isso o plano de curso é também um guia que demonstra todo o caminho a ser percorrido pelos pequenos.</p>
               <p class="w-[22rem] md:w-[40rem] font-clean text-xl text-justify">O plano foi desenvolvido por programadores que já possuem experiência, por isso é com muita responsabilidade que o curso apresenta essa etapa inicial do aprendizado de programação.</p>
               <p class="w-[22rem] md:w-[40rem] font-clean text-xl text-justify">Todos os assuntos foram adicionados no plano para construir um conhecimento sólido e linear, dessa maneira, as crianças aprenderam seguindo uma ordem que possibilitará, progressivamente, um aprendizado completo. Seguindo esse plano não só as crianças perceberam sua evolução, mas também os docentes, pais e responsáveis.</p> 
           </div>
       </div>
+      <div class="flex flex-wrap float-center md:float-right lg:float-right">
+            <a href="https://drive.google.com/file/d/1dc2U7pMU75sO6Dx--TtHIjdDy8XmtxKt/view?usp=sharing"><h1 class="font-bold text-lg">Plano de Curso</h1></a>
+            <a href="https://drive.google.com/file/d/1dc2U7pMU75sO6Dx--TtHIjdDy8XmtxKt/view?usp=sharing"><span class="material-icons">file_open</span></a>
+          </div>
     </section><hr>
 
-    <section class="p-12 w-screen h-full items-center">
+    <section class="p-12 w-screen h-full items-center" data-aos="fade-up">
        <div class="flex flex-row lg:space-x-15 lg:justify-center">
           <h1 class="text-4xl text-darkpurple font-bold jusify-center"><a id="team">Equipe</a></h1><br>
           <lottie-player src="https://lottie.host/94fe4618-2bee-4916-80b3-738ee01d95ff/HbIzCLuynM.json" background="transparent" speed="1" style="width: 190px; height: 190px;" loop autoplay class="mt-[-5rem]"></lottie-player>
        </div>
 
-       <div class="flex flex-wrap gap-x-8 items-center justify-center">
-           <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100">
+       <div class="flex flex-wrap gap-x-8 items-center justify-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+           <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="100">
                 <img src="{{BASE}}/imgs/marina.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
                 <div>
                     <h1 class="font-bold text-xl mt-[2rem]">Marina Nogueira</h1>
@@ -97,8 +101,8 @@
                </div>
            </div>
 
-           <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:brightness-125 hover:opacity-100">
-                <img src="{{BASE}}/imgs/marina.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
+           <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:lightpurple hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="120">
+                <img src="{{BASE}}/imgs/sabrina.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
                 <div>
                     <h1 class="font-bold text-xl mt-[2rem]">Sabrina Tavares</h1>
                     <div class="w-full h-auto flex items-start justify-left md:justify-center lg:justify-center gap-6 mt-4">
@@ -108,8 +112,8 @@
                </div>
            </div>
 
-           <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100">
-                <img src="{{BASE}}/imgs/marina.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
+           <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="140">
+                <img src="{{BASE}}/imgs/sophia.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
                 <div>
                     <h1 class="font-bold text-xl mt-[2rem]">Sophia Cambuim</h1>
                     <div class="w-full h-auto flex items-start justify-left md:justify-center lg:justify-center gap-6 mt-4">
@@ -119,7 +123,7 @@
                </div>
            </div>
 
-           <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100">
+           <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="160">
                 <img src="{{BASE}}/imgs/marina.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
                 <div>
                     <h1 class="font-bold text-xl mt-[2rem]">Victor Silva</h1>
@@ -130,8 +134,8 @@
                </div>
            </div>
 
-           <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100">
-                <img src="{{BASE}}/imgs/marina.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
+           <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="180">
+                <img src="{{BASE}}/imgs/vitor.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
                 <div>
                     <h1 class="font-bold text-xl mt-[2rem]">Vitor Aquino</h1>
                     <div class="w-full h-auto flex items-start justify-left md:justify-center lg:justify-center gap-6 mt-4">
@@ -199,7 +203,10 @@
   </footer>
 
 
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+  AOS.init();
+  </script>
 
 
 {% endblock %}
