@@ -33,7 +33,7 @@
                 <label for="password">Senha da Turma</label>
                 <input class="bg-grey rounded-md h-8 w-full"
                 id="password"
-                type="text"
+                type="password"
                 name="password"
                 >
             </div>
