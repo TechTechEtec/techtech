@@ -46,4 +46,7 @@ class RouteController extends Controller {
         $this->load("feedback/main");
     }
     
+    public function signupTeacher() {
+        $this->load("signup-teacher/main");
+    }
 }
