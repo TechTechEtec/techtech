@@ -8,6 +8,8 @@ $this->get('/dashboard', 'RouteController@dashboard');
 
 $this->get('/signup-student', 'RouteController@signupStudent');
 
+$this->get('/signup-teacher', 'RouteController@signupTeacher');
+
 $this->get('/signup-school','RouteController@signupSchool');
 
 $this->get('/signup-class','RouteController@signupClass');
@@ -15,6 +17,9 @@ $this->get('/signup-class','RouteController@signupClass');
 $this->get('/choose-signup', 'RouteController@chooseSignup');
 
 $this->get('/signin', 'RouteController@signin');
+
+$this->get('/portfolio', 'RouteController@portfolio');
+
 
 // All Controller Route needs to start with @ character in URL
 

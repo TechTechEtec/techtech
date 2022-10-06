@@ -3,11 +3,11 @@
 {% block title %} Cadastro Instituição | Techtech {% endblock %}
 
 {% block body %}
-<div class="w-screen h-screen bg-[url({{BASE}}/imgs/background.png)] bg-contain bg-no-repeat bg-center bg-darkerPurple relative overflow-x-hidden flex flex-row items-center justify-center">
+    <div class="w-screen h-screen bg-[url({{BASE}}/imgs/background.png)] bg-contain bg-no-repeat bg-center bg-darkerPurple relative overflow-x-hidden flex flex-row items-center justify-center">
 
-    <div class="flex space-y-2 grid-cols rounded-md items-center justify-center bg-white px-12 py-12 shadow-lg">
+        <div class="flex space-y-2 grid-cols rounded-md items-center justify-center bg-white px-8 py-12 shadow-lg">
 
-        <div class="flex flex-col items-center justify-center mr-32">
+            <div class="flex flex-col items-center justify-center mr-32">
 
             <button class="bg-darkpurple hover:bg-purple cursor-default h-20 w-20 rounded-full mb-6">
                 <i class="ph-user text-5xl text-white mt-1 ml-2"></i>

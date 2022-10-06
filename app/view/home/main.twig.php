@@ -46,14 +46,13 @@
   <main>
 
     <!-- first section -->
-    <section class="px-6 mt-14 w-[90vw] min-h-[75vh] m-auto relative p-4 flex flex-col items-stretch justify-between gap-10">
-      
+    <section class="px-4 w-[90vw] min-h-[75vh] m-auto relative p-4 flex flex-col items-stretch justify-between gap-10">
       <div class="flex flex-col justify-around items-start m-auto w-full gap-6 2md:flex-col lg:flex-row lg:items-start lg:justify-around">
         <div class="flex flex-1 flex-col items-start justify-evenly">
 
           <h1 class="text-5xl text-darkpurple font-cartoon font-bold">Comece a aprender agora mesmo!</h1>
 
-          <p class="text-gray-600 text-justify mt-10 mb-5  text-lg font-medium subpixel-antialiased">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fugit aut dolorem, officiis quo aliquam deserunt hic perferendis, praesentium quisquam eligendi amet, dolorum atque praesentium quisquam eligendi amet, dolorum atque</p>
+          <p class="text-gray-600 text-justify mt-10 mb-5 text-lg w-[35rem] font-medium font-clean subpixel-antialiased">Ensino tecnológico acessível para crianças, um projeto sem fins lucrativos desenvolvido por estudantes, para auxiliar estudantes, com a finalidade de apresentar o mundo tecnológico de outra forma para crianças, e assim ampliar seus horizontes.</p>
 
           <div class="flex flex-row gap-4 justify-start items-center w-full mt-6">
             <a href="{{BASE}}/signup-student" class="bg-orange text-darkerPurple font-bold p-2 rounded-xl hover:-translate-y-1 transition">Cadastre-se</a>
@@ -119,8 +118,6 @@
         </a>
         <p class="flex-1">Sua Opinião é muito importante para nós assim podemos melhorar a sua experiência na nossa plataforma.
       </div>
-
-
     </section>
   </main>
 
@@ -157,7 +154,7 @@
 
 
     <!-- Form -->
-    <form method="post" class="flex-1 flex w-full lg:w-auto flex-col items-stretch justify-start gap-6">
+    <form method="post" class="flex-1 flex w-full lg:w-auto flex-col items-center justify-start gap-6">
 
       <input type="text" id="name" name="name" placeholder="Seu nome" class="w-full h-[50px] rounded-lg bg-white border-black border-[1px] border-solid p-2 text-black"/>
 

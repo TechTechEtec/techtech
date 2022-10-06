@@ -3,3 +3,4 @@ function toggleHomeMenu() {
 
   menu.classList.toggle("hidden");
 }
+
