@@ -26,6 +26,15 @@
 
             <div class="flex flex-col items-center">
 
+            <div class="mt-2 font-bold flex flex-col">
+                    <label for="name">Nome da Instituição</label>
+                    <input class="bg-grey rounded-md h-8 w-full"
+                    id="name"
+                    type="text"
+                    name="schoolName"
+                    >
+                </div>
+
                 <div class="mt-2 font-bold flex flex-col">
                     <label for="name">Nome</label>
                     <input class="bg-grey rounded-md h-8 w-full"

@@ -48,6 +48,7 @@ class TeacherController extends Controller{
     // Router Controller
     public function register(){
         $teacher = (object)[
+            'schoolName' => Input::post('schoolName'),
             'name'      => Input::post('name'),
             'email'    => Input::post('email'),
             'password' => Input::post('password'),
@@ -75,9 +76,11 @@ class TeacherController extends Controller{
             die();
         }
 
-        return $this->load("signin/main", [
-            'user' => $result
-        ]);
+        console_log($result);
+
+        // return $this->load("signin/main", [
+        //     'user' => $result
+        // ]);
 
     }
 
@@ -85,6 +88,7 @@ class TeacherController extends Controller{
     public function update(){
         $teacher = (object)[
             "id"        => Input::post('id'),
+            'schoolName' => Input::post('schoolName'),
             'name'      => Input::post('name'),
             'email'    => Input::post('email'),
             'password' => Input::post('password'),
@@ -116,6 +120,9 @@ class TeacherController extends Controller{
     }
 
     private function registerValidate(Object $teacher){
+
+        if (strlen($teacher->schoolName) < 3)
+        return false;
   
         if (strlen($teacher->name) < 3)
             return false;
@@ -131,6 +138,10 @@ class TeacherController extends Controller{
 
     private function updateValidate(Object $teacher){
   
+        if(property_exists($teacher, "schoolName"))
+        if (strlen($teacher->schoolName) < 3)
+            return false;
+
         if(property_exists($teacher, "name"))
             if (strlen($teacher->name) < 3)
                 return false;
