@@ -18,6 +18,9 @@ $this->get('/signin', 'RouteController@signin');
 
 $this->get('/portfolio', 'RouteController@portfolio');
 
+$this->get('/feedback', 'RouteController@feedback');
+
+
 
 // All Controller Route needs to start with @ character in URL
 

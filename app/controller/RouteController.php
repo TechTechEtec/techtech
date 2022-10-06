@@ -41,5 +41,9 @@ class RouteController extends Controller {
     public function portfolio() {
         $this->load("portfolio/main");
     }
+
+    public function feedback() {
+        $this->load("feedback/main");
+    }
     
 }
