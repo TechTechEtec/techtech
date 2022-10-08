@@ -6,12 +6,15 @@
 <div class="w-screen h-screen bg-[url({{BASE}}/imgs/background.png)] bg-contain bg-no-repeat bg-center bg-lightpurple relative overflow-x-hidden flex flex-row items-center justify-center">
 
 
-    <div class="flex space-y-2 flex-col rounded-md items-center justify-center bg-white px-12 py-20 shadow-lg">
+    <div class="text-2xl flex flex-col space-y-2 grid-cols absolute inset-x-0 bottom-0 md:static lg:static md:inset-0 lg:inset-0 rounded-md items-center bg-white h-[40rem] md:h-[30rem] lg:h-[30rem]  px-8 py-12 shadow-lg">
 
+     <div class="mt-[-15rem] md:mt-0 lg:mt-0 items-center justify-center fixed md:static lg:static">
             <button class="bg-darkpurple hover:bg-purple cursor-default h-20 w-20 rounded-full mb-8">
                 <i class="ph-user text-5xl text-white mt-1 ml-2"></i>
                 <span class="pl-2"></span>
             </button>
+
+     </div>
 
         <div class="flex flex-col items-center">
             <!-- E-mail -->
