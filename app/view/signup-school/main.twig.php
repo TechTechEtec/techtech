@@ -1,6 +1,6 @@
 {% extends "partials/body.twig.php" %}
 
-{% block title %} Cadastro Instituição | Techtech {% endblock %}
+{% block title %} Cadastro Escola | Techtech {% endblock %}
 
 {% block body %}
     <div class="w-screen h-screen bg-[url({{BASE}}/imgs/background.png)] bg-contain bg-no-repeat bg-center bg-darkerPurple relative overflow-x-hidden flex flex-row items-center justify-center">
@@ -19,7 +19,7 @@
                     Perfil
                 </h1>
 
-                <p class="px-0 md:px-12 lg:px-12 h-10 text-darkpurple font-bold flex items-center group mt-2">
+                <p class="px-0 md:px-12 lg:px-12 h-10 text-lightpurple md:text-darkpurple lg:text-darkpurple font-bold flex items-center group mt-2">
                     <span class="pl-2">Escola</span>
                 </p>
               </div>
@@ -52,7 +52,7 @@
                     >
                 </div>
             
-                <button class="bg-orange rounded-md w-36 h-9 text-white flex items-center justify-center group mt-8">
+                <button class="bg-orange rounded-md w-44 h-9 text-white flex items-center justify-center group mt-8">
                     <span class="pl-2">Cadastrar</span>
                 </button>
             </div>

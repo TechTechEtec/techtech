@@ -17,7 +17,6 @@
      </div>
 
         <div class="flex flex-col items-center">
-            <!-- E-mail -->
             <div class="mt-2 font-bold flex flex-col">
                 <label for="email">E-mail</label>
                 <input class="bg-grey rounded-md h-8 w-full"
@@ -26,7 +25,6 @@
                 >
             </div>
 
-            <!-- Senha -->
             <div class="mt-2 font-bold flex flex-col">
                 <label for="senha">Senha</label>
                 <input class="bg-grey rounded-md h-8 w-full"
@@ -35,8 +33,7 @@
                 >
 
             </div>
-        
-            <!-- botão -->
+
             <button class="bg-darkpurple hover:bg-purple rounded-md px-12 h-10 text-white flex items-center group mt-16">
                 <span class="pl-2">Entrar</span>
             </button>

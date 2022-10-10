@@ -43,7 +43,7 @@
                     >
                 </div>
 
-                <button class="bg-orange rounded-md w-36 h-9 text-white flex items-center justify-center group mt-8">
+                <button class="bg-orange rounded-md w-44 h-9 text-white flex items-center group mt-8">
                     <span class="pl-2 ml-8">Cadastrar</span>
                 </button>
             </div>
