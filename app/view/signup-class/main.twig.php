@@ -5,80 +5,98 @@
 {% block body %}
 <div class="w-screen h-screen bg-[url({{BASE}}/imgs/background.png)] bg-contain bg-no-repeat bg-center bg-darkerPurple relative overflow-x-hidden flex flex-row items-center justify-center">
 
-        <div class="text-2xl flex flex-col md:flex-row lg:flex-row space-y-2 grid-cols absolute inset-x-0 bottom-0 md:static lg:static md:inset-0 lg:inset-0 rounded-md items-center bg-white h-[40rem] md:h-[20rem] lg:h-[20rem]  px-8 py-12 shadow-lg">
+    <main class="flex flex-wrap space-y-2 gap-4 rounded-md items-start justify-center bg-white px-8 py-8 shadow-lg w-full max-w-[700px] min-h-[350px]">
 
-         <div class="flex flex-col items-center justify-center mr-0 md:mr-32 lg:mr-32">
-             <div class="mt-[-20rem] md:mt-0 lg:mt-0 items-center justify-center fixed md:static lg:static">
-                <button class="bg-darkpurple hover:bg-purple cursor-default h-20 w-20 rounded-full mb-2 ml-0 sm md:ml-10 lg:ml-10">
-                    <i class="ph-user text-5xl text-white mt-1 ml-2"></i>
-                    <span class="pl-2"></span>
-                </button>
-
-                <h1 class="text-orange justify-center font-bold ml-4 md:ml-14 lg:ml-14">
-                    Perfil
-                </h1>
-
-                <p class="px-0 md:px-12 lg:px-12 h-10 text-darkpurple font-bold flex items-center group mt-2">
-                    <span class="pl-2">Turma</span>
-                </p>
-             </div>
-         </div>
-
-
-                <div class="mt-2 font-bold flex flex-col">
-                    <label for="nome">Nome</label>
-                    <input class="bg-grey rounded-md h-8 w-full"
-                    id="nome"
-                    type="text"
-                    >
-                </div>
-
-
-                <div class="mt-8 font-bold flex flex-col">
-                    <label for="senha">Senha da Turma</label>
-                    <input class="bg-grey rounded-md h-8 w-full"
-                    id="senha"
-                    type="text"
-                    >
-                </div>
-
-                <button class="bg-orange rounded-md w-36 h-9 text-white flex items-center justify-center group mt-8">
-                    <span class="pl-2 ml-8">Cadastrar</span>
-                </button>
-            </div>
-
-            <div class="mt-2 font-bold flex flex-col">
-                <label for="password">Senha da Turma</label>
-                <input class="bg-grey rounded-md h-8 w-full"
+        <form class="flex flex-col flex-1 items-center justify-between w-full min-h-[350px]">
+            
+            <div class="mt-2 font-bold flex flex-col w-full">
+                <label for="password">Nome da Turma</label>
+                <input class="bg-grey rounded-md h-10 w-full"
                 id="password"
                 type="password"
                 name="password"
                 >
             </div>
-        
+
+            <div class="mt-2 font-bold flex flex-col w-full">
+                <label for="teacherclass">Professor da Turma</label>
+                <select name="teachers" id="teachers" class="bg-grey rounded-md h-10 w-full">
+                    <!-- List of Teachers -->
+                </select>
+            </div>
+
+
+            <div class="mt-2 font-bold flex flex-col w-full">
+                <label for="password">Senha da Turma</label>
+                <input class="bg-grey rounded-md h-10 w-full"
+                id="password"
+                type="password"
+                name="password"
+                >
+            </div>
+
+            <div class="mt-2 font-bold flex flex-col w-full">
+                <label for="confirmpassword">Confirmar senha da turma</label>
+                <input class="bg-grey rounded-md h-10 w-full"
+                id="confirmpassword"
+                type="password"
+                name="confirmpassword"
+                >
+            </div>
+    
+    
             <button class="bg-orange rounded-md h-10 w-48 text-white flex items-center justify-center group mt-4" type="submit">
                 <span class="pl-2">Criar Turma</span>
             </button>
 
         </form>
 
-        <div class="flex flex-col items-center mr-4">
-            
-            <ul>
-                <li class="font-bold"><a href="#"></a> PW III TB - 3° DS</li>
-                <p class="mb-2">Ivan Souza</p>
-                <LI class="font-bold"><a href="#"></a>PW III TA - 3°DS</LI>
-                <p class="mb-2">Ivan Souza</p>
-                <LI class="font-bold"><a href="#"></a>História - 3°DS</LI>
-                <p class="mb-2">Gilmar Campos</p>
-            </ul>
+        <!-- DIVIDER -->
+        <div id="divider" class="hidden 2sm:block min-h-[350px] w-[2px] bg-grey text-grey drop-shadow-sm rounded-md mx-2">
+        </div>
+
+        <div class="flex w-full h-full min-h-[350px]  items-center justify-around gap-2 flex-1 flex-col">
+
+            <div id="classes" class="max-h-280px overflow-y-auto w-full h-full min-h-[350px] flex flex-col items-center justify-center gap-8">
+                <img class="w-full h-full max-w-[100px] max-h-[100px]" src="{{BASE}}/svgs/spinner.svg" alt="loading spinner"/>
+            </div>
 
         </div>
- 
-    </div>
 
-</div>
-        
+    </main>  
     
 </div>
+
+<script defer>
+
+     // TEACHERS AJAX REQUEST
+     $.ajax({
+        url: "@teachers",
+        method: 'GET',
+        data:"typelist=2"
+    }).done((response)=>{
+
+        document.querySelector("#teachers").innerHTML = response;
+        
+    }).fail((response)=>{
+        console.log("Error:", response);
+    })
+
+
+    // CLASSES AJAX REQUEST
+    $.ajax({
+    url: "@classes",
+    method: 'GET',
+    }).done((response)=>{
+
+        document.querySelector("#classes").innerHTML = response;
+   
+    }).fail((response)=>{
+        console.log("Error:", response);
+    })
+
+
+</script>
+
+
 {% endblock %}

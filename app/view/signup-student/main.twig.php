@@ -18,10 +18,11 @@
 
             </div>
 
+            <!-- DIVIDER -->
             <div id="divider" class="hidden 2sm:block min-h-[350px] w-[2px] bg-grey text-grey drop-shadow-sm rounded-md mx-2">
             </div>
 
-            <form class="h-full w-full flex-1 flex flex-col items-center px-6 " method="post" action="{{BASE}}@signup-student">
+            <form class="h-full w-full flex-1 flex flex-col items-center px-6" method="post" action="{{BASE}}@signup-student">
 
                 <div class="font-bold flex flex-col w-full">
                     <label for="name">Nome</label>
@@ -56,6 +57,15 @@
                     id="password"
                     type="password"
                     name="password"
+                    >
+                </div>
+
+                <div class="mt-2 font-bold flex flex-col w-full">
+                    <label for="confirmpassword">Confirmar Senha</label>
+                    <input class="bg-grey rounded-md h-10 w-full"
+                    id="confirmpassword"
+                    type="password"
+                    name="confirmpassword"
                     >
                 </div>
 
