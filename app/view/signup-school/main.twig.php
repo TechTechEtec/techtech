@@ -12,7 +12,7 @@
                     <img class="w-full h-full max-w-[130px] max-h-[130px]" src="{{BASE}}/svgs/anonymous_user.svg" alt="User without avatar"/>
                 </div>
 
-                <h2 class="font-nerko text-orange font-semibold">Escolha seu avatar!</h2>
+                <h2 class="font-nerko text-2xl text-orange font-semibold">Escolha seu avatar!</h2>
 
                 <p class="bg-pink-500 text-white px-4 py-2 cursor-default rounded-md drop-shadow-sm min-w-[130px] text-center">Escola</p>
 
@@ -30,6 +30,7 @@
                     id="name"
                     type="text"
                     name="name"
+                    required
                     >
                 </div>
 
@@ -37,8 +38,9 @@
                     <label for="email">E-mail Institucional</label>
                     <input class="bg-grey rounded-md h-10 w-full"
                     id="email"
-                    type="text"
+                    type="email"
                     name="email"
+                    required
                     >
                 </div>
 
@@ -48,6 +50,7 @@
                     id="password"
                     type="password"
                     name="password"
+                    required
                     >
                 </div>
 
@@ -57,6 +60,7 @@
                     id="confirmpassword"
                     type="password"
                     name="confirmpassword"
+                    required
                     >
                 </div>
             

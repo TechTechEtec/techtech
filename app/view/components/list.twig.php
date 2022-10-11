@@ -67,7 +67,6 @@
     {% endfor %}
 </ul>
 {% else %}
-
 <p class="text-purple font-roboto font-extrabold w-full text-center text-xl uppercase"> Não há nenhuma classe cadastrada!</p>
 <img src="{{BASE}}svgs/techbo_error.svg" alt="techbo error image" class="w-full h-full max-w-[120px] max-h-[120px]"/>
 

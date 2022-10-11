@@ -17,16 +17,32 @@ class StudentController extends Controller {
     // AJAX Controller
     public function fetchAll() {
 
+        $typelist = Input::get('typelist');
+
         $result = $this->studentModel->fetchAll();
 
         if(is_array($result)){
-           return $this->load("components/list", [
-                'students' => $result
-            ]);     
+            switch ($typelist) {
+               case "1":
+                   return $this->load("components/list", [
+                       'students' => $result
+                   ]);       
+               break;
+               case "2":
+                   return $this->load("components/list", [
+                       'students_type2' => $result
+                   ]);
+                
+               break;
+               default:
+                   return $this->load("components/list", [
+                       'students' => $result
+                   ]);    
+               break;
+           }
         }
 
         return  $this->showMessage('Erro para buscar estudantes', $result, BASE);
-
     }
 
     // AJAX Controller
@@ -51,18 +67,10 @@ class StudentController extends Controller {
             'email'    => Input::post('email'),
             'birthday' => Input::post('birthday'),
             'password' => Input::post('password'),
+            "confirmPassword" => Input::post("confirmpassword")
         ];
 
-        console_log($student);
-
-        if (!$this->registerValidate($student)) {
-            return  $this->showMessage(
-                'Formulário inválido', 
-                'Os dados fornecidos são inválidos',
-                BASE ,
-                422
-            );
-        }
+        $this->registerValidate($student);
 
         $result = $this->studentModel->register($student);
 
@@ -77,9 +85,12 @@ class StudentController extends Controller {
             die();
         }
 
-        return $this->load("signin/main", [
-            'user' => $result
-        ]);
+        $this->showMessage(
+            'Cadastrado com sucesso', 
+            'você foi registrado dentro do sistema. clique no botão em baixo para seguir para tela de signIn!',
+            BASE . "signin",
+            200
+        );
     }
 
     // Router Controller
@@ -120,32 +131,116 @@ class StudentController extends Controller {
 
     private function registerValidate(Object $student){
   
-        if (strlen($student->name) < 3)
-            return false;
+        if (strlen($student->name) < 3) {
 
-        if (strlen($student->email) < 10)
-            return false;
+            $this->showMessage(
+                'Formulário inválido', 
+                'O nome do aluno tem menos do que 3 caractéres',
+                BASE . 'signup-student',
+                422
+            );
 
-        if (strlen($student->password) < 8)
-            return false;
+            die();
+        }
 
-        return true;
+        if (strlen($student->email) < 10) {
+            $this->showMessage(
+                'Formulário inválido', 
+                'O email da escola tem menos do que 10 caractéres',
+                BASE . 'signup-student',
+                422
+            );
+
+            die();
+        }
+
+        if (strlen($student->password) < 8) {
+            $this->showMessage(
+                'Formulário inválido', 
+                'Senha tem que ser igual ou maior do que 8 caracteres ',
+                BASE . 'signup-student',
+                422
+            );
+
+            die();
+        }
+          
+        if($student->password !== $student->confirmPassword) {
+            $this->showMessage(
+                'Formulário inválido', 
+                'Senha e senha de confirmação não coincidem',
+                BASE . 'signup-student',
+                422
+            );
+
+            die();
+        }
     }
 
     private function updateValidate(Object $student){
   
-        if(property_exists($student, "name"))
-            if (strlen($student->name) < 3)
-                return false;
+        if(property_exists($student, "name")) {
+            if (strlen($student->name) < 3) {
 
-        if(property_exists($student, "email"))
-            if (strlen($student->email) < 10)
-                return false;
+                $this->showMessage(
+                    'Formulário inválido', 
+                    'O nome do aluno tem menos do que 3 caractéres',
+                    BASE . 'signup-student',
+                    422
+                );
+    
+                die();
+            }
+        }
 
-        if(property_exists($student, "password"))
-            if (strlen($student->password) < 8)
-                return false;
+        if(property_exists($student, "email")) {
+            if (strlen($student->email) < 10) {
+                $this->showMessage(
+                    'Formulário inválido', 
+                    'O nome do aluno tem menos do que 10 caractéres',
+                    BASE . 'signup-student',
+                    422
+                );
+    
+                die();
+            }
+    
+            if (strpos($student->email, "@gmail.com") === false) {
+                $this->showMessage(
+                    'Formulário inválido', 
+                    'O email tem que ser do domínio @gmail.com',
+                    BASE . 'signup-student',
+                    422
+                );
+            
+                die();
+            }
+    
+        }
 
-        return true;
+        if(property_exists($student, "password")) {
+
+            if (strlen($student->password) < 8) {
+                $this->showMessage(
+                    'Formulário inválido', 
+                    'Senha tem que ser maior do que 8 caracteres e menor do que 16',
+                    BASE . 'signup-student',
+                    422
+                );
+    
+                die();
+            }
+              
+            if($student->password !== $student->confirmPassword) {
+                $this->showMessage(
+                    'Formulário inválido', 
+                    'Senha e senha de confirmação não coincidem',
+                    BASE . 'signup-student',
+                    422
+                );
+    
+                die();
+            }
+        }
     }
 }

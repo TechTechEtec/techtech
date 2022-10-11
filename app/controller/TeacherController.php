@@ -21,7 +21,6 @@ class TeacherController extends Controller{
 
         $result = $this->teacherModel->fetchAll();
 
-
         if(is_array($result)){
              switch ($typelist) {
                 case "1":
@@ -32,7 +31,13 @@ class TeacherController extends Controller{
                 case "2":
                     return $this->load("components/list", [
                         'teachers_type2' => $result
-                    ]);  
+                    ]);
+                 
+                break;
+                default:
+                    return $this->load("components/list", [
+                        'teachers' => $result
+                    ]);    
                 break;
             }
          }
@@ -85,9 +90,13 @@ class TeacherController extends Controller{
             die();
         }
         
+        $this->showMessage(
+            'Cadastrado com sucesso', 
+            'você foi registrado dentro do sistema. clique no botão em baixo para seguir para tela de signIn!',
+            BASE . "signin",
+            200
+        );
 
-
-        header("Location: " . BASE . "signup-teacher");
     }
 
     // Router Controller
@@ -100,14 +109,7 @@ class TeacherController extends Controller{
             'password' => Input::post('password'),
         ];
 
-        if (!$this->updateValidate($teacher)) {
-            return  $this->showMessage(
-                'Formulário inválido', 
-                'Os dados fornecidos são inválidos',
-                BASE,
-                422
-            );
-        }
+        $this->updateValidate($teacher);
 
         $result = $this->teacherModel->update($teacher);
 
@@ -137,6 +139,17 @@ class TeacherController extends Controller{
 
             die();
         }
+
+        if (str_starts_with($teacher->schoolName, "@") === false) {
+            $this->showMessage(
+                'Formulário inválido', 
+                'O nome da escola precisa começar a obrigatóriamente com @',
+                BASE . 'signup-teacher',
+                422
+            );
+        
+            die();
+        }
          
         if (strlen($teacher->name) < 3) {
             $this->showMessage(
@@ -153,17 +166,6 @@ class TeacherController extends Controller{
             $this->showMessage(
                 'Formulário inválido', 
                 'O email tem menos do que 10 caracteres precisa incluir @gmail.com',
-                BASE . 'signup-teacher',
-                422
-            );
-        
-            die();
-        }
-           
-        if (strpos($teacher->email, "@gmail.com") === false) {
-            $this->showMessage(
-                'Formulário inválido', 
-                'O email tem que ser do domínio @gmail.com',
                 BASE . 'signup-teacher',
                 422
             );
@@ -197,22 +199,78 @@ class TeacherController extends Controller{
 
     private function updateValidate(Object $teacher){
   
-        if(property_exists($teacher, "schoolName"))
-        if (strlen($teacher->schoolName) < 3)
-            return false;
+        if(property_exists($teacher, "schoolName")){
+            if (strlen($teacher->schoolName) < 3) {
+                $this->showMessage(
+                    'Formulário inválido', 
+                    'O nome da instituição tem menos do que 3 caractéres',
+                    BASE . 'signup-teacher',
+                    422
+                );
 
-        if(property_exists($teacher, "name"))
-            if (strlen($teacher->name) < 3)
-                return false;
+                die();
+            }
+        }
 
-        if(property_exists($teacher, "email"))
-            if (strlen($teacher->email) < 10)
-                return false;
+        if(property_exists($teacher, "name")){
+            if (strlen($teacher->name) < 3) {
+                $this->showMessage(
+                    'Formulário inválido', 
+                    'O nome do professor tem menos do que 3 caractéres',
+                    BASE . 'signup-teacher',
+                    422
+                );
 
-        if(property_exists($teacher, "password"))
-            if (strlen($teacher->password) < 8)
-                return false;
+                die();
+            }
+        }
 
-        return true;
+        if(property_exists($teacher, "email")) {
+            if (strlen($teacher->email) < 10 ) {
+                $this->showMessage(
+                    'Formulário inválido', 
+                    'O email tem menos do que 10 caracteres precisa incluir @gmail.com',
+                    BASE . 'signup-teacher',
+                    422
+                );
+            
+                die();
+            }
+               
+            if (strpos($teacher->email, "@gmail.com") === false) {
+                $this->showMessage(
+                    'Formulário inválido', 
+                    'O email tem que ser do domínio @gmail.com',
+                    BASE . 'signup-teacher',
+                    422
+                );
+            
+                die();
+            }
+        }
+            
+        if(property_exists($teacher, "password")){
+            if (strlen($teacher->password) < 8) {
+                $this->showMessage(
+                    'Formulário inválido', 
+                    'Senha tem que ser maior do que 8 caracteres e menor do que 16',
+                    BASE . 'signup-teacher',
+                    422
+                );
+    
+                die();
+            }
+              
+            if($teacher->password !== $teacher->confirmPassword) {
+                $this->showMessage(
+                    'Formulário inválido', 
+                    'Senha e senha de confirmação não coincidem',
+                    BASE . 'signup-teacher',
+                    422
+                );
+    
+                die();
+            }
+        }
     }
 }
