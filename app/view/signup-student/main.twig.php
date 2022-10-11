@@ -4,8 +4,6 @@
 
 {% block body %}
     <div class="w-screen h-screen bg-[url({{BASE}}/imgs/background.png)] bg-contain bg-no-repeat bg-center bg-lightpurple relative overflow-x-hidden flex flex-row items-center justify-center">
-    
-        <div class="text-2xl flex flex-col md:flex-row lg:flex-row space-y-2 grid-cols absolute inset-x-0 bottom-0 md:static lg:static md:inset-0 lg:inset-0 rounded-md items-center bg-white h-[40rem] md:h-[25rem] lg:h-[25rem]  px-8 py-12 shadow-lg">
 
         <main class="flex flex-wrap space-y-2 gap-4 rounded-md items-start justify-center bg-white px-8 py-8 shadow-lg w-full max-w-[600px] min-h-[350px]">
 
@@ -18,10 +16,6 @@
 
                 <p class="bg-pink-500 text-white px-4 py-2 cursor-default rounded-md drop-shadow-sm min-w-[130px] text-center">Aluno</p>
 
-                    <p class="px-0 md:px-12 lg:px-12 h-10 text-darkpurple font-bold flex items-center group mt-2">
-                        <span class="pl-2">Aluno</span>
-                    </p>
-                </div>
             </div>
 
             <!-- DIVIDER -->
