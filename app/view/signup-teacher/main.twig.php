@@ -3,7 +3,7 @@
 {% block title %} Cadastro Professor | Techtech {% endblock %}
 
 {% block body %}
-    <div class="w-screen h-screen bg-[url({{BASE}}/imgs/background.png)] bg-contain bg-no-repeat bg-center bg-darkerPurple relative overflow-x-hidden flex flex-row items-center justify-center">
+    <div class="w-screen h-screen bg-[url({{BASE}}/imgs/background.png)] bg-contain bg-no-repeat bg-center bg-lightpurple relative overflow-x-hidden flex flex-row items-center justify-center">
 
         <main class="flex flex-wrap space-y-2 gap-4 rounded-md items-start justify-center bg-white px-8 py-8 shadow-lg w-full max-w-[700px] min-h-[350px]">
 
@@ -16,10 +16,6 @@
 
                 <p class="bg-darkpurple text-white px-4 py-2 cursor-default rounded-md drop-shadow-sm min-w-[130px] text-center">Professor</p>
 
-                    <p class="px-0 md:px-12 lg:px-12 h-10 text-lightpurple md:text-darkpurple lg:text-darkpurple font-bold flex items-center group mt-2">
-                        <span class="pl-2">Professor</span>
-                    </p>
-                </div>
             </div>
 
             <!-- DIVIDER -->
