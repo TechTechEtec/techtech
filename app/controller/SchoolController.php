@@ -120,7 +120,12 @@ class SchoolController extends Controller{
             die();
         }
 
-        echo '<script>window.history.back();</script>';
+        $this->showMessage(
+            'Atualizado com sucesso!', 
+            'Os dados fornecidos sobrescreveram os dados anteriores. Você será redirecionado para a mesma página de edição.',
+        );
+
+        die();
     }
 
     private function registerValidate(Object $school){

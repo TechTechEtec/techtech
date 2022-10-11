@@ -117,14 +117,15 @@ class TeacherController extends Controller{
             return  $this->showMessage(
                 'Erro para atualizar professor', 
                 'Algum Erro interno está impedindo a atualização dos dados. É recomendado que atualize o navegador e tente novamente. Caso o erro persista, tente mais tarde ou informe a equipe de desenvolvimento em: techtechetec@gmail.com',
-                BASE,
-                422
             );
-
-            die();
         }
 
-        echo '<script>window.history.back();</script>';
+        $this->showMessage(
+            'Atualizado com sucesso!', 
+            'Os dados fornecidos sobrescreveram os dados anteriores. Você será redirecionado para a mesma página de edição.',
+        );
+
+        die();
     }
 
     private function registerValidate(Object $teacher){
@@ -133,8 +134,6 @@ class TeacherController extends Controller{
             $this->showMessage(
                 'Formulário inválido', 
                 'O nome da instituição tem menos do que 3 caractéres',
-                BASE . 'signup-teacher',
-                422
             );
 
             die();
@@ -144,8 +143,6 @@ class TeacherController extends Controller{
             $this->showMessage(
                 'Formulário inválido', 
                 'O nome da escola precisa começar a obrigatóriamente com @',
-                BASE . 'signup-teacher',
-                422
             );
         
             die();
@@ -155,8 +152,6 @@ class TeacherController extends Controller{
             $this->showMessage(
                 'Formulário inválido', 
                 'O nome do professor tem menos do que 3 caractéres',
-                BASE . 'signup-teacher',
-                422
             );
 
             die();
@@ -166,8 +161,6 @@ class TeacherController extends Controller{
             $this->showMessage(
                 'Formulário inválido', 
                 'O email tem menos do que 10 caracteres precisa incluir @gmail.com',
-                BASE . 'signup-teacher',
-                422
             );
         
             die();
@@ -177,8 +170,6 @@ class TeacherController extends Controller{
             $this->showMessage(
                 'Formulário inválido', 
                 'Senha tem que ser maior do que 8 caracteres e menor do que 16',
-                BASE . 'signup-teacher',
-                422
             );
 
             die();
@@ -188,8 +179,6 @@ class TeacherController extends Controller{
             $this->showMessage(
                 'Formulário inválido', 
                 'Senha e senha de confirmação não coincidem',
-                BASE . 'signup-teacher',
-                422
             );
 
             die();
@@ -204,8 +193,6 @@ class TeacherController extends Controller{
                 $this->showMessage(
                     'Formulário inválido', 
                     'O nome da instituição tem menos do que 3 caractéres',
-                    BASE . 'signup-teacher',
-                    422
                 );
 
                 die();
@@ -217,8 +204,6 @@ class TeacherController extends Controller{
                 $this->showMessage(
                     'Formulário inválido', 
                     'O nome do professor tem menos do que 3 caractéres',
-                    BASE . 'signup-teacher',
-                    422
                 );
 
                 die();
@@ -230,8 +215,6 @@ class TeacherController extends Controller{
                 $this->showMessage(
                     'Formulário inválido', 
                     'O email tem menos do que 10 caracteres precisa incluir @gmail.com',
-                    BASE . 'signup-teacher',
-                    422
                 );
             
                 die();
@@ -241,8 +224,6 @@ class TeacherController extends Controller{
                 $this->showMessage(
                     'Formulário inválido', 
                     'O email tem que ser do domínio @gmail.com',
-                    BASE . 'signup-teacher',
-                    422
                 );
             
                 die();
@@ -254,8 +235,6 @@ class TeacherController extends Controller{
                 $this->showMessage(
                     'Formulário inválido', 
                     'Senha tem que ser maior do que 8 caracteres e menor do que 16',
-                    BASE . 'signup-teacher',
-                    422
                 );
     
                 die();
@@ -265,8 +244,6 @@ class TeacherController extends Controller{
                 $this->showMessage(
                     'Formulário inválido', 
                     'Senha e senha de confirmação não coincidem',
-                    BASE . 'signup-teacher',
-                    422
                 );
     
                 die();

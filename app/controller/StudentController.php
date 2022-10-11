@@ -118,15 +118,17 @@ class StudentController extends Controller {
             return  $this->showMessage(
                 'Erro para atualizar estudante', 
                 'Algum Erro interno está impedindo a atualização. É recomendado que atualize o navegador e tente novamente. Caso o erro persista, tente mais tarde ou informe a equipe de desenvolvimento em: techtechetec@gmail.com',
-                BASE,
-                422
             );
 
             die();
         }
 
-       echo '<script>window.history.back();</script>';
+        $this->showMessage(
+            'Atualizado com sucesso!', 
+            'Os dados fornecidos sobrescreveram os dados anteriores. Você será redirecionado para a mesma página de edição.',
+        );
 
+        die();
     }
 
     private function registerValidate(Object $student){
@@ -136,8 +138,6 @@ class StudentController extends Controller {
             $this->showMessage(
                 'Formulário inválido', 
                 'O nome do aluno tem menos do que 3 caractéres',
-                BASE . 'signup-student',
-                422
             );
 
             die();
@@ -147,8 +147,6 @@ class StudentController extends Controller {
             $this->showMessage(
                 'Formulário inválido', 
                 'O email da escola tem menos do que 10 caractéres',
-                BASE . 'signup-student',
-                422
             );
 
             die();
@@ -158,8 +156,6 @@ class StudentController extends Controller {
             $this->showMessage(
                 'Formulário inválido', 
                 'Senha tem que ser igual ou maior do que 8 caracteres ',
-                BASE . 'signup-student',
-                422
             );
 
             die();
@@ -169,8 +165,6 @@ class StudentController extends Controller {
             $this->showMessage(
                 'Formulário inválido', 
                 'Senha e senha de confirmação não coincidem',
-                BASE . 'signup-student',
-                422
             );
 
             die();
@@ -185,8 +179,6 @@ class StudentController extends Controller {
                 $this->showMessage(
                     'Formulário inválido', 
                     'O nome do aluno tem menos do que 3 caractéres',
-                    BASE . 'signup-student',
-                    422
                 );
     
                 die();
@@ -198,8 +190,6 @@ class StudentController extends Controller {
                 $this->showMessage(
                     'Formulário inválido', 
                     'O nome do aluno tem menos do que 10 caractéres',
-                    BASE . 'signup-student',
-                    422
                 );
     
                 die();
@@ -209,8 +199,6 @@ class StudentController extends Controller {
                 $this->showMessage(
                     'Formulário inválido', 
                     'O email tem que ser do domínio @gmail.com',
-                    BASE . 'signup-student',
-                    422
                 );
             
                 die();
@@ -224,8 +212,6 @@ class StudentController extends Controller {
                 $this->showMessage(
                     'Formulário inválido', 
                     'Senha tem que ser maior do que 8 caracteres e menor do que 16',
-                    BASE . 'signup-student',
-                    422
                 );
     
                 die();
@@ -235,8 +221,6 @@ class StudentController extends Controller {
                 $this->showMessage(
                     'Formulário inválido', 
                     'Senha e senha de confirmação não coincidem',
-                    BASE . 'signup-student',
-                    422
                 );
     
                 die();
