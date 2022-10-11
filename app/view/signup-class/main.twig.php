@@ -57,9 +57,9 @@
         <div id="divider" class="hidden 2sm:block min-h-[350px] w-[2px] bg-grey text-grey drop-shadow-sm rounded-md mx-2">
         </div>
 
-        <div class="flex w-full h-full min-h-[350px] max-w-[400px]  items-center justify-around gap-2 flex-1 flex-col">
+        <div class="flex w-full h-full min-h-[350px] max-w-[400px]  items-center justify-stretch gap-2 flex-1 flex-col">
 
-            <div id="classes" class="max-h-280px overflow-y-auto w-full h-full min-h-[350px] flex-1 flex flex-col items-center justify-center gap-8">
+            <div id="classes" class="max-h-[320px] overflow-y-auto w-full h-full min-h-[350px] flex-1 flex flex-col items-center justify-center gap-8">
                 <img class="w-full h-full max-w-[100px] max-h-[100px]" src="{{BASE}}/svgs/spinner.svg" alt="loading spinner"/>
             </div>
 
