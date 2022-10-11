@@ -16,7 +16,7 @@ class Controller {
     {
         http_response_code($httpCode);
 
-        $this->load('partials/message', [
+        return $this->load('partials/message', [
             'title'    => $title,
             'message' => $message,
             'link'      => $link

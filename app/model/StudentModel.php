@@ -44,7 +44,7 @@ class StudentModel extends Model{
             'birthday' => $student->birthday,
             'password' => hash('sha256', $student->password),
         ];
-        
+
         try {
             $data = $this->db->insert($newStudent);
             return $data;

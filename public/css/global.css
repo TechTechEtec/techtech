@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
@@ -5,18 +9,9 @@
 }
 
 :root {
-  --blue: hsl(194, 100%, 50%);
-  --darker-purple: hsl(238, 60%, 16%);
-  --dark-purple: hsl(255, 45%, 41%);
-  --purple: hsl(252, 100%, 68%);
-  --light-purple: hsl(281, 100%, 88%);
-  --pink: hsl(334, 100%, 64%);
-  --pink-500: #D71C6D;
-  --orange: hsl(32, 100%, 61%);
-  --white: #fff;
+  --white: #f0f2f5;
   --black: #181818;
 }
-
 
 html {
   scroll-behavior: smooth;
@@ -108,4 +103,3 @@ button {
   border-radius: 20px;
   border: none;
 }
-

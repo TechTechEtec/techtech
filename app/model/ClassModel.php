@@ -24,7 +24,6 @@ class ClassModel extends Model{
         catch(Exception $e) {
             echo $e->getMessage();
         }
-       
     
     }
 
@@ -42,6 +41,7 @@ class ClassModel extends Model{
         $newClass = [
             'name'     => $class->name,
             'code'    => $class->code,
+            'teacher_email' => $class->teacher_email
         ];
         
         try {
@@ -63,6 +63,9 @@ class ClassModel extends Model{
 
         if(property_exists($class, "code"))
             $updatedData["code"] = $class->code;
+
+        if(property_exists($class, "code"))
+            $updatedData["teacher_email"] = $class->teacher_email;
         
         try {
             $data = $this->db->update($class->id, $updatedData);
