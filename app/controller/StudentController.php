@@ -78,8 +78,6 @@ class StudentController extends Controller {
             return  $this->showMessage(
                 'Erro ao Cadastrar Novo Aluno', 
                 'Algum Erro interno está impedindo o cadastro. É recomendado que atualize o navegador e tente novamente. Caso o erro persista, tente mais tarde ou informe a equipe de desenvolvimento em: techtechetec@gmail.com',
-                BASE,
-                422
             );
 
             die();
@@ -103,15 +101,8 @@ class StudentController extends Controller {
             'password' => Input::post('password'),
         ];
 
-        if (!$this->updateValidate($student)) {
-            return  $this->showMessage(
-                'Formulário inválido', 
-                'Os dados fornecidos são inválidos',
-                BASE,
-                422
-            );
-        }
-
+        $this->updateValidate($student);
+    
         $result = $this->studentModel->update($student);
 
         if ($result <= 0) {

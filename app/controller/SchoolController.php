@@ -98,14 +98,7 @@ class SchoolController extends Controller{
             'password' => Input::post('password'),
         ];
 
-        if (!$this->updateValidate($school)) {
-            return  $this->showMessage(
-                'Formulário inválido', 
-                'Os dados fornecidos são inválidos',
-                BASE,
-                422
-            );
-        }
+        $this->updateValidate($school);
 
         $db_response = $this->schoolModel->update($school);
 
