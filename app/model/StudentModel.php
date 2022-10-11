@@ -33,7 +33,7 @@ class StudentModel extends Model{
             return $student;
         }
         catch(Exception $e) {
-            return $e->getMessage();
+            return 0;
         }
     }
 
