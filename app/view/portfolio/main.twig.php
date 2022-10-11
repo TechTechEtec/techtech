@@ -124,7 +124,7 @@
            </div>
 
            <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="160">
-                <img src="{{BASE}}/imgs/victor.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
+                <img src="{{BASE}}/imgs/victor.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[7.5rem] lg:h-[8rem] rounded-full shadow-xl float-left">
                 <div>
                     <h1 class="font-bold text-xl mt-[2rem]">Victor Silva</h1>
                     <div class="w-full h-auto flex items-start justify-left md:justify-center lg:justify-center gap-6 mt-4">
@@ -201,13 +201,6 @@
         </button>
     </form>
   </footer>
-
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-  AOS.init();
-  </script>
-
 
 {% endblock %}
 
