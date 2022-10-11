@@ -6,19 +6,17 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-        <meta charset="UTF-8"/>
+
 
         <!-- Meta -->
+        <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="shortcut icon" href="{{BASE}}/svgs/techtechlogo.svg">
 
         <!-- Fonts --> 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
 
-        
-
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&family=Nerko+One&family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+    
         <!-- TAILWIND Import -->
         <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 

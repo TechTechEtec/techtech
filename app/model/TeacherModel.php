@@ -40,6 +40,7 @@ class TeacherModel extends Model{
 
     public function register(object $teacher){ # Register Teacher on DataBase
         $newTeacher = [
+            'schoolName'=> $teacher->schoolName,
             'name'     => $teacher->name,
             'email'    => $teacher->email,
             'password' => hash("sha256", $teacher->password),
@@ -58,6 +59,9 @@ class TeacherModel extends Model{
     public function update(object $teacher){  # Update Teacher on DataBase
 
         $updatedData = [];
+
+        if(property_exists($teacher, "schoolName"))
+        $updatedData["schoolName"] = $teacher->schoolName;
 
         if(property_exists($teacher, "name"))
             $updatedData["name"] = $teacher->name;

@@ -12,7 +12,7 @@ tailwind.config = {
         darkerPurple: "#101241",
         darkpurple: "hsl(255, 45%, 41%)",
         purple: "hsl(252, 100%, 68%)",
-        lightpurple: "hsl(281, 100%, 88%)", 
+        lightpurple: "hsl(281, 100%, 88%)",
         pink: "#F208F6",
         "pink-500": "#D71C6D",
         orange: "hsl(32, 100%, 61%)",
@@ -38,9 +38,9 @@ tailwind.config = {
       "2xl": "1536px",
     },
     fontFamily: {
-      normal: ["Roboto", "sans-serif"],
-      cartoon: ["Nerko", "sans-serif"],
-      clean: ["Mukta", "sans-serif"],
+      roboto: ["Roboto", "sans-serif"],
+      nerko: ["Nerko One", "cursive"],
+      mukta: ["Mukta", "sans-serif"],
     },
   },
 };
