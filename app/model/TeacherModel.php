@@ -51,7 +51,7 @@ class TeacherModel extends Model{
             return $data;
         }
         catch(Exception $e) {
-            return $e->getMessage();
+            return 0;
         }
         
     }

@@ -74,7 +74,7 @@ class ClassController extends Controller{
         $result = $this->classModel->register($class);
 
         if ($result <= 0) {
-             $this->showMessage(
+            $this->showMessage(
                 'Erro ao Cadastrar Nova Turma', 
                 'Algum Erro interno está impedindo o cadastro. É recomendado que atualize o navegador e tente novamente. Caso o erro persista, tente mais tarde ou informe a equipe de desenvolvimento em: techtechetec@gmail.com',
             );
