@@ -65,3 +65,9 @@ $this->get('/@class', 'ClassController@fetchById'); # needs queries ID in POST s
 $this->get('/@signup-class', 'ClassController@register'); # needs queries NAME, EMAIL, PASSWORD and BIRTHDAY in POST submission
 
 $this->get('/@update-class', 'ClassController@update'); # needs queries NAME, EMAIL, PASSWORD, BIRTHDAY and ID in POST submission
+
+# Controller Session
+
+$this->get("/@signin", 'SessionController@signIn');
+
+$this->get("/@logout", 'SessionController@logOut');

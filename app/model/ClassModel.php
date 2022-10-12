@@ -73,7 +73,7 @@ class ClassModel extends Model{
             return $data;
         }
         catch(Exception $e) {
-            echo $e->getMessage();
+            return 0;
         }
     }
 }
