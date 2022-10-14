@@ -22,7 +22,7 @@ class ClassModel extends Model{
             return $listClasses;
         }
         catch(Exception $e) {
-            echo $e->getMessage();
+            return $e->getMessage();
         }
     
     }
@@ -33,7 +33,7 @@ class ClassModel extends Model{
             return $class;
         }
         catch(Exception $e) {
-            echo $e->getMessage();
+            return $e->getMessage();
         }
     }
 
@@ -50,7 +50,7 @@ class ClassModel extends Model{
         }
         catch(Exception $e) {
 
-            return 0;
+            return $e->getMessage();
         }
         
     }
@@ -73,7 +73,7 @@ class ClassModel extends Model{
             return $data;
         }
         catch(Exception $e) {
-            echo $e->getMessage();
+            return $e->getMessage();
         }
     }
 }

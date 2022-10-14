@@ -49,7 +49,7 @@ class SchoolModel extends Model{
             return $data;
         }
         catch(Exception $e) {
-            return 0;
+            return $e->getMessage();
         }
         
     }
