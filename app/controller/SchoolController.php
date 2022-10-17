@@ -72,11 +72,12 @@ class SchoolController extends Controller{
 
         $result = $this->schoolModel->register($school);
 
-        if ($result <= 0) {
+        if (!is_array($result)) {
             $this->showMessage(
                 'Erro ao Cadastrar Nova Escola', 
-                'Algum Erro interno está impedindo o cadastro. É recomendado que atualize o navegador e tente novamente. Caso o erro persista, tente mais tarde ou informe a equipe de desenvolvimento em: techtechetec@gmail.com',
+                $result,
             );
+
             die();
         }
 
