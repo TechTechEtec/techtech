@@ -42,5 +42,8 @@ tailwind.config = {
       nerko: ["Nerko One", "cursive"],
       mukta: ["Mukta", "sans-serif"],
     },
+    lineHeight: {
+      'eloose': '4.5',
+    },
   },
 };
