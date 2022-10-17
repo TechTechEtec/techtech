@@ -8,17 +8,19 @@ use Exception;
 class ClassModel extends Model{
 
     private $db;
+    private $query;
 
     public function __construct(){
 
         $connection = $this->connect();
 
-        $this->db = $connection->initializeDatabase("cad_class", "id");
+        $this->db = $connection->initializeDatabase("class", "id");
+        $this->query = $connection->initializeQueryBuilder();
     }
 
     public function fetchAll(){   # Get All Classes from DataBase
         try {
-            $listClasses = $this->db->fetchAll()->getResult(); 
+            $listClasses = $this->query->select("*")->from('class')->where("createdBy", "eq." . $_SESSION['extra']->id)->execute()->getResult();
             return $listClasses;
         }
         catch(Exception $e) {
@@ -41,7 +43,8 @@ class ClassModel extends Model{
         $newClass = [
             'name'     => $class->name,
             'code'    => $class->code,
-            'teacher_email' => $class->teacher_email
+            'teacher_email' => $class->teacher_email,
+            'createdBy' => $_SESSION['extra']->id 
         ];
         
         try {

@@ -13,7 +13,7 @@ class SchoolModel extends Model{
 
         $connection = $this->connect();
 
-        $this->db = $connection->initializeDatabase("cad_school", "id");
+        $this->db = $connection->initializeDatabase("school", "id");
     }
 
     public function fetchAll(){   # Get All Schools from DataBase

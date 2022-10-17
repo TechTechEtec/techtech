@@ -35,6 +35,7 @@ class RouterCore {
     }
 
     private function get($router, $call) {
+
         $this->getArr[] = [
             'router' => $router,
             'call' => $call

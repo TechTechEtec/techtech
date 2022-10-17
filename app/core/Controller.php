@@ -2,13 +2,14 @@
 
 namespace app\core;
 
-
 class Controller {
     protected function load(string $view, $params = []) {
         $loader = new \Twig\Loader\filesystemLoader('../app/view');
         $twig = new \Twig\Environment($loader);
 
         $twig->addGlobal('BASE', BASE);
+        $twig->addGlobal("session", $_SESSION);
+        
         echo $twig->render($view . '.twig.php', $params);
     }
 
