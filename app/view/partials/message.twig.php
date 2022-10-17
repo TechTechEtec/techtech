@@ -10,7 +10,7 @@
             <h1 class="text-4xl font-bold w-full text-center">{{title}}</h1>
             <p class="text-md font-medium w-full text-center break-words">{{message}}</p>
             {% if link != null %}
-            <a href="{{link}}" class="p-4 rounded-lg drop-shadow-lg bg-purple text-white font-bold w-[150px] text-center mx-auto hover:translate-y-[-3px] eas-linear duration-300">Continuar</a>
+            <a href="{{link}}" class="p-4 rounded-lg drop-shadow-lg bg-purple text-white font-bold w-[150px] text-center mx-auto hover:translate-y-[-3px] eas-linear duration-300">OK</a>
             {% else%}
             <button onclick="window.history.go(-1); return false;" class="p-4 rounded-lg drop-shadow-lg bg-purple text-white font-bold w-[150px] text-center mx-auto hover:translate-y-[-3px] eas-linear duration-300 cursor-pointer">voltar</button>
             {% endif %}

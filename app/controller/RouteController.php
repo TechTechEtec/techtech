@@ -11,7 +11,14 @@ class RouteController extends Controller {
     public function __construct() {}
 
     public function dashboard() {
-        $this->load("dashboard/main");
+        
+        if(isset($_SESSION['loggedIn'])){
+            $this->load("dashboard/main");
+            
+            return;
+        };
+
+        header('Location: ' . BASE . 'signin');
     }
 
     public function home() {
@@ -19,7 +26,14 @@ class RouteController extends Controller {
     }
 
     public function signin() {
-        $this->load("signin/main");
+        if(!isset($_SESSION['loggedIn'])){
+            $this->load("signin/main");
+            
+            return;
+        };
+
+        header('Location: ' . BASE . 'dashboard');
+       
     }
 
     public function chooseSignup() {
@@ -27,15 +41,60 @@ class RouteController extends Controller {
     }
 
     public function signupSchool() {
-        $this->load("signup-school/main");
+        if(!isset($_SESSION['loggedIn'])){
+            $this->load("signup-school/main");
+            return;
+        }
+
+        $this->showMessage(
+            'Faça Logout para se inscrever', 
+            'Você precisa se desconectar para realizar uma inscrição do tipo escola',
+            BASE . "dashboard",
+            200
+        );
     }
        
     public function signupClass() {
-        $this->load("signup-class/main");
+
+        if(!isset($_SESSION['loggedIn'])){
+
+            $this->showMessage(
+                'Você não tem permissão para acessar essa página', 
+                'Você precisa estar autenticado como uma escola',
+                BASE . "signin",
+                404
+            );
+
+            return;
+        }
+
+        if(isset($_SESSION['perfil']) && $_SESSION['perfil'] === 'school'){
+            $this->load("signup-class/main");
+            return;
+        }   
+
+        $this->showMessage(
+            'Você não tem permissão para acessar essa página', 
+            'você é um usuário do tipo ' . $_SESSION['perfil'],
+            BASE . "dashboard",
+            404
+        );
+        
     }
     
     public function signupStudent() {
-        $this->load("signup-student/main");
+    
+        if(!isset($_SESSION['loggedIn'])){
+            $this->load("signup-student/main");
+            return;
+        }
+
+        $this->showMessage(
+            'Faça Logout para se inscrever', 
+            'Você precisa se desconectar para realizar uma inscrição do tipo estudante',
+            BASE . "dashboard",
+            200
+        );
     }
 
     public function portfolio() {
@@ -47,10 +106,46 @@ class RouteController extends Controller {
     }
     
     public function signupTeacher() {
-        $this->load("signup-teacher/main");
+       
+        if(!isset($_SESSION['loggedIn'])){
+            $this->load("signup-teacher/main");
+            return;
+        }
+
+        $this->showMessage(
+            'Faça Logout para se inscrever', 
+            'Você precisa se desconectar para realizar uma inscrição do tipo professor',
+            BASE . "dashboard",
+            200
+        );
+
+
     }
 
     public function teacherSchool() {
-        $this->load("teacher-school/main");
+
+        if(!isset($_SESSION['loggedIn'])){
+
+           $this->showMessage(
+                'Você não tem permissão para acessar essa página', 
+                'Você precisa estar autenticado como uma escola',
+                BASE . "signin",
+                404
+            );
+
+            return;
+        }
+
+        if(isset($_SESSION['perfil']) && $_SESSION['perfil'] === 'school'){
+            $this->load("teacher-school/main");
+            return;
+        }   
+
+        $this->showMessage(
+            'Você não tem permissão para acessar essa página', 
+            'você é um usuário do tipo ' . $_SESSION['perfil'],
+            BASE . "dashboard",
+            404
+        );
     }
 }

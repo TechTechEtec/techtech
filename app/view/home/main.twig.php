@@ -34,10 +34,10 @@
       </button>
 
       <!-- Login Button -->
-      <button class="bg-orange rounded-full px-3 h-10 text-white flex items-center group">
+      <a href="{{BASE}}signin" class="bg-orange rounded-full px-3 h-10 text-white flex items-center group">
         <i class="ph-user"></i>
         <span class="pl-2">Entrar</span>
-      </button>
+      </a>
 
     </nav>
   </header>
@@ -113,7 +113,7 @@
     <!-- third section -->
     <section class="px-6 mt-14 py-6 w-[90vw] m-auto">
       <div class="bg-darkpurple p-6 flex flex-col sm:flex-row flex-wrap rounded-md text-white font-bold items-center justify-center gap-4 max-w-[900px] w-full mx-auto drop-shadow-md">
-        <a href="#" class="relative text-darkpurple bg-orange rounded-md p-4 hover:-translate-y-1 transition duration-300 after:content[''] after:block after:absolute after:bg-orange after:w-[25px] after:h-[25px] after:rounded-md after:rotate-45 after:bottom-[-8px] after:left-[20px]">
+        <a href="{{BASE}}feedback" class="relative text-darkpurple bg-orange rounded-md p-4 hover:-translate-y-1 transition duration-300 after:content[''] after:block after:absolute after:bg-orange after:w-[25px] after:h-[25px] after:rounded-md after:rotate-45 after:bottom-[-8px] after:left-[20px]">
           Dê-nos seu Feedback
         </a>
         <p class="flex-1">Sua Opinião é muito importante para nós assim podemos melhorar a sua experiência na nossa plataforma.

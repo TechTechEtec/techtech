@@ -7,7 +7,6 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
-
         <!-- Meta -->
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -45,9 +44,7 @@
     </head>
     <body class="overflow-x-hidden">
         {% block body %}{% endblock %}  <!-- Here will be included the main body of the page -->
-        
     </body>
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <script>
