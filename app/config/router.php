@@ -6,6 +6,8 @@ $this->get('/', 'RouteController@home');
 
 $this->get('/dashboard', 'RouteController@dashboard');
 
+$this->get('/dashboard-school', 'RouteController@dashboardSchool');
+
 $this->get('/signup-student', 'RouteController@signupStudent');
 
 $this->get('/signup-teacher', 'RouteController@signupTeacher');
