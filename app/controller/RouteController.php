@@ -21,6 +21,19 @@ class RouteController extends Controller {
         header('Location: ' . BASE . 'signin');
     }
 
+    
+    public function dashboardTeacher() {
+        
+        if(isset($_SESSION['loggedIn'])){
+            $this->load("dashboard-teacher/main");
+            
+            return;
+        };
+
+        header('Location: ' . BASE . 'signin');
+    }
+
+
     public function home() {
         $this->load("home/main");
     }
