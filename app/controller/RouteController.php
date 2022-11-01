@@ -10,6 +10,16 @@ class RouteController extends Controller {
 
     public function __construct() {}
 
+    public function module1() {
+        if(isset($_SESSION['loggedIn'])){
+            $this->load("modules/01/main");
+            
+            return;
+        }
+
+        header('Locatoin: ' . BASE . 'signin');
+    }
+
     public function dashboard() {
         
         if(isset($_SESSION['loggedIn'])){
@@ -41,7 +51,7 @@ class RouteController extends Controller {
     }
 
     public function signupSchool() {
-        if(!isset($_SESSION['loggedIn'])){
+        if(!isset($_SESSION['loggedIn']) || $_SESSION['perfil'] === 'admin'){
             $this->load("signup-school/main");
             return;
         }
@@ -56,7 +66,7 @@ class RouteController extends Controller {
        
     public function signupClass() {
 
-        if(!isset($_SESSION['loggedIn'])){
+        if(!isset($_SESSION['loggedIn']) || $_SESSION['perfil'] === 'admin'){
 
             $this->showMessage(
                 'Você não tem permissão para acessar essa página', 
@@ -68,7 +78,7 @@ class RouteController extends Controller {
             return;
         }
 
-        if(isset($_SESSION['perfil']) && $_SESSION['perfil'] === 'school'){
+        if((isset($_SESSION['perfil']) && $_SESSION['perfil'] === 'school')  || $_SESSION['perfil'] === 'admin'){
             $this->load("signup-class/main");
             return;
         }   
@@ -84,7 +94,7 @@ class RouteController extends Controller {
     
     public function signupStudent() {
     
-        if(!isset($_SESSION['loggedIn'])){
+        if(!isset($_SESSION['loggedIn'])  || $_SESSION['perfil'] === 'admin'){
             $this->load("signup-student/main");
             return;
         }
@@ -107,7 +117,7 @@ class RouteController extends Controller {
     
     public function signupTeacher() {
        
-        if(!isset($_SESSION['loggedIn'])){
+        if(!isset($_SESSION['loggedIn'])  || $_SESSION['perfil'] === 'admin'){
             $this->load("signup-teacher/main");
             return;
         }
@@ -124,7 +134,7 @@ class RouteController extends Controller {
 
     public function teacherSchool() {
 
-        if(!isset($_SESSION['loggedIn'])){
+        if(!isset($_SESSION['loggedIn'])  || $_SESSION['perfil'] === 'admin'){
 
            $this->showMessage(
                 'Você não tem permissão para acessar essa página', 

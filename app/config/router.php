@@ -24,7 +24,7 @@ $this->get('/feedback', 'RouteController@feedback');
 
 $this->get('/teacher-school', 'RouteController@teacherSchool');
 
-
+$this->get('/modules/1', 'RouteController@module1');
 
 // All Controller Route needs to start with @ character in URL
 
