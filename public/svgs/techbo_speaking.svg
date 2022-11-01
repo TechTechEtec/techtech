@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400mm"
+   height="210mm"
+   viewBox="0 0 400 210"
+   version="1.1"
+   id="svg5"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="Mascote Robo - TCC.svg"
+   inkscape:export-filename="/home/victor/Área de Trabalho/Mascote Robo - TCC.svg.png"
+   inkscape:export-xdpi="60.476189"
+   inkscape:export-ydpi="60.476189">
+  <metadata
+     id="metadata317">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="0.33410253"
+     inkscape:cx="240.29064"
+     inkscape:cy="503.2398"
+     inkscape:window-width="1440"
+     inkscape:window-height="844"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient62946">
+      <stop
+         style="stop-color:#6c93cc;stop-opacity:0.39192399"
+         offset="0"
+         id="stop62942" />
+      <stop
+         style="stop-color:#6c93cc;stop-opacity:0;"
+         offset="1"
+         id="stop62944" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient62054">
+      <stop
+         style="stop-color:#6c93cc;stop-opacity:0.37292159"
+         offset="0"
+         id="stop62050" />
+      <stop
+         style="stop-color:#6c93cc;stop-opacity:0"
+         offset="1"
+         id="stop62052" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient55806"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#0e3559;stop-opacity:1;"
+         offset="0"
+         id="stop55804" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient144043">
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:1"
+         offset="0"
+         id="stop144039" />
+      <stop
+         style="stop-color:#00ffe1;stop-opacity:1"
+         offset="1"
+         id="stop144041" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient114164">
+      <stop
+         style="stop-color:#101241;stop-opacity:1;"
+         offset="0"
+         id="stop114160" />
+      <stop
+         style="stop-color:#ecc2ff;stop-opacity:1"
+         offset="1"
+         id="stop114162" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient114164"
+       id="linearGradient114166"
+       x1="93.440773"
+       y1="170.66077"
+       x2="344.97693"
+       y2="31.756149"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.76349462,0,0,0.76349462,-266.5845,-3.6442899)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient144043"
+       id="linearGradient143693"
+       gradientUnits="userSpaceOnUse"
+       x1="138.44441"
+       y1="146.91942"
+       x2="159.86897"
+       y2="371.69232"
+       gradientTransform="matrix(0.12168109,0,0,0.12485085,-271.88368,14.453135)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient144043"
+       id="linearGradient18164"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.44354071,0,0,0.4550948,32.311316,54.80715)"
+       x1="138.44441"
+       y1="146.91942"
+       x2="159.86897"
+       y2="371.69232" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient62054"
+       id="linearGradient62056"
+       x1="56.033657"
+       y1="197.36163"
+       x2="93.01239"
+       y2="196.6449"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.6451083,0,1.469364e-8,3.6451079,-66.353807,-511.37713)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient62946"
+       id="linearGradient62948"
+       x1="-41.078304"
+       y1="202.31863"
+       x2="42.624989"
+       y2="197.90152"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.645108,0,3.1410373e-8,3.6451079,179.21181,-509.97338)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient62054"
+       id="linearGradient63526"
+       x1="73.780792"
+       y1="184.49945"
+       x2="153.79974"
+       y2="186.21375"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.6451084,-8.4895172e-8,1.4991508e-8,3.6451081,-122.71405,-491.68114)" />
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-87)">
+    <g
+       sodipodi:type="inkscape:box3d"
+       id="g20240-7"
+       style="fill:#333333;fill-opacity:1;fill-rule:nonzero"
+       inkscape:perspectiveID="#perspective20238-3"
+       inkscape:corner0="0.18148064 : 0.083130482 : 0 : 1"
+       inkscape:corner7="-0.011621571 : 0.074931329 : 0.14092047 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20252-61"
+         style="fill:#333333;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="11"
+         points="-1.4555239,-159.96244 -6.0602219,-159.09239 -6.0602219,-160.73286 -1.4555239,-161.88342 "
+         d="m -1.4555239,-161.88342 v 1.92098 l -4.604698,0.87005 v -1.64047 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20242-5"
+         style="fill:#333333;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="6"
+         points="-6.0602219,-159.09239 -6.0602219,-160.73286 -9.475449,-161.53542 -9.475449,-159.69929 "
+         d="m -9.475449,-159.69929 3.4152271,0.6069 v -1.64047 l -3.4152271,-0.80256 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20244-7"
+         style="fill:#333333;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="5"
+         points="-1.4555239,-161.88342 -6.0602219,-160.73286 -9.475449,-161.53542 -4.8814672,-163.00683 "
+         d="m -4.8814672,-163.00683 3.4259433,1.12341 -4.604698,1.15056 -3.4152271,-0.80256 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20250-91"
+         style="fill:#1a1a1a;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="13"
+         points="-1.4555239,-159.96244 -6.0602219,-159.09239 -9.475449,-159.69929 -4.8814672,-160.81196 "
+         d="m -4.8814672,-160.81196 3.4259433,0.84952 -4.604698,0.87005 -3.4152271,-0.6069 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20248-9"
+         style="fill:#4d4d4d;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="14"
+         points="-1.4555239,-159.96244 -1.4555239,-161.88342 -4.8814672,-163.00683 -4.8814672,-160.81196 "
+         d="m -4.8814672,-160.81196 3.4259433,0.84952 v -1.92098 l -3.4259433,-1.12341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20246-43"
+         style="fill:#333333;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="3"
+         points="-4.8814672,-160.81196 -9.475449,-159.69929 -9.475449,-161.53542 -4.8814672,-163.00683 "
+         d="m -4.8814672,-163.00683 v 2.19487 l -4.5939818,1.11267 v -1.83613 z" />
+    </g>
+    <g
+       sodipodi:type="inkscape:box3d"
+       id="g20240-4"
+       style="fill:#333333;fill-opacity:1;fill-rule:nonzero"
+       inkscape:perspectiveID="#perspective20238-2"
+       inkscape:corner0="0.18148064 : 0.083130482 : 0 : 1"
+       inkscape:corner7="-0.011621571 : 0.074931329 : 0.14092047 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20252-64"
+         style="fill:#333333;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="11"
+         points="-3.4003079,-160.62401 -8.0050056,-159.75396 -8.0050056,-161.39443 -3.4003079,-162.54499 "
+         d="m -3.4003079,-162.54499 v 1.92098 l -4.6046977,0.87005 v -1.64047 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20242-6"
+         style="fill:#333333;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="6"
+         points="-8.0050056,-159.75396 -8.0050056,-161.39443 -11.420233,-162.19699 -11.420233,-160.36086 "
+         d="m -11.420233,-160.36086 3.4152274,0.6069 v -1.64047 l -3.4152274,-0.80256 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20244-31"
+         style="fill:#333333;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="5"
+         points="-3.4003079,-162.54499 -8.0050056,-161.39443 -11.420233,-162.19699 -6.8262513,-163.6684 "
+         d="m -6.8262513,-163.6684 3.4259434,1.12341 -4.6046977,1.15056 -3.4152274,-0.80256 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20250-1"
+         style="fill:#1a1a1a;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="13"
+         points="-3.4003079,-160.62401 -8.0050056,-159.75396 -11.420233,-160.36086 -6.8262513,-161.47353 "
+         d="m -6.8262513,-161.47353 3.4259434,0.84952 -4.6046977,0.87005 -3.4152274,-0.6069 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20248-1"
+         style="fill:#4d4d4d;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="14"
+         points="-3.4003079,-160.62401 -3.4003079,-162.54499 -6.8262513,-163.6684 -6.8262513,-161.47353 "
+         d="m -6.8262513,-161.47353 3.4259434,0.84952 v -1.92098 l -3.4259434,-1.12341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20246-4"
+         style="fill:#333333;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="3"
+         points="-6.8262513,-161.47353 -11.420233,-160.36086 -11.420233,-162.19699 -6.8262513,-163.6684 "
+         d="m -6.8262513,-163.6684 v 2.19487 l -4.5939817,1.11267 v -1.83613 z" />
+    </g>
+    <g
+       sodipodi:type="inkscape:box3d"
+       id="g20240-1"
+       style="fill:#333333;fill-opacity:1;fill-rule:nonzero"
+       inkscape:perspectiveID="#perspective20238-9"
+       inkscape:corner0="0.18148064 : 0.083130482 : 0 : 1"
+       inkscape:corner7="-0.011621571 : 0.074931329 : 0.14092047 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20252-6"
+         style="fill:#333333;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="11"
+         points="-3.676846,-156.90959 -8.2815433,-156.03954 -8.2815433,-157.68001 -3.676846,-158.83057 "
+         d="m -3.676846,-158.83057 v 1.92098 l -4.6046973,0.87005 v -1.64047 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20242-8"
+         style="fill:#333333;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="6"
+         points="-8.2815433,-156.03954 -8.2815433,-157.68001 -11.69677,-158.48257 -11.69677,-156.64644 "
+         d="m -11.69677,-156.64644 3.4152267,0.6069 v -1.64047 l -3.4152267,-0.80256 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20244-3"
+         style="fill:#333333;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="5"
+         points="-3.676846,-158.83057 -8.2815433,-157.68001 -11.69677,-158.48257 -7.1027894,-159.95398 "
+         d="m -7.1027894,-159.95398 3.4259434,1.12341 -4.6046973,1.15056 -3.4152267,-0.80256 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20250-9"
+         style="fill:#1a1a1a;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="13"
+         points="-3.676846,-156.90959 -8.2815433,-156.03954 -11.69677,-156.64644 -7.1027894,-157.75911 "
+         d="m -7.1027894,-157.75911 3.4259434,0.84952 -4.6046973,0.87005 -3.4152267,-0.6069 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20248-4"
+         style="fill:#4d4d4d;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="14"
+         points="-3.676846,-156.90959 -3.676846,-158.83057 -7.1027894,-159.95398 -7.1027894,-157.75911 "
+         d="m -7.1027894,-157.75911 3.4259434,0.84952 v -1.92098 l -3.4259434,-1.12341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path20246-3"
+         style="fill:#333333;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         inkscape:box3dsidetype="3"
+         points="-7.1027894,-157.75911 -11.69677,-156.64644 -11.69677,-158.48257 -7.1027894,-159.95398 "
+         d="m -7.1027894,-159.95398 v 2.19487 l -4.5939806,1.11267 v -1.83613 z" />
+    </g>
+    <ellipse
+       style="fill:#ecc2ff;fill-opacity:1;fill-rule:nonzero;stroke-width:0.52260399"
+       id="path31-3"
+       cx="-238.80722"
+       cy="116.99033"
+       rx="17.525654"
+       ry="16.115538"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453" />
+    <rect
+       style="fill:#cea7e1;fill-opacity:1;fill-rule:nonzero;stroke-width:0.14889801"
+       id="rect8910-5"
+       width="28.170183"
+       height="17.942183"
+       x="-253.09744"
+       y="106.85024"
+       ry="8.9710913"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453" />
+    <rect
+       style="fill:#101241;fill-opacity:1;fill-rule:nonzero;stroke-width:0.132038"
+       id="rect8910-4-3"
+       width="26.158026"
+       height="15.194214"
+       x="-252.16876"
+       y="107.77895"
+       ry="7.5971069"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453" />
+    <path
+       id="path6246-3"
+       style="fill:#00ffe1;fill-opacity:1;stroke-width:0.065061"
+       d="m -230.68739,112.40458 c 0.0983,0.77842 -1.2169,-1.05076 -2.86512,-1.17976 -1.81961,-0.14243 -3.59545,2.16885 -3.31456,1.17976 0.3009,-1.05955 1.38337,-1.99436 3.08985,-1.99436 1.70646,0 2.95182,0.90159 3.08983,1.99436 z"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path6246-1-6"
+       style="fill:#00ffe1;fill-opacity:1;stroke-width:0.065061"
+       d="m -240.61055,112.3373 c 0.0983,0.77842 -1.2169,-1.05076 -2.86512,-1.17976 -1.8196,-0.14243 -3.59545,2.16884 -3.31456,1.17976 0.30091,-1.05956 1.38337,-1.99436 3.08984,-1.99436 1.70648,0 2.95183,0.90158 3.08984,1.99436 z"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path14071-5"
+       style="fill:#cea7e1;fill-opacity:1;stroke-width:0.138751"
+       d="m -250.77555,128.75822 c -2.47702,-2.0808 5.64409,3.61963 13.02259,3.38833 4.0791,-0.12787 13.74395,-4.77895 8.78875,-1.81762 -2.35467,1.40719 -6.22928,3.58704 -11.91733,2.71794 -3.95799,-0.60475 -7.22457,-2.04621 -9.89401,-4.28865 z"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453"
+       inkscape:connector-curvature="0" />
+    <ellipse
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00ffe1;stroke-width:1.16611004;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path24462-1-7"
+       cx="-239.29118"
+       cy="101.28222"
+       rx="6.8775082"
+       ry="1.7354684"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453" />
+    <ellipse
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00ffe1;stroke-width:1.16611004;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path24462-14"
+       cx="-239.26093"
+       cy="99.687363"
+       rx="3.529947"
+       ry="1.7316723"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.38687992px;line-height:1.25;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20200799"
+       x="-249.91663"
+       y="142.88934"
+       id="text56930-4"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453"><tspan
+         sodipodi:role="line"
+         id="tspan56928-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.38687992px;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC';fill:#000000;stroke-width:0.20200799"
+         x="-249.91663"
+         y="142.88934">Teaching</tspan></text>
+    <ellipse
+       style="fill:#cea7e1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.98303002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path61396-2-6"
+       cx="-254.19987"
+       cy="130.67912"
+       rx="3.5167098"
+       ry="3.3345547"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453" />
+    <ellipse
+       style="fill:#cea7e1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99656701;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path61396-2-8-3"
+       cx="-222.37813"
+       cy="129.90825"
+       rx="3.5167098"
+       ry="3.4270597"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453" />
+    <ellipse
+       style="fill:#ecc2ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.94780999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path61396-7"
+       cx="-254.60524"
+       cy="131.01891"
+       rx="3.3625348"
+       ry="3.2420497"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453" />
+    <ellipse
+       style="fill:#ecc2ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.97983801;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path61396-0-8"
+       cx="-221.95067"
+       cy="130.42514"
+       rx="3.4858747"
+       ry="3.3422632"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453" />
+    <path
+       id="path79920-0-1-6-8-2"
+       style="fill:#00ffe1;stroke-width:0.87919497"
+       d="m -235.72843,117.63009 c 0,1.38666 -1.53909,2.69578 -2.98122,2.69578 -1.44213,0 -3.22791,-1.18578 -3.22791,-2.57244 0,-1.38666 1.97079,-0.29065 3.41292,-0.29065 1.44213,0 2.79621,-1.21935 2.79621,0.16731 z"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="0.18501027"
+       inkscape:transform-center-y="-0.24667904"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.83324701;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect108116-5"
+       width="86.865723"
+       height="55.294044"
+       x="-213.03474"
+       y="91.942886"
+       ry="5.1176481"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453" />
+    <rect
+       style="fill:url(#linearGradient114166);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.76349503;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect108116"
+       width="81.981705"
+       height="49.189022"
+       x="-210.76717"
+       y="95.954758"
+       ry="4.5526085"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.38687992px;line-height:1.25;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC';fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0.20200799"
+       x="-203.31491"
+       y="107.05264"
+       id="text56930-0"><tspan
+         sodipodi:role="line"
+         id="tspan56928-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.38687992px;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC';fill:#f2f2f2;stroke-width:0.20200799"
+         x="-203.31491"
+         y="107.05264"><tspan
+   style="fill:#808000;stroke-width:0.20200799"
+   id="tspan133056">console</tspan>.<tspan
+   style="fill:#008000;stroke-width:0.20200799"
+   id="tspan134878">log</tspan>(<tspan
+   style="fill:#ff5555;stroke-width:0.20200799"
+   id="tspan136096">&quot;Hello World</tspan><tspan
+   style="fill:#ff8080;stroke-width:0.20200799"
+   id="tspan136806">&quot;</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.23212004px;line-height:1.25;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20200799"
+       x="-137.06754"
+       y="139.95775"
+       id="text56930-04"><tspan
+         sodipodi:role="line"
+         id="tspan56928-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.23212004px;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC';fill:#ffff00;stroke-width:0.20200799"
+         x="-137.06754"
+         y="139.95775">JS</tspan></text>
+    <rect
+       style="fill:url(#linearGradient143693);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.123256;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect108116-1"
+       width="13.065741"
+       height="8.0436602"
+       x="-262.98785"
+       y="30.740116"
+       ry="0.74446756"
+       transform="matrix(0.97325951,-0.22970836,0.21756998,0.97604472,0,0)"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453" />
+    <path
+       id="rect142219"
+       style="fill:#666666;stroke-width:0.76349503"
+       d="m -203.27724,111.58746 c 0.28474,0.2614 -0.90182,1.83777 -1.16947,2.11665 l -15.1952,15.83222 c 0.0243,-0.0254 -0.78186,1.11126 -1.0666,0.84986 -0.28474,-0.2614 -0.30774,-0.705 -0.0421,-0.98582 l 15.35676,-16.23608 c 0.2658,-0.28066 1.8319,-1.83824 2.11664,-1.57683 z"
+       sodipodi:nodetypes="sscssss"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#c8ab37;stroke:none;stroke-width:0.23943201px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -249.0867,88.824094 c -4.70909,12.878506 -0.67577,6.30419 -0.22298,12.545086 0.45279,6.24092 0.22298,-12.545086 0.22298,-12.545086 z"
+       id="path158064-0"
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffd42a;stroke:none;stroke-width:0.23943201px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -248.97629,88.78453 c -4.70909,12.8785 -0.76504,5.300624 -0.24684,11.54195 0.51775,6.23586 0.24684,-11.54195 0.24684,-11.54195 z"
+       id="path158064"
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.76349503;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect158878"
+       width="17.137665"
+       height="1.351826"
+       x="-265.5358"
+       y="31.025331"
+       ry="0.67591298"
+       transform="rotate(-12.98132)"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453" />
+    <path
+       id="path159258"
+       style="fill:#ffd42a;stroke-width:0.76349503"
+       d="m -247.83681,88.822193 c -0.10021,0.330011 -0.32579,0.305251 -0.75546,0.370031 -0.6173,0.093 -0.60128,0.0217 -0.60128,-0.370031 0,-0.391681 0.30372,-0.709203 0.67837,-0.709203 0.37465,0 0.79217,0.334418 0.67837,0.709203 z"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="C:\Users\victo\Desktop\teaching_robot.png"
+       inkscape:export-xdpi="171.51453"
+       inkscape:export-ydpi="171.51453"
+       inkscape:connector-curvature="0" />
+    <ellipse
+       style="fill:#ecc2ff;fill-opacity:1;fill-rule:nonzero;stroke-width:1.904948"
+       id="path31-3-6"
+       cx="90.819489"
+       cy="217.84386"
+       rx="63.882904"
+       ry="58.742878"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <rect
+       style="fill:#cea7e1;fill-opacity:1;fill-rule:nonzero;stroke-width:0.54274935"
+       id="rect8910-5-7"
+       width="102.68336"
+       height="65.401192"
+       x="38.730072"
+       y="180.88213"
+       ry="32.700596"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <rect
+       style="fill:#101241;fill-opacity:1;fill-rule:nonzero;stroke-width:0.48129275"
+       id="rect8910-4-3-6"
+       width="95.348824"
+       height="55.384552"
+       x="42.115269"
+       y="184.2674"
+       ry="27.692276"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <path
+       id="path14071-5-2"
+       style="fill:#cea7e1;fill-opacity:1;stroke-width:0.5057624"
+       d="m 47.193628,260.73911 c -9.029004,-7.58472 20.573319,13.19395 47.468747,12.35083 14.868795,-0.46609 50.098195,-17.41977 32.035955,-6.62541 -8.58302,5.12936 -22.7064,13.07515 -43.439967,9.90719 -14.427301,-2.20439 -26.334336,-7.45866 -36.064735,-15.63261 z"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617"
+       inkscape:connector-curvature="0" />
+    <ellipse
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00ffe1;stroke-width:4.250597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path24462-1-7-3"
+       cx="89.88813"
+       cy="160.16978"
+       rx="25.069262"
+       ry="6.3259692"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <ellipse
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#00ffe1;stroke-width:4.250597;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path24462-14-7"
+       cx="89.998474"
+       cy="154.35638"
+       rx="12.867038"
+       ry="6.3121328"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <ellipse
+       style="fill:#cea7e1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.27769589;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path61396-2-6-6"
+       cx="20.819677"
+       cy="254.20984"
+       rx="12.818787"
+       ry="10.170245"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <ellipse
+       style="fill:#cea7e1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.63259411;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path61396-2-8-3-2"
+       cx="150.70532"
+       cy="264.93109"
+       rx="12.818787"
+       ry="12.492002"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <path
+       id="path61396-7-9"
+       style="fill:#ecc2ff;stroke-width:3.45486999"
+       d="m 28.8926,243.90183 c 6.477173,-0.80262 5.156951,19.21467 -9.730982,18.31258 -6.756826,-0.40942 -12.2567857,-5.29096 -12.2567857,-11.81762 0,-6.52668 5.9557427,-19.60497 12.2567857,-11.81763 3.555293,4.39392 1.251475,6.37344 9.730982,5.32267 z"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617"
+       inkscape:connector-curvature="0" />
+    <ellipse
+       style="fill:#ecc2ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.57161522;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path61396-0-8-7"
+       cx="152.26343"
+       cy="266.81522"
+       rx="12.706389"
+       ry="12.18291"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <path
+       id="path79920-0-1-6-8-2-7"
+       style="fill:#00ffe1;stroke-width:2.97880054"
+       d="m 99.960095,226.09292 c 0,4.36691 -3.73645,8.69777 -8.99313,8.69777 -5.256719,0 -8.435,-4.77523 -8.435,-9.14214 0,-4.36689 4.060834,-2.99724 9.317559,-2.99724 5.256711,0 8.110571,-0.92526 8.110571,3.44161 z"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="0.67438667"
+       inkscape:transform-center-y="-0.77685267"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:url(#linearGradient18164);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.44928145;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect108116-1-5"
+       width="47.626034"
+       height="29.320011"
+       x="64.737549"
+       y="114.17503"
+       ry="2.7136645"
+       transform="matrix(0.99999462,0.00328099,-0.01573425,0.99987621,0,0)"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <path
+       style="fill:#c8ab37;stroke:none;stroke-width:0.87275559px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 64.556043,109.31393 c -20.273325,45.68736 -3.9981,22.76265 -3.876318,45.57085 0.121749,22.80827 3.876318,-45.57085 3.876318,-45.57085 z"
+       id="path158064-0-5"
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffd42a;stroke:none;stroke-width:0.87275559px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 65.248541,108.45962 c -20.476213,45.59675 -4.162386,19.07262 -3.904239,41.89977 0.258074,22.80711 3.904239,-41.89977 3.904239,-41.89977 z"
+       id="path158064-3"
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.78302169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect158878-4"
+       width="62.468639"
+       height="4.9275513"
+       x="55.420792"
+       y="109.88164"
+       ry="2.4637756"
+       transform="rotate(0.48656955)"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <path
+       id="path159258-6"
+       style="fill:#ffd42a;stroke-width:2.78302169"
+       d="m 69.363249,109.94402 c -0.635417,1.08475 -1.414011,0.8055 -2.99216,0.67038 -2.267184,-0.19429 -2.149885,-0.43356 -1.817305,-1.8222 0.332435,-1.38845 1.678681,-2.25617 3.006775,-1.9381 1.328096,0.31822 2.524274,1.85795 1.80269,3.08992 z"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617"
+       inkscape:connector-curvature="0" />
+    <ellipse
+       style="fill:#00ffe1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.03659248;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path79920-0-16-0"
+       cx="108.79195"
+       cy="203.8925"
+       rx="11.988736"
+       ry="11.527631"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <ellipse
+       style="fill:#101241;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.90594578;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path79920-0-4-4-4"
+       cx="108.75218"
+       cy="203.86"
+       rx="8.604248"
+       ry="8.3242283"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <ellipse
+       style="fill:#00ffe1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.96369028;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path79920-0-1-3-7"
+       cx="72.299713"
+       cy="203.28784"
+       rx="11.772215"
+       ry="11.319438"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <ellipse
+       style="fill:#101241;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.85346341;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path79920-0-4-1-08-3"
+       cx="72.260674"
+       cy="203.25586"
+       rx="8.4488525"
+       ry="8.1738901"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <path
+       style="fill:#000000;stroke-width:0.0459292"
+       id="path72095"
+       d=""
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#000000;stroke-width:0.0459292"
+       id="path72075"
+       d=""
+       inkscape:connector-curvature="0" />
+    <ellipse
+       style="fill:#55ddff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.95424187;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path79920-0-16-0-5"
+       cx="108.89573"
+       cy="203.87866"
+       rx="2.8341103"
+       ry="2.7251062"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <path
+       style="fill:#05a2a2;fill-opacity:0.54901997;stroke:none;stroke-width:0.71720785;stroke-opacity:0.25178103"
+       d="m 129.38889,231.24561 c -0.26464,-0.10288 -20.17859,-27.28626 -20.19051,-27.41811 -0.003,-0.0664 3.46512,-6.54177 9.90284,-17.53063 l 28.61745,-59.30924 -0.67945,126.62528 c 3.14322,4.46951 -12.57499,-15.13723 -16.42474,-21.07638 z"
+       id="path27950"
+       sodipodi:nodetypes="ccscccc"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:0.97520698;fill:#00ffe1;fill-opacity:0.30196102;stroke:#00ffe0;stroke-width:2.97440815;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.44180501"
+       id="rect19872"
+       width="246.67584"
+       height="140.6664"
+       x="145.28329"
+       y="120.23705"
+       ry="19.743587"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <rect
+       style="fill:url(#linearGradient62948);fill-opacity:1;stroke:none;stroke-width:2.53409743;stroke-opacity:1"
+       id="rect41834"
+       width="283.54187"
+       height="1.535751"
+       x="15.663742"
+       y="226.86502"
+       transform="matrix(0.96602076,-0.2584645,0.42218564,0.9065094,0,0)"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <rect
+       style="fill:url(#linearGradient63526);fill-opacity:1;stroke:none;stroke-width:2.82041311;stroke-opacity:0.25178103"
+       id="rect41834-4"
+       width="278.01443"
+       height="1.9402001"
+       x="142.61156"
+       y="180.07677"
+       transform="matrix(0.98194736,0.18915439,-0.15928537,0.98723258,0,0)"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <rect
+       style="fill:url(#linearGradient62056);fill-opacity:1;stroke:none;stroke-width:1.78070092;stroke-opacity:0.25178103"
+       id="rect41834-4-5"
+       width="161.6554"
+       height="1.3300883"
+       x="122.07301"
+       y="207.57132"
+       transform="matrix(0.99945436,-0.03303016,-0.04719898,0.99888551,0,0)"
+       inkscape:export-filename="C:\Users\victo\Desktop\speaking_robot.png"
+       inkscape:export-xdpi="119.7617"
+       inkscape:export-ydpi="119.7617" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.57321644px;line-height:1.25;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC';fill:#101241;fill-opacity:1;stroke:none;stroke-width:0.736341"
+       x="161.52455"
+       y="164.05562"
+       id="text56930-4-7"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.57321644px;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC';fill:#101241;fill-opacity:1;stroke-width:0.736341"
+         x="161.52455"
+         y="164.05562"
+         id="tspan43445">Hello Everybody, I'm techbô and</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.57321644px;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC';fill:#101241;fill-opacity:1;stroke-width:0.736341"
+         x="161.52455"
+         y="178.52214"
+         id="tspan67234"> I will help you in this adventure.</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.57321644px;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC';fill:#101241;fill-opacity:1;stroke-width:0.736341"
+         x="161.52455"
+         y="192.98866"
+         id="tspan43449">I will show you everything that you </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.57321644px;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC';fill:#101241;fill-opacity:1;stroke-width:0.736341"
+         x="161.52455"
+         y="207.45518"
+         id="tspan43451">need to know for now. During the </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.57321644px;font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC';fill:#101241;fill-opacity:1;stroke-width:0.736341"
+         x="161.52455"
+         y="221.92171"
+         id="tspan43453">process, you can access new materials</tspan></text>
+  </g>
+</svg>

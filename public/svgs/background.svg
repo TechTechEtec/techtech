@@ -1,0 +1,5488 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="background.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="0.32"
+     inkscape:cx="859.375"
+     inkscape:cy="521.875"
+     inkscape:window-width="1440"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter11973"
+       x="-0.078740263"
+       y="-0.082020283"
+       width="1.1575098"
+       height="1.1640711">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.2323782"
+         id="feGaussianBlur11975" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter11977"
+       x="-0.09586422"
+       y="-0.099857559"
+       width="1.1917577"
+       height="1.1997456">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.6597192"
+         id="feGaussianBlur11979" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter11981"
+       x="-0.063740666"
+       y="-0.17847948"
+       width="1.1274813"
+       height="1.356959">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.6159827"
+         id="feGaussianBlur11983" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter11985"
+       x="-0.09614633"
+       y="-0.1470466"
+       width="1.1922927"
+       height="1.2940931">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.9993487"
+         id="feGaussianBlur11987" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter11989"
+       x="-0.061959315"
+       y="-0.094760872"
+       width="1.1239186"
+       height="1.1895216">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.036474"
+         id="feGaussianBlur11991" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter11993"
+       x="-0.1159014"
+       y="-0.17726007"
+       width="1.2318028"
+       height="1.35452">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.7114549"
+         id="feGaussianBlur11995" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter11997"
+       x="-0.052622031"
+       y="-0.052622031"
+       width="1.1052441"
+       height="1.1052441">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.6130166"
+         id="feGaussianBlur11999" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12001"
+       x="-0.052622031"
+       y="-0.052622031"
+       width="1.1052441"
+       height="1.1052441">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.6130166"
+         id="feGaussianBlur12003" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12005"
+       x="-0.052622031"
+       y="-0.052622031"
+       width="1.1052441"
+       height="1.1052441">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.6130166"
+         id="feGaussianBlur12007" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12009"
+       x="-0.10311995"
+       y="-0.10311905"
+       width="1.2062399"
+       height="1.2062381">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2287958"
+         id="feGaussianBlur12011" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12013"
+       x="-0.13088569"
+       y="-0.10068113"
+       width="1.2617714"
+       height="1.2013624">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.3923795"
+         id="feGaussianBlur12015" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12017"
+       x="-0.062558135"
+       y="-0.062558135"
+       width="1.1251163"
+       height="1.1251163">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.6728678"
+         id="feGaussianBlur12019" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12021"
+       x="-0.062558135"
+       y="-0.062558135"
+       width="1.1251163"
+       height="1.1251163">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.6728678"
+         id="feGaussianBlur12023" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12025"
+       x="-0.062558135"
+       y="-0.062558135"
+       width="1.1251163"
+       height="1.1251163">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.6728678"
+         id="feGaussianBlur12027" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12029"
+       x="-0.10050308"
+       y="-0.10466588"
+       width="1.2010062"
+       height="1.2088814">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.3923795"
+         id="feGaussianBlur12031" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12033"
+       x="-0.10976286"
+       y="-0.090827074"
+       width="1.2180459"
+       height="1.1816541">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.9832211"
+         id="feGaussianBlur12035" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12037"
+       x="-0.063907258"
+       y="-0.063907258"
+       width="1.1278145"
+       height="1.1278145">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.2327821"
+         id="feGaussianBlur12039" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12041"
+       x="-0.088368755"
+       y="-0.088368755"
+       width="1.1767375"
+       height="1.1767375">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.3632993"
+         id="feGaussianBlur12043" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12045"
+       x="-0.031034808"
+       y="-0.031034808"
+       width="1.0620696"
+       height="1.0620696">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.3103795"
+         id="feGaussianBlur12047" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12049"
+       x="-0.031034808"
+       y="-0.031034808"
+       width="1.0620696"
+       height="1.0620696">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.3103796"
+         id="feGaussianBlur12051" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12053"
+       x="-0.03103481"
+       y="-0.03103481"
+       width="1.0620696"
+       height="1.0620696">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.3103797"
+         id="feGaussianBlur12055" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12057"
+       x="-0.1151129"
+       y="-0.1151129"
+       width="1.2302258"
+       height="1.2302258">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.8524799"
+         id="feGaussianBlur12059" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12061"
+       x="-0.078740263"
+       y="-0.082020283"
+       width="1.1575098"
+       height="1.1640711">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.2323782"
+         id="feGaussianBlur12063" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12065"
+       x="-0.09586422"
+       y="-0.099857559"
+       width="1.1917577"
+       height="1.1997456">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.6597192"
+         id="feGaussianBlur12067" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12069"
+       x="-0.063740666"
+       y="-0.17847948"
+       width="1.1274813"
+       height="1.356959">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.6159827"
+         id="feGaussianBlur12071" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12073"
+       x="-0.09614633"
+       y="-0.1470466"
+       width="1.1922927"
+       height="1.2940931">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.9993487"
+         id="feGaussianBlur12075" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12077"
+       x="-0.1159014"
+       y="-0.17726007"
+       width="1.2318028"
+       height="1.35452">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.7114549"
+         id="feGaussianBlur12079" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12081"
+       x="-0.052622031"
+       y="-0.052622031"
+       width="1.1052441"
+       height="1.1052441">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.6130166"
+         id="feGaussianBlur12083" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12085"
+       x="-0.052622031"
+       y="-0.052622031"
+       width="1.1052441"
+       height="1.1052441">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.6130166"
+         id="feGaussianBlur12087" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12089"
+       x="-0.052622031"
+       y="-0.052622031"
+       width="1.1052441"
+       height="1.1052441">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.6130166"
+         id="feGaussianBlur12091" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12093"
+       x="-0.10311995"
+       y="-0.10311905"
+       width="1.2062399"
+       height="1.2062381">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2287958"
+         id="feGaussianBlur12095" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12097"
+       x="-0.13088569"
+       y="-0.10068113"
+       width="1.2617714"
+       height="1.2013624">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.3923795"
+         id="feGaussianBlur12099" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12101"
+       x="-0.062558135"
+       y="-0.062558135"
+       width="1.1251163"
+       height="1.1251163">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.6728678"
+         id="feGaussianBlur12103" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12105"
+       x="-0.062558135"
+       y="-0.062558135"
+       width="1.1251163"
+       height="1.1251163">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.6728678"
+         id="feGaussianBlur12107" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12109"
+       x="-0.062558135"
+       y="-0.062558135"
+       width="1.1251163"
+       height="1.1251163">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.6728678"
+         id="feGaussianBlur12111" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12113"
+       x="-0.10050308"
+       y="-0.10466588"
+       width="1.2010062"
+       height="1.2088814">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.3923795"
+         id="feGaussianBlur12115" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12117"
+       x="-0.10976286"
+       y="-0.090827074"
+       width="1.2180459"
+       height="1.1816541">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.9832211"
+         id="feGaussianBlur12119" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12121"
+       x="-0.063907258"
+       y="-0.063907258"
+       width="1.1278145"
+       height="1.1278145">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.2327821"
+         id="feGaussianBlur12123" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12125"
+       x="-0.088368755"
+       y="-0.088368755"
+       width="1.1767375"
+       height="1.1767375">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.3632993"
+         id="feGaussianBlur12127" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12129"
+       x="-0.031034808"
+       y="-0.031034808"
+       width="1.0620696"
+       height="1.0620696">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.3103795"
+         id="feGaussianBlur12131" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12133"
+       x="-0.031034808"
+       y="-0.031034808"
+       width="1.0620696"
+       height="1.0620696">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.3103796"
+         id="feGaussianBlur12135" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12137"
+       x="-0.03103481"
+       y="-0.03103481"
+       width="1.0620696"
+       height="1.0620696">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.3103797"
+         id="feGaussianBlur12139" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12141"
+       x="-0.1151129"
+       y="-0.1151129"
+       width="1.2302258"
+       height="1.2302258">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.8524799"
+         id="feGaussianBlur12143" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12145"
+       x="-0.078740263"
+       y="-0.082020283"
+       width="1.1575098"
+       height="1.1640711">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.2323782"
+         id="feGaussianBlur12147" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12149"
+       x="-0.09586422"
+       y="-0.099857559"
+       width="1.1917577"
+       height="1.1997456">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.6597192"
+         id="feGaussianBlur12151" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12153"
+       x="-0.063740666"
+       y="-0.17847948"
+       width="1.1274813"
+       height="1.356959">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.6159827"
+         id="feGaussianBlur12155" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12157"
+       x="-0.09614633"
+       y="-0.1470466"
+       width="1.1922927"
+       height="1.2940931">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.9993487"
+         id="feGaussianBlur12159" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12161"
+       x="-0.1159014"
+       y="-0.17726007"
+       width="1.2318028"
+       height="1.35452">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.7114549"
+         id="feGaussianBlur12163" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12165"
+       x="-0.052622031"
+       y="-0.052622031"
+       width="1.1052441"
+       height="1.1052441">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.6130166"
+         id="feGaussianBlur12167" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12169"
+       x="-0.052622031"
+       y="-0.052622031"
+       width="1.1052441"
+       height="1.1052441">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.6130166"
+         id="feGaussianBlur12171" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12173"
+       x="-0.052622031"
+       y="-0.052622031"
+       width="1.1052441"
+       height="1.1052441">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.6130166"
+         id="feGaussianBlur12175" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12177"
+       x="-0.10311995"
+       y="-0.10311905"
+       width="1.2062399"
+       height="1.2062381">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2287958"
+         id="feGaussianBlur12179" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12181"
+       x="-0.13088569"
+       y="-0.10068113"
+       width="1.2617714"
+       height="1.2013624">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.3923795"
+         id="feGaussianBlur12183" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12185"
+       x="-0.062558135"
+       y="-0.062558135"
+       width="1.1251163"
+       height="1.1251163">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.6728678"
+         id="feGaussianBlur12187" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12189"
+       x="-0.062558135"
+       y="-0.062558135"
+       width="1.1251163"
+       height="1.1251163">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.6728678"
+         id="feGaussianBlur12191" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12193"
+       x="-0.062558135"
+       y="-0.062558135"
+       width="1.1251163"
+       height="1.1251163">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.6728678"
+         id="feGaussianBlur12195" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12197"
+       x="-0.10050308"
+       y="-0.10466588"
+       width="1.2010062"
+       height="1.2088814">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.3923795"
+         id="feGaussianBlur12199" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12201"
+       x="-0.10976286"
+       y="-0.090827074"
+       width="1.2180459"
+       height="1.1816541">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.9832211"
+         id="feGaussianBlur12203" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12205"
+       x="-0.063907258"
+       y="-0.063907258"
+       width="1.1278145"
+       height="1.1278145">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.2327821"
+         id="feGaussianBlur12207" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12209"
+       x="-0.088368755"
+       y="-0.088368755"
+       width="1.1767375"
+       height="1.1767375">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.3632993"
+         id="feGaussianBlur12211" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12213"
+       x="-0.031034808"
+       y="-0.031034808"
+       width="1.0620696"
+       height="1.0620696">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.3103795"
+         id="feGaussianBlur12215" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12217"
+       x="-0.031034808"
+       y="-0.031034808"
+       width="1.0620696"
+       height="1.0620696">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.3103796"
+         id="feGaussianBlur12219" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12221"
+       x="-0.03103481"
+       y="-0.03103481"
+       width="1.0620696"
+       height="1.0620696">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.3103797"
+         id="feGaussianBlur12223" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12225"
+       x="-0.1151129"
+       y="-0.1151129"
+       width="1.2302258"
+       height="1.2302258">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.8524799"
+         id="feGaussianBlur12227" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12229"
+       x="-0.078740263"
+       y="-0.082020283"
+       width="1.1575098"
+       height="1.1640711">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.2323782"
+         id="feGaussianBlur12231" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12233"
+       x="-0.09586422"
+       y="-0.099857559"
+       width="1.1917577"
+       height="1.1997456">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.6597192"
+         id="feGaussianBlur12235" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12237"
+       x="-0.063740666"
+       y="-0.17847948"
+       width="1.1274813"
+       height="1.356959">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.6159827"
+         id="feGaussianBlur12239" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12241"
+       x="-0.09614633"
+       y="-0.1470466"
+       width="1.1922927"
+       height="1.2940931">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.9993487"
+         id="feGaussianBlur12243" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12245"
+       x="-0.1159014"
+       y="-0.17726007"
+       width="1.2318028"
+       height="1.35452">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.7114549"
+         id="feGaussianBlur12247" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12249"
+       x="-0.052622031"
+       y="-0.052622031"
+       width="1.1052441"
+       height="1.1052441">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.6130166"
+         id="feGaussianBlur12251" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12253"
+       x="-0.052622031"
+       y="-0.052622031"
+       width="1.1052441"
+       height="1.1052441">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.6130166"
+         id="feGaussianBlur12255" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12257"
+       x="-0.052622031"
+       y="-0.052622031"
+       width="1.1052441"
+       height="1.1052441">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.6130166"
+         id="feGaussianBlur12259" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12261"
+       x="-0.10311995"
+       y="-0.10311905"
+       width="1.2062399"
+       height="1.2062381">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2287958"
+         id="feGaussianBlur12263" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12265"
+       x="-0.13088569"
+       y="-0.10068113"
+       width="1.2617714"
+       height="1.2013624">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.3923795"
+         id="feGaussianBlur12267" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12269"
+       x="-0.062558135"
+       y="-0.062558135"
+       width="1.1251163"
+       height="1.1251163">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.6728678"
+         id="feGaussianBlur12271" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12273"
+       x="-0.062558135"
+       y="-0.062558135"
+       width="1.1251163"
+       height="1.1251163">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.6728678"
+         id="feGaussianBlur12275" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12277"
+       x="-0.062558135"
+       y="-0.062558135"
+       width="1.1251163"
+       height="1.1251163">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.6728678"
+         id="feGaussianBlur12279" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12281"
+       x="-0.10050308"
+       y="-0.10466588"
+       width="1.2010062"
+       height="1.2088814">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.3923795"
+         id="feGaussianBlur12283" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12285"
+       x="-0.10976286"
+       y="-0.090827074"
+       width="1.2180459"
+       height="1.1816541">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.9832211"
+         id="feGaussianBlur12287" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12289"
+       x="-0.063907258"
+       y="-0.063907258"
+       width="1.1278145"
+       height="1.1278145">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.2327821"
+         id="feGaussianBlur12291" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12293"
+       x="-0.088368755"
+       y="-0.088368755"
+       width="1.1767375"
+       height="1.1767375">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.3632993"
+         id="feGaussianBlur12295" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12297"
+       x="-0.031034808"
+       y="-0.031034808"
+       width="1.0620696"
+       height="1.0620696">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.3103795"
+         id="feGaussianBlur12299" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12301"
+       x="-0.031034808"
+       y="-0.031034808"
+       width="1.0620696"
+       height="1.0620696">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.3103796"
+         id="feGaussianBlur12303" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12305"
+       x="-0.03103481"
+       y="-0.03103481"
+       width="1.0620696"
+       height="1.0620696">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.3103797"
+         id="feGaussianBlur12307" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter12309"
+       x="-0.1151129"
+       y="-0.1151129"
+       width="1.2302258"
+       height="1.2302258">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.8524799"
+         id="feGaussianBlur12311" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter11973)"
+       id="g839"
+       transform="matrix(0.23358201,0,0,0.23358201,340.88897,75.875)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect824"
+         x="0"
+         y="0" />
+      <path
+         d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z"
+         opacity="0.2"
+         id="path826" />
+      <path
+         d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path828" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter11977)"
+       id="g839-3"
+       transform="matrix(0.16203238,0,0,0.16203238,694.54226,449.25397)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect824-5"
+         x="0"
+         y="0" />
+      <path
+         d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z"
+         opacity="0.2"
+         id="path826-8" />
+      <path
+         d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path828-6" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter11981)"
+       id="g859"
+       transform="matrix(0.28862018,0,0,0.28862018,449.38022,259.04204)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect841"
+         x="0"
+         y="0" />
+      <polyline
+         points="64 88 16 128 64 168"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polyline843" />
+      <polyline
+         points="192 88 240 128 192 168"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polyline845" />
+      <line
+         x1="160"
+         y1="40"
+         x2="96"
+         y2="216"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line847" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter11985)"
+       id="g888"
+       transform="matrix(0.15102475,0,0,0.15102475,618.45749,295.67545)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect861"
+         x="0"
+         y="0" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         opacity="0.2"
+         id="path863" />
+      <circle
+         cx="164"
+         cy="156"
+         r="12"
+         id="circle865" />
+      <circle
+         cx="92"
+         cy="156"
+         r="12"
+         id="circle867" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path869" />
+      <line
+         x1="32"
+         y1="56"
+         x2="63.099998"
+         y2="87.099998"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line871" />
+      <line
+         x1="224"
+         y1="56"
+         x2="193.10001"
+         y2="86.900002"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line873" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter11989)"
+       id="g888-6"
+       transform="matrix(0.37075131,0,0,0.37075131,905.66883,586.91883)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect861-0"
+         x="0"
+         y="0" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         opacity="0.2"
+         id="path863-0" />
+      <circle
+         cx="164"
+         cy="156"
+         r="12"
+         id="circle865-3" />
+      <circle
+         cx="92"
+         cy="156"
+         r="12"
+         id="circle867-46" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path869-0" />
+      <line
+         x1="32"
+         y1="56"
+         x2="63.099998"
+         y2="87.099998"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line871-2" />
+      <line
+         x1="224"
+         y1="56"
+         x2="193.10001"
+         y2="86.900002"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line873-7" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter11993)"
+       id="g888-9"
+       transform="matrix(0.11249802,0,0,0.11249802,353.56977,368.94227)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect861-6"
+         x="0"
+         y="0" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         opacity="0.2"
+         id="path863-6" />
+      <circle
+         cx="164"
+         cy="156"
+         r="12"
+         id="circle865-4" />
+      <circle
+         cx="92"
+         cy="156"
+         r="12"
+         id="circle867-6" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path869-6" />
+      <line
+         x1="32"
+         y1="56"
+         x2="63.099998"
+         y2="87.099998"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line871-7" />
+      <line
+         x1="224"
+         y1="56"
+         x2="193.10001"
+         y2="86.900002"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line873-2" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter11997)"
+       id="g929"
+       transform="matrix(0.1345133,0,0,0.1345133,860.80158,471.79761)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect890"
+         x="0"
+         y="0" />
+      <rect
+         x="100"
+         y="100"
+         width="56"
+         height="56"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect892" />
+      <rect
+         x="48"
+         y="48"
+         width="160"
+         height="160"
+         rx="8"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect894" />
+      <line
+         x1="208"
+         y1="104"
+         x2="232"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line896" />
+      <line
+         x1="208"
+         y1="152"
+         x2="232"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line898" />
+      <line
+         x1="24"
+         y1="104"
+         x2="48"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line900" />
+      <line
+         x1="24"
+         y1="152"
+         x2="48"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line902" />
+      <line
+         x1="152"
+         y1="208"
+         x2="152"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line904" />
+      <line
+         x1="104"
+         y1="208"
+         x2="104"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line906" />
+      <line
+         x1="152"
+         y1="24"
+         x2="152"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line908" />
+      <line
+         x1="104"
+         y1="24"
+         x2="104"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line910" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12001)"
+       id="g929-6"
+       transform="matrix(0.1345133,0,0,0.1345133,565.62084,101.94108)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect890-8"
+         x="0"
+         y="0" />
+      <rect
+         x="100"
+         y="100"
+         width="56"
+         height="56"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect892-1" />
+      <rect
+         x="48"
+         y="48"
+         width="160"
+         height="160"
+         rx="8"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect894-7" />
+      <line
+         x1="208"
+         y1="104"
+         x2="232"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line896-5" />
+      <line
+         x1="208"
+         y1="152"
+         x2="232"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line898-3" />
+      <line
+         x1="24"
+         y1="104"
+         x2="48"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line900-8" />
+      <line
+         x1="24"
+         y1="152"
+         x2="48"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line902-7" />
+      <line
+         x1="152"
+         y1="208"
+         x2="152"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line904-4" />
+      <line
+         x1="104"
+         y1="208"
+         x2="104"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line906-2" />
+      <line
+         x1="152"
+         y1="24"
+         x2="152"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line908-0" />
+      <line
+         x1="104"
+         y1="24"
+         x2="104"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line910-8" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12005)"
+       id="g929-6-7"
+       transform="matrix(0.1345133,0,0,0.1345133,355.68323,472.5021)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect890-8-4"
+         x="0"
+         y="0" />
+      <rect
+         x="100"
+         y="100"
+         width="56"
+         height="56"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect892-1-5" />
+      <rect
+         x="48"
+         y="48"
+         width="160"
+         height="160"
+         rx="8"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect894-7-5" />
+      <line
+         x1="208"
+         y1="104"
+         x2="232"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line896-5-9" />
+      <line
+         x1="208"
+         y1="152"
+         x2="232"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line898-3-1" />
+      <line
+         x1="24"
+         y1="104"
+         x2="48"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line900-8-0" />
+      <line
+         x1="24"
+         y1="152"
+         x2="48"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line902-7-9" />
+      <line
+         x1="152"
+         y1="208"
+         x2="152"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line904-4-4" />
+      <line
+         x1="104"
+         y1="208"
+         x2="104"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line906-2-9" />
+      <line
+         x1="152"
+         y1="24"
+         x2="152"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line908-0-0" />
+      <line
+         x1="104"
+         y1="24"
+         x2="104"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line910-8-9" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12009)"
+       id="g952"
+       transform="matrix(0.17854383,0,0,0.17854383,109.8167,80.101932)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect931"
+         x="0"
+         y="0" />
+      <polygon
+         points="136,144 216,144 216,216 136,201.5 "
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polygon933" />
+      <polygon
+         points="104,144 104,195.6 40,184 40,144 "
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polygon935" />
+      <polygon
+         points="136,112 216,112 216,40 136,54.5 "
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polygon937" />
+      <polygon
+         points="104,112 104,60.4 40,72 40,112 "
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polygon939" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12013)"
+       id="g972"
+       transform="matrix(0.14001711,0,0,0.14001711,742.44749,344.98965)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect954"
+         x="0"
+         y="0" />
+      <path
+         d="m 208,104 c 0,44.2 -35.8,96 -80,96 -44.2,0 -80,-51.8 -80,-96 a 80,80 0 0 1 160,0 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path956" />
+      <polyline
+         points="138.8 199 152 232 104 232 117.2 199"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polyline958" />
+      <path
+         d="M 136,56.7 A 47.8,47.8 0 0 1 175.3,96"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path960" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12017)"
+       id="g992"
+       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,653.54905,177.59476)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect974"
+         x="0"
+         y="0" />
+      <line
+         x1="128"
+         y1="40"
+         x2="128"
+         y2="216"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line976" />
+      <line
+         x1="51.799999"
+         y1="84"
+         x2="204.2"
+         y2="172"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line978" />
+      <line
+         x1="51.799999"
+         y1="172"
+         x2="204.2"
+         y2="84"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line980" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12021)"
+       id="g992-9"
+       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,288.62394,197.32044)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect974-1"
+         x="0"
+         y="0" />
+      <line
+         x1="128"
+         y1="40"
+         x2="128"
+         y2="216"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line976-9" />
+      <line
+         x1="51.799999"
+         y1="84"
+         x2="204.2"
+         y2="172"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line978-2" />
+      <line
+         x1="51.799999"
+         y1="172"
+         x2="204.2"
+         y2="84"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line980-70" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12025)"
+       id="g992-0"
+       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,514.0603,434.02862)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect974-9"
+         x="0"
+         y="0" />
+      <line
+         x1="128"
+         y1="40"
+         x2="128"
+         y2="216"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line976-4" />
+      <line
+         x1="51.799999"
+         y1="84"
+         x2="204.2"
+         y2="172"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line978-0" />
+      <line
+         x1="51.799999"
+         y1="172"
+         x2="204.2"
+         y2="84"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line980-7" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12029)"
+       id="g1006"
+       transform="matrix(0.14001711,0,0,0.14001711,776.26294,216.77272)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect994"
+         x="0"
+         y="0" />
+      <path
+         d="m 132.4,190.7 50.4,32 c 6.5,4.1 14.5,-2 12.6,-9.5 l -14.6,-57.4 a 8.7,8.7 0 0 1 2.9,-8.8 l 45.2,-37.7 c 5.9,-4.9 2.9,-14.8 -4.8,-15.3 l -59,-3.8 a 8.3,8.3 0 0 1 -7.3,-5.4 l -22,-55.4 a 8.3,8.3 0 0 0 -15.6,0 l -22,55.4 a 8.3,8.3 0 0 1 -7.3,5.4 l -59,3.8 c -7.7,0.5 -10.7,10.4 -4.8,15.3 L 72.3,147 a 8.7,8.7 0 0 1 2.9,8.8 L 61.7,209 c -2.3,9 7.3,16.3 15,11.4 l 46.9,-29.7 a 8.2,8.2 0 0 1 8.8,0 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path996" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12033)"
+       id="g1020"
+       transform="matrix(0.1014405,-0.16012365,0.16012365,0.1014405,762.81837,128.78369)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1008"
+         x="0"
+         y="0" />
+      <path
+         d="M 228.1,121.2 84.2,33.2 A 8,8 0 0 0 72,40 v 176 a 8,8 0 0 0 12.2,6.8 l 143.9,-88 a 7.9,7.9 0 0 0 0,-13.6 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1010" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12037)"
+       id="g1034"
+       transform="matrix(0.33815454,0,0,0.33815454,209.85409,253.40613)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1022"
+         x="0"
+         y="0" />
+      <path
+         d="m 158.7,163.5 -23.2,63.8 a 8,8 0 0 1 -15,0 L 97.3,163.5 a 8.1,8.1 0 0 0 -4.8,-4.8 L 28.7,135.5 a 8,8 0 0 1 0,-15 L 92.5,97.3 a 8.1,8.1 0 0 0 4.8,-4.8 l 23.2,-63.8 a 8,8 0 0 1 15,0 l 23.2,63.8 a 8.1,8.1 0 0 0 4.8,4.8 l 63.8,23.2 a 8,8 0 0 1 0,15 l -63.8,23.2 a 8.1,8.1 0 0 0 -4.8,4.8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1024" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12041)"
+       id="g1034-8"
+       transform="matrix(0.17304002,0,0,0.17304002,462.06102,160.41363)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1022-2"
+         x="0"
+         y="0" />
+      <path
+         d="m 158.7,163.5 -23.2,63.8 a 8,8 0 0 1 -15,0 L 97.3,163.5 a 8.1,8.1 0 0 0 -4.8,-4.8 L 28.7,135.5 a 8,8 0 0 1 0,-15 L 92.5,97.3 a 8.1,8.1 0 0 0 4.8,-4.8 l 23.2,-63.8 a 8,8 0 0 1 15,0 l 23.2,63.8 a 8.1,8.1 0 0 0 4.8,4.8 l 63.8,23.2 a 8,8 0 0 1 0,15 l -63.8,23.2 a 8.1,8.1 0 0 0 -4.8,4.8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1024-3" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12045)"
+       id="g1054"
+       transform="matrix(0.18983224,0.12642541,-0.12642541,0.18983224,856.51793,294.25132)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1036"
+         x="0"
+         y="0" />
+      <circle
+         cx="128"
+         cy="128"
+         r="12"
+         id="circle1038" />
+      <circle
+         cx="128"
+         cy="64"
+         r="12"
+         id="circle1040" />
+      <circle
+         cx="128"
+         cy="192"
+         r="12"
+         id="circle1042" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12049)"
+       id="g1054-1"
+       transform="matrix(0.18633342,0.13152763,-0.13152763,0.18633342,196.80854,416.62711)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1036-3"
+         x="0"
+         y="0" />
+      <circle
+         cx="128"
+         cy="128"
+         r="12"
+         id="circle1038-4" />
+      <circle
+         cx="128"
+         cy="64"
+         r="12"
+         id="circle1040-1" />
+      <circle
+         cx="128"
+         cy="192"
+         r="12"
+         id="circle1042-0" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12053)"
+       id="g1054-1-0"
+       transform="matrix(0.19029933,0.12572121,-0.12572121,0.19029933,143.42551,192.83531)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1036-3-8"
+         x="0"
+         y="0" />
+      <circle
+         cx="128"
+         cy="128"
+         r="12"
+         id="circle1038-4-2" />
+      <circle
+         cx="128"
+         cy="64"
+         r="12"
+         id="circle1040-1-8" />
+      <circle
+         cx="128"
+         cy="192"
+         r="12"
+         id="circle1042-0-6" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12057)"
+       id="g1086"
+       transform="matrix(0.12900948,0,0,0.12900948,91.5,339.35375)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1056"
+         x="0"
+         y="0" />
+      <path
+         d="m 27.1,145.3 a 52,52 0 0 1 97.7,-35.6 z"
+         opacity="0.2"
+         id="path1058" />
+      <path
+         d="m 212.9,94.7 a 52,52 0 0 1 -97.7,35.6 z"
+         opacity="0.2"
+         id="path1060" />
+      <path
+         d="m 94.7,27.1 a 52,52 0 0 1 35.6,97.7 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1062" />
+      <path
+         d="m 27.1,145.3 a 52,52 0 0 1 97.7,-35.6 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1064" />
+      <path
+         d="M 145.3,212.9 A 52,52 0 0 1 109.7,115.2 Z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1066" />
+      <path
+         d="m 212.9,94.7 a 52,52 0 0 1 -97.7,35.6 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1068" />
+      <line
+         x1="164.5"
+         y1="164.5"
+         x2="224"
+         y2="224"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line1070" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12061)"
+       id="g839-9"
+       transform="matrix(0.23358201,0,0,0.23358201,333.20648,587.59375)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect824-6"
+         x="0"
+         y="0" />
+      <path
+         d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z"
+         opacity="0.2"
+         id="path826-7" />
+      <path
+         d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path828-2" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12065)"
+       id="g839-3-5"
+       transform="matrix(0.16203238,0,0,0.16203238,686.8598,960.97272)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect824-5-5"
+         x="0"
+         y="0" />
+      <path
+         d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z"
+         opacity="0.2"
+         id="path826-8-0" />
+      <path
+         d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path828-6-8" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12069)"
+       id="g859-5"
+       transform="matrix(0.28862018,0,0,0.28862018,441.69773,770.76079)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect841-7"
+         x="0"
+         y="0" />
+      <polyline
+         points="64 88 16 128 64 168"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polyline843-2" />
+      <polyline
+         points="192 88 240 128 192 168"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polyline845-3" />
+      <line
+         x1="160"
+         y1="40"
+         x2="96"
+         y2="216"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line847-7" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12073)"
+       id="g888-1"
+       transform="matrix(0.15102475,0,0,0.15102475,610.775,807.3942)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect861-7"
+         x="0"
+         y="0" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         opacity="0.2"
+         id="path863-4" />
+      <circle
+         cx="164"
+         cy="156"
+         r="12"
+         id="circle865-8" />
+      <circle
+         cx="92"
+         cy="156"
+         r="12"
+         id="circle867-4" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path869-4" />
+      <line
+         x1="32"
+         y1="56"
+         x2="63.099998"
+         y2="87.099998"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line871-5" />
+      <line
+         x1="224"
+         y1="56"
+         x2="193.10001"
+         y2="86.900002"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line873-9" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12077)"
+       id="g888-9-9"
+       transform="matrix(0.11249802,0,0,0.11249802,345.88728,880.66102)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect861-6-4"
+         x="0"
+         y="0" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         opacity="0.2"
+         id="path863-6-0" />
+      <circle
+         cx="164"
+         cy="156"
+         r="12"
+         id="circle865-4-8" />
+      <circle
+         cx="92"
+         cy="156"
+         r="12"
+         id="circle867-6-0" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path869-6-8" />
+      <line
+         x1="32"
+         y1="56"
+         x2="63.099998"
+         y2="87.099998"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line871-7-6" />
+      <line
+         x1="224"
+         y1="56"
+         x2="193.10001"
+         y2="86.900002"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line873-2-5" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12081)"
+       id="g929-4"
+       transform="matrix(0.1345133,0,0,0.1345133,853.1191,983.51636)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect890-7"
+         x="0"
+         y="0" />
+      <rect
+         x="100"
+         y="100"
+         width="56"
+         height="56"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect892-8" />
+      <rect
+         x="48"
+         y="48"
+         width="160"
+         height="160"
+         rx="8"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect894-0" />
+      <line
+         x1="208"
+         y1="104"
+         x2="232"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line896-1" />
+      <line
+         x1="208"
+         y1="152"
+         x2="232"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line898-8" />
+      <line
+         x1="24"
+         y1="104"
+         x2="48"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line900-9" />
+      <line
+         x1="24"
+         y1="152"
+         x2="48"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line902-1" />
+      <line
+         x1="152"
+         y1="208"
+         x2="152"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line904-42" />
+      <line
+         x1="104"
+         y1="208"
+         x2="104"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line906-22" />
+      <line
+         x1="152"
+         y1="24"
+         x2="152"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line908-6" />
+      <line
+         x1="104"
+         y1="24"
+         x2="104"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line910-5" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12085)"
+       id="g929-6-8"
+       transform="matrix(0.1345133,0,0,0.1345133,557.9384,613.65983)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect890-8-0"
+         x="0"
+         y="0" />
+      <rect
+         x="100"
+         y="100"
+         width="56"
+         height="56"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect892-1-0" />
+      <rect
+         x="48"
+         y="48"
+         width="160"
+         height="160"
+         rx="8"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect894-7-1" />
+      <line
+         x1="208"
+         y1="104"
+         x2="232"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line896-5-6" />
+      <line
+         x1="208"
+         y1="152"
+         x2="232"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line898-3-0" />
+      <line
+         x1="24"
+         y1="104"
+         x2="48"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line900-8-6" />
+      <line
+         x1="24"
+         y1="152"
+         x2="48"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line902-7-0" />
+      <line
+         x1="152"
+         y1="208"
+         x2="152"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line904-4-8" />
+      <line
+         x1="104"
+         y1="208"
+         x2="104"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line906-2-91" />
+      <line
+         x1="152"
+         y1="24"
+         x2="152"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line908-0-2" />
+      <line
+         x1="104"
+         y1="24"
+         x2="104"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line910-8-6" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12089)"
+       id="g929-6-7-5"
+       transform="matrix(0.1345133,0,0,0.1345133,348.00074,984.22085)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect890-8-4-0"
+         x="0"
+         y="0" />
+      <rect
+         x="100"
+         y="100"
+         width="56"
+         height="56"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect892-1-5-4" />
+      <rect
+         x="48"
+         y="48"
+         width="160"
+         height="160"
+         rx="8"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect894-7-5-1" />
+      <line
+         x1="208"
+         y1="104"
+         x2="232"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line896-5-9-0" />
+      <line
+         x1="208"
+         y1="152"
+         x2="232"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line898-3-1-2" />
+      <line
+         x1="24"
+         y1="104"
+         x2="48"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line900-8-0-4" />
+      <line
+         x1="24"
+         y1="152"
+         x2="48"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line902-7-9-5" />
+      <line
+         x1="152"
+         y1="208"
+         x2="152"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line904-4-4-8" />
+      <line
+         x1="104"
+         y1="208"
+         x2="104"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line906-2-9-8" />
+      <line
+         x1="152"
+         y1="24"
+         x2="152"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line908-0-0-4" />
+      <line
+         x1="104"
+         y1="24"
+         x2="104"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line910-8-9-9" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12093)"
+       id="g952-5"
+       transform="matrix(0.17854383,0,0,0.17854383,102.13421,591.82068)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect931-2"
+         x="0"
+         y="0" />
+      <polygon
+         points="136,201.5 136,144 216,144 216,216 "
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polygon933-5" />
+      <polygon
+         points="40,144 104,144 104,195.6 40,184 "
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polygon935-9" />
+      <polygon
+         points="136,54.5 136,112 216,112 216,40 "
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polygon937-2" />
+      <polygon
+         points="40,112 104,112 104,60.4 40,72 "
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polygon939-4" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12097)"
+       id="g972-7"
+       transform="matrix(0.14001711,0,0,0.14001711,734.765,856.7084)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect954-6"
+         x="0"
+         y="0" />
+      <path
+         d="m 208,104 c 0,44.2 -35.8,96 -80,96 -44.2,0 -80,-51.8 -80,-96 a 80,80 0 0 1 160,0 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path956-2" />
+      <polyline
+         points="138.8 199 152 232 104 232 117.2 199"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polyline958-0" />
+      <path
+         d="M 136,56.7 A 47.8,47.8 0 0 1 175.3,96"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path960-7" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12101)"
+       id="g992-2"
+       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,645.8666,689.31351)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect974-12"
+         x="0"
+         y="0" />
+      <line
+         x1="128"
+         y1="40"
+         x2="128"
+         y2="216"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line976-95" />
+      <line
+         x1="51.799999"
+         y1="84"
+         x2="204.2"
+         y2="172"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line978-9" />
+      <line
+         x1="51.799999"
+         y1="172"
+         x2="204.2"
+         y2="84"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line980-9" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12105)"
+       id="g992-9-0"
+       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,280.94145,709.03919)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect974-1-7"
+         x="0"
+         y="0" />
+      <line
+         x1="128"
+         y1="40"
+         x2="128"
+         y2="216"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line976-9-4" />
+      <line
+         x1="51.799999"
+         y1="84"
+         x2="204.2"
+         y2="172"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line978-2-3" />
+      <line
+         x1="51.799999"
+         y1="172"
+         x2="204.2"
+         y2="84"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line980-70-4" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12109)"
+       id="g992-0-5"
+       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,506.3778,945.74737)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect974-9-1"
+         x="0"
+         y="0" />
+      <line
+         x1="128"
+         y1="40"
+         x2="128"
+         y2="216"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line976-4-5" />
+      <line
+         x1="51.799999"
+         y1="84"
+         x2="204.2"
+         y2="172"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line978-0-2" />
+      <line
+         x1="51.799999"
+         y1="172"
+         x2="204.2"
+         y2="84"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line980-7-4" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12113)"
+       id="g1006-4"
+       transform="matrix(0.14001711,0,0,0.14001711,768.5805,728.49147)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect994-7"
+         x="0"
+         y="0" />
+      <path
+         d="m 132.4,190.7 50.4,32 c 6.5,4.1 14.5,-2 12.6,-9.5 l -14.6,-57.4 a 8.7,8.7 0 0 1 2.9,-8.8 l 45.2,-37.7 c 5.9,-4.9 2.9,-14.8 -4.8,-15.3 l -59,-3.8 a 8.3,8.3 0 0 1 -7.3,-5.4 l -22,-55.4 a 8.3,8.3 0 0 0 -15.6,0 l -22,55.4 a 8.3,8.3 0 0 1 -7.3,5.4 l -59,3.8 c -7.7,0.5 -10.7,10.4 -4.8,15.3 L 72.3,147 a 8.7,8.7 0 0 1 2.9,8.8 L 61.7,209 c -2.3,9 7.3,16.3 15,11.4 l 46.9,-29.7 a 8.2,8.2 0 0 1 8.8,0 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path996-7" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12117)"
+       id="g1020-4"
+       transform="matrix(0.1014405,-0.16012365,0.16012365,0.1014405,755.1359,640.50244)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1008-7"
+         x="0"
+         y="0" />
+      <path
+         d="M 228.1,121.2 84.2,33.2 A 8,8 0 0 0 72,40 v 176 a 8,8 0 0 0 12.2,6.8 l 143.9,-88 a 7.9,7.9 0 0 0 0,-13.6 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1010-1" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12121)"
+       id="g1034-1"
+       transform="matrix(0.33815454,0,0,0.33815454,202.1716,765.12488)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1022-0"
+         x="0"
+         y="0" />
+      <path
+         d="m 158.7,163.5 -23.2,63.8 a 8,8 0 0 1 -15,0 L 97.3,163.5 a 8.1,8.1 0 0 0 -4.8,-4.8 L 28.7,135.5 a 8,8 0 0 1 0,-15 L 92.5,97.3 a 8.1,8.1 0 0 0 4.8,-4.8 l 23.2,-63.8 a 8,8 0 0 1 15,0 l 23.2,63.8 a 8.1,8.1 0 0 0 4.8,4.8 l 63.8,23.2 a 8,8 0 0 1 0,15 l -63.8,23.2 a 8.1,8.1 0 0 0 -4.8,4.8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1024-9" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12125)"
+       id="g1034-8-4"
+       transform="matrix(0.17304002,0,0,0.17304002,454.37853,672.13238)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1022-2-9"
+         x="0"
+         y="0" />
+      <path
+         d="m 158.7,163.5 -23.2,63.8 a 8,8 0 0 1 -15,0 L 97.3,163.5 a 8.1,8.1 0 0 0 -4.8,-4.8 L 28.7,135.5 a 8,8 0 0 1 0,-15 L 92.5,97.3 a 8.1,8.1 0 0 0 4.8,-4.8 l 23.2,-63.8 a 8,8 0 0 1 15,0 l 23.2,63.8 a 8.1,8.1 0 0 0 4.8,4.8 l 63.8,23.2 a 8,8 0 0 1 0,15 l -63.8,23.2 a 8.1,8.1 0 0 0 -4.8,4.8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1024-3-2" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12129)"
+       id="g1054-3"
+       transform="matrix(0.18983224,0.12642541,-0.12642541,0.18983224,848.8354,805.97007)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1036-2"
+         x="0"
+         y="0" />
+      <circle
+         cx="128"
+         cy="128"
+         r="12"
+         id="circle1038-1" />
+      <circle
+         cx="128"
+         cy="64"
+         r="12"
+         id="circle1040-4" />
+      <circle
+         cx="128"
+         cy="192"
+         r="12"
+         id="circle1042-8" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12133)"
+       id="g1054-1-05"
+       transform="matrix(0.18633342,0.13152763,-0.13152763,0.18633342,189.12605,928.34586)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1036-3-3"
+         x="0"
+         y="0" />
+      <circle
+         cx="128"
+         cy="128"
+         r="12"
+         id="circle1038-4-6" />
+      <circle
+         cx="128"
+         cy="64"
+         r="12"
+         id="circle1040-1-9" />
+      <circle
+         cx="128"
+         cy="192"
+         r="12"
+         id="circle1042-0-9" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12137)"
+       id="g1054-1-0-6"
+       transform="matrix(0.19029933,0.12572121,-0.12572121,0.19029933,135.74302,704.55406)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1036-3-8-2"
+         x="0"
+         y="0" />
+      <circle
+         cx="128"
+         cy="128"
+         r="12"
+         id="circle1038-4-2-7" />
+      <circle
+         cx="128"
+         cy="64"
+         r="12"
+         id="circle1040-1-8-5" />
+      <circle
+         cx="128"
+         cy="192"
+         r="12"
+         id="circle1042-0-6-1" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12141)"
+       id="g1086-1"
+       transform="matrix(0.12900948,0,0,0.12900948,83.817509,851.0725)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1056-3"
+         x="0"
+         y="0" />
+      <path
+         d="m 27.1,145.3 a 52,52 0 0 1 97.7,-35.6 z"
+         opacity="0.2"
+         id="path1058-0" />
+      <path
+         d="m 212.9,94.7 a 52,52 0 0 1 -97.7,35.6 z"
+         opacity="0.2"
+         id="path1060-7" />
+      <path
+         d="m 94.7,27.1 a 52,52 0 0 1 35.6,97.7 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1062-9" />
+      <path
+         d="m 27.1,145.3 a 52,52 0 0 1 97.7,-35.6 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1064-4" />
+      <path
+         d="M 145.3,212.9 A 52,52 0 0 1 109.7,115.2 Z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1066-0" />
+      <path
+         d="m 212.9,94.7 a 52,52 0 0 1 -97.7,35.6 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1068-7" />
+      <line
+         x1="164.5"
+         y1="164.5"
+         x2="224"
+         y2="224"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line1070-2" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12145)"
+       id="g839-9-2"
+       transform="matrix(-0.23358201,0,0,0.23358201,1526.1685,590.71875)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect824-6-3"
+         x="0"
+         y="0" />
+      <path
+         d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z"
+         opacity="0.2"
+         id="path826-7-1" />
+      <path
+         d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path828-2-4" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12149)"
+       id="g839-3-5-3"
+       transform="matrix(-0.16203238,0,0,0.16203238,1172.5152,964.09772)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect824-5-5-3"
+         x="0"
+         y="0" />
+      <path
+         d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z"
+         opacity="0.2"
+         id="path826-8-0-0" />
+      <path
+         d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path828-6-8-4" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12153)"
+       id="g859-5-0"
+       transform="matrix(-0.28862018,0,0,0.28862018,1417.6772,773.88579)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect841-7-7"
+         x="0"
+         y="0" />
+      <polyline
+         points="64 88 16 128 64 168"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polyline843-2-0" />
+      <polyline
+         points="192 88 240 128 192 168"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polyline845-3-0" />
+      <line
+         x1="160"
+         y1="40"
+         x2="96"
+         y2="216"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line847-7-9" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12157)"
+       id="g888-1-8"
+       transform="matrix(-0.15102475,0,0,0.15102475,1248.6,810.5192)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect861-7-8"
+         x="0"
+         y="0" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         opacity="0.2"
+         id="path863-4-8" />
+      <circle
+         cx="164"
+         cy="156"
+         r="12"
+         id="circle865-8-0" />
+      <circle
+         cx="92"
+         cy="156"
+         r="12"
+         id="circle867-4-9" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path869-4-8" />
+      <line
+         x1="32"
+         y1="56"
+         x2="63.099998"
+         y2="87.099998"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line871-5-5" />
+      <line
+         x1="224"
+         y1="56"
+         x2="193.10001"
+         y2="86.900002"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line873-9-8" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12161)"
+       id="g888-9-9-8"
+       transform="matrix(-0.11249802,0,0,0.11249802,1513.4877,883.78602)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect861-6-4-6"
+         x="0"
+         y="0" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         opacity="0.2"
+         id="path863-6-0-1" />
+      <circle
+         cx="164"
+         cy="156"
+         r="12"
+         id="circle865-4-8-0" />
+      <circle
+         cx="92"
+         cy="156"
+         r="12"
+         id="circle867-6-0-7" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path869-6-8-1" />
+      <line
+         x1="32"
+         y1="56"
+         x2="63.099998"
+         y2="87.099998"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line871-7-6-9" />
+      <line
+         x1="224"
+         y1="56"
+         x2="193.10001"
+         y2="86.900002"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line873-2-5-5" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12165)"
+       id="g929-4-9"
+       transform="matrix(-0.1345133,0,0,0.1345133,1006.2559,986.64136)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect890-7-1"
+         x="0"
+         y="0" />
+      <rect
+         x="100"
+         y="100"
+         width="56"
+         height="56"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect892-8-2" />
+      <rect
+         x="48"
+         y="48"
+         width="160"
+         height="160"
+         rx="8"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect894-0-6" />
+      <line
+         x1="208"
+         y1="104"
+         x2="232"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line896-1-8" />
+      <line
+         x1="208"
+         y1="152"
+         x2="232"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line898-8-5" />
+      <line
+         x1="24"
+         y1="104"
+         x2="48"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line900-9-3" />
+      <line
+         x1="24"
+         y1="152"
+         x2="48"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line902-1-8" />
+      <line
+         x1="152"
+         y1="208"
+         x2="152"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line904-42-2" />
+      <line
+         x1="104"
+         y1="208"
+         x2="104"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line906-22-4" />
+      <line
+         x1="152"
+         y1="24"
+         x2="152"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line908-6-4" />
+      <line
+         x1="104"
+         y1="24"
+         x2="104"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line910-5-5" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12169)"
+       id="g929-6-8-2"
+       transform="matrix(-0.1345133,0,0,0.1345133,1301.4366,616.78483)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect890-8-0-9"
+         x="0"
+         y="0" />
+      <rect
+         x="100"
+         y="100"
+         width="56"
+         height="56"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect892-1-0-4" />
+      <rect
+         x="48"
+         y="48"
+         width="160"
+         height="160"
+         rx="8"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect894-7-1-4" />
+      <line
+         x1="208"
+         y1="104"
+         x2="232"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line896-5-6-2" />
+      <line
+         x1="208"
+         y1="152"
+         x2="232"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line898-3-0-9" />
+      <line
+         x1="24"
+         y1="104"
+         x2="48"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line900-8-6-3" />
+      <line
+         x1="24"
+         y1="152"
+         x2="48"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line902-7-0-2" />
+      <line
+         x1="152"
+         y1="208"
+         x2="152"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line904-4-8-7" />
+      <line
+         x1="104"
+         y1="208"
+         x2="104"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line906-2-91-0" />
+      <line
+         x1="152"
+         y1="24"
+         x2="152"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line908-0-2-7" />
+      <line
+         x1="104"
+         y1="24"
+         x2="104"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line910-8-6-6" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12173)"
+       id="g929-6-7-5-5"
+       transform="matrix(-0.1345133,0,0,0.1345133,1511.3742,987.34585)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect890-8-4-0-9"
+         x="0"
+         y="0" />
+      <rect
+         x="100"
+         y="100"
+         width="56"
+         height="56"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect892-1-5-4-5" />
+      <rect
+         x="48"
+         y="48"
+         width="160"
+         height="160"
+         rx="8"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect894-7-5-1-1" />
+      <line
+         x1="208"
+         y1="104"
+         x2="232"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line896-5-9-0-2" />
+      <line
+         x1="208"
+         y1="152"
+         x2="232"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line898-3-1-2-6" />
+      <line
+         x1="24"
+         y1="104"
+         x2="48"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line900-8-0-4-3" />
+      <line
+         x1="24"
+         y1="152"
+         x2="48"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line902-7-9-5-1" />
+      <line
+         x1="152"
+         y1="208"
+         x2="152"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line904-4-4-8-0" />
+      <line
+         x1="104"
+         y1="208"
+         x2="104"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line906-2-9-8-1" />
+      <line
+         x1="152"
+         y1="24"
+         x2="152"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line908-0-0-4-7" />
+      <line
+         x1="104"
+         y1="24"
+         x2="104"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line910-8-9-9-9" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12177)"
+       id="g952-5-6"
+       transform="matrix(-0.17854383,0,0,0.17854383,1757.2408,594.94568)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect931-2-1"
+         x="0"
+         y="0" />
+      <polygon
+         points="216,144 216,216 136,201.5 136,144 "
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polygon933-5-7" />
+      <polygon
+         points="104,195.6 40,184 40,144 104,144 "
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polygon935-9-8" />
+      <polygon
+         points="216,112 216,40 136,54.5 136,112 "
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polygon937-2-9" />
+      <polygon
+         points="104,60.4 40,72 40,112 104,112 "
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polygon939-4-4" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12181)"
+       id="g972-7-3"
+       transform="matrix(-0.14001711,0,0,0.14001711,1124.61,859.8334)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect954-6-3"
+         x="0"
+         y="0" />
+      <path
+         d="m 208,104 c 0,44.2 -35.8,96 -80,96 -44.2,0 -80,-51.8 -80,-96 a 80,80 0 0 1 160,0 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path956-2-9" />
+      <polyline
+         points="138.8 199 152 232 104 232 117.2 199"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polyline958-0-7" />
+      <path
+         d="M 136,56.7 A 47.8,47.8 0 0 1 175.3,96"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path960-7-7" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12185)"
+       id="g992-2-3"
+       transform="matrix(-0.10094156,-0.05112141,-0.05112141,0.10094156,1213.5084,692.43851)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect974-12-4"
+         x="0"
+         y="0" />
+      <line
+         x1="128"
+         y1="40"
+         x2="128"
+         y2="216"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line976-95-1" />
+      <line
+         x1="51.799999"
+         y1="84"
+         x2="204.2"
+         y2="172"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line978-9-1" />
+      <line
+         x1="51.799999"
+         y1="172"
+         x2="204.2"
+         y2="84"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line980-9-9" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12189)"
+       id="g992-9-0-6"
+       transform="matrix(-0.10094156,-0.05112141,-0.05112141,0.10094156,1578.4335,712.16419)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect974-1-7-2"
+         x="0"
+         y="0" />
+      <line
+         x1="128"
+         y1="40"
+         x2="128"
+         y2="216"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line976-9-4-1" />
+      <line
+         x1="51.799999"
+         y1="84"
+         x2="204.2"
+         y2="172"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line978-2-3-5" />
+      <line
+         x1="51.799999"
+         y1="172"
+         x2="204.2"
+         y2="84"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line980-70-4-5" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12193)"
+       id="g992-0-5-0"
+       transform="matrix(-0.10094156,-0.05112141,-0.05112141,0.10094156,1352.9972,948.87237)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect974-9-1-4"
+         x="0"
+         y="0" />
+      <line
+         x1="128"
+         y1="40"
+         x2="128"
+         y2="216"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line976-4-5-1" />
+      <line
+         x1="51.799999"
+         y1="84"
+         x2="204.2"
+         y2="172"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line978-0-2-7" />
+      <line
+         x1="51.799999"
+         y1="172"
+         x2="204.2"
+         y2="84"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line980-7-4-3" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12197)"
+       id="g1006-4-3"
+       transform="matrix(-0.14001711,0,0,0.14001711,1090.7945,731.61647)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect994-7-8"
+         x="0"
+         y="0" />
+      <path
+         d="m 132.4,190.7 50.4,32 c 6.5,4.1 14.5,-2 12.6,-9.5 l -14.6,-57.4 a 8.7,8.7 0 0 1 2.9,-8.8 l 45.2,-37.7 c 5.9,-4.9 2.9,-14.8 -4.8,-15.3 l -59,-3.8 a 8.3,8.3 0 0 1 -7.3,-5.4 l -22,-55.4 a 8.3,8.3 0 0 0 -15.6,0 l -22,55.4 a 8.3,8.3 0 0 1 -7.3,5.4 l -59,3.8 c -7.7,0.5 -10.7,10.4 -4.8,15.3 L 72.3,147 a 8.7,8.7 0 0 1 2.9,8.8 L 61.7,209 c -2.3,9 7.3,16.3 15,11.4 l 46.9,-29.7 a 8.2,8.2 0 0 1 8.8,0 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path996-7-8" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12201)"
+       id="g1020-4-1"
+       transform="matrix(-0.1014405,-0.16012365,-0.16012365,0.1014405,1104.2391,643.62744)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1008-7-7"
+         x="0"
+         y="0" />
+      <path
+         d="M 228.1,121.2 84.2,33.2 A 8,8 0 0 0 72,40 v 176 a 8,8 0 0 0 12.2,6.8 l 143.9,-88 a 7.9,7.9 0 0 0 0,-13.6 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1010-1-9" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12205)"
+       id="g1034-1-2"
+       transform="matrix(-0.33815454,0,0,0.33815454,1657.2034,768.24988)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1022-0-3"
+         x="0"
+         y="0" />
+      <path
+         d="m 158.7,163.5 -23.2,63.8 a 8,8 0 0 1 -15,0 L 97.3,163.5 a 8.1,8.1 0 0 0 -4.8,-4.8 L 28.7,135.5 a 8,8 0 0 1 0,-15 L 92.5,97.3 a 8.1,8.1 0 0 0 4.8,-4.8 l 23.2,-63.8 a 8,8 0 0 1 15,0 l 23.2,63.8 a 8.1,8.1 0 0 0 4.8,4.8 l 63.8,23.2 a 8,8 0 0 1 0,15 l -63.8,23.2 a 8.1,8.1 0 0 0 -4.8,4.8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1024-9-3" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12209)"
+       id="g1034-8-4-5"
+       transform="matrix(-0.17304002,0,0,0.17304002,1404.9964,675.25738)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1022-2-9-1"
+         x="0"
+         y="0" />
+      <path
+         d="m 158.7,163.5 -23.2,63.8 a 8,8 0 0 1 -15,0 L 97.3,163.5 a 8.1,8.1 0 0 0 -4.8,-4.8 L 28.7,135.5 a 8,8 0 0 1 0,-15 L 92.5,97.3 a 8.1,8.1 0 0 0 4.8,-4.8 l 23.2,-63.8 a 8,8 0 0 1 15,0 l 23.2,63.8 a 8.1,8.1 0 0 0 4.8,4.8 l 63.8,23.2 a 8,8 0 0 1 0,15 l -63.8,23.2 a 8.1,8.1 0 0 0 -4.8,4.8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1024-3-2-9" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12213)"
+       id="g1054-3-4"
+       transform="matrix(-0.18983224,0.12642541,0.12642541,0.18983224,1010.5396,809.09507)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1036-2-0"
+         x="0"
+         y="0" />
+      <circle
+         cx="128"
+         cy="128"
+         r="12"
+         id="circle1038-1-0" />
+      <circle
+         cx="128"
+         cy="64"
+         r="12"
+         id="circle1040-4-9" />
+      <circle
+         cx="128"
+         cy="192"
+         r="12"
+         id="circle1042-8-6" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12217)"
+       id="g1054-1-05-6"
+       transform="matrix(-0.18633342,0.13152763,0.13152763,0.18633342,1670.2489,931.47086)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1036-3-3-7"
+         x="0"
+         y="0" />
+      <circle
+         cx="128"
+         cy="128"
+         r="12"
+         id="circle1038-4-6-2" />
+      <circle
+         cx="128"
+         cy="64"
+         r="12"
+         id="circle1040-1-9-8" />
+      <circle
+         cx="128"
+         cy="192"
+         r="12"
+         id="circle1042-0-9-0" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12221)"
+       id="g1054-1-0-6-1"
+       transform="matrix(-0.19029933,0.12572121,0.12572121,0.19029933,1723.632,707.67906)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1036-3-8-2-7"
+         x="0"
+         y="0" />
+      <circle
+         cx="128"
+         cy="128"
+         r="12"
+         id="circle1038-4-2-7-6" />
+      <circle
+         cx="128"
+         cy="64"
+         r="12"
+         id="circle1040-1-8-5-0" />
+      <circle
+         cx="128"
+         cy="192"
+         r="12"
+         id="circle1042-0-6-1-4" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12225)"
+       id="g1086-1-0"
+       transform="matrix(-0.12900948,0,0,0.12900948,1775.5575,854.1975)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1056-3-5"
+         x="0"
+         y="0" />
+      <path
+         d="m 27.1,145.3 a 52,52 0 0 1 97.7,-35.6 z"
+         opacity="0.2"
+         id="path1058-0-9" />
+      <path
+         d="m 212.9,94.7 a 52,52 0 0 1 -97.7,35.6 z"
+         opacity="0.2"
+         id="path1060-7-5" />
+      <path
+         d="m 94.7,27.1 a 52,52 0 0 1 35.6,97.7 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1062-9-5" />
+      <path
+         d="m 27.1,145.3 a 52,52 0 0 1 97.7,-35.6 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1064-4-9" />
+      <path
+         d="M 145.3,212.9 A 52,52 0 0 1 109.7,115.2 Z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1066-0-5" />
+      <path
+         d="m 212.9,94.7 a 52,52 0 0 1 -97.7,35.6 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1068-7-8" />
+      <line
+         x1="164.5"
+         y1="164.5"
+         x2="224"
+         y2="224"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line1070-2-6" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12229)"
+       id="g839-9-2-6"
+       transform="matrix(0.23358201,0,0,0.23358201,1242.5815,109.46875)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect824-6-3-1"
+         x="0"
+         y="0" />
+      <path
+         d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z"
+         opacity="0.2"
+         id="path826-7-1-1" />
+      <path
+         d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path828-2-4-7" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12233)"
+       id="g839-3-5-3-9"
+       transform="matrix(0.16203238,0,0,0.16203238,1596.2348,482.84772)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect824-5-5-3-6"
+         x="0"
+         y="0" />
+      <path
+         d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z"
+         opacity="0.2"
+         id="path826-8-0-0-3" />
+      <path
+         d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path828-6-8-4-7" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12237)"
+       id="g859-5-0-4"
+       transform="matrix(0.28862018,0,0,0.28862018,1351.0728,292.63579)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect841-7-7-1"
+         x="0"
+         y="0" />
+      <polyline
+         points="64 88 16 128 64 168"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polyline843-2-0-7" />
+      <polyline
+         points="192 88 240 128 192 168"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polyline845-3-0-9" />
+      <line
+         x1="160"
+         y1="40"
+         x2="96"
+         y2="216"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line847-7-9-4" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12241)"
+       id="g888-1-8-7"
+       transform="matrix(0.15102475,0,0,0.15102475,1520.15,329.2692)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect861-7-8-4"
+         x="0"
+         y="0" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         opacity="0.2"
+         id="path863-4-8-8" />
+      <circle
+         cx="164"
+         cy="156"
+         r="12"
+         id="circle865-8-0-7" />
+      <circle
+         cx="92"
+         cy="156"
+         r="12"
+         id="circle867-4-9-0" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path869-4-8-6" />
+      <line
+         x1="32"
+         y1="56"
+         x2="63.099998"
+         y2="87.099998"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line871-5-5-1" />
+      <line
+         x1="224"
+         y1="56"
+         x2="193.10001"
+         y2="86.900002"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line873-9-8-1" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12245)"
+       id="g888-9-9-8-9"
+       transform="matrix(0.11249802,0,0,0.11249802,1255.2623,402.53602)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect861-6-4-6-7"
+         x="0"
+         y="0" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         opacity="0.2"
+         id="path863-6-0-1-2" />
+      <circle
+         cx="164"
+         cy="156"
+         r="12"
+         id="circle865-4-8-0-6" />
+      <circle
+         cx="92"
+         cy="156"
+         r="12"
+         id="circle867-6-0-7-3" />
+      <path
+         d="M 24,192 V 169.1 C 24,111.6 70.2,64.2 127.6,64 A 104,104 0 0 1 232,168 v 24 a 8,8 0 0 1 -8,8 H 32 a 8,8 0 0 1 -8,-8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path869-6-8-1-4" />
+      <line
+         x1="32"
+         y1="56"
+         x2="63.099998"
+         y2="87.099998"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line871-7-6-9-9" />
+      <line
+         x1="224"
+         y1="56"
+         x2="193.10001"
+         y2="86.900002"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line873-2-5-5-0" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12249)"
+       id="g929-4-9-8"
+       transform="matrix(0.1345133,0,0,0.1345133,1762.4941,505.3914)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect890-7-1-3"
+         x="0"
+         y="0" />
+      <rect
+         x="100"
+         y="100"
+         width="56"
+         height="56"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect892-8-2-6" />
+      <rect
+         x="48"
+         y="48"
+         width="160"
+         height="160"
+         rx="8"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect894-0-6-5" />
+      <line
+         x1="208"
+         y1="104"
+         x2="232"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line896-1-8-8" />
+      <line
+         x1="208"
+         y1="152"
+         x2="232"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line898-8-5-6" />
+      <line
+         x1="24"
+         y1="104"
+         x2="48"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line900-9-3-2" />
+      <line
+         x1="24"
+         y1="152"
+         x2="48"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line902-1-8-6" />
+      <line
+         x1="152"
+         y1="208"
+         x2="152"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line904-42-2-3" />
+      <line
+         x1="104"
+         y1="208"
+         x2="104"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line906-22-4-4" />
+      <line
+         x1="152"
+         y1="24"
+         x2="152"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line908-6-4-5" />
+      <line
+         x1="104"
+         y1="24"
+         x2="104"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line910-5-5-8" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12253)"
+       id="g929-6-8-2-0"
+       transform="matrix(0.1345133,0,0,0.1345133,1467.3134,135.53483)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect890-8-0-9-2"
+         x="0"
+         y="0" />
+      <rect
+         x="100"
+         y="100"
+         width="56"
+         height="56"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect892-1-0-4-9" />
+      <rect
+         x="48"
+         y="48"
+         width="160"
+         height="160"
+         rx="8"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect894-7-1-4-3" />
+      <line
+         x1="208"
+         y1="104"
+         x2="232"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line896-5-6-2-6" />
+      <line
+         x1="208"
+         y1="152"
+         x2="232"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line898-3-0-9-1" />
+      <line
+         x1="24"
+         y1="104"
+         x2="48"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line900-8-6-3-3" />
+      <line
+         x1="24"
+         y1="152"
+         x2="48"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line902-7-0-2-7" />
+      <line
+         x1="152"
+         y1="208"
+         x2="152"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line904-4-8-7-3" />
+      <line
+         x1="104"
+         y1="208"
+         x2="104"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line906-2-91-0-7" />
+      <line
+         x1="152"
+         y1="24"
+         x2="152"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line908-0-2-7-0" />
+      <line
+         x1="104"
+         y1="24"
+         x2="104"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line910-8-6-6-7" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12257)"
+       id="g929-6-7-5-5-1"
+       transform="matrix(0.1345133,0,0,0.1345133,1257.3758,506.0959)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect890-8-4-0-9-8"
+         x="0"
+         y="0" />
+      <rect
+         x="100"
+         y="100"
+         width="56"
+         height="56"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect892-1-5-4-5-1" />
+      <rect
+         x="48"
+         y="48"
+         width="160"
+         height="160"
+         rx="8"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="rect894-7-5-1-1-2" />
+      <line
+         x1="208"
+         y1="104"
+         x2="232"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line896-5-9-0-2-5" />
+      <line
+         x1="208"
+         y1="152"
+         x2="232"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line898-3-1-2-6-6" />
+      <line
+         x1="24"
+         y1="104"
+         x2="48"
+         y2="104"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line900-8-0-4-3-2" />
+      <line
+         x1="24"
+         y1="152"
+         x2="48"
+         y2="152"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line902-7-9-5-1-6" />
+      <line
+         x1="152"
+         y1="208"
+         x2="152"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line904-4-4-8-0-5" />
+      <line
+         x1="104"
+         y1="208"
+         x2="104"
+         y2="232"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line906-2-9-8-1-8" />
+      <line
+         x1="152"
+         y1="24"
+         x2="152"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line908-0-0-4-7-9" />
+      <line
+         x1="104"
+         y1="24"
+         x2="104"
+         y2="48"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line910-8-9-9-9-7" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12261)"
+       id="g952-5-6-7"
+       transform="matrix(0.17854383,0,0,0.17854383,1011.5092,113.69568)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect931-2-1-2"
+         x="0"
+         y="0" />
+      <polygon
+         points="216,144 216,216 136,201.5 136,144 "
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polygon933-5-7-6" />
+      <polygon
+         points="104,195.6 40,184 40,144 104,144 "
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polygon935-9-8-5" />
+      <polygon
+         points="216,112 216,40 136,54.5 136,112 "
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polygon937-2-9-1" />
+      <polygon
+         points="104,60.4 40,72 40,112 104,112 "
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polygon939-4-4-9" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12265)"
+       id="g972-7-3-2"
+       transform="matrix(0.14001711,0,0,0.14001711,1644.14,378.5834)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect954-6-3-8"
+         x="0"
+         y="0" />
+      <path
+         d="m 208,104 c 0,44.2 -35.8,96 -80,96 -44.2,0 -80,-51.8 -80,-96 a 80,80 0 0 1 160,0 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path956-2-9-6" />
+      <polyline
+         points="138.8 199 152 232 104 232 117.2 199"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="polyline958-0-7-4" />
+      <path
+         d="M 136,56.7 A 47.8,47.8 0 0 1 175.3,96"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path960-7-7-8" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12269)"
+       id="g992-2-3-0"
+       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,1555.2416,211.18851)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect974-12-4-2"
+         x="0"
+         y="0" />
+      <line
+         x1="128"
+         y1="40"
+         x2="128"
+         y2="216"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line976-95-1-3" />
+      <line
+         x1="51.799999"
+         y1="84"
+         x2="204.2"
+         y2="172"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line978-9-1-4" />
+      <line
+         x1="51.799999"
+         y1="172"
+         x2="204.2"
+         y2="84"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line980-9-9-3" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12273)"
+       id="g992-9-0-6-9"
+       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,1190.3165,230.91419)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect974-1-7-2-9"
+         x="0"
+         y="0" />
+      <line
+         x1="128"
+         y1="40"
+         x2="128"
+         y2="216"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line976-9-4-1-1" />
+      <line
+         x1="51.799999"
+         y1="84"
+         x2="204.2"
+         y2="172"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line978-2-3-5-0" />
+      <line
+         x1="51.799999"
+         y1="172"
+         x2="204.2"
+         y2="84"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line980-70-4-5-3" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12277)"
+       id="g992-0-5-0-3"
+       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,1415.7528,467.62237)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect974-9-1-4-1"
+         x="0"
+         y="0" />
+      <line
+         x1="128"
+         y1="40"
+         x2="128"
+         y2="216"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line976-4-5-1-5" />
+      <line
+         x1="51.799999"
+         y1="84"
+         x2="204.2"
+         y2="172"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line978-0-2-7-8" />
+      <line
+         x1="51.799999"
+         y1="172"
+         x2="204.2"
+         y2="84"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line980-7-4-3-4" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12281)"
+       id="g1006-4-3-5"
+       transform="matrix(0.14001711,0,0,0.14001711,1677.9555,250.36647)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect994-7-8-3"
+         x="0"
+         y="0" />
+      <path
+         d="m 132.4,190.7 50.4,32 c 6.5,4.1 14.5,-2 12.6,-9.5 l -14.6,-57.4 a 8.7,8.7 0 0 1 2.9,-8.8 l 45.2,-37.7 c 5.9,-4.9 2.9,-14.8 -4.8,-15.3 l -59,-3.8 a 8.3,8.3 0 0 1 -7.3,-5.4 l -22,-55.4 a 8.3,8.3 0 0 0 -15.6,0 l -22,55.4 a 8.3,8.3 0 0 1 -7.3,5.4 l -59,3.8 c -7.7,0.5 -10.7,10.4 -4.8,15.3 L 72.3,147 a 8.7,8.7 0 0 1 2.9,8.8 L 61.7,209 c -2.3,9 7.3,16.3 15,11.4 l 46.9,-29.7 a 8.2,8.2 0 0 1 8.8,0 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path996-7-8-1" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12285)"
+       id="g1020-4-1-1"
+       transform="matrix(0.1014405,-0.16012365,0.16012365,0.1014405,1664.5109,162.37744)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1008-7-7-8"
+         x="0"
+         y="0" />
+      <path
+         d="M 228.1,121.2 84.2,33.2 A 8,8 0 0 0 72,40 v 176 a 8,8 0 0 0 12.2,6.8 l 143.9,-88 a 7.9,7.9 0 0 0 0,-13.6 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1010-1-9-9" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12289)"
+       id="g1034-1-2-8"
+       transform="matrix(0.33815454,0,0,0.33815454,1111.5466,286.99988)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1022-0-3-5"
+         x="0"
+         y="0" />
+      <path
+         d="m 158.7,163.5 -23.2,63.8 a 8,8 0 0 1 -15,0 L 97.3,163.5 a 8.1,8.1 0 0 0 -4.8,-4.8 L 28.7,135.5 a 8,8 0 0 1 0,-15 L 92.5,97.3 a 8.1,8.1 0 0 0 4.8,-4.8 l 23.2,-63.8 a 8,8 0 0 1 15,0 l 23.2,63.8 a 8.1,8.1 0 0 0 4.8,4.8 l 63.8,23.2 a 8,8 0 0 1 0,15 l -63.8,23.2 a 8.1,8.1 0 0 0 -4.8,4.8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1024-9-3-9" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12293)"
+       id="g1034-8-4-5-0"
+       transform="matrix(0.17304002,0,0,0.17304002,1363.7536,194.00738)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1022-2-9-1-6"
+         x="0"
+         y="0" />
+      <path
+         d="m 158.7,163.5 -23.2,63.8 a 8,8 0 0 1 -15,0 L 97.3,163.5 a 8.1,8.1 0 0 0 -4.8,-4.8 L 28.7,135.5 a 8,8 0 0 1 0,-15 L 92.5,97.3 a 8.1,8.1 0 0 0 4.8,-4.8 l 23.2,-63.8 a 8,8 0 0 1 15,0 l 23.2,63.8 a 8.1,8.1 0 0 0 4.8,4.8 l 63.8,23.2 a 8,8 0 0 1 0,15 l -63.8,23.2 a 8.1,8.1 0 0 0 -4.8,4.8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1024-3-2-9-3" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12297)"
+       id="g1054-3-4-3"
+       transform="matrix(0.18983224,0.12642541,-0.12642541,0.18983224,1758.2104,327.84507)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1036-2-0-8"
+         x="0"
+         y="0" />
+      <circle
+         cx="128"
+         cy="128"
+         r="12"
+         id="circle1038-1-0-0" />
+      <circle
+         cx="128"
+         cy="64"
+         r="12"
+         id="circle1040-4-9-8" />
+      <circle
+         cx="128"
+         cy="192"
+         r="12"
+         id="circle1042-8-6-2" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12301)"
+       id="g1054-1-05-6-6"
+       transform="matrix(0.18633342,0.13152763,-0.13152763,0.18633342,1098.5011,450.22086)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1036-3-3-7-2"
+         x="0"
+         y="0" />
+      <circle
+         cx="128"
+         cy="128"
+         r="12"
+         id="circle1038-4-6-2-9" />
+      <circle
+         cx="128"
+         cy="64"
+         r="12"
+         id="circle1040-1-9-8-5" />
+      <circle
+         cx="128"
+         cy="192"
+         r="12"
+         id="circle1042-0-9-0-4" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12305)"
+       id="g1054-1-0-6-1-8"
+       transform="matrix(0.19029933,0.12572121,-0.12572121,0.19029933,1045.118,226.42906)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1036-3-8-2-7-4"
+         x="0"
+         y="0" />
+      <circle
+         cx="128"
+         cy="128"
+         r="12"
+         id="circle1038-4-2-7-6-4" />
+      <circle
+         cx="128"
+         cy="64"
+         r="12"
+         id="circle1040-1-8-5-0-3" />
+      <circle
+         cx="128"
+         cy="192"
+         r="12"
+         id="circle1042-0-6-1-4-5" />
+    </g>
+    <g
+       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12309)"
+       id="g1086-1-0-4"
+       transform="matrix(0.12900948,0,0,0.12900948,993.1925,372.9475)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1056-3-5-7"
+         x="0"
+         y="0" />
+      <path
+         d="m 27.1,145.3 a 52,52 0 0 1 97.7,-35.6 z"
+         opacity="0.2"
+         id="path1058-0-9-4" />
+      <path
+         d="m 212.9,94.7 a 52,52 0 0 1 -97.7,35.6 z"
+         opacity="0.2"
+         id="path1060-7-5-0" />
+      <path
+         d="m 94.7,27.1 a 52,52 0 0 1 35.6,97.7 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1062-9-5-6" />
+      <path
+         d="m 27.1,145.3 a 52,52 0 0 1 97.7,-35.6 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1064-4-9-8" />
+      <path
+         d="M 145.3,212.9 A 52,52 0 0 1 109.7,115.2 Z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1066-0-5-0" />
+      <path
+         d="m 212.9,94.7 a 52,52 0 0 1 -97.7,35.6 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1068-7-8-5" />
+      <line
+         x1="164.5"
+         y1="164.5"
+         x2="224"
+         y2="224"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line1070-2-6-1" />
+    </g>
+  </g>
+</svg>
