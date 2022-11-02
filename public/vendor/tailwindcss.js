@@ -8,7 +8,6 @@ tailwind.config = {
     extend: {
       colors: {
         blue: "#00c3ff",
-        darkerpurple: "#101241",
         darkerPurple: "#101241",
         darkpurple: "hsl(255, 45%, 41%)",
         purple: "hsl(252, 100%, 68%)",

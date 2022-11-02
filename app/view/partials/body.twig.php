@@ -33,6 +33,7 @@
 
         <!-- JavaScript files -->
         <script src="{{BASE}}/js/toggleHomeMenu.js"></script>
+        <script src="{{BASE}}/js/toggleMenu.js"></script>
 
         <!-- CSS Reset -->
         <link rel="stylesheet" href="{{BASE}}/css/global.css" type="text/css"/>
@@ -43,6 +44,7 @@
 
     </head>
     <body class="overflow-x-hidden">
+        {% block menu %}{% endblock %}
         {% block body %}{% endblock %}  <!-- Here will be included the main body of the page -->
     </body>
     <script src="https://cdn.jsdelivr.net/npm/ace-builds@1/src-noconflict/ace.min.js"></script>
