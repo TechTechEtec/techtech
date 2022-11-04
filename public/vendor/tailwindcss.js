@@ -43,7 +43,7 @@ tailwind.config = {
       mukta: ["Mukta", "sans-serif"],
     },
     lineHeight: {
-      'eloose': '4.5',
+      eloose: "4.5",
     },
   },
 };
