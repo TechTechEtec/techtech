@@ -77,24 +77,24 @@
 
       <h1 class="text-3xl font-extrabold text-darkpurple mb-8 font-clean">Saiba mais!</h1>
 
-      <div class="flex flex-col  2sm:flex-row  w-full justify-between items-center text-pink gap-6">
+      <div class="flex flex-col  2sm:flex-row  w-full justify-between items-center text-[#FC76FF] gap-6">
         <a href="#" class="hover:-translate-y-2 transition duration-300">
           <div class="text-center">
-              <img class="shadow-xl rounded-md" src="{{BASE}}/imgs/plano_de_curso.png" alt="Plano de Curso">
+              <img class="shadow-xl rounded-md" src="{{BASE}}svgs/plataforma.svg" alt="Plano de Curso">
+              <p class="mt-4 font-bold font-roboto text-2xl">Plataforma</p>
+            </div>
+        </a>
+
+        <a href="#" class="hover:-translate-y-2 transition duration-300">
+          <div class="text-center">
+              <img class="shadow-xl rounded-md" src="{{BASE}}svgs/plano_de_curso.svg" alt="Escolas Participantes">
               <p class="mt-4 font-bold font-roboto text-2xl">Plano de Curso</p>
             </div>
         </a>
 
         <a href="#" class="hover:-translate-y-2 transition duration-300">
           <div class="text-center">
-              <img class="shadow-xl rounded-md" src="{{BASE}}/imgs/escolas_participantes.png" alt="Escolas Participantes">
-              <p class="mt-4 font-bold font-roboto text-2xl">Escolas Participantes</p>
-            </div>
-        </a>
-
-        <a href="#" class="hover:-translate-y-2 transition duration-300">
-          <div class="text-center">
-            <img class="shadow-xl rounded-md" src="{{BASE}}/imgs/equipe.png" alt="Equipe">
+            <img class="shadow-xl rounded-md" src="{{BASE}}svgs/equipe.svg" alt="Equipe">
             <p class="mt-4 font-bold font-roboto text-2xl">Equipe</p>
           </div>
         </a>
