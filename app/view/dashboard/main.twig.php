@@ -1,8 +1,8 @@
-{% extends "partials/body.twig.php" %}
+{% extends "partials/layout.twig.php" %}
 
 {% block title %} Dashboard | Techtech {% endblock %}
 
-{% block body %}
+{% block main %}
 
 <h1 class="text-4xl font-bold font-clean text-purple uppercase mx-4 my-8">Dashboard Page</h1>
 
