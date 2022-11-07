@@ -3,12 +3,12 @@
 {% block title %} Portfolio | Techtech {% endblock %}
 
 {% block body %} 
-  <div class="w-screen h-[40rem] m-0 rounded-b-full z-[-1] p-6 bg-darkerpurple bg-[url({{BASE}}/svgs/Random_shit.svg)] bg-cover bg-repeat-x absolute bg-cover" data-aos="fade-down">
+  <div class="w-screen h-[40rem] m-0 rounded-b-full z-[-1] p-6 bg-darkerpurple bg-[url({{BASE}}svgs/Random_shit.svg)] bg-cover bg-repeat-x absolute bg-cover" data-aos="fade-down">
   </div>
 
   <header> 
       <nav class="flex flex-row items-center gap-4 justify-between p-4 items-center w-full z-0">
-        <img class="flex-none w-20 h-20" src="{{BASE}}/svgs/techtechlogo.svg" alt="TechTech Logo">
+        <img class="flex-none w-20 h-20" src="{{BASE}}svgs/techtechlogo.svg" alt="TechTech Logo">
           <ul class="text-purple font-bold text-xl flex flex-col items-center justify-center drop-shadow-xl px-6 py-10 bg-white fixed top-0 right-0 h-screen w-screen md:items-start md:justify-start md:w-[40%] lg:h-auto lg:relative lg:flex-row lg:bg-transparent lg:p-0 lg:items-center gap-4 lg:gap-10 lg:w-auto hidden lg:flex home-menu">
             <li class="hover:translate-y-[-3px] ease duration-300 cursor-pointer absolute top-6 right-6 lg:hidden" onclick="toggleHomeMenu()" >
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#4d3a92" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="96" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><line x1="160" y1="96" x2="96" y2="160" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="160" y1="160" x2="96" y2="96" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line></svg>
@@ -91,7 +91,7 @@
 
        <div class="flex flex-wrap gap-x-8 items-center justify-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
            <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="100">
-                <img src="{{BASE}}/imgs/marina.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
+                <img src="{{BASE}}imgs/marina.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
                 <div>
                     <h1 class="font-bold text-xl mt-[2rem]">Marina Nogueira</h1>
                     <div class="w-full h-auto flex items-start justify-left md:justify-center lg:justify-center gap-6 mt-4">
@@ -102,7 +102,7 @@
            </div>
 
            <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:lightpurple hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="120">
-                <img src="{{BASE}}/imgs/sabrina.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
+                <img src="{{BASE}}imgs/sabrina.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
                 <div>
                     <h1 class="font-bold text-xl mt-[2rem]">Sabrina Tavares</h1>
                     <div class="w-full h-auto flex items-start justify-left md:justify-center lg:justify-center gap-6 mt-4">
@@ -113,7 +113,7 @@
            </div>
 
            <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="140">
-                <img src="{{BASE}}/imgs/sophia.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
+                <img src="{{BASE}}imgs/sophia.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
                 <div>
                     <h1 class="font-bold text-xl mt-[2rem]">Sophia Cambuim</h1>
                     <div class="w-full h-auto flex items-start justify-left md:justify-center lg:justify-center gap-6 mt-4">
@@ -124,7 +124,7 @@
            </div>
 
            <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="160">
-                <img src="{{BASE}}/imgs/victor.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[7.5rem] lg:h-[8rem] rounded-full shadow-xl float-left">
+                <img src="{{BASE}}imgs/victor.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[7.5rem] lg:h-[8rem] rounded-full shadow-xl float-left">
                 <div>
                     <h1 class="font-bold text-xl mt-[2rem]">Victor Silva</h1>
                     <div class="w-full h-auto flex items-start justify-left md:justify-center lg:justify-center gap-6 mt-4">
@@ -135,7 +135,7 @@
            </div>
 
            <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="180">
-                <img src="{{BASE}}/imgs/vitor.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
+                <img src="{{BASE}}imgs/vitor.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
                 <div>
                     <h1 class="font-bold text-xl mt-[2rem]">Vitor Aquino</h1>
                     <div class="w-full h-auto flex items-start justify-left md:justify-center lg:justify-center gap-6 mt-4">
@@ -158,9 +158,9 @@
     </section>
 
 
-  <footer class="bg-darkerpurple bg-[url({{BASE}}/svgs/Random_shit.svg)] shadow-xl flex flex-col-reverse lg:flex-row flex-wrap justify-evenly items-center w-screen m-0 h-auto gap-10 md:gap-4 p-6"  data-aos="fade-up">
+  <footer class="bg-darkerpurple bg-[url({{BASE}}svgs/Random_shit.svg)] shadow-xl flex flex-col-reverse lg:flex-row flex-wrap justify-evenly items-center w-screen m-0 h-auto gap-10 md:gap-4 p-6"  data-aos="fade-up">
     <!-- Logo -->
-    <img class="w-30 h-30 pg-5" src="{{BASE}}/imgs/techtech_footer_logo.png" alt="TechTech Footer Logo">
+    <img class="w-30 h-30 pg-5" src="{{BASE}}imgs/techtech_footer_logo.png" alt="TechTech Footer Logo">
 
     <!-- Links -->
     <div class="flex-1 flex flex-row gap-4 w-full p-4 w-full flex-wrap items-start justify-center">

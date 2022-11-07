@@ -2,7 +2,7 @@
 
 namespace app\model;
 
-use app\Core\Model;
+use app\core\Model;
 use Exception;
 
 class StudentModel extends Model{
@@ -43,6 +43,7 @@ class StudentModel extends Model{
             'email'    => $student->email,
             'birthday' => $student->birthday,
             'password' => hash('sha256', $student->password),
+            "avatar"   =>$student->avatar
         ];
 
         try {

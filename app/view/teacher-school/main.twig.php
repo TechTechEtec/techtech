@@ -4,7 +4,7 @@
 
 {% block body %}
 
-    <div class="w-screen h-screen bg-[url({{BASE}}/imgs/background.png)] bg-contain bg-no-repeat bg-center bg-darkerPurple relative overflow-x-hidden flex flex-col items-center justify-center">
+    <div class="w-screen h-screen bg-[url({{BASE}}imgs/background.png)] bg-contain bg-no-repeat bg-center bg-darkerPurple relative overflow-x-hidden flex flex-col items-center justify-center">
     
              <h1 class="flex flex-col  text-4xl justify-center items-center mt-[-30rem] md:mt-[-5rem] lg:mt-[-5rem] flex flex-col md:text-3xl lg:text-3xl font-bold text-lightpurple leading-eloose">Cadastre seus Professores</h1>
            

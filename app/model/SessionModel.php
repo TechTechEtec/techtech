@@ -2,7 +2,7 @@
 
 namespace app\model;
 
-use app\Core\Model;
+use app\core\Model;
 use Exception;
 
 class SessionModel extends Model {

@@ -10,7 +10,7 @@
         <!-- Meta -->
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="shortcut icon" href="{{BASE}}/svgs/techtechlogo.svg">
+        <link rel="shortcut icon" href="{{BASE}}svgs/techtechlogo.svg">
 
         <!-- Fonts --> 
 
@@ -26,31 +26,51 @@
         <script src="https://unpkg.com/phosphor-icons"></script>
 
         <!-- Tailwind configuration -->
-        <script src="{{BASE}}/vendor/tailwindcss.js"></script>
+        <script src="{{BASE}}vendor/tailwindcss.js"></script>
         
         <!--Lottie animations-->
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
         <!-- JavaScript files -->
-        <script src="{{BASE}}/js/toggleHomeMenu.js"></script>
-        <script src="{{BASE}}/js/toggleMenu.js"></script>
+        <script src="{{BASE}}js/toggleHomeMenu.js"></script>
+        <script src="{{BASE}}js/toggleMenu.js"></script>
 
         <!-- CSS Reset -->
-        <link rel="stylesheet" href="{{BASE}}/css/global.css" type="text/css"/>
+        <link rel="stylesheet" href="{{BASE}}css/global.css" type="text/css"/>
         <title>{% block title %}{% endblock %}</title>
 
         <!-- JQUERY TO AJAX REQUESTS -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
+        <!-- TALLY FORMS -->
+        <script async src="https://tally.so/widgets/embed.js"></script>
+
+        <!-- COMPONENTS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/themes/light.css" />
+        <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/shoelace.js"></script>
+        <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/shoelace.js"></script>
+
+        <!-- ON LOAD PAGE -->
+        <script defer>
+            $(document).ready(function() { 
+                document.querySelector("#loading").setAttribute("style", "display:none");
+            })
+        </script>
     </head>
     <body class="overflow-x-hidden">
+
+        <div id="loading">
+            <sl-spinner style="font-size: 4rem; --indicator-color: deeppink; --track-color: hsl(252, 100%, 68%);"></sl-spinner>
+            Carregando ...
+        </div> 
+
         {% block menu %}{% endblock %}
         {% block body %}{% endblock %}  <!-- Here will be included the main body of the page -->
     </body>
     <script src="https://cdn.jsdelivr.net/npm/ace-builds@1/src-noconflict/ace.min.js"></script>
     <script  src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    
     <script>
         AOS.init();
+        // Tally.loadEmbeds();
     </script>
 </html>
