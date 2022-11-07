@@ -73,3 +73,8 @@ $this->get('/@update-class', 'ClassController@update'); # needs queries NAME, EM
 $this->get("/@signin", 'SessionController@signIn');
 
 $this->get("/@logout", 'SessionController@logout');
+
+# Controller Storage Progress
+
+$this->get("/@storeprogress", 'StorageProgressController@register');
+

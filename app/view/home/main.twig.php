@@ -7,13 +7,13 @@
   <div class="hidden md:block relative w-full h-full bg-lightpurple brightness-[1.15]"></div>
 </div>
 
-<div class="w-screen h-auto bg-[url({{BASE}}/svgs/background.svg)] bg-cover bg-repeat-y bg-center relative overflow-x-hidden" >
+<div class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-cover bg-repeat-y bg-center relative overflow-x-hidden" >
 
   <!-- HEADER CONTENT --> 
   <header class="flex justify-between p-4 items-center w-full">
 
     <!-- Logo -->
-    <img class="flex-none w-20 h-20" src="{{BASE}}/svgs/techtechlogo.svg" alt="TechTech Logo">
+    <img class="flex-none w-20 h-20" src="{{BASE}}svgs/techtechlogo.svg" alt="TechTech Logo">
 
     <!-- NAVIGATION -->
     <nav class="flex flex-row items-center gap-4">
@@ -55,14 +55,14 @@
           <p class="text-gray-600 text-justify mt-10 mb-5 text-lg w-[35rem] font-medium font-clean subpixel-antialiased">Ensino tecnológico acessível para crianças, um projeto sem fins lucrativos desenvolvido por estudantes, para auxiliar estudantes, com a finalidade de apresentar o mundo tecnológico de outra forma para crianças, e assim ampliar seus horizontes.</p>
 
           <div class="flex flex-row gap-4 justify-start items-center w-full mt-6">
-            <a href="{{BASE}}/signup-student" class="bg-orange text-darkerPurple font-bold p-2 rounded-xl hover:-translate-y-1 transition">Cadastre-se</a>
-            <a href="{{BASE}}/signup-school" class="bg-orange text-darkerPurple font-bold p-2 rounded-xl hover:-translate-y-1 transition">Cadastre sua escola</a>
+            <a href="{{BASE}}signup-student" class="bg-orange text-darkerPurple font-bold p-2 rounded-xl hover:-translate-y-1 transition">Cadastre-se</a>
+            <a href="{{BASE}}signup-school" class="bg-orange text-darkerPurple font-bold p-2 rounded-xl hover:-translate-y-1 transition">Cadastre sua escola</a>
           </div>
 
         </div>
 
         <div class="flex-1 flex items-center justify-center w-full">
-          <img class="w-full" src="{{BASE}}/imgs/techbo_showingvideo.png" alt="techbo mostrando vídeo">
+          <img class="w-full" src="{{BASE}}imgs/techbo_showingvideo.png" alt="techbo mostrando vídeo">
         </div>
       </div>
 
@@ -103,11 +103,11 @@
     </section>
 
     <!-- Parallax Effect -->
-    <div class="hidden md:block bg-[url({{BASE}}/imgs/parallax.png)] min-h-[200px] md:min-h-[400px] bg-fixed bg-center bg-repeat-y bg-contain parallax"></div>
+    <div class="hidden md:block bg-[url({{BASE}}imgs/parallax.png)] min-h-[200px] md:min-h-[400px] bg-fixed bg-center bg-repeat-y bg-contain parallax"></div>
 
     <!-- Alternative parallax Effect to mobile devices -->
   
-    <img class="block md:hidden" src="{{BASE}}/imgs/parallax.png" alt="parallax static image used on mobile devices" class="w-full h-auto"/>
+    <img class="block md:hidden" src="{{BASE}}imgs/parallax.png" alt="parallax static image used on mobile devices" class="w-full h-auto"/>
     
 
     <!-- third section -->
@@ -125,7 +125,7 @@
   <footer class="flex flex-col-reverse lg:flex-row flex-wrap justify-evenly items-center w-[85%] mx-auto h-auto gap-10 md:gap-4 p-6">
 
       <!-- Logo -->
-      <img class="w-30 h-30" src="{{BASE}}/imgs/techtech_footer_logo.png" alt="TechTech Footer Logo">
+      <img class="w-30 h-30" src="{{BASE}}imgs/techtech_footer_logo.png" alt="TechTech Footer Logo">
 
       <!-- Links -->
       <div class="flex-1 flex flex-row gap-4 w-full p-4 w-full flex-wrap items-start justify-center">

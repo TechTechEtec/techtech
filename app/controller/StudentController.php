@@ -67,7 +67,8 @@ class StudentController extends Controller {
             'email'    => Input::post('email'),
             'birthday' => Input::post('birthday'),
             'password' => Input::post('password'),
-            "confirmPassword" => Input::post("confirmpassword")
+            "confirmPassword" => Input::post("confirmpassword"),
+            "avatar"   => Input::post("avatar")
         ];
 
         $this->registerValidate($student);
@@ -156,6 +157,15 @@ class StudentController extends Controller {
             $this->showMessage(
                 'Formulário inválido', 
                 'Senha e senha de confirmação não coincidem',
+            );
+
+            die();
+        }
+
+        if(strlen($student->password) <= 0) {
+            $this->showMessage(
+                'Formulário inválido', 
+                'Não foi escolhido um avatar para o usuário',
             );
 
             die();
