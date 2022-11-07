@@ -26,4 +26,18 @@
 
 <iframe data-tally-src="https://tally.so/embed/nWJRoR?alignLeft=1&transparentBackground=1&dynamicHeight=1" width="100%" height="3244" frameborder="0" marginheight="0" marginwidth="0" title="Prova Módulo 04"></iframe>
 
+<script type="module"> 
+
+ 
+$(document).ready(function() { 
+    setTimeout(() => {
+        const tallyForm = window.document.querySelector("iframe"); 
+        console.log(tallyForm);
+    }, 1000);
+    
+})  
+    
+
+</script>
+
 {% endblock %}

@@ -48,15 +48,15 @@
         <!-- COMPONENTS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/themes/light.css" />
         <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/shoelace.js"></script>
-        <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/shoelace.js"></script>
 
         <!-- ON LOAD PAGE -->
-        <script defer>
+        <script>
             $(document).ready(function() { 
                 document.querySelector("#loading").setAttribute("style", "display:none");
             })
         </script>
     </head>
+    
     <body class="overflow-x-hidden">
 
         <div id="loading">
@@ -67,10 +67,11 @@
         {% block menu %}{% endblock %}
         {% block body %}{% endblock %}  <!-- Here will be included the main body of the page -->
     </body>
+
     <script src="https://cdn.jsdelivr.net/npm/ace-builds@1/src-noconflict/ace.min.js"></script>
     <script  src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-        // Tally.loadEmbeds();
+        Tally.loadEmbeds();
     </script>
 </html>
