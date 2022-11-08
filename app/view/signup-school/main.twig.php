@@ -24,7 +24,6 @@
                 <h2 class="font-nerko text-2xl text-orange font-semibold">Escolha seu avatar!</h2>
 
                 <p class="bg-pink-500 text-white px-4 py-2 cursor-default rounded-md drop-shadow-sm min-w-[130px] text-center">Escola</p>
-
             </div>
 
             <!-- DIVIDER -->
@@ -32,6 +31,8 @@
             </div>
 
             <form class="flex flex-col flex-2 items-center" method="post" action="{{BASE}}@signup-school">
+
+                <input class="hidden" name="avatar" value="" id="inputAvatar"/>
 
                 <div class="mt-2 font-bold flex flex-col">
                     <label for="name">Nome da Instituição</label>

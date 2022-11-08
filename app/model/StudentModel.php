@@ -43,7 +43,7 @@ class StudentModel extends Model{
             'email'    => $student->email,
             'birthday' => $student->birthday,
             'password' => hash('sha256', $student->password),
-            "avatar"   =>$student->avatar
+            "avatar"   => $student->avatar
         ];
 
         try {

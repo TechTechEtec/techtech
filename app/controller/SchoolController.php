@@ -65,7 +65,8 @@ class SchoolController extends Controller{
             'name'      => Input::post('name'),
             'email'    => Input::post('email'),
             'password' => Input::post('password'),
-            "confirmPassword" => Input::post("confirmpassword")
+            "confirmPassword" => Input::post("confirmpassword"),
+            "avatar"   => Input::post("avatar")
         ];
 
         $this->registerValidate($school);
@@ -170,9 +171,16 @@ class SchoolController extends Controller{
 
             die();
         }
-           
 
-     
+        if(strlen($school->avatar) <= 0) {
+            $this->showMessage(
+                'Formulário inválido', 
+                'Não foi escolhido um avatar para o usuário',
+            );
+
+            die();
+        }
+                
     }
 
     private function updateValidate(Object $school){

@@ -14,7 +14,7 @@
         <main class="flex flex-wrap space-y-2 gap-4 rounded-md items-start justify-center bg-white px-8 py-8 shadow-lg w-full max-w-[700px] min-h-[350px]" data-aos="fade-up" data-aos-mirror="true"
     data-aos-once="true" data-aos-duration="800">
 
-            <div class="flex w-full h-full min-h-[350px] items-center justify-between flex-1 flex-col">
+            <div class="flex w-full h-full min-h-[350px] items-center justify-around flex-1 flex-col">
                 <sl-avatar
                     image=""
                     shape="circle"
@@ -23,10 +23,9 @@
                     id="chosseAvatar"
                 ></sl-avatar>
 
-                <h2 class="font-nerko text-orange text-2xl font-semibold">Escolha seu avatar!</h2>
+                <h2 class="font-nerko text-2xl text-orange font-semibold">Escolha seu avatar!</h2>
 
-                <p class="bg-darkpurple text-white px-4 py-2 cursor-default rounded-md drop-shadow-sm min-w-[130px] text-center">Professor</p>
-
+                <p class="bg-pink-500 text-white px-4 py-2 cursor-default rounded-md drop-shadow-sm min-w-[130px] text-center">Professor</p>
             </div>
 
             <!-- DIVIDER -->
@@ -34,6 +33,8 @@
             </div>
 
             <form class="h-full w-full flex-1 flex flex-col items-center px-6" method="post" action="{{BASE}}@signup-teacher">
+
+                <input class="hidden" name="avatar" value="" id="inputAvatar"/>
         
                 <div class="mt-2 font-bold flex flex-col">
                     <label for="schoolname">Nome da Instituição</label>

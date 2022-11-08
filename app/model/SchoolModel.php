@@ -42,6 +42,7 @@ class SchoolModel extends Model{
             'name'      => $school->name,
             'email'    => $school->email,
             'password' => hash('sha256', $school->password),
+            "avatar"   => $school->avatar
         ];
         
         try {
