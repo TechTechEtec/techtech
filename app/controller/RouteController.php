@@ -10,14 +10,32 @@ class RouteController extends Controller {
 
     public function __construct() {}
 
-    public function module1() {
+    public function module4() {
         if(isset($_SESSION['loggedIn'])){
-            $this->load("modules/01/main");
+
+            $this->load("modules/04/main");
             
             return;
         }
 
-        header('Locatoin: ' . BASE . 'signin');
+        header('Location: ' . BASE . 'signin');
+    }
+
+    public function examModule4() {
+        if(isset($_SESSION['loggedIn'])){
+
+            if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
+                $this->load("modules/04/exam");
+                
+                return;
+            }
+
+            $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
+            
+            return;
+        }
+
+        header('Location: ' . BASE . 'signin');
     }
 
     public function dashboard() {

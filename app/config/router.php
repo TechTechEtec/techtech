@@ -24,7 +24,11 @@ $this->get('/feedback', 'RouteController@feedback');
 
 $this->get('/teacher-school', 'RouteController@teacherSchool');
 
-$this->get('/modules/1', 'RouteController@module1');
+# MODULES AND EXAMS PAGES
+
+$this->get('/modules/04', 'RouteController@module4');
+$this->get('/modules/04/exam', 'RouteController@examModule4');
+
 
 // All Controller Route needs to start with @ character in URL
 
@@ -74,7 +78,4 @@ $this->get("/@signin", 'SessionController@signIn');
 
 $this->get("/@logout", 'SessionController@logout');
 
-# Controller Storage Progress
-
-$this->get("/@storeprogress", 'StorageProgressController@register');
 

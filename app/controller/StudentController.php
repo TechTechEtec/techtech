@@ -162,7 +162,7 @@ class StudentController extends Controller {
             die();
         }
 
-        if(strlen($student->password) <= 0) {
+        if(strlen($student->avatar) <= 0) {
             $this->showMessage(
                 'Formulário inválido', 
                 'Não foi escolhido um avatar para o usuário',
