@@ -4,7 +4,7 @@ function fetch_markdown(string $URL) {
 
     $Parsedown = new  Parsedown(); // markdown compiler
 
-    console_log($Parsedown);
+    console_log("Fetching Markdown");
 
     $curlSession = curl_init();
     curl_setopt($curlSession, CURLOPT_URL, $URL);

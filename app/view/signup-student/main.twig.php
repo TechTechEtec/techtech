@@ -18,7 +18,7 @@
 
                 <sl-avatar
                     image=""
-                    shape="rounded"
+                    shape="circle"
                     label="Your Avatar"
                     style="--size:8rem; cursor:pointer"
                     id="chosseAvatar"

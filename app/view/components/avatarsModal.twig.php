@@ -1,39 +1,76 @@
-<sl-dialog label="Escolha seu avatar" class="dialog-overview" >
+<sl-dialog label="Escolha seu avatar" class="dialog-overview" style="--width: min(850px, 95%); overflow:auto">
     
-    <div class="avatar-group">
+    <div class="avatar-group flex flex-row flex-wrap justify-start items-center gap-[1rem]">
         <sl-avatar
-            shape="rounded"
+            shape="circle"
             style="--size:6rem; cursor:pointer;"
-            image="https://images.unsplash.com/photo-1490150028299-bf57d78394e0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&h=256&q=80&crop=right"
-            label="Avatar 1 of 4"
+            image="http://drive.google.com/uc?id=1Qy-zB382HMXBMegryPkFvVK5hc4bMwbw"
+            label="Avatar 1 of 10"
             class="avatar"
         ></sl-avatar>
-
         <sl-avatar
-            shape="rounded"
+            shape="circle"
             style="--size:6rem; cursor:pointer;"
-            image="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&h=256&crop=left&q=80"
-            label="Avatar 2 of 4"
+            image="http://drive.google.com/uc?id=1XgluXrQ_UUF2XqI4q08lnIQa8_RYoKgj"
+            label="Avatar 2 of 10"
             class="avatar"
         ></sl-avatar>
-
         <sl-avatar
-            shape="rounded"
+            shape="circle"
             style="--size:6rem; cursor:pointer;"
-            image="https://images.unsplash.com/photo-1456439663599-95b042d50252?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&h=256&crop=left&q=80"
-            label="Avatar 3 of 4"
+            image="http://drive.google.com/uc?id=12NCQgxtrVMexua457fDutFYNyo67Kxzq"
+            label="Avatar 3 of 10"
             class="avatar"
         ></sl-avatar>
-
         <sl-avatar
-            shape="rounded"
+            shape="circle"
             style="--size:6rem; cursor:pointer;"
-            image="https://images.unsplash.com/flagged/photo-1554078875-e37cb8b0e27d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&h=256&crop=top&q=80"
-            label="Avatar 4 of 4"
+            image="http://drive.google.com/uc?id=1W3CSg4Vl7bbG9UZ5-Fs4XoIbGe253g-W"
+            label="Avatar 4 of 10"
+            class="avatar"
+        ></sl-avatar>
+        <sl-avatar
+            shape="circle"
+            style="--size:6rem; cursor:pointer;"
+            image="http://drive.google.com/uc?id=1OGk5iqgZWTop3K0_2eGPlEpsUbDZrBsl"
+            label="Avatar 5 of 10"
+            class="avatar"
+        ></sl-avatar>
+        <sl-avatar
+            shape="circle"
+            style="--size:6rem; cursor:pointer;"
+            image="http://drive.google.com/uc?id=13RjBTyui0J2HDIYHipoJLJxeBF-ETcVG"
+            label="Avatar 6 of 10"
+            class="avatar"
+        ></sl-avatar>
+        <sl-avatar
+            shape="circle"
+            style="--size:6rem; cursor:pointer;"
+            image="http://drive.google.com/uc?id=1OT9Y8y2YKaDoIb49rpR-F_UVWes2_ZNP"
+            label="Avatar 7 of 10"
+            class="avatar"
+        ></sl-avatar>
+        <sl-avatar
+            shape="circle"
+            style="--size:6rem; cursor:pointer;"
+            image="http://drive.google.com/uc?id=1TUP77UNGynx00L9dPaNIaXfL3aL1Snoj"
+            label="Avatar 8 of 10"
+            class="avatar"
+        ></sl-avatar>
+        <sl-avatar
+            shape="circle"
+            style="--size:6rem; cursor:pointer;"
+            image="http://drive.google.com/uc?id=10xk-rdWrEggIKlP71XqvpF-9a9LGgrd_"
+            label="Avatar 9 of 10"
+            class="avatar"
+        ></sl-avatar>
+        <sl-avatar
+            shape="circle"
+            style="--size:6rem; cursor:pointer;"
+            image="http://drive.google.com/uc?id=1uYXMoTgljtXVR6UgltXTnTGxnSMgg5OA"
+            label="Avatar 10 of 10"
             class="avatar"
         ></sl-avatar>
     </div>
-
-
-    <sl-button slot="footer" variant="default">Fechar</sl-button>
+    <sl-button slot="footer" variant="danger">Fechar</sl-button>
 </sl-dialog>

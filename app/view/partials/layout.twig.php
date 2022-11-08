@@ -68,7 +68,7 @@
 
                 <sl-avatar
                     image="{{session.avatar}}"
-                    shape="rounded"
+                    shape="circle"
                     label="{{ session.name }}"
                     style="--size:6rem"
                 ></sl-avatar>
