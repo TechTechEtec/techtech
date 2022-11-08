@@ -24,20 +24,11 @@
     </li>
 </ul>
 
-<iframe data-tally-src="https://tally.so/embed/nWJRoR?alignLeft=1&transparentBackground=1&dynamicHeight=1" width="100%" height="3244" frameborder="0" marginheight="0" marginwidth="0" title="Prova Módulo 04"></iframe>
 
-<script type="module"> 
+<iframe data-tally-src="https://tally.so/embed/nWJRoR?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1&userId={{session.extra.id}}&module=module4" width="100%" height="3281" frameborder="0" marginheight="0" marginwidth="0" title="Prova Módulo 04"></iframe>
 
- 
-$(document).ready(function() { 
-    setTimeout(() => {
-        const tallyForm = window.document.querySelector("iframe"); 
-        console.log(tallyForm);
-    }, 1000);
-    
-})  
-    
 
+<script>
+    Tally.loadEmbeds();
 </script>
-
 {% endblock %}

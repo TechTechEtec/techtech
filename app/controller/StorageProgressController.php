@@ -69,12 +69,10 @@ class StorageProgressController extends Controller{
     public function register(){
         $exam = (object)[
             'id'           => $_SESSION['extra']->id,
-            'module1_score'       => Input::post('teachers'),
+            'module_score'       => Input::post('score'),
         ];
 
         console_log($exam);
-
-        return "Funcionou";
 
         // $result = $this->storageProgressModel->register($exam);
 
