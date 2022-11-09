@@ -1,14 +1,14 @@
 {% extends "partials/layout.twig.php" %}
 
-{% block title %} Módulo 04 | Techtech {% endblock %}
+{% block title %} Módulo 1 | Techtech {% endblock %}
 
 {% block main %}
 
-    <h1 class="text-4xl font-bold font-clean text-purple uppercase mx-4 my-8">Módulo 04</h1>
+    <h1 class="text-4xl font-bold font-clean text-purple uppercase mx-4 my-8">Módulo 1</h1>
 
     <div class="px-6 py-4" id="content">
         {% apply markdown_to_html %}
-            {{ getMarkdown('https://raw.githubusercontent.com/TechTechEtec/modules/main/04/index.md') }}
+            {{ getMarkdown('https://raw.githubusercontent.com/TechTechEtec/modules/main/01/index.md') }}
         {% endapply %}
     </div>
 

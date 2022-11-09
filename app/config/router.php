@@ -26,8 +26,26 @@ $this->get('/teacher-school', 'RouteController@teacherSchool');
 
 # MODULES AND EXAMS PAGES
 
+$this->get('/modules/01', 'RouteController@module1');
+$this->get('/modules/01/exam', 'RouteController@examModule1');
+
+$this->get('/modules/02', 'RouteController@module2');
+$this->get('/modules/02/exam', 'RouteController@examModule2');
+
+$this->get('/modules/03', 'RouteController@module3');
+$this->get('/modules/03/exam', 'RouteController@examModule3');
+
 $this->get('/modules/04', 'RouteController@module4');
 $this->get('/modules/04/exam', 'RouteController@examModule4');
+
+$this->get('/modules/05', 'RouteController@module5');
+$this->get('/modules/05/exam', 'RouteController@examModule5');
+
+$this->get('/modules/06', 'RouteController@module6');
+$this->get('/modules/06/exam', 'RouteController@examModule6');
+
+$this->get('/modules/07', 'RouteController@module7');
+$this->get('/modules/07/exam', 'RouteController@examModule7');
 
 
 // All Controller Route needs to start with @ character in URL
