@@ -7,25 +7,31 @@
 {% endblock %}
 
 {% block main %}
+<div class="">
+  <sl-tab-group>
+    <sl-tab slot="nav" panel="perfil">Perfil</sl-tab>
+    <sl-tab slot="nav" panel="sala de aula">Sala de aula</sl-tab>
+    <sl-tab slot="nav" panel="configurações">Configurações</sl-tab>
+    <sl-tab slot="nav" panel="ajuda">Ajuda</sl-tab>
 
-<h1 class="text-4xl font-bold font-clean text-purple uppercase mx-4 my-8">Dashboard Page</h1>
+    <!-- Perfil -->
+    <sl-tab-panel name="perfil">
+        <h1 class="text-4xl text-lightpurple mt-4 font-nerko">Perfil</h1>
+        <div>
+            <label for="nome">Nome</label>
+            <input class="bg-grey rouded-md"
+            type="text"
+            id="nome"
+            >
+        </div>
+    </sl-tab-panel>
 
-<p class="m-4 text-2xl font-bold font-mukta text-orange uppercase my-6">Informações do usuário Logado: </p>
+    <sl-tab-panel name="sala de aula"></sl-tab-panel>
+    <sl-tab-panel name="configurações"></sl-tab-panel>
+    <sl-tab-panel name="ajuda"></sl-tab-panel>
+  </sl-tab-group>   
+</div>
 
-<ul class="text-lg font-medium font-clean m-4">
-    <li>
-        <span class="text-darkpurple font-extrabold">Name:</span>
-        {{ session.name }} 
-    </li> 
 
-    <li>
-        <span class="text-darkpurple font-extrabold">E-mail:</span>
-        {{ session.email }} 
-    </li>
-    <li>
-        <span class="text-darkpurple font-extrabold">Perfil:</span>
-        {{ session.perfil }} 
-    </li>
-</ul>
 
 {% endblock %}
