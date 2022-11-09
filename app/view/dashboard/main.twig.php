@@ -2,6 +2,10 @@
 
 {% block title %} Dashboard | Techtech {% endblock %}
 
+{% block userInfo %} 
+    {% embed "components/userInformation.twig.php" %}{% endembed %}
+{% endblock %}
+
 {% block main %}
 
 <h1 class="text-4xl font-bold font-clean text-purple uppercase mx-4 my-8">Dashboard Page</h1>
@@ -24,8 +28,4 @@
     </li>
 </ul>
 
-<!-- <iframe data-tally-src="https://tally.so/embed/nWJRoR?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1&userId={{session.extra.id}}&module=module4" width="100%" height="3281" frameborder="0" marginheight="0" marginwidth="0" title="Prova Módulo 04"></iframe>
-<script>
-    Tally.loadEmbeds();
-</script> -->
 {% endblock %}

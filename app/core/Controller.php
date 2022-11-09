@@ -2,6 +2,11 @@
 
 namespace app\core;
 
+use Twig\Extra\Markdown\MarkdownExtension;
+use Twig\Extra\Markdown\DefaultMarkdown;
+use Twig\Extra\Markdown\MarkdownRuntime;
+use Twig\RuntimeLoader\RuntimeLoaderInterface;
+
 class Controller {
     protected function load(string $view, $params = []) {
         $loader = new \Twig\Loader\FilesystemLoader('../app/view');
@@ -9,7 +14,19 @@ class Controller {
 
         $twig->addGlobal('BASE', BASE);
         $twig->addGlobal("session", $_SESSION);
-        
+        $twig->addExtension(new \app\Twig\AppExtension);
+    
+        $twig->addRuntimeLoader(new class implements RuntimeLoaderInterface {
+            public function load($class) {
+                if (MarkdownRuntime::class === $class) {
+                    return new MarkdownRuntime(new DefaultMarkdown());
+                }
+            }
+        });
+
+        $twig->addExtension(new MarkdownExtension());
+       
+
         echo $twig->render($view . '.twig.php', $params);
     }
 

@@ -63,7 +63,7 @@
     <body class="overflow-x-hidden">
 
         <div id="loading">
-            <sl-spinner style="font-size: 4rem; --indicator-color: deeppink; --track-color: hsl(252, 100%, 68%);"></sl-spinner>
+        <img class="w-full h-full max-w-[80px] max-h-[80px]" src="{{BASE}}svgs/loading.svg" alt="loading spinner"/>
             Carregando ...
         </div> 
 
