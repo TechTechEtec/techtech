@@ -1,4 +1,22 @@
 <sl-dialog label="Escolha seu avatar" class="dialog-overview" style="--width: min(850px, 95%); overflow:auto">
+
+    {% set array = {
+            'item-1': {
+                'sub-item-1': 'my-sub-item-1',
+                'sub-item-2': 'my-sub-item-2',
+            },
+            'item-2': {
+                'sub-item-1': 'my-sub-item-1',
+                'sub-item-2': 'my-sub-item-2',
+            },
+            'item-3': {
+                'sub-item-1': 'my-sub-item-1',
+                'sub-item-2': 'my-sub-item-2',
+            }
+        }
+    %}
+
+    {}
     
     <div class="avatar-group flex flex-row flex-wrap justify-start items-center gap-[1rem]">
         <sl-avatar
