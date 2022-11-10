@@ -129,7 +129,7 @@ class StudentController extends Controller {
 
             $this->showMessage(
                 'Formulário inválido', 
-                'O nome do aluno tem menos do que 3 caractéres',
+                'O nome do aluno tem menos do que 3 caracteres',
             );
 
             die();
@@ -138,7 +138,7 @@ class StudentController extends Controller {
         if (strlen($student->email) < 10) {
             $this->showMessage(
                 'Formulário inválido', 
-                'O email da escola tem menos do que 10 caractéres',
+                'O email da escola tem menos do que 10 caracteres',
             );
 
             die();
@@ -179,7 +179,7 @@ class StudentController extends Controller {
 
                 $this->showMessage(
                     'Formulário inválido', 
-                    'O nome do aluno tem menos do que 3 caractéres',
+                    'O nome do aluno tem menos do que 3 caracteres',
                 );
     
                 die();
@@ -190,7 +190,7 @@ class StudentController extends Controller {
             if (strlen($student->email) < 10) {
                 $this->showMessage(
                     'Formulário inválido', 
-                    'O nome do aluno tem menos do que 10 caractéres',
+                    'O nome do aluno tem menos do que 10 caracteres',
                 );
     
                 die();

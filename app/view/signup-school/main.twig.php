@@ -19,7 +19,7 @@
                     label="Your Avatar"
                     style="--size:8rem; cursor:pointer"
                     id="chosseAvatar"
-                ></sl-avatar>
+                 ></sl-avatar>
 
                 <h2 class="font-nerko text-2xl text-orange font-semibold">Escolha seu avatar!</h2>
 
