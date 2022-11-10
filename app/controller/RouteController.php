@@ -339,4 +339,8 @@ class RouteController extends Controller {
         }
         header('Location: ' . BASE . 'signin');
     }
+
+    public function modulesSummary() {
+        $this->load("modules-summary/main");
+    }
 }

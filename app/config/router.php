@@ -96,4 +96,5 @@ $this->get("/@signin", 'SessionController@signIn');
 
 $this->get("/@logout", 'SessionController@logout');
 
+$this->get("/@modules-summary", 'RouterController@modulesSummary');
 
