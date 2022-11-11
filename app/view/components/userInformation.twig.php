@@ -33,7 +33,7 @@
         <sl-progress-ring value="73" class="progress-ring-values" style="margin-bottom: .5rem; 
         --track-color: pink; 
         --indicator-color: hsl(252, 100%, 68%);">
-        73%</sl-progress-ring>
+        {{ session.progress.module4 }} %</sl-progress-ring>
     </div>
 
 </div>

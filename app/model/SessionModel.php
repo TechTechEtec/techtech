@@ -8,12 +8,14 @@ use Exception;
 class SessionModel extends Model {
 
     private $db;
+    private $progress;
 
     public function __construct(){
 
         $connection = $this->connect();
 
         $this->db = $connection->initializeQueryBuilder();
+        $this->progress = $connection->initializeDatabase('modules_progress', 'id');
     }
 
     public function signIn(object $user) {
@@ -24,12 +26,13 @@ class SessionModel extends Model {
         ];
 
         try{
-           $idAndPerfil = $this->db->select("id, perfil")
+            $idAndPerfil = $this->db->select("id, perfil")
                 ->from("users")
                 ->where("email", 'eq.'. $user->email)
                 ->where("password", "eq." . $user->password)
                 ->execute()
                 ->getResult();
+                
             
             if(sizeOf($idAndPerfil) === 1) {
 
@@ -41,12 +44,41 @@ class SessionModel extends Model {
 
                 $user[0]->perfil = $idAndPerfil[0]->perfil;
 
+                if($idAndPerfil[0]->perfil === "student"){
+                    // GET THE PROGRESS OF STUDENT
+                    $user[0]->progress =  $this->getProgressModules($idAndPerfil[0]->id);
+                }
+
+
                 return $user;
             }
             
             return $idAndPerfil;
         }
         catch(Exception $e){
+            return $e->getMessage();
+        }
+    }
+
+
+    public function getProgressModules(string $id) {
+
+        $query = [
+            'select' => 'module1, module2, module3, module4, module5, module6, module7, total, updated_at',
+            'from'   => 'modules_progress',
+            'where' => 
+            [
+                'id' => 'eq.' . $id
+            ]
+        ];
+
+        try {
+            
+            $progress = $this->progress->createCustomQuery($query)->getResult();
+
+            return $progress;
+
+        }catch(Exception $e) {
             return $e->getMessage();
         }
     }
