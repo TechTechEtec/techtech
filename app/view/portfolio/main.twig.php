@@ -83,9 +83,9 @@
           </div>
     </section><hr>
 
-    <section class="p-12 w-screen h-full items-center" data-aos="fade-up">
+    <section class="p-12 w-screen h-full items-center" data-aos="fade-up" id="team">
        <div class="flex flex-row lg:space-x-15 lg:justify-center">
-          <h1 class="text-4xl text-darkpurple font-bold jusify-center"><a id="team">Equipe</a></h1><br>
+          <h1 class="text-4xl text-darkpurple font-bold jusify-center"><a>Equipe</a></h1><br>
           <lottie-player src="https://lottie.host/94fe4618-2bee-4916-80b3-738ee01d95ff/HbIzCLuynM.json" background="transparent" speed="1" style="width: 190px; height: 190px;" loop autoplay class="mt-[-5rem]"></lottie-player>
        </div>
 
