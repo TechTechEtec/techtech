@@ -4,7 +4,24 @@
 
 {% block body %}
     <!-- MODAL TO CHOOSE THE AVATAR  -->
-    {% embed "components/avatarsModal.twig.php" %}{% endembed %}
+    {% embed "components/avatarsModal.twig.php" %}
+
+    {% block imageSchools %}
+
+    <div class="avatar-group flex flex-row flex-wrap justify-start items-center gap-[1rem]">
+            {% for image in imagesSchools %}
+                <sl-avatar
+                    shape="circle"
+                    style="--size:6rem; cursor:pointer;"
+                    image="http://drive.google.com/uc?id={{image.id}}"
+                    label="{{image.label}}"
+                    class="avatar"
+                ></sl-avatar>
+            {% endfor %}
+        </div>
+
+        {% endblock %}
+    {% endembed %}
     
     <!-- SIGNUP PAGE -->
     <div class="w-screen h-screen bg-[url({{BASE}}imgs/background.png)] bg-contain bg-no-repeat bg-center bg-darkerPurple relative overflow-x-hidden flex flex-row items-start md:items-center justify-center p-4">

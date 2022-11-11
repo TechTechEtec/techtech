@@ -42,7 +42,7 @@ class TeacherModel extends Model{
         $newTeacher = [
             'schoolName'=> $teacher->schoolName,
             'name'     => $teacher->name,
-            'email'    => $teacher->email,
+            'email'    => strtolower($teacher->email),
             'password' => hash("sha256", $teacher->password),
             "avatar"   => $teacher->avatar
         ];

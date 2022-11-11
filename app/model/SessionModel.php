@@ -19,7 +19,7 @@ class SessionModel extends Model {
     public function signIn(object $user) {
 
         $user = (object)[
-            "email" => $user->email,
+            "email" => strtolower($user->email),
             'password' => hash('sha256', $user->password),
         ];
 

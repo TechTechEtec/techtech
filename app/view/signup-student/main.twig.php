@@ -5,7 +5,23 @@
 {% block body %}
 
     <!-- MODAL TO CHOOSE THE AVATAR  -->
-    {% embed "components/avatarsModal.twig.php" %}{% endembed %}
+    {% embed "components/avatarsModal.twig.php" %}
+    
+        {% block imageStudents %} 
+        <div class="avatar-group flex flex-row flex-wrap justify-start items-center gap-[1rem]">
+            {% for image in imagesStudents %}
+                <sl-avatar
+                    shape="circle"
+                    style="--size:6rem; cursor:pointer;"
+                    image="http://drive.google.com/uc?id={{image.id}}"
+                    label="{{image.label}}"
+                    class="avatar"
+                ></sl-avatar>
+            {% endfor %}
+        </div>
+        
+        {% endblock %}
+    {% endembed %}
     
     <!-- SIGNUP PAGE -->
 

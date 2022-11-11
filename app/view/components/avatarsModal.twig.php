@@ -1,4 +1,4 @@
-<sl-dialog label="Escolha seu avatar" class="dialog-overview" style="--width: min(850px, 95%); overflow:auto">
+<sl-dialog label="Escolha seu avatar" class="dialog-overview" style="--width: min(500px, 95%); overflow:auto">
 
     <!-- IMAGES IDS  -->
 
@@ -37,51 +37,36 @@
      %}
     <!-- TEACHERS IMAGES -->
     {% set imagesTeachers = [
-            {id: "13RjBTyui0J2HDIYHipoJLJxeBF-ETcVG", label: "avatar_teacher_1"},
+            {id: "1cOk-aAdTwR-ENTPxsUF0-vdSGo4_GYg2", label: "avatar_teacher_8"},
+ 
             {id: "10xk-rdWrEggIKlP71XqvpF-9a9LGgrd_", label: "avatar_teacher_2"},
+            {id: "1uYXMoTgljtXVR6UgltXTnTGxnSMgg5OA", label: "avatar_teacher_7"},
             {id: "1EJBRTinwgqw2PUpoBPUzo44UZ1h1y1Qh", label: "avatar_teacher_3"},
-            {id: "1DDpsNCc6Qk_webMO6tZEadz_oH9W8uCj", label: "avatar_teacher_4"},
             {id: "17_Dw2--eWMhgSdvhqfWiqcyjz5L8poke", label: "avatar_teacher_5"},
             {id: "1Dnlm2b4Lfue1KrOc_9F90B8mPv4Z5HkB", label: "avatar_teacher_6"},
-            {id: "1uYXMoTgljtXVR6UgltXTnTGxnSMgg5OA", label: "avatar_teacher_7"},
-            {id: "1cOk-aAdTwR-ENTPxsUF0-vdSGo4_GYg2", label: "avatar_teacher_8"},
+            {id: "13RjBTyui0J2HDIYHipoJLJxeBF-ETcVG", label: "avatar_teacher_1"},
+            {id: "1DDpsNCc6Qk_webMO6tZEadz_oH9W8uCj", label: "avatar_teacher_4"},
+
+            
             ]
      %}
 
-    <div class="avatar-group flex flex-row flex-wrap justify-start items-center gap-[1rem]">
-        {% for image in imagesStudents %}
-            <sl-avatar
-                shape="circle"
-                style="--size:6rem; cursor:pointer;"
-                image="http://drive.google.com/uc?id={{image.id}}"
-                label="{{image.label}}"
-                class="avatar"
-            ></sl-avatar>
-        {% endfor %}
-    </div>
+     {% block imageStudents %} {% endblock %}
+     {% block imageSchools %} {% endblock %}
+     {% block imageTeachers %} {% endblock %}
 
-    <div class="avatar-group flex flex-row flex-wrap justify-start items-center gap-[1rem]">
-        {% for image in imagesSchools %}
-            <sl-avatar
-                shape="circle"
-                style="--size:6rem; cursor:pointer;"
-                image="http://drive.google.com/uc?id={{image.id}}"
-                label="{{image.label}}"
-                class="avatar"
-            ></sl-avatar>
-        {% endfor %}
+        <!-- {% if route_name == "" %}
 
-        <div class="avatar-group flex flex-row flex-wrap justify-start items-center gap-[1rem]">
-        {% for image in imagesTeachers %}
-            <sl-avatar
-                shape="circle"
-                style="--size:6rem; cursor:pointer;"
-                image="http://drive.google.com/uc?id={{image.id}}"
-                label="{{image.label}}"
-                class="avatar"
-            ></sl-avatar>
-        {% endfor %}
-    </div>
+
+        {% elseif  session.perfil == "school" %}
+      
+       
+
+        {% else %}
+           
+        
+        {% endif %} -->
+       
     </div>
     <sl-button slot="footer" variant="danger">Fechar</sl-button>
 </sl-dialog>

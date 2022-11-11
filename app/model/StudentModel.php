@@ -40,7 +40,7 @@ class StudentModel extends Model{
     public function register(object $student){ # Register Student on DataBase
         $newStudent = [
             'name'      => $student->name,
-            'email'    => $student->email,
+            'email'    => strtolower($student->email),
             'birthday' => $student->birthday,
             'password' => hash('sha256', $student->password),
             "avatar"   => $student->avatar

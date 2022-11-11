@@ -40,7 +40,7 @@ class SchoolModel extends Model{
     public function register(object $school){ # Register School on DataBase
         $newSchool = [
             'name'      => $school->name,
-            'email'    => $school->email,
+            'email'    => strtolower($school->email),
             'password' => hash('sha256', $school->password),
             "avatar"   => $school->avatar
         ];
