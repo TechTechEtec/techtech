@@ -47,7 +47,7 @@ class SessionModel extends Model {
             return $idAndPerfil;
         }
         catch(Exception $e){
-            echo $e->getMessage();
+            return $e->getMessage();
         }
     }
 

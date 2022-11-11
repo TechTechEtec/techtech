@@ -30,6 +30,7 @@ class SessionController extends Controller {
             $this->showMessage(
                 'Erro ao fazer signIn', 
                 $user,
+                BASE
             );
 
             die();
