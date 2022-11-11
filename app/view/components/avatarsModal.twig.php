@@ -51,21 +51,17 @@
             ]
      %}
 
-     {% block imageStudents %} {% endblock %}
+    <!-- STUDENTS -->
+
+    {% block imageStudents %} {% endblock %}
+
+    <!-- SCHOOLS -->
+
      {% block imageSchools %} {% endblock %}
+
+     <!-- TEACHERS -->
      {% block imageTeachers %} {% endblock %}
 
-        <!-- {% if route_name == "" %}
-
-
-        {% elseif  session.perfil == "school" %}
-      
-       
-
-        {% else %}
-           
-        
-        {% endif %} -->
        
     </div>
     <sl-button slot="footer" variant="danger">Fechar</sl-button>
