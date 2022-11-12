@@ -46,9 +46,16 @@ class SessionModel extends Model {
 
                 if($idAndPerfil[0]->perfil === "student"){
                     // GET THE PROGRESS OF STUDENT
-                    $user[0]->progress =  $this->getProgressModules($idAndPerfil[0]->id);
-                }
+                    $progress = $this->getProgressModules($idAndPerfil[0]->id)[0];
 
+                    $progressInPorcentage = $this->sumScorePoints((array) $progress);
+
+                    $progressInPorcentage = round($progressInPorcentage * 100 / 70);
+
+                    $user[0]->progress =  $progress;
+                    $user[0]->progressInPorcentage = $progressInPorcentage;
+
+                }
 
                 return $user;
             }
@@ -58,6 +65,22 @@ class SessionModel extends Model {
         catch(Exception $e){
             return $e->getMessage();
         }
+    }
+
+
+    public function sumScorePoints(array $scores) {
+
+        $progressInPorcentage = 0;
+
+
+        for($i = 1; $i < count($scores) - 2; $i++){
+            if(!empty($scores["module" . $i])){
+                $progressInPorcentage += $scores["module" . $i];
+            }
+        }
+
+        return $progressInPorcentage;
+
     }
 
 
