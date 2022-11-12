@@ -25,15 +25,15 @@
         </li> 
         <li class="flex flex-row items-center justify-between">
             <span  class="font-bold text-lg  uppercase font-mukta">Progresso:</span>
-            <span class="text-xl font-roboto ">73%</span>
+            <span class="text-xl font-roboto "> {{ session.progressInPorcentage }} %</span>
         </li>
     </ul>
 
     <div class="w-full mt-4 mx-2 text-center text-purple font-bold">
-        <sl-progress-ring value="73" class="progress-ring-values" style="margin-bottom: .5rem; 
+        <sl-progress-ring value="{{session.progressInPorcentage}}" class="progress-ring-values" style="margin-bottom: .5rem; 
         --track-color: pink; 
         --indicator-color: hsl(252, 100%, 68%);">
-        73%</sl-progress-ring>
+        {{ session.progressInPorcentage }} %</sl-progress-ring>
     </div>
 
 </div>

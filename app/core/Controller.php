@@ -35,9 +35,9 @@ class Controller {
         http_response_code($httpCode);
 
         return $this->load('partials/message', [
-            'title'    => $title,
-            'message' => $message,
-            'link'      => $link
+            'title'    => $title ? $title : "[ERROR]: Algum Erro Intero ocorreu.",
+            'message' => $message ? $message : "Sua internet pode estar lenta demais. Pressione a tecla F5 ou tente mais tarde",
+            'link'      => $link ? $link : BASE . "/dashboard" 
         ]);
     }
 }
