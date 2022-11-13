@@ -112,7 +112,7 @@
     </div>
 
     <script>
-        const dialog = document.querySelector('.dialog-overview');
+        const dialog = document.querySelector('.dialog-scrolling');
         const openButton = document.querySelector('#chosseAvatar');
         const closeButton = dialog.querySelector('sl-button[slot="footer"]');
 

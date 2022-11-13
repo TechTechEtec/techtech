@@ -48,12 +48,17 @@ class SessionModel extends Model {
                     // GET THE PROGRESS OF STUDENT
                     $progress = $this->getProgressModules($idAndPerfil[0]->id)[0];
 
-                    $progressInPorcentage = $this->sumScorePoints((array) $progress);
+                    $totalScoreAndActualModule = $this->sumScorePoints((array) $progress);
 
-                    $progressInPorcentage = round($progressInPorcentage * 100 / 70);
+                    $progressInPorcentage = round($totalScoreAndActualModule->totalScore * 100 / 70);
+                    $actualModule = $totalScoreAndActualModule->actualModule;
+                    $totalScore = $totalScoreAndActualModule->totalScore;
+
 
                     $user[0]->progress =  $progress;
                     $user[0]->progressInPorcentage = $progressInPorcentage;
+                    $user[0]->actualModule = $actualModule;
+                    $user[0]->totalScore =  $totalScore;
 
                 }
 
@@ -70,17 +75,20 @@ class SessionModel extends Model {
 
     public function sumScorePoints(array $scores) {
 
-        $progressInPorcentage = 0;
-
+        $totalScore = 0;
+        $actualModule = 1;
 
         for($i = 1; $i < count($scores) - 2; $i++){
             if(!empty($scores["module" . $i])){
-                $progressInPorcentage += $scores["module" . $i];
+                $totalScore += $scores["module" . $i];
+                $actualModule = $i;
             }
         }
 
-        return $progressInPorcentage;
-
+        return (object)[
+            "totalScore" => $totalScore,
+            "actualModule"         => $actualModule 
+        ];
     }
 
 
