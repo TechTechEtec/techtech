@@ -75,11 +75,11 @@ class SessionController extends Controller {
         $_SESSION['loggedIn'] = true;
 
         // Redirection
-        if($user[0]->perfil === "student" || $user[0]->perfil === "admin"){
+        if($_SESSION['perfil'] === "student" || $_SESSION['perfil'] === "admin"){
             header("Location: " . BASE . "dashboard");
-        }else if($user[0]->perfil === "school" || $user[0]->perfil === "admin"){
+        }else if($_SESSION['perfil'] === "school" || $_SESSION['perfil'] === "admin"){
             header("Location: " . BASE . "dashboard-school");
-        }else if($user[0]->perfil === "teacher" || $user[0]->perfil === "admin"){
+        }else if($_SESSION['perfil'] === "teacher" || $_SESSION['perfil'] === "admin"){
             header("Location: " . BASE . "dashboard-teacher");
         }
     }
