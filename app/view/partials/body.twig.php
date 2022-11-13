@@ -47,7 +47,7 @@
         <!-- COMPONENTS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/themes/light.css" />
         <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/shoelace.js"></script>
- 
+    
         <!-- ON LOAD PAGE -->
         <script>
             $(document).ready(function() { 
@@ -70,49 +70,75 @@
     </body>
 
     <script src="https://cdn.jsdelivr.net/npm/ace-builds@1/src-noconflict/ace.min.js"></script>
-    <script  src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 
+    <!-- SCRIPT to run the AOS library animation -->
     <script>
         AOS.init();
     </script>
 
     <!-- SCRIPT to Open Progress Modal  -->
     <script>
-        const dialog = document.querySelector('.dialog-scrolling');
-        const openButton = document.querySelector('#showProgressInfo');
-        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+        const dialogProgress = document.querySelector('.dialog-scrolling');
+        const openButtonProgress = document.querySelector('#showProgressInfo');
+        
+        let closeButtonProgress = null;
 
-        openButton.addEventListener('click', () => dialog.show());
-        closeButton.addEventListener('click', () => dialog.hide());       
+        if(dialogProgress){
+            closeButton = dialogProgress.querySelector('sl-button[slot="footer"]');
+        }
+
+        if(openButtonProgress && dialogProgress){
+            openButtonProgress.addEventListener('click', () => dialogProgress.show());
+        }
+
+        if(closeButtonProgress && dialogProgress){
+            closeButtonProgress.addEventListener('click', () => dialogProgress.hide());    
+        }
     </script>
 
     <!-- SCRIPT to Open the Avatar modal -->
-
     <script>
-        const dialog = document.querySelector('.dialog-scrolling');
-        const openButton = document.querySelector('#chosseAvatar');
-        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+        const dialogAvatar = document.querySelector('.dialog-scrolling');
+        const openButtonAvatar = document.querySelector('#chosseAvatar');
+        let closeButtonAvatar = null; 
 
-        openButton.addEventListener('click', () => dialog.show());
-        closeButton.addEventListener('click', () => dialog.hide());
+        if(dialogAvatar){
+            closeButtonAvatar = dialogAvatar.querySelector('sl-button[slot="footer"]');
+        }
+
+        if(openButtonAvatar && dialogAvatar){
+            openButtonAvatar.addEventListener('click', () => dialogAvatar.show());
+        }
+
+        if(closeButtonAvatar && dialogAvatar){
+            closeButtonAvatar.addEventListener('click', () => dialogAvatar.hide());   
+        }
 
         const avatars = document.querySelectorAll(".avatar");
 
-        avatars.forEach(avatar=> {
-            avatar.addEventListener("click", (event)=> {
-                
-                document.getElementById("inputAvatar").setAttribute("value", event.target.getAttribute("image"));
-                document.getElementById("chosseAvatar").setAttribute("image", event.target.getAttribute("image"));
+        if(avatars && avatars.length !== 0 && dialogAvatar) {
+            avatars.forEach(avatar=> {
+                avatar.addEventListener("click", (event)=> {
 
-                dialog.hide();
+                    const inputAvatar = document.getElementById("inputAvatar");
+                    const chooseAvatar = document.getElementById("chosseAvatar")
+
+                    if(inputAvatar && chooseAvatar){
+                        inputAvatar.setAttribute("value", event.target.getAttribute("image"));
+                        chooseAvatar.setAttribute("image", event.target.getAttribute("image"));
+                    }
+                    
+                    dialogAvatar.hide();
+                })
             })
-        })
+        }
+       
     </script>
 
     <!-- SCRIPTS TO HIGHLIGHT THE MENU ITEM-->
     <script>
-
         // This Array must contains the end of real path url used in Menu links
         const urls = ['dashboard', 'modules', 'activities', 'configurations', 'help'];
 
@@ -120,11 +146,11 @@
             if(window.location.pathname.endsWith(url)){
                 const menu_link = document.getElementById(`menu-${url}`);
 
-                menu_link.style.background = '#7c5cff6a'
-                menu_link.style.borderColor = 'hsl(252, 100%, 68%)';
+                if(menu_link){
+                    menu_link.style.background = '#7c5cff6a'
+                    menu_link.style.borderColor = 'hsl(252, 100%, 68%)';
+                }
             }
         })
-
     </script>
-
 </html>

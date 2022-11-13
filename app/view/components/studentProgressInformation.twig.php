@@ -30,21 +30,6 @@
                 flex: 1;
             ">{{session.progressInPorcentage}} %</sl-progress-bar>
         </div>
-
-        <style>
-            .progress-bar-values::part(base){
-                border-radius: 0.30rem;
-            }
-
-            .progress-bar-values::part(indicator){
-               padding: 0 1.8rem 0 0.25rem;
-            }
-            
-            .progress-bar-values::part(label){
-               font-weight: bold;
-            }
-        </style>
-
     </div>
 
 
@@ -84,7 +69,6 @@
                 </div>  
             </li>
         {% endfor %}
-        
     </ul>
 
     <sl-button slot="footer" variant="danger">Fechar</sl-button>

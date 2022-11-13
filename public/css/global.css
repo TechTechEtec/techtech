@@ -122,3 +122,16 @@ button {
   color: hsl(252, 100%, 68%);
   font-size: 1.2rem;
 }
+
+/* LINEAR PROGRESS BAR STYLES */
+.progress-bar-values::part(base) {
+  border-radius: 0.3rem;
+}
+
+.progress-bar-values::part(indicator) {
+  padding: 0 1.8rem 0 0.25rem;
+}
+
+.progress-bar-values::part(label) {
+  font-weight: bold;
+}
