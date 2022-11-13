@@ -2,7 +2,7 @@
 
 namespace app\model;
 
-use app\Core\Model;
+use app\core\Model;
 use Exception;
 
 class StudentModel extends Model{
@@ -40,9 +40,10 @@ class StudentModel extends Model{
     public function register(object $student){ # Register Student on DataBase
         $newStudent = [
             'name'      => $student->name,
-            'email'    => $student->email,
+            'email'    => strtolower($student->email),
             'birthday' => $student->birthday,
             'password' => hash('sha256', $student->password),
+            "avatar"   => $student->avatar
         ];
 
         try {

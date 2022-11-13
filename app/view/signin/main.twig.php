@@ -3,42 +3,48 @@
 {% block title %} Entrar | Techtech {% endblock %}
 
 {% block body %}
-<div class="w-screen h-screen bg-[url({{BASE}}/imgs/background.png)] bg-contain bg-no-repeat bg-center bg-lightpurple relative overflow-x-hidden flex flex-row items-center justify-center">
+<main class="w-screen h-screen bg-[url({{BASE}}imgs/background.png)] bg-contain bg-no-repeat bg-center bg-lightpurple relative overflow-x-hidden flex flex-row items-center justify-center p-4">
 
+    <div class="text-2xl flex flex-col items-center justify-start p-8 w-full max-w-[400px] bg-white rounded-xl"  data-aos="fade-up" data-aos-mirror="true"
+    data-aos-once="true" data-aos-duration="800">
 
-    <div class="text-2xl flex flex-col space-y-2 grid-cols absolute inset-x-0 bottom-0 md:static lg:static md:inset-0 lg:inset-0 rounded-md items-center bg-white h-[40rem] md:h-[30rem] lg:h-[30rem]  px-8 py-12 shadow-lg">
-
-        <div class="mt-[-15rem] md:mt-0 lg:mt-0 items-center justify-center fixed md:static lg:static">
-            <button class="bg-darkpurple hover:bg-purple cursor-default h-20 w-20 rounded-full mb-8">
-                <i class="ph-user text-5xl text-white mt-1 ml-2"></i>
-                <span class="pl-2"></span>
-            </button>
+        
+        <div class="bg-darkpurple hover:bg-purple transition-all ease-linear duration-300 cursor-default h-[100px] w-[100px] rounded-md mb-8 flex items-center justify-center">
+            <i class="ph-user text-[3.5rem] text-white"></i>
         </div>
+       
 
-        <form class="flex flex-col items-center" action="{{BASE}}@signin" method="POST">
+        <form class="flex flex-col items-stretch justify-start w-[95%]" action="{{BASE}}@signin" method="POST">
             
-            <label for="email">E-mail</label>
+            <label for="email" class="mb-[0.8rem]">E-mail</label>
             <input class="bg-grey rounded-md h-10 w-full"
                 id="email"
                 type="email"
                 name="email"
+                required
             />
 
-            <label for="password">Senha</label>
+            <label for="password" class="my-[0.8rem]">Senha</label>
 
             <input class="bg-grey rounded-md h-10 w-full"
                 id="password"
                 type="password"
                 name="password"
+                required
             />
+
+            <span class="text-[#808080] w-full text-center font-roboto text-[1rem] mt-4">
+                Ou inscreva-se em
+                <a href="{{BASE}}choose-signup" class="text-[#1766d4] cursor-pointer hover:text-[#0854bf] ">Sign-Up</a>
+            </span>
        
 
-            <button type="submit" class="bg-darkpurple hover:bg-purple rounded-md px-12 h-10 text-white flex items-center group mt-16">
+            <button type="submit" class="bg-darkpurple hover:bg-purple cursor-pointer rounded-md h-10 text-white flex items-center justify-center mt-[2rem]">
                 <span class="pl-2">Entrar</span>
             </button>
         </form>
 
     </div>
         
-</div>
+</main>
 {% endblock %}

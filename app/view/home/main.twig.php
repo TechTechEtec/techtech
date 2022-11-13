@@ -7,13 +7,13 @@
   <div class="hidden md:block relative w-full h-full bg-lightpurple brightness-[1.15]"></div>
 </div>
 
-<div class="w-screen h-auto bg-[url({{BASE}}/svgs/background.svg)] bg-cover bg-repeat-y bg-center relative overflow-x-hidden" >
+<div class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-cover bg-repeat-y bg-center relative overflow-x-hidden" >
 
   <!-- HEADER CONTENT --> 
   <header class="flex justify-between p-4 items-center w-full">
 
     <!-- Logo -->
-    <img class="flex-none w-20 h-20" src="{{BASE}}/svgs/techtechlogo.svg" alt="TechTech Logo">
+    <img class="flex-none w-20 h-20" src="{{BASE}}svgs/techtechlogo.svg" alt="TechTech Logo">
 
     <!-- NAVIGATION -->
     <nav class="flex flex-row items-center gap-4">
@@ -24,9 +24,9 @@
         </li>
 
         <li class="hover:text-purple "><a href="#" onclick="toggleHomeMenu()">Início</a></li>
-        <li class="hover:text-purple "><a href="#" onclick="toggleHomeMenu()">Plano de Curso</a></li>
-        <li class="hover:text-purple "><a href="#" onclick="toggleHomeMenu()">Equipe</a></li>
-        <li class="hover:text-purple "><a href="#" onclick="toggleHomeMenu()">Escolas Participantes</a></li>
+        <li class="hover:text-purple "><a href="{{BASE}}portfolio#plan" onclick="toggleHomeMenu()">Plano de Curso</a></li>
+        <li class="hover:text-purple "><a href="{{BASE}}portfolio#team" onclick="toggleHomeMenu()">Equipe</a></li>
+        <li class="hover:text-purple "><a href="#" onclick="toggleHomeMenu()">Módulos</a></li>
       </ul>
 
       <button class="lg:hidden border-none bg-none p-4 cursor-pointer" onclick="toggleHomeMenu()">
@@ -55,14 +55,14 @@
           <p class="text-gray-600 text-justify mt-10 mb-5 text-lg w-[35rem] font-medium font-clean subpixel-antialiased">Ensino tecnológico acessível para crianças, um projeto sem fins lucrativos desenvolvido por estudantes, para auxiliar estudantes, com a finalidade de apresentar o mundo tecnológico de outra forma para crianças, e assim ampliar seus horizontes.</p>
 
           <div class="flex flex-row gap-4 justify-start items-center w-full mt-6">
-            <a href="{{BASE}}/signup-student" class="bg-orange text-darkerPurple font-bold p-2 rounded-xl hover:-translate-y-1 transition">Cadastre-se</a>
-            <a href="{{BASE}}/signup-school" class="bg-orange text-darkerPurple font-bold p-2 rounded-xl hover:-translate-y-1 transition">Cadastre sua escola</a>
+            <a href="{{BASE}}signup-student" class="bg-orange text-darkerPurple font-bold p-2 rounded-xl hover:-translate-y-1 transition">Cadastre-se</a>
+            <a href="{{BASE}}signup-school" class="bg-orange text-darkerPurple font-bold p-2 rounded-xl hover:-translate-y-1 transition">Cadastre sua escola</a>
           </div>
 
         </div>
 
         <div class="flex-1 flex items-center justify-center w-full">
-          <img class="w-full" src="{{BASE}}/imgs/techbo_showingvideo.png" alt="techbo mostrando vídeo">
+          <img class="w-full" src="{{BASE}}imgs/techbo_showingvideo.png" alt="techbo mostrando vídeo">
         </div>
       </div>
 
@@ -77,24 +77,24 @@
 
       <h1 class="text-3xl font-extrabold text-darkpurple mb-8 font-clean">Saiba mais!</h1>
 
-      <div class="flex flex-col  2sm:flex-row  w-full justify-between items-center text-pink gap-6">
-        <a href="#" class="hover:-translate-y-2 transition duration-300">
+      <div class="flex flex-col  2sm:flex-row  w-full justify-between items-center text-[#FC76FF] gap-6">
+        <a href="{{BASE}}portfolio#platform" class="hover:-translate-y-2 transition duration-300">
           <div class="text-center">
-              <img class="shadow-xl rounded-md" src="{{BASE}}/imgs/plano_de_curso.png" alt="Plano de Curso">
+              <img class="shadow-xl rounded-md" src="{{BASE}}svgs/plataforma.svg" alt="Plano de Curso">
+              <p class="mt-4 font-bold font-roboto text-2xl">Plataforma</p>
+            </div>
+        </a>
+
+        <a href="{{BASE}}portfolio#plan" class="hover:-translate-y-2 transition duration-300">
+          <div class="text-center">
+              <img class="shadow-xl rounded-md" src="{{BASE}}svgs/plano_de_curso.svg" alt="Escolas Participantes">
               <p class="mt-4 font-bold font-roboto text-2xl">Plano de Curso</p>
             </div>
         </a>
 
-        <a href="#" class="hover:-translate-y-2 transition duration-300">
+        <a href="{{BASE}}portfolio#team" class="hover:-translate-y-2 transition duration-300">
           <div class="text-center">
-              <img class="shadow-xl rounded-md" src="{{BASE}}/imgs/escolas_participantes.png" alt="Escolas Participantes">
-              <p class="mt-4 font-bold font-roboto text-2xl">Escolas Participantes</p>
-            </div>
-        </a>
-
-        <a href="#" class="hover:-translate-y-2 transition duration-300">
-          <div class="text-center">
-            <img class="shadow-xl rounded-md" src="{{BASE}}/imgs/equipe.png" alt="Equipe">
+            <img class="shadow-xl rounded-md" src="{{BASE}}svgs/equipe.svg" alt="Equipe">
             <p class="mt-4 font-bold font-roboto text-2xl">Equipe</p>
           </div>
         </a>
@@ -103,11 +103,11 @@
     </section>
 
     <!-- Parallax Effect -->
-    <div class="hidden md:block bg-[url({{BASE}}/imgs/parallax.png)] min-h-[200px] md:min-h-[400px] bg-fixed bg-center bg-repeat-y bg-contain parallax"></div>
+    <div class="hidden md:block bg-[url({{BASE}}imgs/parallax.png)] min-h-[200px] md:min-h-[400px] bg-fixed bg-center bg-repeat-y bg-contain parallax"></div>
 
     <!-- Alternative parallax Effect to mobile devices -->
   
-    <img class="block md:hidden" src="{{BASE}}/imgs/parallax.png" alt="parallax static image used on mobile devices" class="w-full h-auto"/>
+    <img class="block md:hidden" src="{{BASE}}imgs/parallax.png" alt="parallax static image used on mobile devices" class="w-full h-auto"/>
     
 
     <!-- third section -->
@@ -125,20 +125,20 @@
   <footer class="flex flex-col-reverse lg:flex-row flex-wrap justify-evenly items-center w-[85%] mx-auto h-auto gap-10 md:gap-4 p-6">
 
       <!-- Logo -->
-      <img class="w-30 h-30" src="{{BASE}}/imgs/techtech_footer_logo.png" alt="TechTech Footer Logo">
+      <img class="w-30 h-30" src="{{BASE}}imgs/techtech_footer_logo.png" alt="TechTech Footer Logo">
 
       <!-- Links -->
       <div class="flex-1 flex flex-row gap-4 w-full p-4 w-full flex-wrap items-start justify-center">
         <ul class="w-auto flex flex-col items-stretch justify-center gap-2">
           <li><h3 class="text-black font-extrabold font-clean">Tech Tech</h3></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerPurple font-medium font-roboto">Escolas Participantes</a></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerPurple font-medium font-roboto">Equipe</a></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerPurple font-medium font-roboto">Feedback</a></li>
+          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerPurple font-medium font-roboto">Módulos</a></li>
+          <li><a href="{{BASE}}portfolio#team" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerPurple font-medium font-roboto">Equipe</a></li>
+          <li><a href="{{BASE}}feedback" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerPurple font-medium font-roboto">Feedback</a></li>
         </ul>
 
         <ul class="w-auto flex flex-col items-stretch justify-center gap-2">
           <li><h3 class="text-black font-extrabold font-clean">Curso</h3></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerPurple font-medium font-roboto">Plano de Curso</a></li>
+          <li><a href="{{BASE}}portfolio#plan" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerPurple font-medium font-roboto">Plano de Curso</a></li>
           <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerPurple font-medium font-roboto">Didática</a></li>
           <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerPurple font-medium font-roboto">Atividades</a></li>
           <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerPurple font-medium font-roboto">Professores</a></li>
@@ -146,9 +146,9 @@
 
         <div class="w-full h-auto flex items-start justify-center gap-6 mt-4">
           <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#4267b2" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="96" fill="none" stroke="#4267b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><path d="M168,88H152a23.9,23.9,0,0,0-24,24V224" fill="none" stroke="#4267b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path><line x1="96" y1="144" x2="160" y2="144" fill="none" stroke="#4267b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line></svg></a> 
-          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#1da1f2" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><path d="M128,88c0-22,18.5-40.3,40.5-40a40,40,0,0,1,36.2,24H240l-32.3,32.3A127.9,127.9,0,0,1,80,224c-32,0-40-12-40-12s32-12,48-36c0,0-64-32-48-120,0,0,40,40,88,48Z" fill="none" stroke="#1da1f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path></svg></a>
-          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#0e76a8" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><rect x="36" y="36" width="184" height="184" rx="8" fill="none" stroke="#0e76a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><line x1="124" y1="120" x2="124" y2="176" fill="none" stroke="#0e76a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="84" y1="120" x2="84" y2="176" fill="none" stroke="#0e76a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><path d="M124,148a28,28,0,0,1,56,0v28" fill="none" stroke="#0e76a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path><circle cx="84" cy="80" r="16"></circle></svg></a>
-          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#e1306c" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="34" fill="none" stroke="#e1306c" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><rect x="32" y="32" width="192" height="192" rx="48" fill="none" stroke="#e1306c" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><circle cx="180" cy="76" r="16"></circle></svg></a>
+          <a href="https://twitter.com/techtechproject"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#1da1f2" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><path d="M128,88c0-22,18.5-40.3,40.5-40a40,40,0,0,1,36.2,24H240l-32.3,32.3A127.9,127.9,0,0,1,80,224c-32,0-40-12-40-12s32-12,48-36c0,0-64-32-48-120,0,0,40,40,88,48Z" fill="none" stroke="#1da1f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path></svg></a>
+          <a href="https://www.linkedin.com/in/techtech-project-795a73256/"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#0e76a8" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><rect x="36" y="36" width="184" height="184" rx="8" fill="none" stroke="#0e76a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><line x1="124" y1="120" x2="124" y2="176" fill="none" stroke="#0e76a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="84" y1="120" x2="84" y2="176" fill="none" stroke="#0e76a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><path d="M124,148a28,28,0,0,1,56,0v28" fill="none" stroke="#0e76a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path><circle cx="84" cy="80" r="16"></circle></svg></a>
+          <a href="https://www.instagram.com/techtech_coding/"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#e1306c" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="34" fill="none" stroke="#e1306c" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><rect x="32" y="32" width="192" height="192" rx="48" fill="none" stroke="#e1306c" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><circle cx="180" cy="76" r="16"></circle></svg></a>
         </div>
       </div>
 

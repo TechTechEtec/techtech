@@ -4,7 +4,7 @@
 
 {% block body %} 
 
- <div class="w-screen h-screen bg-[url({{BASE}}/imgs/background.png)] bg-contain bg-no-repeat bg-center bg-lightpurple relative overflow-x-hidden flex flex-row items-center justify-center">
+ <div class="w-screen h-screen bg-[url({{BASE}}imgs/background.png)] bg-contain bg-no-repeat bg-center bg-lightpurple relative overflow-x-hidden flex flex-row items-center justify-center">
  
      <div class="text-2xl md:text-lg lg:text-lg flex flex-col md:flex-row lg:flex-row space-y-2 grid-cols absolute inset-x-0 bottom-0 md:static lg:static md:inset-0 lg:inset-0 items-center h-[40rem] md:h-[20rem] lg:h-[20rem] ">
  

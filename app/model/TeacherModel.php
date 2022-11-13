@@ -2,7 +2,7 @@
 
 namespace app\model;
 
-use app\Core\Model;
+use app\core\Model;
 use Exception;
 
 class TeacherModel extends Model{
@@ -42,8 +42,9 @@ class TeacherModel extends Model{
         $newTeacher = [
             'schoolName'=> $teacher->schoolName,
             'name'     => $teacher->name,
-            'email'    => $teacher->email,
+            'email'    => strtolower($teacher->email),
             'password' => hash("sha256", $teacher->password),
+            "avatar"   => $teacher->avatar
         ];
         
         try {

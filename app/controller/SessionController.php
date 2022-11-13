@@ -29,7 +29,7 @@ class SessionController extends Controller {
         if (!is_array($user)) {
             $this->showMessage(
                 'Erro ao fazer signIn', 
-                $user,
+                $user
             );
 
             die();
@@ -49,6 +49,14 @@ class SessionController extends Controller {
         $_SESSION['name'] = $user[0]->name;
         $_SESSION['email'] = $user[0]->email;
         $_SESSION['perfil'] = $user[0]->perfil;
+        $_SESSION['avatar'] = $user[0]->avatar;
+       
+        if($user[0]->perfil === "student"){
+            $_SESSION['progress'] = $user[0]->progress;
+            $_SESSION['progressInPorcentage'] = $user[0]->progressInPorcentage;
+            $_SESSION['actualModule'] = $user[0]->actualModule;
+            $_SESSION['totalScore'] = $user[0]->totalScore;
+        }
 
         // Removing The name email and perfil from user[0] object
         // By doing that we can store the extra properties about this type of user
@@ -56,6 +64,12 @@ class SessionController extends Controller {
         unset($user[0]->name);
         unset($user[0]->email);
         unset($user[0]->perfil);
+        unset($user[0]->avatar);
+        unset($user[0]->progress);
+        unset($user[0]->progressInPorcentage);
+        unset($user[0]->totalScore);
+        unset($user[0]->actualModule);
+
 
         $_SESSION['extra'] = $user[0];
         $_SESSION['loggedIn'] = true;
