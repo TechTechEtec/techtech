@@ -1,4 +1,4 @@
-<sl-dialog label="Escolha seu avatar" class="dialog-overview" style="--width: min(500px, 95%); overflow:auto">
+<sl-dialog label="Escolha seu avatar" class="dialog-scrolling" style="--width: min(500px, 95%); overflow:auto">
 
     <!-- IMAGES IDS  -->
 

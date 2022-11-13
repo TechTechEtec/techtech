@@ -14,7 +14,7 @@
     
     <!-- Iframe with userID and module hidden query parameters in URL -->
         
-    <a href="{{BASE}}modules/04" title="Voltar para o módulo 04" class="px-4 py-0 rounded-lg drop-shadow-lg bg-purple text-white font-bold w-[120px] text-center text-lg mx-auto flex flex-row items-center justify-around gap-[1rem] hover:translate-y-[-3px] eas-linear duration-300 cursor-pointer absolute top-[10px] left-[10px]">
+    <button onclick="window.history.go(-1); return false;" title="Voltar para o módulo 04" class="px-4 py-0 rounded-lg drop-shadow-lg bg-purple text-white font-bold w-[120px] text-center text-lg mx-auto flex flex-row items-center justify-around gap-[1rem] hover:translate-y-[-3px] eas-linear duration-300 cursor-pointer absolute top-[10px] left-[10px]">
         <sl-icon style="font-size: 3rem" slot="prefix" name="arrow-left-short"></sl-icon>
         voltar
     </button>
