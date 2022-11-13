@@ -74,7 +74,14 @@ class SessionController extends Controller {
         $_SESSION['extra'] = $user[0];
         $_SESSION['loggedIn'] = true;
 
-        header("Location: " . BASE . "dashboard");
+        // Redirection
+        if($user[0]->perfil === "student" || $user[0]->perfil === "admin"){
+            header("Location: " . BASE . "dashboard");
+        }else if($user[0]->perfil === "school" || $user[0]->perfil === "admin"){
+            header("Location: " . BASE . "dashboard-school");
+        }else if($user[0]->perfil === "teacher" || $user[0]->perfil === "admin"){
+            header("Location: " . BASE . "dashboard-teacher");
+        }
     }
 
     public function validateCredentials(object $user) {
