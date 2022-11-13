@@ -10,7 +10,7 @@ function toggleMenu() {
     menu.setAttribute("style", "left:0");
     button.innerHTML = '<i class="ph-x"></i>';
 
-    document.getElementById("layout-menu").autofocus();
+    document.getElementById("layout-menu").focus();
     return;
   }
 
