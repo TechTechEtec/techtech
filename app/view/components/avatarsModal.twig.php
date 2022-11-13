@@ -27,25 +27,27 @@
      {% set imagesSchools = [
             {id: "12NCQgxtrVMexua457fDutFYNyo67Kxzq", label: "avatar_school_1"},
             {id: "1W3CSg4Vl7bbG9UZ5-Fs4XoIbGe253g-W", label: "avatar_school_2"},
-            {id: "17m6z5SBt4LKUNdSyPL65px8lqrO28NHH", label: "avatar_school_3"},
-            {id: "1qUVOjC9fxzKLANmHhjaCr9j-pRTNa1vJ", label: "avatar_school_4"},
-            {id: "1TFAeRCdchbZuww13w4HY59VqfMbCT5tV", label: "avatar_school_5"},
+            {id: "1yjq3zFfRYzpUW1GGVpxSYACQt92xqbdO", label: "avatar_school_8"},
             {id: "1sR8lA0jhKf7YeO2x2jv98tZYgZagjsvs", label: "avatar_school_6"},
-            {id: "1eElu2_yy_DjdzVaPeGOofotS-YlpWiLz", label: "avatar_school_7"},
-            {id: "1fBVOfugzSIJeRU1-XywzizrfMujq_6Om", label: "avatar_school_8"},
+            {id: "1qUVOjC9fxzKLANmHhjaCr9j-pRTNa1vJ", label: "avatar_school_4"},
+            {id: "1zFYJDKcBEaO2NLRzUmxtB4sqqlJQZbf7", label: "avatar_school_5"},
+            {id: "1DV9iKbc4LN7-_nb_ZN4BItwo3gyfZX-0", label: "avatar_school_7"},
+            {id: "17m6z5SBt4LKUNdSyPL65px8lqrO28NHH", label: "avatar_school_3"},
+            
+            
             ]
      %}
     <!-- TEACHERS IMAGES -->
     {% set imagesTeachers = [
-            {id: "1cOk-aAdTwR-ENTPxsUF0-vdSGo4_GYg2", label: "avatar_teacher_8"},
- 
+            {id: "1nLHtv8PMxQeiHQBKzAG8Uo7QQRpqofl9", label: "avatar_teacher_8"},
             {id: "10xk-rdWrEggIKlP71XqvpF-9a9LGgrd_", label: "avatar_teacher_2"},
-            {id: "1uYXMoTgljtXVR6UgltXTnTGxnSMgg5OA", label: "avatar_teacher_7"},
-            {id: "1EJBRTinwgqw2PUpoBPUzo44UZ1h1y1Qh", label: "avatar_teacher_3"},
             {id: "17_Dw2--eWMhgSdvhqfWiqcyjz5L8poke", label: "avatar_teacher_5"},
-            {id: "1Dnlm2b4Lfue1KrOc_9F90B8mPv4Z5HkB", label: "avatar_teacher_6"},
             {id: "13RjBTyui0J2HDIYHipoJLJxeBF-ETcVG", label: "avatar_teacher_1"},
+            {id: "1XqfPqmaNEiOTuwFsVz2n6F8Dy5cpulU5", label: "avatar_teacher_7"},
+            {id: "1EJBRTinwgqw2PUpoBPUzo44UZ1h1y1Qh", label: "avatar_teacher_3"},
+            {id: "1Dnlm2b4Lfue1KrOc_9F90B8mPv4Z5HkB", label: "avatar_teacher_6"},
             {id: "1DDpsNCc6Qk_webMO6tZEadz_oH9W8uCj", label: "avatar_teacher_4"},
+
 
             
             ]
