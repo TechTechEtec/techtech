@@ -4,6 +4,6 @@
 
 {% block body %}
 
-    <h1 class="text-lg font-bold text-purple">teste</h1>
+    <h1 class="text-lg font-bold text-purple">Dashboard School</h1>
 
 {% endblock %}

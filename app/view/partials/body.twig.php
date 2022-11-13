@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
     <head>
         <!-- Fonts Google Preconnect -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,7 +47,7 @@
         <!-- COMPONENTS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/themes/light.css" />
         <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/shoelace.js"></script>
-        
+ 
         <!-- ON LOAD PAGE -->
         <script>
             $(document).ready(function() { 
@@ -71,7 +71,60 @@
 
     <script src="https://cdn.jsdelivr.net/npm/ace-builds@1/src-noconflict/ace.min.js"></script>
     <script  src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+
     <script>
         AOS.init();
     </script>
+
+    <!-- SCRIPT to Open Progress Modal  -->
+    <script>
+        const dialog = document.querySelector('.dialog-scrolling');
+        const openButton = document.querySelector('#showProgressInfo');
+        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+        openButton.addEventListener('click', () => dialog.show());
+        closeButton.addEventListener('click', () => dialog.hide());       
+    </script>
+
+    <!-- SCRIPT to Open the Avatar modal -->
+
+    <script>
+        const dialog = document.querySelector('.dialog-scrolling');
+        const openButton = document.querySelector('#chosseAvatar');
+        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
+
+        openButton.addEventListener('click', () => dialog.show());
+        closeButton.addEventListener('click', () => dialog.hide());
+
+        const avatars = document.querySelectorAll(".avatar");
+
+        avatars.forEach(avatar=> {
+            avatar.addEventListener("click", (event)=> {
+                
+                document.getElementById("inputAvatar").setAttribute("value", event.target.getAttribute("image"));
+                document.getElementById("chosseAvatar").setAttribute("image", event.target.getAttribute("image"));
+
+                dialog.hide();
+            })
+        })
+    </script>
+
+    <!-- SCRIPTS TO HIGHLIGHT THE MENU ITEM-->
+    <script>
+
+        // This Array must contains the end of real path url used in Menu links
+        const urls = ['dashboard', 'modules', 'activities', 'configurations', 'help'];
+
+        urls.forEach((url)=> {
+            if(window.location.pathname.endsWith(url)){
+                const menu_link = document.getElementById(`menu-${url}`);
+
+                menu_link.style.background = '#7c5cff6a'
+                menu_link.style.borderColor = 'hsl(252, 100%, 68%)';
+            }
+        })
+
+    </script>
+
 </html>

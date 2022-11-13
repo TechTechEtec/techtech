@@ -14,6 +14,8 @@
         ></sl-avatar>
 
         <p class="w-full font-bold text-lg font-mukta text-center ">{{ session.name }}</p>
+
+        <sl-badge variant="primary" pill pulse>{{session.perfil == 'student' ? "Estudante" : session.perfil == 'school' ? "Escola": "Professor"}}</sl-badge>
     </div>
 
     <p class="my-6 w-full text-left text-xl leading-[1.5rem] text-[#808080] font-medium  font-mukta">Desumilde jamais. Não é orgulho, é postura!</p>
@@ -38,7 +40,7 @@
 
     <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025" class="w-full mt-4 text-center text-purple font-bold mt-4 p-4 py-8 border-2 border-lightpurple rounded-md drop-shadow-sm cursor-pointer" id="showProgressInfo">
         <sl-progress-ring value="{{session.progressInPorcentage}}" class="progress-ring-values" style=" 
-        --track-color: pink; 
+        --track-color: hsl(281, 100%, 95%); 
         --track-width:0.5rem;
         --indicator-color: hsl(252, 100%, 68%);
         --indicator-width:0.7rem;"
@@ -47,16 +49,5 @@
         </sl-progress-ring>
 
         <p class="font-bold text-lg uppercase font-mukta mt-2">Progresso</p>
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
-
-    <script>
-        const dialog = document.querySelector('.dialog-scrolling');
-        const openButton = document.querySelector('#showProgressInfo');
-        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
-
-        openButton.addEventListener('click', () => dialog.show());
-        closeButton.addEventListener('click', () => dialog.hide());       
-    </script>
+    </div>    
 </div>

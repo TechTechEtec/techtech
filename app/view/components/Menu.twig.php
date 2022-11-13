@@ -72,24 +72,4 @@
             style="font-size: 1.5rem;"
         ></sl-icon>
     </a>
-
-    <!-- SCRIPTS -->
-    <script>
-
-        // This Array must contains the end of real path url used in Menu links
-        const urls = ['dashboard', 'modules', 'activities', 'configurations', 'help'];
-
-        urls.forEach((url)=> {
-        if(window.location.pathname.endsWith(url)){
-           const menu_link = document.getElementById(`menu-${url}`);
-
-           menu_link.style.background = '#7c5cff6a'
-           menu_link.style.borderColor = 'hsl(252, 100%, 68%)';
-        }
-        })
-
-        
-
-    </script>
-
 </div>

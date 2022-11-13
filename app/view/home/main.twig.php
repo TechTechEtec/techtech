@@ -3,11 +3,11 @@
 {% block title %} Home | Techtech {% endblock %}
 
 {% block body %}
-<div class="w-screen absolute h-[90px] md:w-[170vw] md:h-[60rem] md:md:h-[63rem] bg-lightpurple md:top-[-80%] md:left-[-20%] md:skew-y-3 md:-rotate-[20deg] z-[-1] p-6 ">
-  <div class="hidden md:block relative w-full h-full bg-lightpurple brightness-[1.15]"></div>
-</div>
+  <div class="w-screen absolute h-[90px] md:w-[170vw] md:h-[60rem] md:md:h-[63rem] bg-lightpurple md:top-[-80%] md:left-[-20%] md:skew-y-3 md:-rotate-[20deg] z-[-1] p-6 ">
+    <div class="hidden md:block relative w-full h-full bg-lightpurple brightness-[1.15]"></div>
+  </div>
 
-<div class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-cover bg-repeat-y bg-center relative overflow-x-hidden" >
+  <div class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-cover bg-repeat-y bg-center relative overflow-x-hidden" >
 
   <!-- HEADER CONTENT --> 
   <header class="flex justify-between p-4 items-center w-full">
@@ -52,7 +52,7 @@
 
           <h1 class="text-5xl text-darkpurple font-cartoon font-bold">Comece a aprender agora mesmo!</h1>
 
-          <p class="text-gray-600 text-justify mt-10 mb-5 text-lg w-[35rem] font-medium font-clean subpixel-antialiased">Ensino tecnológico acessível para crianças, um projeto sem fins lucrativos desenvolvido por estudantes, para auxiliar estudantes, com a finalidade de apresentar o mundo tecnológico de outra forma para crianças, e assim ampliar seus horizontes.</p>
+          <p class="text-gray-600 text-justify mt-10 mb-5 text-lg w-full max-w-[35rem] font-medium font-roboto subpixel-antialiased">Ensino tecnológico acessível para crianças, um projeto sem fins lucrativos desenvolvido por estudantes, para auxiliar estudantes, com a finalidade de apresentar o mundo tecnológico de outra forma para crianças, e assim ampliar seus horizontes.</p>
 
           <div class="flex flex-row gap-4 justify-start items-center w-full mt-6">
             <a href="{{BASE}}signup-student" class="bg-orange text-darkerPurple font-bold p-2 rounded-xl hover:-translate-y-1 transition">Cadastre-se</a>

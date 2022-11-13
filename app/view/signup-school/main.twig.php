@@ -100,26 +100,5 @@
         </main>
         
     </div>
-
-    <script>
-        const dialog = document.querySelector('.dialog-scrolling');
-        const openButton = document.querySelector('#chosseAvatar');
-        const closeButton = dialog.querySelector('sl-button[slot="footer"]');
-
-        openButton.addEventListener('click', () => dialog.show());
-        closeButton.addEventListener('click', () => dialog.hide());
-
-        const avatars = document.querySelectorAll(".avatar");
-
-        avatars.forEach(avatar=> {
-            avatar.addEventListener("click", (event)=> {
-                
-                document.getElementById("inputAvatar").setAttribute("value", event.target.getAttribute("image"));
-                document.getElementById("chosseAvatar").setAttribute("image", event.target.getAttribute("image"));
-
-                dialog.hide();
-            })
-        })
-        
-    </script>
+    
 {% endblock %}

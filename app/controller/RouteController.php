@@ -45,6 +45,26 @@ class RouteController extends Controller {
 
 
     public function home() {
+
+        if(isset($_SESSION['loggedIn'])){
+
+            if($_SESSION['perfil'] === 'teacher' || $_SESSION['perfil'] === 'admin'){
+                $this->load("dashboard-teacher/main");
+                return;
+            }
+
+            if($_SESSION['perfil'] === 'school' || $_SESSION['perfil'] === 'admin'){
+                $this->load("dashboard-school/main");
+                return;
+            }
+
+            if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
+                $this->load("dashboard/main");
+                return;
+            }
+        
+        };
+
         $this->load("home/main");
     }
 

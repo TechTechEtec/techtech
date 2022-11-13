@@ -15,10 +15,10 @@
 
         <!-- MAIN CONTENT -->
         <div class="flex-1 w-full p-4" >
-        {% block main %}
+            {% block main %}
 
-        {% endblock %}   
+            {% endblock %}   
         </div>
-        
     </main>
 {% endblock %}
+

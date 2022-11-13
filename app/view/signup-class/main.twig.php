@@ -69,37 +69,34 @@
     </main>  
     
 </div>
+    <script defer>
 
-<script defer>
+        // TEACHERS AJAX REQUEST
+        $.ajax({
+            url: "@teachers",
+            method: 'GET',
+            data:"typelist=2"
+        }).done((response)=>{
 
-     // TEACHERS AJAX REQUEST
-     $.ajax({
-        url: "@teachers",
+            document.querySelector("#teachers").innerHTML = response;
+            
+        }).fail((response)=>{
+            console.log("Error:", response);
+        })
+
+
+        // CLASSES AJAX REQUEST
+        $.ajax({
+        url: "@classes",
         method: 'GET',
-        data:"typelist=2"
-    }).done((response)=>{
+        }).done((response)=>{
 
-        document.querySelector("#teachers").innerHTML = response;
-        
-    }).fail((response)=>{
-        console.log("Error:", response);
-    })
+            document.querySelector("#classes").innerHTML = response;
+    
+        }).fail((response)=>{
+            console.log("Error:", response);
+        })
 
-
-    // CLASSES AJAX REQUEST
-    $.ajax({
-    url: "@classes",
-    method: 'GET',
-    }).done((response)=>{
-
-        document.querySelector("#classes").innerHTML = response;
-   
-    }).fail((response)=>{
-        console.log("Error:", response);
-    })
-
-
-</script>
-
+    </script>
 
 {% endblock %}

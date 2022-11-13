@@ -1,21 +1,51 @@
 <sl-dialog label="Informações de Progresso" class="dialog-scrolling" style="--width: min(650px, 95%) ; overflow:auto">
 
-    <h2 class="flex flex-row items-center justify-start gap-[1.5rem]">
-        <span class="font-bold text-lg uppercase font-mukta">Total de Pontos:</span>
-        <span class="text-xl font-roboto flex flex-row items-center justify-start gap-[0.5rem] ">
-            <span class="text-md font-normal text-[#303030]">{{session.totalScore}}</span>  
-            <sl-icon name="fire" style="color: #e25822"></sl-icon> 
-        </span>
-    </h2>
+    <div class="flex flex-col items-stretch justify-start md:flex-row md:justify-center md:items-center gap-[1rem] w-full">
+        <div class="flex flex-col justify-center items-start">
+            <h2 class="flex flex-row items-center justify-start gap-[1.5rem]">
+                <span class="font-bold text-lg uppercase font-mukta">Total de Pontos:</span>
+                <span class="text-xl font-roboto flex flex-row items-center justify-start gap-[0.5rem] ">
+                    <span class="text-md font-normal text-[#303030]">{{session.totalScore}}</span>  
+                    <sl-icon name="fire" style="color: #e25822"></sl-icon> 
+                </span>
+            </h2>
 
-    <h2 class="flex flex-row items-center justify-start gap-[1.5rem]">
-        <span  class="font-bold text-lg uppercase font-mukta">Módulo atual:</span>
-        <span class="text-xl font-roboto flex flex-row items-center justify-start gap-[0.5rem] ">
-            <span class="text-md font-normal text-[#303030]">{{session.actualModule}}</span>  
+            <h2 class="flex flex-row items-center justify-start gap-[1.5rem]">
+                <span  class="font-bold text-lg uppercase font-mukta">Módulo atual:</span>
+                <span class="text-xl font-roboto flex flex-row items-center justify-start gap-[0.5rem] ">
+                    <span class="text-md font-normal text-[#303030]">{{session.actualModule}}</span>  
 
-            <sl-icon name="book" style="color:hsl(252, 100%, 68%)"></sl-icon> 
-        </span>
-    </h2> 
+                    <sl-icon name="book" style="color:hsl(252, 100%, 68%)"></sl-icon> 
+                </span>
+            </h2> 
+        </div>
+
+        <div class="flex flex-col flex-1 justify-start items-stretch">
+            <h2  class="font-bold text-lg uppercase font-mukta">Progresso:</h2>
+            <sl-progress-bar value="{{session.progressInPorcentage}}" class="progress-bar-values"  style="
+                --track-color: hsl(281, 100%, 95%); 
+                --indicator-color: hsl(252, 100%, 68%);
+                --width:100%;
+                --height: 1.5rem;
+                flex: 1;
+            ">{{session.progressInPorcentage}} %</sl-progress-bar>
+        </div>
+
+        <style>
+            .progress-bar-values::part(base){
+                border-radius: 0.30rem;
+            }
+
+            .progress-bar-values::part(indicator){
+               padding: 0 1.8rem 0 0.25rem;
+            }
+            
+            .progress-bar-values::part(label){
+               font-weight: bold;
+            }
+        </style>
+
+    </div>
 
 
     <ul class="w-full list-none grid grid-flow-row gap-4 my-6 mx-auto">
