@@ -69,6 +69,7 @@ class TeacherController extends Controller{
             'email'    => Input::post('email'),
             'password' => Input::post('password'),
             'confirmPassword' => Input::post('confirmpassword'),
+            "avatar"   => Input::post("avatar")
         ];
 
         // Validating Data
@@ -177,6 +178,15 @@ class TeacherController extends Controller{
             $this->showMessage(
                 'Formulário inválido', 
                 'Senha e senha de confirmação não coincidem',
+            );
+
+            die();
+        }
+
+        if(strlen($teacher->avatar) <= 0) {
+            $this->showMessage(
+                'Formulário inválido', 
+                'Não foi escolhido um avatar para o usuário',
             );
 
             die();

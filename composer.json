@@ -7,9 +7,11 @@
   },
   "require": {
     "rafaelwendel/phpsupabase": "^0.0.2",
-    "erusev/parsedown": "^1.7",
     "twig/twig": "^3.4",
     "twig/intl-extra": "^3.4",
-    "twig/extra-bundle": "^3.4"
+    "twig/extra-bundle": "^3.4",
+    "twig/markdown-extra": "^3.4",
+    "twig/cssinliner-extra": "^3.4",
+    "league/commonmark": "^2.3"
   }
 }

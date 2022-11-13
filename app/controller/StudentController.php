@@ -67,7 +67,8 @@ class StudentController extends Controller {
             'email'    => Input::post('email'),
             'birthday' => Input::post('birthday'),
             'password' => Input::post('password'),
-            "confirmPassword" => Input::post("confirmpassword")
+            "confirmPassword" => Input::post("confirmpassword"),
+            "avatar"   => Input::post("avatar")
         ];
 
         $this->registerValidate($student);
@@ -128,7 +129,7 @@ class StudentController extends Controller {
 
             $this->showMessage(
                 'Formulário inválido', 
-                'O nome do aluno tem menos do que 3 caractéres',
+                'O nome do aluno tem menos do que 3 caracteres',
             );
 
             die();
@@ -137,7 +138,7 @@ class StudentController extends Controller {
         if (strlen($student->email) < 10) {
             $this->showMessage(
                 'Formulário inválido', 
-                'O email da escola tem menos do que 10 caractéres',
+                'O email da escola tem menos do que 10 caracteres',
             );
 
             die();
@@ -160,6 +161,15 @@ class StudentController extends Controller {
 
             die();
         }
+
+        if(strlen($student->avatar) <= 0) {
+            $this->showMessage(
+                'Formulário inválido', 
+                'Não foi escolhido um avatar para o usuário',
+            );
+
+            die();
+        }
     }
 
     private function updateValidate(Object $student){
@@ -169,7 +179,7 @@ class StudentController extends Controller {
 
                 $this->showMessage(
                     'Formulário inválido', 
-                    'O nome do aluno tem menos do que 3 caractéres',
+                    'O nome do aluno tem menos do que 3 caracteres',
                 );
     
                 die();
@@ -180,7 +190,7 @@ class StudentController extends Controller {
             if (strlen($student->email) < 10) {
                 $this->showMessage(
                     'Formulário inválido', 
-                    'O nome do aluno tem menos do que 10 caractéres',
+                    'O nome do aluno tem menos do que 10 caracteres',
                 );
     
                 die();
