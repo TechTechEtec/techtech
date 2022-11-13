@@ -195,7 +195,14 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                $this->load("modules/02/exam");
+
+                if($_SESSION['progress']->module1 !== null && $_SESSION['progress']->module1 >= 7){
+                    $this->load("modules/02/exam");
+                    return;
+                }
+
+                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 01 e obter nota maior ou igual a 7", BASE . "dashboard", 400);
+
                 return;
             }
 
@@ -222,7 +229,14 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                $this->load("modules/03/exam");
+               
+                if($_SESSION['progress']->module2 !== null && $_SESSION['progress']->module2 >= 7){
+                    $this->load("modules/03/exam");
+                    return;
+                }
+
+                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 02 e obter nota maior ou igual a 7", BASE . "dashboard", 400);
+
                 return;
             }
 
@@ -249,7 +263,13 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                $this->load("modules/04/exam");
+                if($_SESSION['progress']->module3 !== null && $_SESSION['progress']->module3 >= 7){
+                    $this->load("modules/04/exam");
+                    return;
+                }
+
+                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 03 e obter nota maior ou igual a 7", BASE . "dashboard", 400);
+
                 return;
             }
 
@@ -276,7 +296,13 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                $this->load("modules/05/exam");
+                if($_SESSION['progress']->module4 !== null && $_SESSION['progress']->module4 >= 7){
+                    $this->load("modules/05/exam");
+                    return;
+                }
+
+                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 04 e obter nota maior ou igual a 7", BASE . "dashboard", 400);
+
                 return;
             }
 
@@ -303,7 +329,13 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                $this->load("modules/06/exam");
+                if($_SESSION['progress']->module5 !== null && $_SESSION['progress']->module5 >= 7){
+                    $this->load("modules/06/exam");
+                    return;
+                }
+
+                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 05 e obter nota maior ou igual a 7", BASE . "dashboard", 400);
+
                 return;
             }
 
@@ -330,7 +362,13 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                $this->load("modules/07/exam");
+                if($_SESSION['progress']->module6 !== null && $_SESSION['progress']->module6 >= 7){
+                    $this->load("modules/07/exam");
+                    return;
+                }
+
+                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 06 e obter nota maior ou igual a 7", BASE . "dashboard", 400);
+
                 return;
             }
 
