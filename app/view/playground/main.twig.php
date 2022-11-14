@@ -89,7 +89,6 @@
 	<!-- Code Editor -->
 	<div id="cnt-editors">
 		<div id="edt-source"></div>
-		<div id="edt-output"></div>
 		<div id="cnt-helper">
 			<table>
 				<thead>

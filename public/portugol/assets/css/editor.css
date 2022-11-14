@@ -185,7 +185,6 @@ input[type="file"] {
 .menu-item {
   display: inline-block;
   position: relative;
-
 }
 
 .menu-item a {
@@ -264,6 +263,7 @@ input[type="file"] {
   box-shadow: 0 0 0.3125rem #fff inset;
   border-bottom: 0.0625rem solid #dad8da;
   padding: 0.3125rem 0.9375rem;
+  border-radius: 0.25rem 0.25rem 0 0;
 }
 
 .toolbar a {
@@ -393,7 +393,6 @@ input[type="file"] {
 }
 
 #edt-source,
-#edt-output,
 #cnt-helper {
   position: absolute;
   top: 0;
@@ -402,6 +401,11 @@ input[type="file"] {
   left: 0;
   width: 50%;
   display: block;
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+
+#edt-source {
+  width: 100%;
 }
 
 #edt-output,
