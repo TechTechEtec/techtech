@@ -181,7 +181,7 @@
     strings: ['Trabalho de conclusão de curso!', "TECHTECH ⭐", "Comece a aprender agora mesmo!"],
     typeSpeed: 40,
     backSpeed: 15,
-    backDelay: 3000,
+    backDelay: 2000,
     loop: true,
     loopCount: Infinity,
     showCursor: false,
