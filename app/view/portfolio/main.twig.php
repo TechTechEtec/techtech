@@ -9,11 +9,12 @@
   <header> 
       <nav class="flex flex-row items-center gap-4 justify-between p-4 items-center w-full z-0">
         <img class="flex-none w-20 h-20" src="{{BASE}}svgs/techtechlogo.svg" alt="TechTech Logo">
-          <ul class="text-purple font-bold text-xl flex flex-col items-center justify-center drop-shadow-xl px-6 py-10 bg-white fixed top-0 right-0 h-screen w-screen md:items-start md:justify-start md:w-[40%] lg:h-auto lg:relative lg:flex-row lg:bg-transparent lg:p-0 lg:items-center gap-4 lg:gap-10 lg:w-auto hidden lg:flex home-menu">
+          <ul class="text-purple font-bold text-xl flex flex-col items-center justify-center drop-shadow-xl px-6 py-10 bg-white fixed top-0 right-0 h-screen w-screen md:items-start md:justify-start md:w-[40%] lg:h-auto lg:relative lg:flex-row lg:bg-transparent lg:p-0 lg:items-center gap-4 lg:gap-10 lg:w-auto hidden lg:flex home-menu z-[999]">
             <li class="hover:translate-y-[-3px] ease duration-300 cursor-pointer absolute top-6 right-6 lg:hidden" onclick="toggleHomeMenu()" >
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#4d3a92" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="96" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><line x1="160" y1="96" x2="96" y2="160" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="160" y1="160" x2="96" y2="96" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line></svg>
             </li>
 
+            <li class="hover:text-lightpurple "><a href="{{BASE}}">Início</a></li>
             <li class="hover:text-lightpurple "><a href="#techtech">Projeto</a></li>
             <li class="hover:text-lightpurple "><a href="#platform">Plataforma</a></li>
             <li class="hover:text-lightpurple "><a href="#plan">Plano de Curso</a></li>
@@ -25,10 +26,10 @@
           </button>
 
         <!-- Login Button -->
-          <button class="bg-orange rounded-full px-3 h-10 text-white flex items-center group">
+          <a href="{{BASE}}choose-signup" class="bg-orange rounded-full px-3 h-10 text-white flex items-center group">
             <i class="ph-user"></i>
             <span class="pl-2">Cadastre-se</span>
-          </button>
+          </a>
       </nav>
   
       <div class="flex flex-wrap  gap-x-8 items-center justify-center mt-[6rem] sm:ml-0  ml-[-9rem]">
@@ -41,8 +42,8 @@
   </header>
 
   <main>
-    <section class="p-7 bg-white lg:p-32 mt-[25rem] lg:mt-[15rem] w-screen h-full shadow-xl" data-aos="fade-up">
-          <h1 class="text-4xl text-lightpurple font-bold"><a id="techtech"></a>TechTech</h1><br>
+    <section class="p-7 bg-white lg:p-32 mt-[25rem] lg:mt-[15rem] w-screen h-full shadow-xl" data-aos="fade-up" id="techtech">
+          <h1 class="text-4xl text-lightpurple font-bold"><a></a>TechTech</h1><br>
           <div class="flex flex-row lg:space-x-15 lg:gap-x-28">
           <lottie-player src="https://lottie.host/726cfe36-37c2-495b-b50e-719740134a8d/2go1Vp4tyZ.json" background="transparent" speed="1" loop autoplay class="w-0 h-0 md:w-0 md:h-0 lg:w-64 lg:h-64 mt-[7rem]"></lottie-player>
           <div class="space-y-3">
@@ -53,8 +54,8 @@
           </div>
     </section><hr>
 
-    <section class="p-12 lg:p-32 bg-white w-screen h-full shadow-md" data-aos="fade-up">
-        <h1 class="text-4xl text-darkerpurple font-bold float-right"><a id="platform">Plataforma</a></h1>
+    <section class="p-12 lg:p-32 bg-white w-screen h-full shadow-md" data-aos="fade-up" id="platform">
+        <h1 class="text-4xl text-darkerpurple font-bold float-right"><a>Plataforma</a></h1>
         <div class="flex flex-row lg:space-x-15 lg:gap-x-28">
         <div class="space-y-3">
             <p class="w-[22rem] md:w-[40rem] lg:w-[45rem] font-clean text-xl text-justify mt-[3rem]">O sistema é totalmente online, conta com a dinâmica de logins, o que permite o acesso de qualquer lugar ou dispositivo. A plataforma também possui um design intuitivo para que o aluno possa utilizar todas as funcionalidades.  </p>
@@ -65,10 +66,12 @@
         <lottie-player src="https://lottie.host/dc0b3bb8-d8f7-4287-877f-16c4d8222680/YMPQHEQnXQ.json" background="transparent" speed="1" loop autoplay class="mt-[8rem] mr-[-20rem] w-0 h-0 md:w-0 md:h-0 lg:w-64 lg:h-64"></lottie-player>  
         
       </div>
-    </section><hr>
+    </section>
 
-    <section class="p-12 lg:p-32 w-screen h-full shadow-md" data-aos="fade-up">
-        <h1 class="text-4xl text-darkpurple font-bold"><a id="plan">Plano de Curso</a></h1><br>
+    <hr>
+
+    <section class="p-12 lg:p-32 w-screen h-full shadow-md" data-aos="fade-up" id="plan">
+        <h1 class="text-4xl text-darkpurple font-bold"><a>Plano de Curso</a></h1><br>
         <div class="flex flex-row lg:space-x-15 lg:gap-x-28">
           <lottie-player src="https://lottie.host/5f1b8566-eb71-4861-82f5-1379e29fc48a/hJ99ijOAbk.json" background="transparent" speed="1" loop autoplay class="w-0 h-0 md:w-0 md:h-0 lg:w-64 lg:h-64 mt-[7rem]"></lottie-player>
           <div class="space-y-3">
@@ -148,12 +151,14 @@
     </section>
   </main>
 
-  <section class="px-6 mt-14 py-6 w-[90vw] m-auto" data-aos="fade-up">
+    <section class="px-6 mt-10 py-6 w-[90vw] m-auto" data-aos="fade-up">
       <div class="bg-darkerpurple p-6 flex flex-col sm:flex-row flex-wrap rounded-md text-white font-bold items-center justify-center gap-4 max-w-[900px] w-full mx-auto drop-shadow-md">
+        
         <a href="#" class="relative text-darkpurple bg-orange rounded-md p-4 hover:-translate-y-1 transition duration-300 after:content[''] after:block after:absolute after:bg-orange after:w-[25px] after:h-[25px] after:rounded-md after:rotate-45 after:bottom-[-8px] after:left-[20px]">
           Dê-nos seu Feedback
         </a>
-        <p class="flex-1">Sua Opinião é muito importante para nós assim podemos melhorar a sua experiência na nossa plataforma.
+
+        <p class="flex-1 text-purple font-bold text-xl">Sua Opinião é muito importante para nós assim podemos melhorar a sua experiência na nossa plataforma.
       </div>
     </section>
 

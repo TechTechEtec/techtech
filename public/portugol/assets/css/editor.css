@@ -404,10 +404,6 @@ input[type="file"] {
   border-radius: 0 0 0.25rem 0.25rem;
 }
 
-#edt-source {
-  width: 100%;
-}
-
 #edt-output,
 #cnt-helper {
   left: 50%;

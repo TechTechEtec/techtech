@@ -50,7 +50,9 @@
       <div class="flex flex-col justify-around items-start m-auto w-full gap-6 2md:flex-col lg:flex-row lg:items-start lg:justify-around">
         <div class="flex flex-1 flex-col items-start justify-evenly">
 
-          <h1 class="text-5xl text-darkpurple font-cartoon font-bold">Comece a aprender agora mesmo!</h1>
+          <h1 class="text-4xl text-darkpurple font-mukta font-bold min-h-[50px]">
+            <span id="typed"></span>
+          </h1>
 
           <p class="text-gray-600 text-justify mt-10 mb-5 text-lg w-full max-w-[35rem] font-medium font-roboto subpixel-antialiased">Ensino tecnológico acessível para crianças, um projeto sem fins lucrativos desenvolvido por estudantes, para auxiliar estudantes, com a finalidade de apresentar o mundo tecnológico de outra forma para crianças, e assim ampliar seus horizontes.</p>
 
@@ -171,5 +173,19 @@
   </footer>
 
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+  var typed = new Typed('#typed', {
+    strings: ['Trabalho de conclusão de curso!', "TECHTECH ⭐", "Comece a aprender agora mesmo!"],
+    typeSpeed: 40,
+    backSpeed: 15,
+    backDelay: 3000,
+    loop: true,
+    loopCount: Infinity,
+    showCursor: false,
+  });
+</script>
 
 {% endblock %}
