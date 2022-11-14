@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br" translate>
     <head>
         <!-- Fonts Google Preconnect -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,6 +36,7 @@
 
         <!-- CSS Reset -->
         <link rel="stylesheet" href="{{BASE}}css/global.css" type="text/css"/>
+
         <title>{% block title %}{% endblock %}</title>
 
         <!-- JQUERY TO AJAX REQUESTS -->
@@ -47,15 +48,15 @@
         <!-- COMPONENTS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/themes/light.css" />
         <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/shoelace.js"></script>
-    
+        
+        {% block aditionalStyle %}{% endblock %}
+
         <!-- ON LOAD PAGE -->
         <script>
             $(document).ready(function() { 
                 document.querySelector("#loading").setAttribute("style", "display:none");
             })
         </script>
-
-        {% block customStyle %}{% endblock %}
     </head>
     
     <body class="overflow-x-hidden">

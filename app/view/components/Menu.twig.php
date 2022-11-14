@@ -5,7 +5,7 @@
         <h2 class="text-4xl font-bold text-darkerPurple font-mukita mb-4">Menu</h2>
 
         <button onclick="toggleMenu()" class="text-4xl font-bold ease-linear transition-all duration-300" id="openMenuButton">
-            <i class="ph-list"></i>
+            <i class="ph-list" style="color:#101241"></i>
         </button>
     </div>
 
@@ -14,7 +14,7 @@
         <p class="text-2xl font-bold text-darkerPurple font-mukita">Dashboard</p>
 
         <span class="text-4xl font-bold text-center flex items-center justify-center">
-            <i class="ph-house"></i>
+            <i class="ph-house" style="color:#101241"></i>
         </span>
     </a>
 
@@ -23,7 +23,7 @@
         <p class="text-2xl font-bold text-darkerPurple font-mukita">Módulos</p>
 
         <span class="text-4xl font-bold text-center flex items-center justify-center">
-            <i class="ph-book-open"></i>
+            <i class="ph-book-open" style="color:#101241"></i>
         </span>
     </a>
 
@@ -32,7 +32,7 @@
         <p class="text-2xl font-bold text-darkerPurple font-mukita">Atividades</p>
 
         <span class="text-4xl font-bold text-center flex items-center justify-center">
-            <i class="ph-file-search"></i>
+            <i class="ph-file-search" style="color:#101241"></i>
         </span>
     </a>
 
@@ -41,7 +41,7 @@
         <p class="text-2xl font-bold text-darkerPurple font-mukita">Turma</p>
 
         <span class="text-4xl font-bold text-center flex items-center justify-center">
-            <i class="ph-users"></i>
+            <i class="ph-users" style="color:#101241"></i>
         </span>
     </a>
 
@@ -50,7 +50,7 @@
         <p class="text-2xl font-bold text-darkerPurple font-mukita">Configurações</p>
 
         <span class="text-4xl font-bold text-center flex items-center justify-center">
-            <i class="ph-gear-six"></i>
+            <i class="ph-gear-six" style="color:#101241"></i>
         </span>
     </a>
 
@@ -59,7 +59,7 @@
         <p class="text-2xl font-bold text-darkerPurple font-mukita">Ajuda</p>
 
         <span class="text-4xl font-bold text-center flex items-center justify-center">
-        <i class="ph-question"></i>
+            <i class="ph-question" style="color:#101241"></i>
         </span>
     </a>
 
