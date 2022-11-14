@@ -141,7 +141,7 @@
     <!-- SCRIPTS TO HIGHLIGHT THE MENU ITEM-->
     <script>
         // This Array must contains the end of real path url used in Menu links
-        const urls = ['dashboard', 'modules', 'activities', 'configurations', 'help'];
+        const urls = ['dashboard', 'playground', 'modules', 'activities', 'configurations', 'help'];
 
         urls.forEach((url)=> {
             if(window.location.pathname.endsWith(url)){
