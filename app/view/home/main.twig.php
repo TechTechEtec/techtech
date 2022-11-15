@@ -23,11 +23,13 @@
           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#4d3a92" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="96" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><line x1="160" y1="96" x2="96" y2="160" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="160" y1="160" x2="96" y2="96" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line></svg>
         </li>
 
-        <li class="hover:text-purple "><a href="#" onclick="toggleHomeMenu()">Início</a></li>
+        <li class="hover:text-purple "><a href="{{BASE}}portfolio" onclick="toggleHomeMenu()">Projeto</a></li>
+        <li class="hover:text-purple "><a href="{{BASE}}portfolio#platform" onclick="toggleHomeMenu()">Plataforma</a></li>
         <li class="hover:text-purple "><a href="{{BASE}}portfolio#plan" onclick="toggleHomeMenu()">Plano de Curso</a></li>
         <li class="hover:text-purple "><a href="{{BASE}}portfolio#team" onclick="toggleHomeMenu()">Equipe</a></li>
         <li class="hover:text-purple "><a href="#" onclick="toggleHomeMenu()">Módulos</a></li>
       </ul>
+      
 
       <button class="lg:hidden border-none bg-none p-4 cursor-pointer" onclick="toggleHomeMenu()">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#4d3a92" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="40" y1="64" x2="216" y2="64" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="40" y1="192" x2="216" y2="192" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line></svg>
