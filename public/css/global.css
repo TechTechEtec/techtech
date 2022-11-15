@@ -100,8 +100,22 @@ button {
 
 *::-webkit-scrollbar-thumb {
   background-color: grey;
-  border-radius: 20px;
+  border-radius: 0.5rem;
   border: none;
+}
+
+/* Scroll less visible */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: grey #e5e5e5;
+  box-sizing: border-box;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*.scroll-less-visible::-webkit-scrollbar {
+  width: 2px;
+  height: 6px;
 }
 
 #loading {

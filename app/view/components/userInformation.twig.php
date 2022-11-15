@@ -4,7 +4,7 @@
     {% embed "components/studentProgressInformation.twig.php" %}{% endembed %}
 {% endif %}
 
-<div class="bg-[#fff] text-black min-h-screen sticky top-0 z-1 overflow-y-auto overflow-x-hidden border-r-2 border-[#808080] p-4 m-r-4 min-w-[260px] max-w-[260px]">
+<div class="bg-[#fff] text-black min-h-screen max-h-screen overflow-y-auto sticky top-0 z-1 overflow-y-auto overflow-x-hidden border-r-2 border-[#808080] p-4 m-r-4 min-w-[260px] max-w-[260px] scroll-less-visible">
 
     <div id="user_information_session" class="w-full text-center flex flex-col gap-[1rem] items-center justify-start">
 
@@ -58,4 +58,9 @@
             <p class="font-bold text-lg uppercase font-mukta mt-2">Progresso</p>
         </div>   
     {% endif %}
+
+
+    <div class="w-full p-2 sticky top-[100%] left-0 right-0 ">
+        <img src="{{BASE}}svgs/techbo_challenges.svg" alt="techbô image"/>
+    </div>
 </div>
