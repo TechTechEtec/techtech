@@ -4,14 +4,32 @@
 
 {% block main %}
 
-    <h1 class="text-4xl font-bold font-clean text-purple uppercase mx-4 my-8">Módulo 1</h1>
+ <main class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-repeat-y bg-center relative overflow-x-hidden">
+        <sl-breadcrumb>
+            <sl-breadcrumb-item href="{{BASE}}modules/01">Módulo 1</sl-breadcrumb-item>
+            <sl-breadcrumb-item href="{{BASE}}modules/02">Módulo 2</sl-breadcrumb-item>
+            <sl-breadcrumb-item href="{{BASE}}modules/03">Módulo 3</sl-breadcrumb-item>
+            <sl-breadcrumb-item href="{{BASE}}modules/04">Módulo 4</sl-breadcrumb-item>
+            <sl-breadcrumb-item href="{{BASE}}modules/05">Módulo 5</sl-breadcrumb-item>
+            <sl-breadcrumb-item href="{{BASE}}modules/06">Módulo 6</sl-breadcrumb-item>
+            <sl-breadcrumb-item href="{{BASE}}modules/07">Módulo 7</sl-breadcrumb-item>
+        </sl-breadcrumb>
 
-    <div class="px-6 py-4" id="content">
-        {% apply markdown_to_html %}
-            {{ getMarkdown('https://raw.githubusercontent.com/TechTechEtec/modules/main/01/index.md') }}
-        {% endapply %}
-    </div>
+        <div class="items-center justify-center w-[60rem] ml-[10rem] bg-white">    
+            <h1 class="text-4xl font-bold font-clean text-purple uppercase mx-4 my-8">Módulo 1</h1>
 
+            <div class="px-6 py-4" id="content">
+                {% apply markdown_to_html %}
+                    {{ getMarkdown('https://raw.githubusercontent.com/TechTechEtec/modules/main/01/index.md') }}
+                {% endapply %}
+            </div>
+
+            <div class="flex flex-row bottom-0 right-0">
+                <sl-icon-button name="file-text" label="Edit" style="font-size: 2.5rem;"></sl-icon-button>
+                <p class="flex justify-center items-center font-mukta font-bold">Exame <sl-icon name="arrow-right-short"></sl-icon></p>
+            </div>
+        </div>
+ <main>
     <style>
         #content h2, #content h3 {
             font-family: 'Nerko One', "Mukta", "Roboto", Arial, Helvetica, sans-serif;
@@ -24,7 +42,7 @@
             margin: 1rem 0;
             color: hsl(252, 100%, 68%);
             font-weight: 600;
-            font-family: "Mukta", "Roboto", Arial, Helvetica, sans-serif;;
+            font-family: "Mukta", "Roboto", Arial, Helvetica, sans-serif;
         }
 
         #content h2 {
