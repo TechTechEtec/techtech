@@ -408,6 +408,9 @@ input[type="file"] {
 #cnt-helper {
   left: 50%;
 }
+#edt-source {
+  width: 100%;
+}
 
 #cnt-helper {
   display: none;

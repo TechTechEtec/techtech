@@ -27,7 +27,7 @@
         <!-- Tailwind configuration -->
         <script src="{{BASE}}vendor/tailwindcss.js"></script>
         
-        <!--Lottie animations-->
+        <!-- Lottie animations-->
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
         <!-- JavaScript files -->
