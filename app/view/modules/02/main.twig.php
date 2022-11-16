@@ -4,15 +4,47 @@
 
 {% block main %}
 
-    <h1 class="text-4xl font-bold font-clean text-purple uppercase mx-4 my-8">Módulo 2</h1>
+<main class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-repeat-y bg-center relative overflow-x-hidden">
+       <div class="items-center justify-center lg:ml-[14rem] md:ml-[5rem]  md:mr-[5rem]">
+        <sl-breadcrumb>
+            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/01">Módulo 1</sl-breadcrumb-item>
+            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/02">Módulo 2</sl-breadcrumb-item>
+            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/03">Módulo 3</sl-breadcrumb-item>
+            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/04">Módulo 4</sl-breadcrumb-item>
+            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/05">Módulo 5</sl-breadcrumb-item>
+            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/06">Módulo 6</sl-breadcrumb-item>
+            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/07">Módulo 7</sl-breadcrumb-item>
+        </sl-breadcrumb>
+       </div>
 
-    <div class="px-6 py-4" id="content">
-        {% apply markdown_to_html %}
-            {{ getMarkdown('https://raw.githubusercontent.com/TechTechEtec/modules/main/02/index.md') }}
-        {% endapply %}
-    </div>
+        <div class="items-center justify-center w-[25rem] lg:w-[60rem] md:w-[40rem] lg:ml-[9rem] md:ml-[3rem] bg-white">    
+            <h1 class="text-2xl font-bold font-clean text-purple uppercase px-4 my-8">Módulo 2</h1>
+
+            <div class="px-4" id="content">
+              {% apply markdown_to_html %}
+                 {{ getMarkdown('https://raw.githubusercontent.com/TechTechEtec/modules/main/02/index.md') }}
+              {% endapply %}
+            </div>
+
+            <div class="flex flex-row">
+                <a href><p class="flex justify-center items-center font-mukta font-bold"><sl-icon-button name="file-text" label="Edit" style="font-size: 2.5rem;"></sl-icon-button>Exame <sl-icon name="arrow-right-short"></sl-icon></p></a>
+            </div>
+
+            <div class="flex flex-row gap-x-3 lg:gap-x-96 md:gap-x-96 font-mukta font-bold text-2xl justify-center items-center text-blue mt-[2rem]">
+                <p class="justify-center items-center"><a href="{{BASE}}modules/01"><sl-icon name="arrow-bar-left"></sl-icon> Anterior</a></p>
+                <p><a href="{{BASE}}modules/03">Módulo 3>Próximo <sl-icon name="arrow-bar-right"></sl-icon></a></p>
+            </div>
+        </div>
+ <main>
+
+
 
     <style>
+        .module-summary::part(base)
+        {
+            font-size: 1.2rem;
+            
+        }
         #content h2, #content h3 {
             font-family: 'Nerko One', "Mukta", "Roboto", Arial, Helvetica, sans-serif;
             text-transform: uppercase;

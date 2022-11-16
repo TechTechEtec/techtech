@@ -5,32 +5,44 @@
 {% block main %}
 
  <main class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-repeat-y bg-center relative overflow-x-hidden">
+       <div class="items-center justify-center lg:ml-[14rem] md:ml-[5rem]  md:mr-[5rem]">
         <sl-breadcrumb>
-            <sl-breadcrumb-item href="{{BASE}}modules/01">Módulo 1</sl-breadcrumb-item>
-            <sl-breadcrumb-item href="{{BASE}}modules/02">Módulo 2</sl-breadcrumb-item>
-            <sl-breadcrumb-item href="{{BASE}}modules/03">Módulo 3</sl-breadcrumb-item>
-            <sl-breadcrumb-item href="{{BASE}}modules/04">Módulo 4</sl-breadcrumb-item>
-            <sl-breadcrumb-item href="{{BASE}}modules/05">Módulo 5</sl-breadcrumb-item>
-            <sl-breadcrumb-item href="{{BASE}}modules/06">Módulo 6</sl-breadcrumb-item>
-            <sl-breadcrumb-item href="{{BASE}}modules/07">Módulo 7</sl-breadcrumb-item>
+            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/01">Módulo 1</sl-breadcrumb-item>
+            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/02">Módulo 2</sl-breadcrumb-item>
+            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/03">Módulo 3</sl-breadcrumb-item>
+            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/04">Módulo 4</sl-breadcrumb-item>
+            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/05">Módulo 5</sl-breadcrumb-item>
+            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/06">Módulo 6</sl-breadcrumb-item>
+            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/07">Módulo 7</sl-breadcrumb-item>
         </sl-breadcrumb>
+       </div>
 
-        <div class="items-center justify-center w-[60rem] ml-[10rem] bg-white">    
-            <h1 class="text-4xl font-bold font-clean text-purple uppercase mx-4 my-8">Módulo 1</h1>
+        <div class="items-center justify-center w-[25rem] lg:w-[60rem] md:w-[40rem] lg:ml-[9rem] md:ml-[3rem] bg-white">    
+            <h1 class="text-2xl font-bold font-clean text-purple uppercase px-4 my-8">Módulo 1</h1>
 
-            <div class="px-6 py-4" id="content">
+            <div class="px-4" id="content">
                 {% apply markdown_to_html %}
                     {{ getMarkdown('https://raw.githubusercontent.com/TechTechEtec/modules/main/01/index.md') }}
                 {% endapply %}
             </div>
 
-            <div class="flex flex-row bottom-0 right-0">
-                <sl-icon-button name="file-text" label="Edit" style="font-size: 2.5rem;"></sl-icon-button>
-                <p class="flex justify-center items-center font-mukta font-bold">Exame <sl-icon name="arrow-right-short"></sl-icon></p>
+            <div class="flex flex-row">
+                <a href><p class="flex justify-center items-center font-mukta font-bold"><sl-icon-button name="file-text" label="Edit" style="font-size: 2.5rem;"></sl-icon-button>Exame <sl-icon name="arrow-right-short"></sl-icon></p></a>
+            </div>
+
+            <div class="float-right flex flex-row gap-x-3 lg:gap-x-96 md:gap-x-96 font-mukta font-bold text-2xl text-blue mt-[2rem]">
+                <p class=""><a href="{{BASE}}modules/02">Próximo <sl-icon name="arrow-bar-right"></sl-icon></a></p>
             </div>
         </div>
  <main>
+
     <style>
+        .module-summary::part(base)
+        {
+            font-size: 1.2rem;
+            
+        }
+
         #content h2, #content h3 {
             font-family: 'Nerko One', "Mukta", "Roboto", Arial, Helvetica, sans-serif;
             text-transform: uppercase;
@@ -132,5 +144,8 @@
             color: hsl(252, 100%, 68%);
             font-weight: 400;
         }
+
+        
+
     </style>
 {% endblock %}
