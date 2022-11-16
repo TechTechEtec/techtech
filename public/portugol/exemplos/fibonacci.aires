@@ -1,0 +1,1 @@
+{"title":"Fibonacci","source":"funcao fibonacci(numero)\n    se numero <= 1 entao\n        retorna numero\n    senao\n        retorna fibonacci(numero - 1) + fibonacci(numero - 2)\n    fimSe\nfimFuncao\n\nescreva(fibonacci(10))","created":"2017-03-17T00:42:05.232Z","updated":"2017-03-18T17:53:20.044Z","id":1489711315753}

@@ -50,7 +50,7 @@ class SessionModel extends Model {
 
                     $totalScoreAndActualModule = $this->sumScorePoints((array) $progress);
 
-                    $progressInPorcentage = round($totalScoreAndActualModule->totalScore * 100 / 70);
+                    $progressInPorcentage = round($totalScoreAndActualModule->totalScore * 100 / 56);
                     $actualModule = $totalScoreAndActualModule->actualModule;
                     $totalScore = $totalScoreAndActualModule->totalScore;
 

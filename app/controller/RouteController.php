@@ -43,8 +43,27 @@ class RouteController extends Controller {
         header('Location: ' . BASE . 'signin');
     }
 
-
     public function home() {
+
+        if(isset($_SESSION['loggedIn'])){
+
+            if($_SESSION['perfil'] === 'teacher' || $_SESSION['perfil'] === 'admin'){
+                header('Location: ' . BASE . 'dashboard-teacher');
+                return;
+            }
+
+            if($_SESSION['perfil'] === 'school' || $_SESSION['perfil'] === 'admin'){
+                header('Location: ' . BASE . 'dashboard-school');
+                return;
+            }
+
+            if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
+                header('Location: ' . BASE . 'dashboard');
+                return;
+            }
+        
+        };
+
         $this->load("home/main");
     }
 
@@ -219,7 +238,7 @@ class RouteController extends Controller {
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
 
-                if($_SESSION['progress']->module1 !== null && $_SESSION['progress']->module1 >= 7){
+                if($_SESSION['progress']->module1 !== null && $_SESSION['progress']->module1 >= 6){
                     $this->load("modules/02/exam");
                     return;
                 }
@@ -253,7 +272,7 @@ class RouteController extends Controller {
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
                
-                if($_SESSION['progress']->module2 !== null && $_SESSION['progress']->module2 >= 7){
+                if($_SESSION['progress']->module2 !== null && $_SESSION['progress']->module2 >= 6){
                     $this->load("modules/03/exam");
                     return;
                 }
@@ -286,7 +305,7 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                if($_SESSION['progress']->module3 !== null && $_SESSION['progress']->module3 >= 7){
+                if($_SESSION['progress']->module3 !== null && $_SESSION['progress']->module3 >= 6){
                     $this->load("modules/04/exam");
                     return;
                 }
@@ -319,7 +338,7 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                if($_SESSION['progress']->module4 !== null && $_SESSION['progress']->module4 >= 7){
+                if($_SESSION['progress']->module4 !== null && $_SESSION['progress']->module4 >= 6){
                     $this->load("modules/05/exam");
                     return;
                 }
@@ -352,7 +371,7 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                if($_SESSION['progress']->module5 !== null && $_SESSION['progress']->module5 >= 7){
+                if($_SESSION['progress']->module5 !== null && $_SESSION['progress']->module5 >= 6){
                     $this->load("modules/06/exam");
                     return;
                 }
@@ -385,7 +404,7 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                if($_SESSION['progress']->module6 !== null && $_SESSION['progress']->module6 >= 7){
+                if($_SESSION['progress']->module6 !== null && $_SESSION['progress']->module6 >= 6){
                     $this->load("modules/07/exam");
                     return;
                 }
@@ -403,5 +422,9 @@ class RouteController extends Controller {
 
     public function summary() {
         $this->load("summary/main");
+    }
+
+    public function playground() {
+        $this->load("playground/main");
     }
 }

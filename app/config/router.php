@@ -28,6 +28,9 @@ $this->get('/feedback', 'RouteController@feedback');
 
 $this->get('/teacher-school', 'RouteController@teacherSchool');
 
+# Playground
+
+$this->get('/playground', 'RouteController@playground');
 
 # MODULES AND EXAMS PAGES
 

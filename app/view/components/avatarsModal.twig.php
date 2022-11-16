@@ -33,8 +33,6 @@
             {id: "1zFYJDKcBEaO2NLRzUmxtB4sqqlJQZbf7", label: "avatar_school_5"},
             {id: "1DV9iKbc4LN7-_nb_ZN4BItwo3gyfZX-0", label: "avatar_school_7"},
             {id: "17m6z5SBt4LKUNdSyPL65px8lqrO28NHH", label: "avatar_school_3"},
-            
-            
             ]
      %}
     <!-- TEACHERS IMAGES -->
@@ -47,24 +45,17 @@
             {id: "1EJBRTinwgqw2PUpoBPUzo44UZ1h1y1Qh", label: "avatar_teacher_3"},
             {id: "1Dnlm2b4Lfue1KrOc_9F90B8mPv4Z5HkB", label: "avatar_teacher_6"},
             {id: "1DDpsNCc6Qk_webMO6tZEadz_oH9W8uCj", label: "avatar_teacher_4"},
-
-
-            
             ]
      %}
 
     <!-- STUDENTS -->
-
     {% block imageStudents %} {% endblock %}
 
     <!-- SCHOOLS -->
+    {% block imageSchools %} {% endblock %}
 
-     {% block imageSchools %} {% endblock %}
+    <!-- TEACHERS -->
+    {% block imageTeachers %} {% endblock %}
 
-     <!-- TEACHERS -->
-     {% block imageTeachers %} {% endblock %}
-
-       
-    </div>
     <sl-button slot="footer" variant="danger">Fechar</sl-button>
 </sl-dialog>

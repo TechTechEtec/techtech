@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Client-side - Portugol</title>
+  <script src="https://raw.githubusercontent.com/airesvsg/portugol-editor/master/assets/js/portugol.js"></script>
+</head>
+<body>
+  <textarea id="source" cols="90" rows="10"></textarea>
+  <textarea id="output" cols="90" rows="10"></textarea>
+  <script>
+    var source   = document.getElementById("source");
+    var output   = document.getElementById("output");
+    var portugol = Portugol.init();
+
+    source.addEventListener("keyup", function(event){
+      event.preventDefault();
+      output.value = portugol.parse(this.value);
+    });
+  </script>
+</body>
+</html>
