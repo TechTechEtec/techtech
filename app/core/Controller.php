@@ -25,7 +25,6 @@ class Controller {
         });
 
         $twig->addExtension(new MarkdownExtension());
-       
 
         echo $twig->render($view . '.twig.php', $params);
     }

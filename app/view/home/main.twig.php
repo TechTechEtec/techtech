@@ -3,11 +3,11 @@
 {% block title %} Home | Techtech {% endblock %}
 
 {% block body %}
-<div class="w-screen absolute h-[90px] md:w-[170vw] md:h-[60rem] md:md:h-[63rem] bg-lightpurple md:top-[-80%] md:left-[-20%] md:skew-y-3 md:-rotate-[20deg] z-[-1] p-6 ">
-  <div class="hidden md:block relative w-full h-full bg-lightpurple brightness-[1.15]"></div>
-</div>
+  <div class="w-screen absolute h-[90px] md:w-[170vw] md:h-[60rem] md:md:h-[63rem] bg-lightpurple md:top-[-80%] md:left-[-20%] md:skew-y-3 md:-rotate-[20deg] z-[-1] p-6 ">
+    <div class="hidden md:block relative w-full h-full bg-lightpurple brightness-[1.15]"></div>
+  </div>
 
-<div class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-cover bg-repeat-y bg-center relative overflow-x-hidden" >
+<div class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-repeat-y bg-center relative overflow-x-hidden" >
 
   <!-- HEADER CONTENT --> 
   <header class="flex justify-between p-4 items-center w-full">
@@ -23,11 +23,13 @@
           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#4d3a92" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="96" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><line x1="160" y1="96" x2="96" y2="160" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="160" y1="160" x2="96" y2="96" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line></svg>
         </li>
 
-        <li class="hover:text-purple "><a href="#" onclick="toggleHomeMenu()">Início</a></li>
+        <li class="hover:text-purple "><a href="{{BASE}}portfolio" onclick="toggleHomeMenu()">Projeto</a></li>
+        <li class="hover:text-purple "><a href="{{BASE}}portfolio#platform" onclick="toggleHomeMenu()">Plataforma</a></li>
         <li class="hover:text-purple "><a href="{{BASE}}portfolio#plan" onclick="toggleHomeMenu()">Plano de Curso</a></li>
         <li class="hover:text-purple "><a href="{{BASE}}portfolio#team" onclick="toggleHomeMenu()">Equipe</a></li>
         <li class="hover:text-purple "><a href="#" onclick="toggleHomeMenu()">Módulos</a></li>
       </ul>
+      
 
       <button class="lg:hidden border-none bg-none p-4 cursor-pointer" onclick="toggleHomeMenu()">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#4d3a92" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="40" y1="64" x2="216" y2="64" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="40" y1="192" x2="216" y2="192" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line></svg>
@@ -50,9 +52,11 @@
       <div class="flex flex-col justify-around items-start m-auto w-full gap-6 2md:flex-col lg:flex-row lg:items-start lg:justify-around">
         <div class="flex flex-1 flex-col items-start justify-evenly">
 
-          <h1 class="text-5xl text-darkpurple font-cartoon font-bold">Comece a aprender agora mesmo!</h1>
+          <h1 class="text-4xl text-darkpurple font-mukta font-bold min-h-[50px]">
+            <span id="typed"></span>
+          </h1>
 
-          <p class="text-gray-600 text-justify mt-10 mb-5 text-lg w-[35rem] font-medium font-clean subpixel-antialiased">Ensino tecnológico acessível para crianças, um projeto sem fins lucrativos desenvolvido por estudantes, para auxiliar estudantes, com a finalidade de apresentar o mundo tecnológico de outra forma para crianças, e assim ampliar seus horizontes.</p>
+          <p class="text-gray-600 text-justify mt-10 mb-5 text-lg w-full max-w-[35rem] font-medium font-roboto subpixel-antialiased">Ensino tecnológico acessível para crianças, um projeto sem fins lucrativos desenvolvido por estudantes, para auxiliar estudantes, com a finalidade de apresentar o mundo tecnológico de outra forma para crianças, e assim ampliar seus horizontes.</p>
 
           <div class="flex flex-row gap-4 justify-start items-center w-full mt-6">
             <a href="{{BASE}}signup-student" class="bg-orange text-darkerPurple font-bold p-2 rounded-xl hover:-translate-y-1 transition">Cadastre-se</a>
@@ -171,5 +175,19 @@
   </footer>
 
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+  var typed = new Typed('#typed', {
+    strings: ['Trabalho de conclusão de curso!', "TECHTECH ⭐", "Comece a aprender agora mesmo!"],
+    typeSpeed: 40,
+    backSpeed: 15,
+    backDelay: 2000,
+    loop: true,
+    loopCount: Infinity,
+    showCursor: false,
+  });
+</script>
 
 {% endblock %}

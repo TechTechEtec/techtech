@@ -1,0 +1,1 @@
+{"title":"Par ou ímpar","source":"variavel numero = \"\"\n\nenquanto numero == \"\" faca\n    numero = leia( \"Entre com um numero\" )\nfimEnquanto\n\nse numero%2 === 0 entao\n    escreva(\"par\")\nsenao\n    escreva(\"impar\")\nfimSe","created":"2017-03-17T00:42:05.232Z","updated":"2017-03-18T19:12:30.971Z","id":1489711315752}
