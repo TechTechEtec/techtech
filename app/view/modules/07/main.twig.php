@@ -37,6 +37,11 @@
  <main>
 
     <style>
+        .module-summary::part(base)
+        {
+            font-size: 1.2rem;
+            
+        }
         #content h2, #content h3 {
             font-family: 'Nerko One', "Mukta", "Roboto", Arial, Helvetica, sans-serif;
             text-transform: uppercase;

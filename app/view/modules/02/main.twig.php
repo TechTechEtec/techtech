@@ -17,7 +17,7 @@
         </sl-breadcrumb>
        </div>
 
-        <div class="items-center justify-center w-[25rem] lg:w-[60rem] md:w-[40rem] lg:ml-[9rem] md:ml-[3rem] bg-white">    
+        <div class="items-center justify-center w-full lg:w-[60rem] md:w-[40rem] lg:ml-[9rem] md:ml-[3rem] bg-white">    
             <h1 class="text-2xl font-bold font-clean text-purple uppercase px-4 my-8">Módulo 2</h1>
 
             <div class="px-4" id="content">
@@ -32,7 +32,7 @@
 
             <div class="flex flex-row gap-x-3 lg:gap-x-96 md:gap-x-96 font-mukta font-bold text-2xl justify-center items-center text-blue mt-[2rem]">
                 <p class="justify-center items-center"><a href="{{BASE}}modules/01"><sl-icon name="arrow-bar-left"></sl-icon> Anterior</a></p>
-                <p><a href="{{BASE}}modules/03">Módulo 3>Próximo <sl-icon name="arrow-bar-right"></sl-icon></a></p>
+                <p><a href="{{BASE}}modules/03">Próximo <sl-icon name="arrow-bar-right"></sl-icon></a></p>
             </div>
         </div>
  <main>
