@@ -7,7 +7,7 @@
   <div class="hidden md:block relative w-full h-full bg-lightpurple brightness-[1.15]"></div>
 </div>
 
-<div class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-cover bg-repeat-y bg-center relative overflow-x-hidden" >
+<div class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-repeat-y bg-center relative overflow-x-hidden" >
 
   <!-- HEADER CONTENT --> 
   <header class="flex justify-between p-4 items-center w-full">
