@@ -185,6 +185,23 @@
   </sl-tab-group>   
 </div>
 
+<script defer>
+
+// TEACHERS AJAX REQUEST
+
+
+  $.ajax({
+    url: "@progress",
+    method: 'GET',
+    }).done((response)=>{
+
+    }).fail((response)=>{
+        console.log("Error:", response);
+    })
+
+
+
+</script>
 
 
 {% endblock %}
