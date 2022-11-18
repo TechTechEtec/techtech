@@ -22,7 +22,7 @@ class SessionModel extends Model {
 
         $user = (object)[
             "email" => strtolower($user->email),
-            'password' => hash('sha256', $user->password),
+            'password' => $user->password, # as has
         ];
 
         try{
@@ -50,10 +50,9 @@ class SessionModel extends Model {
 
                     $totalScoreAndActualModule = $this->sumScorePoints((array) $progress);
 
-                    $progressInPorcentage = round($totalScoreAndActualModule->totalScore * 100 / 56);
+                    $progressInPorcentage = round($totalScoreAndActualModule->totalScore * 100 / 560);
                     $actualModule = $totalScoreAndActualModule->actualModule;
                     $totalScore = $totalScoreAndActualModule->totalScore;
-
 
                     $user[0]->progress =  $progress;
                     $user[0]->progressInPorcentage = $progressInPorcentage;
@@ -81,7 +80,7 @@ class SessionModel extends Model {
         for($i = 1; $i < count($scores) - 2; $i++){
             if(!empty($scores["module" . $i])){
                 $totalScore += $scores["module" . $i];
-                $actualModule = $i;
+                $actualModule = $i + 1;
             }
         }
 
