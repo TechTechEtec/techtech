@@ -5,7 +5,7 @@
 {% block main %}
 
 <main class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-repeat-y bg-center relative overflow-x-hidden">
-       <div class="items-center justify-center lg:ml-[14rem] md:ml-[5rem]  md:mr-[5rem]">
+       <div class="items-center justify-center lg:ml-[14rem] md:ml-[5rem]  md:mr-[5rem]" data-aos="fade-up">
         <sl-breadcrumb>
             <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/01">Módulo 1</sl-breadcrumb-item>
             <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/02">Módulo 2</sl-breadcrumb-item>
@@ -20,6 +20,15 @@
         <div class="items-center justify-center w-[25rem] lg:w-[60rem] md:w-[40rem] lg:ml-[9rem] md:ml-[3rem] bg-white">    
             <h1 class="text-2xl font-bold font-clean text-purple uppercase px-4 my-8">Módulo 3</h1>
 
+            <img class="" src="{{BASE}}imgs/MindMap-03.png" alt="Mapa mental Operadores Aritméticos" data-aos="fade-up">
+
+            <div class="w-full flex items-center justify-center md:justify-end gap-4 mt-[2rem]">
+                <a href="{{BASE}}imgs/MindMap-03.png" download class="font-bold text-lg flex flex-row gap-4 items-center justify-center" >
+                    <span>Faça o download do mapa aqui!</span>
+                    <span class="material-icons">file_open</span>
+                </a>
+            </div>
+            
             <div class="px-4" id="content">
                 {% apply markdown_to_html %}
                   {{ getMarkdown('https://raw.githubusercontent.com/TechTechEtec/modules/main/03/index.md') }}
