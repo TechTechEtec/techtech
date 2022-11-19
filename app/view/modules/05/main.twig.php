@@ -5,7 +5,7 @@
 {% block main %}
 
      <main class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-repeat-y bg-center relative overflow-x-hidden">
-       <div class="items-center justify-center lg:ml-[14rem] md:ml-[5rem]  md:mr-[5rem]">
+       <div class="items-center justify-center lg:ml-[14rem] md:ml-[5rem]  md:mr-[5rem]" data-aos="fade-up">
         <sl-breadcrumb>
             <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/01">Módulo 1</sl-breadcrumb-item>
             <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/02">Módulo 2</sl-breadcrumb-item>

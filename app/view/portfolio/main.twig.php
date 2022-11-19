@@ -3,7 +3,7 @@
 {% block title %} Portfolio | Techtech {% endblock %}
 
 {% block body %} 
-  <div class="w-screen h-screen m-0 rounded-b-full z-[-1] py-6 px-4 bg-darkerpurple bg-[url({{BASE}}svgs/Random_shit.svg)] bg-cover bg-repeat-x absolute bg-cover" data-aos="fade-down">
+  <div class="w-screen h-screen m-0 rounded-b-full z-[-1] py-6 px-4 bg-darkerPurple bg-[url({{BASE}}svgs/Random_shit.svg)] bg-cover bg-repeat-x absolute bg-cover" data-aos="fade-down">
 
     <header class="w-full"> 
       <nav class="flex flex-row items-center gap-4 px-6 justify-between items-center w-full z-0">
@@ -74,7 +74,7 @@
 
       <!-- Platform -->
       <section class="p-7 lg:p-32 bg-white w-screen w-full h-full shadow-md" data-aos="fade-up" id="platform">
-        <h1 class="text-4xl text-darkerpurple font-bold text-left md:float-right">Plataforma</h1>
+        <h1 class="text-4xl text-darkerPurple font-bold text-left md:float-right">Plataforma</h1>
 
         <div class="w-full flex flex-col-reverse gap-4 items-center justify-center md:flex-row">
 
@@ -192,7 +192,7 @@
 
     <!-- Feedback -->
     <section class="px-6 mt-10 py-6 w-[90%] m-auto" data-aos="fade-up">
-      <div class="bg-darkerpurple p-6 flex flex-col md:flex-row rounded-md text-white font-bold items-center justify-center gap-6 max-w-[900px] w-full mx-auto drop-shadow-md">
+      <div class="bg-darkerPurple p-6 flex flex-col md:flex-row rounded-md text-white font-bold items-center justify-center gap-6 max-w-[900px] w-full mx-auto drop-shadow-md">
         
         <a href="{{BASE}}feedback" class="relative text-darkpurple bg-orange rounded-md p-4 hover:-translate-y-1 transition duration-300 after:content[''] after:block after:absolute after:bg-orange after:w-[25px] after:h-[25px] after:rounded-md after:rotate-45 after:bottom-[-8px] after:left-[20px]">
           Dê-nos seu Feedback
@@ -203,7 +203,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-darkerpurple bg-[url({{BASE}}svgs/Random_shit.svg)] shadow-xl flex flex-col-reverse lg:flex-row flex-wrap justify-evenly items-center w-screen m-0 h-auto gap-10 md:gap-4 p-6"  data-aos="fade-up">
+    <footer class="bg-darkerPurple bg-[url({{BASE}}svgs/Random_shit.svg)] shadow-xl flex flex-col-reverse lg:flex-row flex-wrap justify-evenly items-center w-screen m-0 h-auto gap-10 md:gap-4 p-6"  data-aos="fade-up">
       <!-- Logo -->
       <img class="w-30 h-30 pg-5" src="{{BASE}}imgs/techtech_footer_logo.png" alt="TechTech Footer Logo">
 
@@ -211,17 +211,17 @@
       <div class="flex-1 flex flex-row gap-4 w-full p-4 w-full flex-wrap items-start justify-center">
         <ul class="w-auto flex flex-col items-stretch justify-center gap-2">
           <li><h3 class="text-orange font-extrabold font-clean">Tech Tech</h3></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerpurple font-medium font-roboto">Escolas Participantes</a></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerpurple font-medium font-roboto">Equipe</a></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerpurple font-medium font-roboto">Feedback</a></li>
+          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Escolas Participantes</a></li>
+          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Equipe</a></li>
+          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Feedback</a></li>
         </ul>
 
         <ul class="w-auto flex flex-col items-stretch justify-center gap-2">
           <li><h3 class="text-orange font-extrabold font-clean">Curso</h3></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerpurple font-medium font-roboto">Plano de Curso</a></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerpurple font-medium font-roboto">Didática</a></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerpurple font-medium font-roboto">Atividades</a></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-darkerpurple font-medium font-roboto">Professores</a></li>
+          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Plano de Curso</a></li>
+          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Didática</a></li>
+          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Atividades</a></li>
+          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Professores</a></li>
         </ul>
 
         <div class="w-full h-auto flex items-start justify-center gap-6 mt-4">
