@@ -205,7 +205,10 @@
     <!-- Footer -->
     <footer class="bg-darkerPurple bg-[url({{BASE}}svgs/Random_shit.svg)] shadow-xl flex flex-col-reverse lg:flex-row flex-wrap justify-evenly items-center w-screen m-0 h-auto gap-10 md:gap-4 p-6"  data-aos="fade-up">
       <!-- Logo -->
-      <img class="w-30 h-30 pg-5" src="{{BASE}}imgs/techtech_footer_logo.png" alt="TechTech Footer Logo">
+      <div class="flex flex-col justify-center items-center gap-8 h-[20rem] w-[20rem]">
+        <img class=" w[10rem] h-[9rem]" src="{{BASE}}svgs/techtechlogo.svg" alt="TechTech Logo">
+        <img class="w-[10rem]" src="{{BASE}}imgs/logoscps.png" alt="Etec e CPS Logo">
+      </div>
 
       <!-- Links -->
       <div class="flex-1 flex flex-row gap-4 w-full p-4 w-full flex-wrap items-start justify-center">

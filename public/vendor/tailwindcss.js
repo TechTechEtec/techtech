@@ -20,6 +20,13 @@ tailwind.config = {
         ghostwhite: "#F5F5F5",
         grey: "#DADDE1",
       },
+
+      dark: {
+        eerie: "#1c1c1c",
+        lighteerie: "242323",
+        violet: "#8C10DF",
+        darkwhite: "f7f7f7",
+      }
     },
     screens: {
       sm: "460px",

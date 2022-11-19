@@ -4,8 +4,8 @@
 
 {% block main %}
 
-<main class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-repeat-y bg-center relative overflow-x-hidden">
-       <div class="items-center justify-center lg:ml-[14rem] md:ml-[5rem]  md:mr-[5rem]" data-aos="fade-up">
+<section class="w-full h-auto flex flex-col items-center justify-center bg-[url({{BASE}}svgs/Random_shit.svg)] bg-repeat-y bg-center">
+       <div class="flex items-center justify-center mt-[3rem] ml-[2rem]" data-aos="fade-up">
         <sl-breadcrumb>
             <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/01">Módulo 1</sl-breadcrumb-item>
             <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/02">Módulo 2</sl-breadcrumb-item>
@@ -17,10 +17,10 @@
         </sl-breadcrumb>
        </div>
 
-        <div class="items-center justify-center w-full lg:w-[60rem] md:w-[40rem] lg:ml-[9rem] md:ml-[3rem] bg-white">    
-            <h1 class="text-2xl font-bold font-clean text-purple uppercase px-4 my-8">Módulo 2</h1>
+       <div class="items-center justify-center sm:w-full lg:w-[60rem] md:w-[40rem] bg-white">     
+            <h1 class="text-2xl font-bold font-mukta text-purple uppercase px-4 my-8">Módulo 2</h1>
 
-            <img class="" src="{{BASE}}imgs/MindMap-02.png" alt="Mapa mental Dados na Programação" data-aos="fade-up">
+            <img src="{{BASE}}imgs/MindMap-02.png" alt="Mapa mental Dados na Programação" data-aos="fade-up">
 
             <div class="w-full flex items-center justify-center md:justify-end gap-4 mt-[2rem]">
                 <a href="{{BASE}}imgs/MindMap-02.png" download class="font-bold text-lg flex flex-row gap-4 items-center justify-center" >
@@ -29,7 +29,7 @@
                 </a>
             </div>
 
-            <div class="px-4" id="content">
+            <div class="w-full" id="content">
               {% apply markdown_to_html %}
                  {{ getMarkdown('https://raw.githubusercontent.com/TechTechEtec/modules/main/02/index.md') }}
               {% endapply %}
@@ -44,7 +44,7 @@
                 <p><a href="{{BASE}}modules/03">Próximo <sl-icon name="arrow-bar-right"></sl-icon></a></p>
             </div>
         </div>
- <main>
+</section>
 
 
 
@@ -89,7 +89,7 @@
             font-size: 1.4rem;
             color: #181818;
             line-height: 2.5rem;
-            width: 95%;
+            width: 100%;
             margin: 1.2rem auto;
             text-align: justify;
             font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -154,6 +154,13 @@
             font-size: 1.1rem;
             color: hsl(252, 100%, 68%);
             font-weight: 400;
+        }
+
+        @media (max-width: 500px) {
+            #content p {
+                font-size: 1rem;
+                margin: 0 auto;
+            }
         }
     </style>
 {% endblock %}

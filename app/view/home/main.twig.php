@@ -7,7 +7,7 @@
     <div class="hidden md:block relative w-full h-full bg-lightpurple brightness-[1.15]"></div>
   </div>
 
-<div class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-repeat-y bg-center relative overflow-x-hidden" >
+<div class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-cover bg-center">
 
   <!-- HEADER CONTENT --> 
   <header class="flex justify-between p-4 items-center w-full">
@@ -17,7 +17,7 @@
 
     <!-- NAVIGATION -->
     <nav class="flex flex-row items-center gap-4">
-      <ul class="text-darkpurple font-bold text-3xl flex flex-col items-center justify-center drop-shadow-xl px-6 py-10 z-10 bg-white fixed top-0 right-0 h-screen w-screen md:items-start md:justify-start md:w-[40%] lg:h-auto lg:relative lg:flex-row lg:bg-transparent lg:p-0 lg:items-center gap-4 lg:gap-10 lg:w-auto hidden lg:flex home-menu">
+      <ul class="text-darkpurple font-bold text-2xl flex flex-col items-center justify-center drop-shadow-xl px-6 py-10 z-10 bg-white fixed top-0 right-0 h-screen w-screen md:items-start md:justify-start md:w-[40%] lg:h-auto lg:relative lg:flex-row lg:bg-transparent lg:p-0 lg:items-center gap-4 lg:gap-10 lg:w-auto hidden lg:flex home-menu">
 
         <li class="hover:translate-y-[-3px] ease duration-300 cursor-pointer absolute top-6 right-6 lg:hidden" onclick="toggleHomeMenu()" >
           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#4d3a92" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="96" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><line x1="160" y1="96" x2="96" y2="160" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="160" y1="160" x2="96" y2="96" fill="none" stroke="#4d3a92" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line></svg>
@@ -128,7 +128,10 @@
   <!-- FOOTER CONTENT --> 
   <footer class="bg-darkerPurple bg-[url({{BASE}}svgs/Random_shit.svg)] shadow-xl flex flex-col-reverse lg:flex-row flex-wrap justify-evenly items-center w-screen m-0 h-auto gap-10 md:gap-4 p-6"  data-aos="fade-up">
       <!-- Logo -->
-      <img class="w-30 h-30 pg-5" src="{{BASE}}imgs/techtech_footer_logo.png" alt="TechTech Footer Logo">
+      <div class="flex flex-col justify-center items-center gap-8 h-[20rem] w-[20rem]">
+        <img class=" w[10rem] h-[9rem]" src="{{BASE}}svgs/techtechlogo.svg" alt="TechTech Logo">
+        <img class="w-[10rem]" src="{{BASE}}imgs/logoscps.png" alt="Etec e CPS Logo">
+      </div>
 
       <!-- Links -->
       <div class="flex-1 flex flex-row gap-4 w-full p-4 w-full flex-wrap items-start justify-center">

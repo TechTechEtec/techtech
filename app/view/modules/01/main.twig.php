@@ -1,28 +1,29 @@
 {% extends "partials/layout.twig.php" %}
 
+
 {% block title %} Módulo 1 | Techtech {% endblock %}
 
 {% block main %}
 
- <main class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-repeat-y bg-center relative overflow-x-hidden">
-       <div class="items-center justify-center lg:ml-[14rem] md:ml-[5rem] mt-[3rem] md:mr-[5rem]" data-aos="fade-up">
-        <sl-breadcrumb>
-            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/01">Módulo 1</sl-breadcrumb-item>
-            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/02">Módulo 2</sl-breadcrumb-item>
-            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/03">Módulo 3</sl-breadcrumb-item>
-            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/04">Módulo 4</sl-breadcrumb-item>
-            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/05">Módulo 5</sl-breadcrumb-item>
-            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/06">Módulo 6</sl-breadcrumb-item>
-            <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/07">Módulo 7</sl-breadcrumb-item>
-        </sl-breadcrumb>
+<section class="w-full h-auto flex flex-col items-center justify-center bg-[url({{BASE}}svgs/Random_shit.svg)] bg-repeat bg-center">
+       <div class="flex items-center justify-center mt-[3rem] ml-[2rem]" data-aos="fade-up">
+            <sl-breadcrumb>
+                <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/01">Módulo 1</sl-breadcrumb-item>
+                <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/02">Módulo 2</sl-breadcrumb-item>
+                <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/03">Módulo 3</sl-breadcrumb-item>
+                <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/04">Módulo 4</sl-breadcrumb-item>
+                <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/05">Módulo 5</sl-breadcrumb-item>
+                <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/06">Módulo 6</sl-breadcrumb-item>
+                <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/07">Módulo 7</sl-breadcrumb-item>
+            </sl-breadcrumb>
        </div>
 
-        <div class="items-center justify-center w-[25rem] lg:w-[60rem] md:w-[40rem] lg:ml-[9rem] md:ml-[3rem] bg-white">    
+        <div class="items-center justify-center w-[25rem] lg:w-[60rem] md:w-[40rem] bg-white">    
             <h1 class="text-2xl font-bold font-clean text-purple uppercase px-4 my-8">Módulo 1</h1>
 
             <img class="" src="{{BASE}}imgs/MindMap-01.png" alt="Mapa mental Lógica de Programação" data-aos="fade-up">
 
-            <div class="w-full flex items-center justify-center md:justify-end gap-4 mt-[2rem]">
+            <div class="w-full items-center justify-center md:justify-end gap-4 mt-[2rem]">
                 <a href="{{BASE}}imgs/MindMap-01.png" download class="font-bold text-lg flex flex-row gap-4 items-center justify-center" >
                     <span>Faça o download do mapa aqui!</span>
                     <span class="material-icons">file_open</span>
@@ -43,12 +44,13 @@
                 <p class=""><a href="{{BASE}}modules/02">Próximo <sl-icon name="arrow-bar-right"></sl-icon></a></p>
             </div>
         </div>
- <main>
+</section>
 
     <style>
         .module-summary::part(base)
         {
             font-size: 1.2rem;
+            
             
         }
         .module-summary::part(base):hover

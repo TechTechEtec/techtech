@@ -4,8 +4,8 @@
 
 {% block main %}
 
-<main class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-repeat-y bg-center relative overflow-x-hidden">
-       <div class="items-center justify-center lg:ml-[14rem] md:ml-[5rem]  md:mr-[5rem]" data-aos="fade-up">
+<section class="w-full h-auto flex flex-col items-center justify-center bg-[url({{BASE}}svgs/Random_shit.svg)] bg-repeat bg-center">
+       <div class="flex items-center justify-center mt-[3rem] ml-[2rem]" data-aos="fade-up">
         <sl-breadcrumb>
             <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/01">Módulo 1</sl-breadcrumb-item>
             <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/02">Módulo 2</sl-breadcrumb-item>
@@ -17,8 +17,8 @@
         </sl-breadcrumb>
        </div>
 
-        <div class="items-center justify-center w-[25rem] lg:w-[60rem] md:w-[40rem] lg:ml-[9rem] md:ml-[3rem] bg-white">    
-            <h1 class="text-2xl font-bold font-clean text-purple uppercase px-4 my-8">Módulo 1</h1>
+       <div class="items-center justify-center w-[25rem] lg:w-[60rem] md:w-[40rem] bg-white">    
+            <h1 class="text-2xl font-bold font-clean text-purple uppercase px-4 my-8">Módulo 6</h1>
 
             <div class="px-4" id="content">
                 {% apply markdown_to_html %}
@@ -35,7 +35,7 @@
                 <p><a href="{{BASE}}modules/07">Próximo <sl-icon name="arrow-bar-right"></sl-icon></a></p>
             </div>
         </div>
- <main>
+</section>
 
     <style>
         .module-summary::part(base)
