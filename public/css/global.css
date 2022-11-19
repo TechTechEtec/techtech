@@ -33,12 +33,6 @@ html {
   }
 }
 
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: fixed;
-  }
-}
-
 body {
   background-color: var(--white);
   color: var(--black);

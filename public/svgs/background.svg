@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="1920"
+   width="1600"
    height="1080"
-   viewBox="0 0 1920 1080"
+   viewBox="0 0 1600 1080"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
@@ -24,12 +24,12 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:snap-global="false"
-     inkscape:zoom="0.32"
-     inkscape:cx="859.375"
-     inkscape:cy="521.875"
+     inkscape:zoom="0.32153204"
+     inkscape:cx="765.08705"
+     inkscape:cy="357.66265"
      inkscape:window-width="1440"
-     inkscape:window-height="837"
-     inkscape:window-x="-8"
+     inkscape:window-height="847"
+     inkscape:window-x="1358"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
@@ -1146,9 +1146,9 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter11973)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11973)"
        id="g839"
-       transform="matrix(0.23358201,0,0,0.23358201,340.88897,75.875)"
+       transform="matrix(0.18933301,0,0,0.19918159,295.00916,106.65203)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -1173,9 +1173,9 @@
          id="path828" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter11977)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11977)"
        id="g839-3"
-       transform="matrix(0.16203238,0,0,0.16203238,694.54226,449.25397)"
+       transform="matrix(0.13133751,0,0,0.13816932,581.66757,425.04222)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -1200,9 +1200,9 @@
          id="path828-6" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter11981)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11981)"
        id="g859"
-       transform="matrix(0.28862018,0,0,0.28862018,449.38022,259.04204)"
+       transform="matrix(0.23394494,0,0,0.24611412,382.9482,262.84344)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -1242,9 +1242,9 @@
          id="line847" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter11985)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11985)"
        id="g888"
-       transform="matrix(0.15102475,0,0,0.15102475,618.45749,295.67545)"
+       transform="matrix(0.12241513,0,0,0.12878283,519.99603,294.08173)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -1301,9 +1301,9 @@
          id="line873" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter11989)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11989)"
        id="g888-6"
-       transform="matrix(0.37075131,0,0,0.37075131,905.66883,586.91883)"
+       transform="matrix(0.30051743,0,0,0.31614952,752.79903,542.43271)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -1360,9 +1360,9 @@
          id="line873-7" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter11993)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11993)"
        id="g888-9"
-       transform="matrix(0.11249802,0,0,0.11249802,353.56977,368.94227)"
+       transform="matrix(0.09118678,0,0,0.09593005,305.28775,356.55829)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -1419,9 +1419,9 @@
          id="line873-2" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter11997)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11997)"
        id="g929"
-       transform="matrix(0.1345133,0,0,0.1345133,860.80158,471.79761)"
+       transform="matrix(0.10903156,0,0,0.11470307,716.43126,444.26579)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -1545,9 +1545,9 @@
          id="line910" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12001)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12001)"
        id="g929-6"
-       transform="matrix(0.1345133,0,0,0.1345133,565.62084,101.94108)"
+       transform="matrix(0.10903156,0,0,0.11470307,477.16859,128.87927)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -1671,9 +1671,9 @@
          id="line910-8" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12005)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12005)"
        id="g929-6-7"
-       transform="matrix(0.1345133,0,0,0.1345133,355.68323,472.5021)"
+       transform="matrix(0.10903156,0,0,0.11470307,307.00085,444.86652)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -1797,9 +1797,9 @@
          id="line910-8-9" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12009)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12009)"
        id="g952"
-       transform="matrix(0.17854383,0,0,0.17854383,109.8167,80.101932)"
+       transform="matrix(0.14472108,0,0,0.15224907,107.71045,110.25645)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -1844,9 +1844,9 @@
          id="polygon939" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12013)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12013)"
        id="g972"
-       transform="matrix(0.14001711,0,0,0.14001711,742.44749,344.98965)"
+       transform="matrix(0.11349273,0,0,0.11939631,620.49779,336.13326)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -1883,9 +1883,9 @@
          id="path960" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12017)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12017)"
        id="g992"
-       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,653.54905,177.59476)"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,548.43997,193.39118)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -1931,9 +1931,9 @@
          id="line980" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12021)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12021)"
        id="g992-9"
-       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,288.62394,197.32044)"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,252.64504,210.21179)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -1979,9 +1979,9 @@
          id="line980-70" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12025)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12025)"
        id="g992-0"
-       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,514.0603,434.02862)"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,435.37551,412.05916)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2027,9 +2027,9 @@
          id="line980-7" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12029)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12029)"
        id="g1006"
-       transform="matrix(0.14001711,0,0,0.14001711,776.26294,216.77272)"
+       transform="matrix(0.11349273,0,0,0.11939631,647.90735,226.79926)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2050,9 +2050,9 @@
          id="path996" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12033)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12033)"
        id="g1020"
-       transform="matrix(0.1014405,-0.16012365,0.16012365,0.1014405,762.81837,128.78369)"
+       transform="matrix(0.08222395,-0.1365417,0.12979037,0.08650101,637.00967,151.76868)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2073,9 +2073,9 @@
          id="path1010" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12037)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12037)"
        id="g1034"
-       transform="matrix(0.33815454,0,0,0.33815454,209.85409,253.40613)"
+       transform="matrix(0.27409568,0,0,0.28835337,188.79709,258.03756)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2096,9 +2096,9 @@
          id="path1024" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12041)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12041)"
        id="g1034-8"
-       transform="matrix(0.17304002,0,0,0.17304002,462.06102,160.41363)"
+       transform="matrix(0.1402599,0,0,0.14755583,393.22679,178.74038)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2119,9 +2119,9 @@
          id="path1024-3" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12045)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12045)"
        id="g1054"
-       transform="matrix(0.18983224,0.12642541,-0.12642541,0.18983224,856.51793,294.25132)"
+       transform="matrix(0.15387105,0.10780631,-0.10247581,0.16187501,712.95911,292.86733)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2149,9 +2149,9 @@
          id="circle1042" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12049)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12049)"
        id="g1054-1"
-       transform="matrix(0.18633342,0.13152763,-0.13152763,0.18633342,196.80854,416.62711)"
+       transform="matrix(0.15103505,0.11215712,-0.10661147,0.15889147,178.22285,397.22043)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2179,9 +2179,9 @@
          id="circle1042-0" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12053)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12053)"
        id="g1054-1-0"
-       transform="matrix(0.19029933,0.12572121,-0.12572121,0.19029933,143.42551,192.83531)"
+       transform="matrix(0.15424966,0.10720582,-0.10190501,0.16227331,134.95252,206.3872)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2209,9 +2209,9 @@
          id="circle1042-0-6" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12057)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12057)"
        id="g1086"
-       transform="matrix(0.12900948,0,0,0.12900948,91.5,339.35375)"
+       transform="matrix(0.10457036,0,0,0.11000982,92.863603,331.32737)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2275,9 +2275,9 @@
          id="line1070" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12061)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12061)"
        id="g839-9"
-       transform="matrix(0.23358201,0,0,0.23358201,333.20648,587.59375)"
+       transform="matrix(0.18933301,0,0,0.19918159,288.78203,543.00824)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2302,9 +2302,9 @@
          id="path828-2" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12065)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12065)"
        id="g839-3-5"
-       transform="matrix(0.16203238,0,0,0.16203238,686.8598,960.97272)"
+       transform="matrix(0.13133751,0,0,0.13816932,575.44044,861.39842)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2329,9 +2329,9 @@
          id="path828-6-8" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12069)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12069)"
        id="g859-5"
-       transform="matrix(0.28862018,0,0,0.28862018,441.69773,770.76079)"
+       transform="matrix(0.23394494,0,0,0.24611412,376.72105,699.19963)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2371,9 +2371,9 @@
          id="line847-7" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12073)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12073)"
        id="g888-1"
-       transform="matrix(0.15102475,0,0,0.15102475,610.775,807.3942)"
+       transform="matrix(0.12241513,0,0,0.12878283,513.76889,730.43793)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2430,9 +2430,9 @@
          id="line873-9" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12077)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12077)"
        id="g888-9-9"
-       transform="matrix(0.11249802,0,0,0.11249802,345.88728,880.66102)"
+       transform="matrix(0.09118678,0,0,0.09593005,299.0606,792.91449)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2489,9 +2489,9 @@
          id="line873-2-5" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12081)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12081)"
        id="g929-4"
-       transform="matrix(0.1345133,0,0,0.1345133,853.1191,983.51636)"
+       transform="matrix(0.10903156,0,0,0.11470307,710.20414,880.62197)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2615,9 +2615,9 @@
          id="line910-5" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12085)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12085)"
        id="g929-6-8"
-       transform="matrix(0.1345133,0,0,0.1345133,557.9384,613.65983)"
+       transform="matrix(0.10903156,0,0,0.11470307,470.94149,565.23547)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2741,9 +2741,9 @@
          id="line910-8-6" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12089)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12089)"
        id="g929-6-7-5"
-       transform="matrix(0.1345133,0,0,0.1345133,348.00074,984.22085)"
+       transform="matrix(0.10903156,0,0,0.11470307,300.7737,881.22271)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2867,9 +2867,9 @@
          id="line910-8-9-9" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12093)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12093)"
        id="g952-5"
-       transform="matrix(0.17854383,0,0,0.17854383,102.13421,591.82068)"
+       transform="matrix(0.14472108,0,0,0.15224907,101.4833,546.61265)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2914,9 +2914,9 @@
          id="polygon939-4" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12097)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12097)"
        id="g972-7"
-       transform="matrix(0.14001711,0,0,0.14001711,734.765,856.7084)"
+       transform="matrix(0.11349273,0,0,0.11939631,614.27064,772.48946)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -2953,9 +2953,9 @@
          id="path960-7" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12101)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12101)"
        id="g992-2"
-       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,645.8666,689.31351)"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,542.21286,629.74739)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3001,9 +3001,9 @@
          id="line980-9" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12105)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12105)"
        id="g992-9-0"
-       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,280.94145,709.03919)"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,246.4179,646.56799)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3049,9 +3049,9 @@
          id="line980-70-4" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12109)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12109)"
        id="g992-0-5"
-       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,506.3778,945.74737)"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,429.14835,848.41536)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3097,9 +3097,9 @@
          id="line980-7-4" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12113)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12113)"
        id="g1006-4"
-       transform="matrix(0.14001711,0,0,0.14001711,768.5805,728.49147)"
+       transform="matrix(0.11349273,0,0,0.11939631,641.68025,663.15547)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3120,9 +3120,9 @@
          id="path996-7" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12117)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12117)"
        id="g1020-4"
-       transform="matrix(0.1014405,-0.16012365,0.16012365,0.1014405,755.1359,640.50244)"
+       transform="matrix(0.08222395,-0.1365417,0.12979037,0.08650101,630.78255,588.12488)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3143,9 +3143,9 @@
          id="path1010-1" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12121)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12121)"
        id="g1034-1"
-       transform="matrix(0.33815454,0,0,0.33815454,202.1716,765.12488)"
+       transform="matrix(0.27409568,0,0,0.28835337,182.56995,694.39375)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3166,9 +3166,9 @@
          id="path1024-9" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12125)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12125)"
        id="g1034-8-4"
-       transform="matrix(0.17304002,0,0,0.17304002,454.37853,672.13238)"
+       transform="matrix(0.1402599,0,0,0.14755583,386.99964,615.09657)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3189,9 +3189,9 @@
          id="path1024-3-2" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12129)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12129)"
        id="g1054-3"
-       transform="matrix(0.18983224,0.12642541,-0.12642541,0.18983224,848.8354,805.97007)"
+       transform="matrix(0.15387105,0.10780631,-0.10247581,0.16187501,706.73193,729.22354)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3219,9 +3219,9 @@
          id="circle1042-8" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12133)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12133)"
        id="g1054-1-05"
-       transform="matrix(0.18633342,0.13152763,-0.13152763,0.18633342,189.12605,928.34586)"
+       transform="matrix(0.15103505,0.11215712,-0.10661147,0.15889147,171.9957,833.57662)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3249,9 +3249,9 @@
          id="circle1042-0-9" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12137)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12137)"
        id="g1054-1-0-6"
-       transform="matrix(0.19029933,0.12572121,-0.12572121,0.19029933,135.74302,704.55406)"
+       transform="matrix(0.15424966,0.10720582,-0.10190501,0.16227331,128.72537,642.7434)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3279,9 +3279,9 @@
          id="circle1042-0-6-1" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12141)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12141)"
        id="g1086-1"
-       transform="matrix(0.12900948,0,0,0.12900948,83.817509,851.0725)"
+       transform="matrix(0.10457036,0,0,0.11000982,86.636456,767.68358)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3345,9 +3345,9 @@
          id="line1070-2" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12145)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12145)"
        id="g839-9-2"
-       transform="matrix(-0.23358201,0,0,0.23358201,1526.1685,590.71875)"
+       transform="matrix(-0.18933301,0,0,0.19918159,1255.7533,545.673)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3372,9 +3372,9 @@
          id="path828-2-4" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12149)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12149)"
        id="g839-3-5-3"
-       transform="matrix(-0.16203238,0,0,0.16203238,1172.5152,964.09772)"
+       transform="matrix(-0.13133751,0,0,0.13816932,969.09493,864.06319)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3399,9 +3399,9 @@
          id="path828-6-8-4" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12153)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12153)"
        id="g859-5-0"
-       transform="matrix(-0.28862018,0,0,0.28862018,1417.6772,773.88579)"
+       transform="matrix(-0.23394494,0,0,0.24611412,1167.8143,701.86441)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3441,9 +3441,9 @@
          id="line847-7-9" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12157)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12157)"
        id="g888-1-8"
-       transform="matrix(-0.15102475,0,0,0.15102475,1248.6,810.5192)"
+       transform="matrix(-0.12241513,0,0,0.12878283,1030.7664,733.10269)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3500,9 +3500,9 @@
          id="line873-9-8" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12161)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12161)"
        id="g888-9-9-8"
-       transform="matrix(-0.11249802,0,0,0.11249802,1513.4877,883.78602)"
+       transform="matrix(-0.09118678,0,0,0.09593005,1245.4747,795.57926)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3559,9 +3559,9 @@
          id="line873-2-5-5" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12165)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12165)"
        id="g929-4-9"
-       transform="matrix(-0.1345133,0,0,0.1345133,1006.2559,986.64136)"
+       transform="matrix(-0.10903156,0,0,0.11470307,834.33121,883.28675)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3685,9 +3685,9 @@
          id="line910-5-5" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12169)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12169)"
        id="g929-6-8-2"
-       transform="matrix(-0.1345133,0,0,0.1345133,1301.4366,616.78483)"
+       transform="matrix(-0.10903156,0,0,0.11470307,1073.5939,567.90025)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3811,9 +3811,9 @@
          id="line910-8-6-6" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12173)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12173)"
        id="g929-6-7-5-5"
-       transform="matrix(-0.1345133,0,0,0.1345133,1511.3742,987.34585)"
+       transform="matrix(-0.10903156,0,0,0.11470307,1243.7617,883.88749)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3937,9 +3937,9 @@
          id="line910-8-9-9-9" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12177)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12177)"
        id="g952-5-6"
-       transform="matrix(-0.17854383,0,0,0.17854383,1757.2408,594.94568)"
+       transform="matrix(-0.14472108,0,0,0.15224907,1443.052,549.27742)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -3984,9 +3984,9 @@
          id="polygon939-4-4" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12181)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12181)"
        id="g972-7-3"
-       transform="matrix(-0.14001711,0,0,0.14001711,1124.61,859.8334)"
+       transform="matrix(-0.11349273,0,0,0.11939631,930.26473,775.15423)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4023,9 +4023,9 @@
          id="path960-7-7" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12185)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12185)"
        id="g992-2-3"
-       transform="matrix(-0.10094156,-0.05112141,-0.05112141,0.10094156,1213.5084,692.43851)"
+       transform="matrix(-0.08181952,-0.04359259,-0.04143714,0.08607556,1002.3225,632.41215)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4071,9 +4071,9 @@
          id="line980-9-9" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12189)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12189)"
        id="g992-9-0-6"
-       transform="matrix(-0.10094156,-0.05112141,-0.05112141,0.10094156,1578.4335,712.16419)"
+       transform="matrix(-0.08181952,-0.04359259,-0.04143714,0.08607556,1298.1174,649.23276)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4119,9 +4119,9 @@
          id="line980-70-4-5" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12193)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12193)"
        id="g992-0-5-0"
-       transform="matrix(-0.10094156,-0.05112141,-0.05112141,0.10094156,1352.9972,948.87237)"
+       transform="matrix(-0.08181952,-0.04359259,-0.04143714,0.08607556,1115.3871,851.08013)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4167,9 +4167,9 @@
          id="line980-7-4-3" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12197)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12197)"
        id="g1006-4-3"
-       transform="matrix(-0.14001711,0,0,0.14001711,1090.7945,731.61647)"
+       transform="matrix(-0.11349273,0,0,0.11939631,902.85509,665.82024)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4190,9 +4190,9 @@
          id="path996-7-8" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12201)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12201)"
        id="g1020-4-1"
-       transform="matrix(-0.1014405,-0.16012365,-0.16012365,0.1014405,1104.2391,643.62744)"
+       transform="matrix(-0.08222395,-0.1365417,-0.12979037,0.08650101,913.75277,590.78965)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4213,9 +4213,9 @@
          id="path1010-1-9" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12205)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12205)"
        id="g1034-1-2"
-       transform="matrix(-0.33815454,0,0,0.33815454,1657.2034,768.24988)"
+       transform="matrix(-0.27409568,0,0,0.28835337,1361.9654,697.05851)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4236,9 +4236,9 @@
          id="path1024-9-3" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12209)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12209)"
        id="g1034-8-4-5"
-       transform="matrix(-0.17304002,0,0,0.17304002,1404.9964,675.25738)"
+       transform="matrix(-0.1402599,0,0,0.14755583,1157.5357,617.76135)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4259,9 +4259,9 @@
          id="path1024-3-2-9" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12213)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12213)"
        id="g1054-3-4"
-       transform="matrix(-0.18983224,0.12642541,0.12642541,0.18983224,1010.5396,809.09507)"
+       transform="matrix(-0.15387105,0.10780631,0.10247581,0.16187501,837.80342,731.8883)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4289,9 +4289,9 @@
          id="circle1042-8-6" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12217)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12217)"
        id="g1054-1-05-6"
-       transform="matrix(-0.18633342,0.13152763,0.13152763,0.18633342,1670.2489,931.47086)"
+       transform="matrix(-0.15103505,0.11215712,0.10661147,0.15889147,1372.5396,836.24138)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4319,9 +4319,9 @@
          id="circle1042-0-9-0" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12221)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12221)"
        id="g1054-1-0-6-1"
-       transform="matrix(-0.19029933,0.12572121,0.12572121,0.19029933,1723.632,707.67906)"
+       transform="matrix(-0.15424966,0.10720582,0.10190501,0.16227331,1415.8101,645.40818)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4349,9 +4349,9 @@
          id="circle1042-0-6-1-4" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12225)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12225)"
        id="g1086-1-0"
-       transform="matrix(-0.12900948,0,0,0.12900948,1775.5575,854.1975)"
+       transform="matrix(-0.10457036,0,0,0.11000982,1457.899,770.34835)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4415,9 +4415,9 @@
          id="line1070-2-6" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12229)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12229)"
        id="g839-9-2-6"
-       transform="matrix(0.23358201,0,0,0.23358201,1242.5815,109.46875)"
+       transform="matrix(0.18933301,0,0,0.19918159,1025.8882,135.29832)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4442,9 +4442,9 @@
          id="path828-2-4-7" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12233)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12233)"
        id="g839-3-5-3-9"
-       transform="matrix(0.16203238,0,0,0.16203238,1596.2348,482.84772)"
+       transform="matrix(0.13133751,0,0,0.13816932,1312.5467,453.6885)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4469,9 +4469,9 @@
          id="path828-6-8-4-7" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12237)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12237)"
        id="g859-5-0-4"
-       transform="matrix(0.28862018,0,0,0.28862018,1351.0728,292.63579)"
+       transform="matrix(0.23394494,0,0,0.24611412,1113.8272,291.48973)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4511,9 +4511,9 @@
          id="line847-7-9-4" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12241)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12241)"
        id="g888-1-8-7"
-       transform="matrix(0.15102475,0,0,0.15102475,1520.15,329.2692)"
+       transform="matrix(0.12241513,0,0,0.12878283,1250.8749,322.72802)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4570,9 +4570,9 @@
          id="line873-9-8-1" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12245)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12245)"
        id="g888-9-9-8-9"
-       transform="matrix(0.11249802,0,0,0.11249802,1255.2623,402.53602)"
+       transform="matrix(0.09118678,0,0,0.09593005,1036.1667,385.20458)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4629,9 +4629,9 @@
          id="line873-2-5-5-0" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12249)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12249)"
        id="g929-4-9-8"
-       transform="matrix(0.1345133,0,0,0.1345133,1762.4941,505.3914)"
+       transform="matrix(0.10903156,0,0,0.11470307,1447.3102,472.9121)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4755,9 +4755,9 @@
          id="line910-5-5-8" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12253)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12253)"
        id="g929-6-8-2-0"
-       transform="matrix(0.1345133,0,0,0.1345133,1467.3134,135.53483)"
+       transform="matrix(0.10903156,0,0,0.11470307,1208.0477,157.52555)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -4881,9 +4881,9 @@
          id="line910-8-6-6-7" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12257)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12257)"
        id="g929-6-7-5-5-1"
-       transform="matrix(0.1345133,0,0,0.1345133,1257.3758,506.0959)"
+       transform="matrix(0.10903156,0,0,0.11470307,1037.8798,473.51285)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -5007,9 +5007,9 @@
          id="line910-8-9-9-9-7" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12261)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12261)"
        id="g952-5-6-7"
-       transform="matrix(0.17854383,0,0,0.17854383,1011.5092,113.69568)"
+       transform="matrix(0.14472108,0,0,0.15224907,838.58936,138.90273)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -5054,9 +5054,9 @@
          id="polygon939-4-4-9" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12265)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12265)"
        id="g972-7-3-2"
-       transform="matrix(0.14001711,0,0,0.14001711,1644.14,378.5834)"
+       transform="matrix(0.11349273,0,0,0.11939631,1351.3767,364.77954)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -5093,9 +5093,9 @@
          id="path960-7-7-8" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12269)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12269)"
        id="g992-2-3-0"
-       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,1555.2416,211.18851)"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,1279.319,222.03746)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -5141,9 +5141,9 @@
          id="line980-9-9-3" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12273)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12273)"
        id="g992-9-0-6-9"
-       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,1190.3165,230.91419)"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,983.524,238.85808)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -5189,9 +5189,9 @@
          id="line980-70-4-5-3" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12277)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12277)"
        id="g992-0-5-0-3"
-       transform="matrix(0.10094156,-0.05112141,0.05112141,0.10094156,1415.7528,467.62237)"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,1166.2544,440.70544)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -5237,9 +5237,9 @@
          id="line980-7-4-3-4" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12281)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12281)"
        id="g1006-4-3-5"
-       transform="matrix(0.14001711,0,0,0.14001711,1677.9555,250.36647)"
+       transform="matrix(0.11349273,0,0,0.11939631,1378.7864,255.44555)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -5260,9 +5260,9 @@
          id="path996-7-8-1" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12285)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12285)"
        id="g1020-4-1-1"
-       transform="matrix(0.1014405,-0.16012365,0.16012365,0.1014405,1664.5109,162.37744)"
+       transform="matrix(0.08222395,-0.1365417,0.12979037,0.08650101,1367.8886,180.41497)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -5283,9 +5283,9 @@
          id="path1010-1-9-9" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12289)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12289)"
        id="g1034-1-2-8"
-       transform="matrix(0.33815454,0,0,0.33815454,1111.5466,286.99988)"
+       transform="matrix(0.27409568,0,0,0.28835337,919.67598,286.68385)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -5306,9 +5306,9 @@
          id="path1024-9-3-9" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12293)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12293)"
        id="g1034-8-4-5-0"
-       transform="matrix(0.17304002,0,0,0.17304002,1363.7536,194.00738)"
+       transform="matrix(0.1402599,0,0,0.14755583,1124.1057,207.38666)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -5329,9 +5329,9 @@
          id="path1024-3-2-9-3" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12297)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12297)"
        id="g1054-3-4-3"
-       transform="matrix(0.18983224,0.12642541,-0.12642541,0.18983224,1758.2104,327.84507)"
+       transform="matrix(0.15387105,0.10780631,-0.10247581,0.16187501,1443.8381,321.51361)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -5359,9 +5359,9 @@
          id="circle1042-8-6-2" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12301)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12301)"
        id="g1054-1-05-6-6"
-       transform="matrix(0.18633342,0.13152763,-0.13152763,0.18633342,1098.5011,450.22086)"
+       transform="matrix(0.15103505,0.11215712,-0.10661147,0.15889147,909.10182,425.86671)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -5389,9 +5389,9 @@
          id="circle1042-0-9-0-4" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12305)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12305)"
        id="g1054-1-0-6-1-8"
-       transform="matrix(0.19029933,0.12572121,-0.12572121,0.19029933,1045.118,226.42906)"
+       transform="matrix(0.15424966,0.10720582,-0.10190501,0.16227331,865.83141,235.03349)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
@@ -5419,9 +5419,9 @@
          id="circle1042-0-6-1-4-5" />
     </g>
     <g
-       style="fill:#dd8bf4;opacity:0.18;filter:url(#filter12309)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12309)"
        id="g1086-1-0-4"
-       transform="matrix(0.12900948,0,0,0.12900948,993.1925,372.9475)"
+       transform="matrix(0.10457036,0,0,0.11000982,823.74251,359.97366)"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        inkscape:export-xdpi="102.14274"
        inkscape:export-ydpi="102.14274">
