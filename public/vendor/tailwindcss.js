@@ -9,30 +9,31 @@ tailwind.config = {
     extend: {
       colors: {
         blue: "#00c3ff",
-        darkerPurple: document.getElementById("page").classList.contains("dark") ? "#8C10DF" : "#101241",
+        darkerPurple: "#101241",
         darkpurple: "hsl(255, 45%, 41%)",
         purple: "hsl(252, 100%, 68%)",
-        lightpurple: document.getElementById("page").classList.contains("dark") ? "#242323" : "hsl(281, 100%, 88%)", 
+        lightpurple: "hsl(281, 100%, 88%)",
         pink: "#F208F6",
         "pink-500": "#D71C6D",
         orange: "hsl(32, 100%, 61%)",
-        black: document.getElementById("page").classList.contains("dark") ? "#f7f7f7" : "#181818",
-        white: document.getElementById("page").classList.contains("dark") ? "1c1c1c" : "#fff",
-        ghostwhite: document.getElementById("page").classList.contains("dark") ? "1c1c1c" : "#F5F5F5",
+        black: "#181818",
+        white: "#ffffff",
+        ghostwhite: "#F5F5F5",
         grey: "#DADDE1",
 
-        eerie: "#1c1c1c",
-        lighteerie: "#242323",
-        violet: "#8C10DF",
+        // Dark Colors:
+        eerie: "#27242A",
+        lighteerie: "#332F37",
+        violet: "#B353F3",
         darkwhite: "#f7f7f7",
-      }
+      },
     },
     screens: {
       sm: "460px",
 
       "2sm": "595px",
 
-      md: "768px",
+      md: "870px",
 
       "2md": "900px",
 

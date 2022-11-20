@@ -19,6 +19,7 @@ html {
 
 * {
   scroll-margin-top: 100px;
+  transition: background color ease 0.2s;
 }
 
 @media (max-width: 1080px) {
@@ -30,6 +31,12 @@ html {
 @media (max-width: 720px) {
   html {
     font-size: 87.5%; /* 14px to mobile */
+  }
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: fixed;
   }
 }
 
@@ -120,14 +127,12 @@ button {
   position: fixed;
   display: block;
   z-index: 101;
-  background-color: hsl(281, 100%, 88%);
   display: flex;
   flex-direction: column;
   gap: 1rem;
   justify-content: center;
   align-items: center;
   font-weight: 600;
-  color: hsl(252, 100%, 68%);
   font-size: 1.2rem;
 }
 
