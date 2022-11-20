@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" translate id="html" class="dark">
+<html lang="pt-br" translate id="html">
     <head>
         <!-- Fonts Google Preconnect -->
         <link rel="preconnect" href="https://fonts.googleapis.com">

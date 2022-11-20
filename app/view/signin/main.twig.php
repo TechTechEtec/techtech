@@ -3,13 +3,13 @@
 {% block title %} Entrar | Techtech {% endblock %}
 
 {% block body %}
-    <main class="w-screen h-screen bg-[url({{BASE}}imgs/background.png)] bg-contain bg-no-repeat bg-center bg-lightpurple dark:bg-lighteerie relative overflow-x-hidden flex flex-row items-center justify-center p-4">
+    <main class="w-full min-h-screen bg-[url({{BASE}}imgs/background.png)] bg-contain bg-no-repeat bg-center bg-lightpurple dark:bg-lighteerie relative overflow-x-hidden flex flex-row items-center justify-center py-12 px-4">
 
-        <a title="Início" href="{{BASE}}" class="text-4xl text-purple fixed z-10 top-[10px] left-[10px]">
+        <a title="Início" href="{{BASE}}" class="text-4xl text-purple absolute z-10 top-[10px] left-[10px]">
             <sl-icon name="arrow-left-square"></sl-icon>
         </a>
 
-        <div class="text-2xl flex flex-col items-center justify-start p-8 w-full max-w-[400px] bg-white dark:bg-eerie rounded-xl"  data-aos="fade-up" data-aos-mirror="true"
+        <div class="text-2xl flex flex-col items-center justify-start p-8 mt-[3rem] w-full max-w-[400px] bg-white dark:bg-eerie rounded-xl"  data-aos="fade-up" data-aos-mirror="true"
         data-aos-once="true" data-aos-duration="800">
 
             
