@@ -11,13 +11,13 @@
 
 
 {% block body %}
-    <main class="w-[calc(100vw - 50px)] ml-[50px] overflow-x-hidden pl-0 flex flex-row items-start justify-stretch">
+    <main class="w-[calc(100vw - 50px)] ml-[50px] overflow-x-hidden pl-0 flex flex-col md:flex-row items-stretch justify-stretch gap-[2rem]">
 
         <!-- USER INFORMATIONS -->
         {% block userInfo %}{% endblock %}
 
         <!-- MAIN CONTENT -->
-        <div class="flex-1 w-full p-4" >
+        <div class="flex-1 w-full p-4 md:ml-[17.5rem]" >
             {% block main %}
 
             {% endblock %}   

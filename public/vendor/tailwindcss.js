@@ -33,7 +33,7 @@ tailwind.config = {
 
       "2sm": "595px",
 
-      md: "768px",
+      md: "870px",
 
       "2md": "900px",
 

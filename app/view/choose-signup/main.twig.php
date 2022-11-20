@@ -35,6 +35,8 @@
                     </div>
                 </div>
             </div>
+
+            <p class="text-eerie dark:text-grey w-full text-center">Já tem uma conta? <a href="{{BASE}}signin" class="text-blue">Entre</a></p>
         </div>
     </div>
 {% endblock %}

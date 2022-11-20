@@ -30,7 +30,7 @@
             <sl-icon name="arrow-left-square"></sl-icon>
         </button>
 
-        <main class="flex flex-wrap space-y-2 gap-4 rounded-md items-start justify-center bg-white dark:bg-eerie mt-[3rem] px-8 py-8 shadow-lg w-full max-w-[700px] min-h-[350px]" data-aos="fade-up" data-aos-mirror="true" data-aos-once="true" data-aos-duration="800">
+        <main class="flex flex-wrap flex-col 2sm:flex-row space-y-2 gap-4 rounded-md items-start justify-center bg-white dark:bg-eerie mt-[3rem] px-8 py-8 shadow-lg w-full max-w-[700px] min-h-[350px]" data-aos="fade-up" data-aos-mirror="true" data-aos-once="true" data-aos-duration="800">
 
             <div class="flex w-full h-full min-h-[350px] items-center justify-around flex-1 flex-col">
                 <sl-avatar

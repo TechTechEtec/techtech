@@ -39,8 +39,8 @@
                 />
 
                 <span class=" w-full text-center font-roboto text-[1rem] mt-4 text-eerie dark:text-grey">
-                    Ou inscreva-se em
-                    <a href="{{BASE}}choose-signup" class="text-[#1766d4] cursor-pointer hover:text-[#0854bf] ">Sign-Up</a>
+                    Não tem uma conta ainda?
+                    <a href="{{BASE}}choose-signup" class="text-[#1766d4] cursor-pointer hover:text-[#0854bf] ">Cadastre-se</a>
                 </span>
         
 

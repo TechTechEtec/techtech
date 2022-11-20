@@ -31,7 +31,7 @@
         <i class="ph-list"></i>
       </button>	
       <!-- Login Button -->	
-      <a href="{{BASE}}signin" class="bg-orange rounded-full px-3 h-10 ml-4 text-white flex items-center group hover:-translate-y-1 transition-all ease-linear duration-100  ring-2 ring-orange ring-offset-4 ring-offset-lightpurple dark:ring-offset-lighteerie">	
+      <a href="{{BASE}}signin" class="bg-orange rounded-full px-3 h-10 ml-4 text-white dark:text-darkerPurple flex items-center group hover:-translate-y-1 transition-all ease-linear duration-100  ring-2 ring-orange ring-offset-4 ring-offset-lightpurple dark:ring-offset-lighteerie">	
         <i class="ph-user"></i>	
         <span class="pl-2">Entrar</span>	
       </a>	
@@ -39,7 +39,7 @@
   </header>
 
   <!-- MAIN CONTENT --> 
-  <main>
+  <main class="mt-[4rem] md:mt-[2rem]">
 
     <!-- first section -->
     <section class="px-4 w-[90vw] min-h-[75vh] mx-auto relative p-4 flex flex-col items-stretch justify-between gap-10" data-aos="fade-up">
@@ -99,10 +99,10 @@
     </section>
 
     <!-- Parallax Effect -->
-    <section class="hidden md:block bg-[url({{BASE}}imgs/parallax.png)] min-h-[200px] md:min-h-[400px] bg-fixed bg-center bg-contain"></section>
+    <section class="bg-[url({{BASE}}imgs/parallax.png)] min-h-[12.5rem] md:min-h-[25rem] bg-fixed bg-center bg-contain"></section>
 
     <!-- Alternative parallax Effect to mobile devices -->
-    <img class="block my-6 md:hidden" src="{{BASE}}imgs/parallax.png" alt="parallax static image used on mobile devices" class="w-full"/>
+    <!-- <img class="block my-6 md:hidden" src="{{BASE}}imgs/parallax.png" alt="parallax static image used on mobile devices" class="w-full"/> -->
 
     <!-- third section -->
     <section class="px-6 pb-4 mt-[8rem] w-[90vw] mx-auto flex flex-col md:flex-row items-start justify-evenly gap-[3rem]" id="second_section">

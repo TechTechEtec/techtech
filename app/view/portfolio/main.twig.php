@@ -25,7 +25,7 @@
         </ul>
 
         <div class="flex flex-row justify-stretch items-center gap-[1rem]">
-          <button class="lg:hidden border-none bg-none p-4 cursor-pointer text-darkpurple text-5xl" onclick="toggleHomeMenu()">
+          <button class="lg:hidden border-none bg-none p-4 cursor-pointer text-purple text-5xl" onclick="toggleHomeMenu()">
             <i class="ph-list"></i>
           </button>
 
@@ -59,8 +59,8 @@
   <!-- Sections -->
   <main class="px-6">
     <!-- TechTech -->
-    <section class="p-3 md:p-7 lg:p-32 2sm:mt-[5rem] md:mt-[12rem] w-full h-full shadow-md" data-aos="fade-up" id="techtech">
-      <h1 class="text-4xl text-purple font-extrabold font-nerko">TechTech</h1>
+    <section class="p-3 md:p-7 lg:p-32 mt-[3rem] 2sm:mt-[5rem] md:mt-[12rem] w-full h-full shadow-md" data-aos="fade-up" id="techtech">
+      <h1 class="text-4xl text-purple font-extrabold font-nerko mt-8">TechTech</h1>
       
       <div class="w-full flex flex-col gap-4 items-center justify-center md:flex-row">
         <lottie-player src="https://lottie.host/726cfe36-37c2-495b-b50e-719740134a8d/2go1Vp4tyZ.json" background="transparent" speed="1" loop autoplay class="w-[250px] h-[250px] md:w-[350px] md:h-[350px] mt-[7rem]"></lottie-player>
@@ -77,7 +77,7 @@
 
     <!-- Platform -->
     <section class="p-3 md:p-7  lg:p-32  w-full h-full shadow-md" data-aos="fade-up" id="platform">
-      <h1 class="text-4xl text-purple font-extrabold font-nerko font-bold text-left md:float-right">Plataforma</h1>
+      <h1 class="text-4xl text-purple font-extrabold font-nerko font-bold text-left md:float-right mt-8">Plataforma</h1>
 
       <div class="w-full flex flex-col-reverse gap-4 items-center justify-center md:flex-row">
 
@@ -99,7 +99,7 @@
 
     <!-- Course Plan -->
     <section class="p-3 md:p-12  lg:p-32 w-full h-full shadow-md" data-aos="fade-up" id="plan">
-      <h1 class="text-4xl text-purple font-extrabold font-nerko font-bold">Plano de Curso</h1>
+      <h1 class="text-4xl text-purple font-extrabold font-nerko font-bold mt-8">Plano de Curso</h1>
         
       <div class="w-full flex flex-col gap-4 items-center justify-center md:flex-row">
         <lottie-player src="https://lottie.host/5f1b8566-eb71-4861-82f5-1379e29fc48a/hJ99ijOAbk.json" background="transparent" speed="1" loop autoplay class="w-[250px] h-[250px] md:w-[350px] md:h-[350px] mt-[7rem]"></lottie-player>
@@ -127,7 +127,7 @@
     <!-- TEAM -->
     <section class="p-12 w-full h-full items-center" data-aos="fade-up" id="team">
       <div class="w-full flex flex-row lg:space-x-15 lg:justify-center">
-          <h1 class="text-4xl text-purple font-extrabold font-nerko font-bold jusify-center">Equipe</h1>
+          <h1 class="text-4xl text-purple font-extrabold font-nerko font-bold jusify-center mt-8">Equipe</h1>
           
           <lottie-player src="https://lottie.host/94fe4618-2bee-4916-80b3-738ee01d95ff/HbIzCLuynM.json" background="transparent" speed="1" style="width: 190px; height: 190px;" loop autoplay class="mt-[-5rem]"></lottie-player>
       </div>
