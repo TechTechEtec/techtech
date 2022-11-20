@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
+<<<<<<< HEAD
+   width="1600"
+   height="1080"
+   viewBox="0 0 1600 1080"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="background.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+=======
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
+>>>>>>> develop
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,12 +39,32 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
+<<<<<<< HEAD
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="0.32153204"
+     inkscape:cx="765.08705"
+     inkscape:cy="357.66265"
+     inkscape:window-width="1440"
+     inkscape:window-height="847"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+=======
      fit-margin-bottom="0"
      fit-margin-right="0"
      fit-margin-left="0"
      fit-margin-top="0"
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
+>>>>>>> develop
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
      inkscape:window-x="-8"
@@ -1165,12 +1197,21 @@
      inkscape:groupmode="layer"
      inkscape:label="Camada 1">
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11973)"
+       id="g839"
+       transform="matrix(0.18933301,0,0,0.19918159,295.00916,106.65203)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.48591348,0,0,0.53509945,1157.0022,359.88499)"
        id="g839"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11973)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -1192,12 +1233,21 @@
          d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11977)"
+       id="g839-3"
+       transform="matrix(0.13133751,0,0,0.13816932,581.66757,425.04222)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.33707108,0,0,0.3711905,1892.6964,1215.2371)"
        id="g839-3"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11977)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -1219,12 +1269,21 @@
          d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11981)"
+       id="g859"
+       transform="matrix(0.23394494,0,0,0.24611412,382.9482,262.84344)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.60040773,0,0,0.66118322,1382.6931,779.49165)"
        id="g859"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11981)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -1261,12 +1320,21 @@
          x1="160" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11985)"
+       id="g888"
+       transform="matrix(0.12241513,0,0,0.12878283,519.99603,294.08173)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.31417221,0,0,0.34597381,1734.4195,863.41295)"
        id="g888"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11985)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -1320,12 +1388,21 @@
          x1="224" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11989)"
+       id="g888-6"
+       transform="matrix(0.30051743,0,0,0.31614952,752.79903,542.43271)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.77126262,0,0,0.84933259,2331.8965,1530.6055)"
        id="g888-6"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11989)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -1379,12 +1456,21 @@
          x1="224" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11993)"
+       id="g888-9"
+       transform="matrix(0.09118678,0,0,0.09593005,305.28775,356.55829)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.23402622,0,0,0.25771514,1183.3817,1031.2557)"
        id="g888-9"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11993)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -1438,12 +1524,12 @@
          x1="224" />
     </g>
     <g
-       inkscape:export-ydpi="102.14274"
-       inkscape:export-xdpi="102.14274"
-       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
-       transform="matrix(0.27982388,0,0,0.30814868,2238.5605,1266.881)"
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11997)"
        id="g929"
-       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter11997)">
+       transform="matrix(0.10903156,0,0,0.11470307,716.43126,444.26579)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
       <rect
          y="0"
          x="0"
@@ -1564,12 +1650,21 @@
          x1="104" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12001)"
+       id="g929-6"
+       transform="matrix(0.10903156,0,0,0.11470307,477.16859,128.87927)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.27982388,0,0,0.30814868,1624.5051,419.59821)"
        id="g929-6"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12001)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -1690,12 +1785,21 @@
          x1="104" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12005)"
+       id="g929-6-7"
+       transform="matrix(0.10903156,0,0,0.11470307,307.00085,444.86652)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.27982388,0,0,0.30814868,1187.7782,1268.4949)"
        id="g929-6-7"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12005)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -1816,12 +1920,21 @@
          x1="104" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12009)"
+       id="g952"
+       transform="matrix(0.14472108,0,0,0.15224907,107.71045,110.25645)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.37141932,0,0,0.40901562,676.30948,369.56824)"
        id="g952"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12009)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -1863,12 +1976,21 @@
          points="40,112 104,112 104,60.4 40,72 " />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12013)"
+       id="g972"
+       transform="matrix(0.11349273,0,0,0.11939631,620.49779,336.13326)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.29127333,0,0,0.32075704,1992.3523,976.38406)"
        id="g972"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12013)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -1902,12 +2024,21 @@
          d="M 136,56.7 A 47.8,47.8 0 0 1 175.3,96" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12017)"
+       id="g992"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,548.43997,193.39118)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.20998567,-0.11711108,0.10634636,0.23124105,1807.4193,592.90882)"
        id="g992"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12017)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -1950,12 +2081,21 @@
          x1="51.799999" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12021)"
+       id="g992-9"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,252.64504,210.21179)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.20998567,-0.11711108,0.10634636,0.23124105,1048.2768,638.0973)"
        id="g992-9"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12021)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -1998,12 +2138,21 @@
          x1="51.799999" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12025)"
+       id="g992-0"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,435.37551,412.05916)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.20998567,-0.11711108,0.10634636,0.23124105,1517.2453,1180.3582)"
        id="g992-0"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12025)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2046,12 +2195,21 @@
          x1="51.799999" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12029)"
+       id="g1006"
+       transform="matrix(0.11349273,0,0,0.11939631,647.90735,226.79926)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.29127333,0,0,0.32075704,3904.8167,2177.4797)"
        id="g1006"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12029)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2069,12 +2227,21 @@
          d="m 132.4,190.7 50.4,32 c 6.5,4.1 14.5,-2 12.6,-9.5 l -14.6,-57.4 a 8.7,8.7 0 0 1 2.9,-8.8 l 45.2,-37.7 c 5.9,-4.9 2.9,-14.8 -4.8,-15.3 l -59,-3.8 a 8.3,8.3 0 0 1 -7.3,-5.4 l -22,-55.4 a 8.3,8.3 0 0 0 -15.6,0 l -22,55.4 a 8.3,8.3 0 0 1 -7.3,5.4 l -59,3.8 c -7.7,0.5 -10.7,10.4 -4.8,15.3 L 72.3,147 a 8.7,8.7 0 0 1 2.9,8.8 L 61.7,209 c -2.3,9 7.3,16.3 15,11.4 l 46.9,-29.7 a 8.2,8.2 0 0 1 8.8,0 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12033)"
+       id="g1020"
+       transform="matrix(0.08222395,-0.1365417,0.12979037,0.08650101,637.00967,151.76868)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.21102358,-0.36681795,0.33310036,0.23238411,2034.7289,481.09049)"
        id="g1020"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12033)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2092,12 +2259,21 @@
          d="M 228.1,121.2 84.2,33.2 A 8,8 0 0 0 72,40 v 176 a 8,8 0 0 0 12.2,6.8 l 143.9,-88 a 7.9,7.9 0 0 0 0,-13.6 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12037)"
+       id="g1034"
+       transform="matrix(0.27409568,0,0,0.28835337,188.79709,258.03756)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.70345258,0,0,0.77465852,884.41424,766.58065)"
        id="g1034"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12037)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2115,12 +2291,21 @@
          d="m 158.7,163.5 -23.2,63.8 a 8,8 0 0 1 -15,0 L 97.3,163.5 a 8.1,8.1 0 0 0 -4.8,-4.8 L 28.7,135.5 a 8,8 0 0 1 0,-15 L 92.5,97.3 a 8.1,8.1 0 0 0 4.8,-4.8 l 23.2,-63.8 a 8,8 0 0 1 15,0 l 23.2,63.8 a 8.1,8.1 0 0 0 4.8,4.8 l 63.8,23.2 a 8,8 0 0 1 0,15 l -63.8,23.2 a 8.1,8.1 0 0 0 -4.8,4.8 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12041)"
+       id="g1034-8"
+       transform="matrix(0.1402599,0,0,0.14755583,393.22679,178.74038)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.35996987,0,0,0.39640732,1409.0727,553.54957)"
        id="g1034-8"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12041)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2138,12 +2323,21 @@
          d="m 158.7,163.5 -23.2,63.8 a 8,8 0 0 1 -15,0 L 97.3,163.5 a 8.1,8.1 0 0 0 -4.8,-4.8 L 28.7,135.5 a 8,8 0 0 1 0,-15 L 92.5,97.3 a 8.1,8.1 0 0 0 4.8,-4.8 l 23.2,-63.8 a 8,8 0 0 1 15,0 l 23.2,63.8 a 8.1,8.1 0 0 0 4.8,4.8 l 63.8,23.2 a 8,8 0 0 1 0,15 l -63.8,23.2 a 8.1,8.1 0 0 0 -4.8,4.8 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12045)"
+       id="g1054"
+       transform="matrix(0.15387105,0.10780631,-0.10247581,0.16187501,712.95911,292.86733)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.39490228,0.28962061,-0.26299891,0.43487553,2229.6496,860.15059)"
        id="g1054"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12045)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2168,12 +2362,21 @@
          cx="128" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12049)"
+       id="g1054-1"
+       transform="matrix(0.15103505,0.11215712,-0.10661147,0.15889147,178.22285,397.22043)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.38762371,0.30130896,-0.27361295,0.42686035,857.27602,1140.4941)"
        id="g1054-1"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12049)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2198,12 +2401,21 @@
          cx="128" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12053)"
+       id="g1054-1-0"
+       transform="matrix(0.15424966,0.10720582,-0.10190501,0.16227331,134.95252,206.3872)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.39587389,0.28800743,-0.26153401,0.43594562,746.22493,627.82248)"
        id="g1054-1-0"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12053)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2228,12 +2440,21 @@
          cx="128" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12057)"
+       id="g1086"
+       transform="matrix(0.10457036,0,0,0.11000982,92.863603,331.32737)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.15054025,0,0,0.15127951,643.28964,663.7354)"
        id="g1086"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12057)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2294,12 +2515,21 @@
          x1="164.5" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12061)"
+       id="g839-9"
+       transform="matrix(0.18933301,0,0,0.19918159,288.78203,543.00824)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.48591348,0,0,0.53509945,1141.0205,1532.1515)"
        id="g839-9"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12061)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2321,12 +2551,21 @@
          d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12065)"
+       id="g839-3-5"
+       transform="matrix(0.13133751,0,0,0.13816932,575.44044,861.39842)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.33707108,0,0,0.3711905,1876.7147,2387.5039)"
        id="g839-3-5"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12065)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2348,12 +2587,21 @@
          d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12069)"
+       id="g859-5"
+       transform="matrix(0.23394494,0,0,0.24611412,376.72105,699.19963)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.60040773,0,0,0.66118322,1366.7115,1951.7583)"
        id="g859-5"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12069)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2390,12 +2638,21 @@
          x1="160" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12073)"
+       id="g888-1"
+       transform="matrix(0.12241513,0,0,0.12878283,513.76889,730.43793)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.31417221,0,0,0.34597381,1718.4378,2035.6797)"
        id="g888-1"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12073)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2449,12 +2706,21 @@
          x1="224" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12077)"
+       id="g888-9-9"
+       transform="matrix(0.09118678,0,0,0.09593005,299.0606,792.91449)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.23402622,0,0,0.25771514,1167.3999,2203.5223)"
        id="g888-9-9"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12077)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2508,12 +2774,21 @@
          x1="224" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12081)"
+       id="g929-4"
+       transform="matrix(0.10903156,0,0,0.11470307,710.20414,880.62197)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.27982388,0,0,0.30814868,2222.5788,2439.1476)"
        id="g929-4"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12081)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2634,12 +2909,21 @@
          x1="104" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12085)"
+       id="g929-6-8"
+       transform="matrix(0.10903156,0,0,0.11470307,470.94149,565.23547)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.27982388,0,0,0.30814868,1608.5235,1591.8649)"
        id="g929-6-8"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12085)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2760,12 +3044,21 @@
          x1="104" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12089)"
+       id="g929-6-7-5"
+       transform="matrix(0.10903156,0,0,0.11470307,300.7737,881.22271)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.27982388,0,0,0.30814868,1171.7965,2440.7615)"
        id="g929-6-7-5"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12089)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2886,12 +3179,21 @@
          x1="104" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12093)"
+       id="g952-5"
+       transform="matrix(0.14472108,0,0,0.15224907,101.4833,546.61265)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.37141932,0,0,0.40901562,660.3279,1541.8348)"
        id="g952-5"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12093)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2933,12 +3235,21 @@
          points="40,72 40,112 104,112 104,60.4 " />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12097)"
+       id="g972-7"
+       transform="matrix(0.11349273,0,0,0.11939631,614.27064,772.48946)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.29127333,0,0,0.32075704,1976.3705,2148.6507)"
        id="g972-7"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12097)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -2972,12 +3283,21 @@
          d="M 136,56.7 A 47.8,47.8 0 0 1 175.3,96" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12101)"
+       id="g992-2"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,542.21286,629.74739)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.20998567,-0.11711108,0.10634636,0.23124105,1791.4378,1765.1756)"
        id="g992-2"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12101)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3020,12 +3340,21 @@
          x1="51.799999" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12105)"
+       id="g992-9-0"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,246.4179,646.56799)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.20998567,-0.11711108,0.10634636,0.23124105,1032.2951,1810.3639)"
        id="g992-9-0"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12105)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3068,12 +3397,21 @@
          x1="51.799999" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12109)"
+       id="g992-0-5"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,429.14835,848.41536)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.20998567,-0.11711108,0.10634636,0.23124105,1501.2635,2352.625)"
        id="g992-0-5"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12109)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3116,12 +3454,21 @@
          x1="51.799999" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12113)"
+       id="g1006-4"
+       transform="matrix(0.11349273,0,0,0.11939631,641.68025,663.15547)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.29127333,0,0,0.32075704,2046.7157,1854.926)"
        id="g1006-4"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12113)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3139,12 +3486,21 @@
          d="m 132.4,190.7 50.4,32 c 6.5,4.1 14.5,-2 12.6,-9.5 l -14.6,-57.4 a 8.7,8.7 0 0 1 2.9,-8.8 l 45.2,-37.7 c 5.9,-4.9 2.9,-14.8 -4.8,-15.3 l -59,-3.8 a 8.3,8.3 0 0 1 -7.3,-5.4 l -22,-55.4 a 8.3,8.3 0 0 0 -15.6,0 l -22,55.4 a 8.3,8.3 0 0 1 -7.3,5.4 l -59,3.8 c -7.7,0.5 -10.7,10.4 -4.8,15.3 L 72.3,147 a 8.7,8.7 0 0 1 2.9,8.8 L 61.7,209 c -2.3,9 7.3,16.3 15,11.4 l 46.9,-29.7 a 8.2,8.2 0 0 1 8.8,0 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12117)"
+       id="g1020-4"
+       transform="matrix(0.08222395,-0.1365417,0.12979037,0.08650101,630.78255,588.12488)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.21102358,-0.36681795,0.33310036,0.23238411,2018.7474,1653.357)"
        id="g1020-4"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12117)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3162,12 +3518,21 @@
          d="M 228.1,121.2 84.2,33.2 A 8,8 0 0 0 72,40 v 176 a 8,8 0 0 0 12.2,6.8 l 143.9,-88 a 7.9,7.9 0 0 0 0,-13.6 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12121)"
+       id="g1034-1"
+       transform="matrix(0.27409568,0,0,0.28835337,182.56995,694.39375)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.70345258,0,0,0.77465852,868.43266,1938.8472)"
        id="g1034-1"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12121)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3185,12 +3550,21 @@
          d="m 158.7,163.5 -23.2,63.8 a 8,8 0 0 1 -15,0 L 97.3,163.5 a 8.1,8.1 0 0 0 -4.8,-4.8 L 28.7,135.5 a 8,8 0 0 1 0,-15 L 92.5,97.3 a 8.1,8.1 0 0 0 4.8,-4.8 l 23.2,-63.8 a 8,8 0 0 1 15,0 l 23.2,63.8 a 8.1,8.1 0 0 0 4.8,4.8 l 63.8,23.2 a 8,8 0 0 1 0,15 l -63.8,23.2 a 8.1,8.1 0 0 0 -4.8,4.8 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12125)"
+       id="g1034-8-4"
+       transform="matrix(0.1402599,0,0,0.14755583,386.99964,615.09657)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.35996987,0,0,0.39640732,1393.091,1725.8162)"
        id="g1034-8-4"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12125)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3208,12 +3582,21 @@
          d="m 158.7,163.5 -23.2,63.8 a 8,8 0 0 1 -15,0 L 97.3,163.5 a 8.1,8.1 0 0 0 -4.8,-4.8 L 28.7,135.5 a 8,8 0 0 1 0,-15 L 92.5,97.3 a 8.1,8.1 0 0 0 4.8,-4.8 l 23.2,-63.8 a 8,8 0 0 1 15,0 l 23.2,63.8 a 8.1,8.1 0 0 0 4.8,4.8 l 63.8,23.2 a 8,8 0 0 1 0,15 l -63.8,23.2 a 8.1,8.1 0 0 0 -4.8,4.8 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12129)"
+       id="g1054-3"
+       transform="matrix(0.15387105,0.10780631,-0.10247581,0.16187501,706.73193,729.22354)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.39490228,0.28962061,-0.26299891,0.43487553,2213.6673,2032.4172)"
        id="g1054-3"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12129)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3238,12 +3621,21 @@
          cx="128" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12133)"
+       id="g1054-1-05"
+       transform="matrix(0.15103505,0.11215712,-0.10661147,0.15889147,171.9957,833.57662)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.38762371,0.30130896,-0.27361295,0.42686035,841.29436,2312.7608)"
        id="g1054-1-05"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12133)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3268,12 +3660,21 @@
          cx="128" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12137)"
+       id="g1054-1-0-6"
+       transform="matrix(0.15424966,0.10720582,-0.10190501,0.16227331,128.72537,642.7434)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.39587389,0.28800743,-0.26153401,0.43594562,730.24329,1800.0892)"
        id="g1054-1-0-6"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12137)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3298,12 +3699,21 @@
          cx="128" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12141)"
+       id="g1086-1"
+       transform="matrix(0.10457036,0,0,0.11000982,86.636456,767.68358)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.15054025,0,0,0.15127951,634.32499,1263.7888)"
        id="g1086-1"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12141)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3364,12 +3774,21 @@
          x1="164.5" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12145)"
+       id="g839-9-2"
+       transform="matrix(-0.18933301,0,0,0.19918159,1255.7533,545.673)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.48591348,0,0,0.53509945,3622.7031,1539.3105)"
        id="g839-9-2"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12145)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3391,12 +3810,21 @@
          d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12149)"
+       id="g839-3-5-3"
+       transform="matrix(-0.13133751,0,0,0.13816932,969.09493,864.06319)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.33707108,0,0,0.3711905,2887.0093,2394.6626)"
        id="g839-3-5-3"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12149)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3418,12 +3846,21 @@
          d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12153)"
+       id="g859-5-0"
+       transform="matrix(-0.23394494,0,0,0.24611412,1167.8143,701.86441)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.60040773,0,0,0.66118322,3397.0123,1958.9171)"
        id="g859-5-0"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12153)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3460,12 +3897,21 @@
          x1="160" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12157)"
+       id="g888-1-8"
+       transform="matrix(-0.12241513,0,0,0.12878283,1030.7664,733.10269)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.31417221,0,0,0.34597381,3045.2865,2042.8385)"
        id="g888-1-8"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12157)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3519,12 +3965,21 @@
          x1="224" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12161)"
+       id="g888-9-9-8"
+       transform="matrix(-0.09118678,0,0,0.09593005,1245.4747,795.57926)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.23402622,0,0,0.25771514,3596.3234,2210.6813)"
        id="g888-9-9-8"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12161)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3578,12 +4033,21 @@
          x1="224" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12165)"
+       id="g929-4-9"
+       transform="matrix(-0.10903156,0,0,0.11470307,834.33121,883.28675)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.27982388,0,0,0.30814868,2541.1449,2446.3063)"
        id="g929-4-9"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12165)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3704,12 +4168,21 @@
          x1="104" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12169)"
+       id="g929-6-8-2"
+       transform="matrix(-0.10903156,0,0,0.11470307,1073.5939,567.90025)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.27982388,0,0,0.30814868,3155.2003,1599.0238)"
        id="g929-6-8-2"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12169)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3830,12 +4303,21 @@
          x1="104" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12173)"
+       id="g929-6-7-5-5"
+       transform="matrix(-0.10903156,0,0,0.11470307,1243.7617,883.88749)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.27982388,0,0,0.30814868,3591.9268,2447.9203)"
        id="g929-6-7-5-5"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12173)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -3956,12 +4438,21 @@
          x1="104" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12177)"
+       id="g952-5-6"
+       transform="matrix(-0.14472108,0,0,0.15224907,1443.052,549.27742)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.37141932,0,0,0.40901562,4103.3968,1548.9938)"
        id="g952-5-6"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12177)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4003,12 +4494,21 @@
          points="104,112 104,60.4 40,72 40,112 " />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12181)"
+       id="g972-7-3"
+       transform="matrix(-0.11349273,0,0,0.11939631,930.26473,775.15423)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.29127333,0,0,0.32075704,2787.3531,2155.8096)"
        id="g972-7-3"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12181)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4042,12 +4542,21 @@
          d="M 136,56.7 A 47.8,47.8 0 0 1 175.3,96" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12185)"
+       id="g992-2-3"
+       transform="matrix(-0.08181952,-0.04359259,-0.04143714,0.08607556,1002.3225,632.41215)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.20998567,-0.11711108,-0.10634636,0.23124105,2972.2861,1772.3343)"
        id="g992-2-3"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12185)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4090,12 +4599,21 @@
          x1="51.799999" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12189)"
+       id="g992-9-0-6"
+       transform="matrix(-0.08181952,-0.04359259,-0.04143714,0.08607556,1298.1174,649.23276)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.20998567,-0.11711108,-0.10634636,0.23124105,3731.4281,1817.5227)"
        id="g992-9-0-6"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12189)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4138,12 +4656,21 @@
          x1="51.799999" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12193)"
+       id="g992-0-5-0"
+       transform="matrix(-0.08181952,-0.04359259,-0.04143714,0.08607556,1115.3871,851.08013)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.20998567,-0.11711108,-0.10634636,0.23124105,3262.4605,2359.7838)"
        id="g992-0-5-0"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12193)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4186,12 +4713,21 @@
          x1="51.799999" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12197)"
+       id="g1006-4-3"
+       transform="matrix(-0.11349273,0,0,0.11939631,902.85509,665.82024)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.29127333,0,0,0.32075704,2717.0074,1862.0848)"
        id="g1006-4-3"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12197)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4209,12 +4745,21 @@
          d="m 132.4,190.7 50.4,32 c 6.5,4.1 14.5,-2 12.6,-9.5 l -14.6,-57.4 a 8.7,8.7 0 0 1 2.9,-8.8 l 45.2,-37.7 c 5.9,-4.9 2.9,-14.8 -4.8,-15.3 l -59,-3.8 a 8.3,8.3 0 0 1 -7.3,-5.4 l -22,-55.4 a 8.3,8.3 0 0 0 -15.6,0 l -22,55.4 a 8.3,8.3 0 0 1 -7.3,5.4 l -59,3.8 c -7.7,0.5 -10.7,10.4 -4.8,15.3 L 72.3,147 a 8.7,8.7 0 0 1 2.9,8.8 L 61.7,209 c -2.3,9 7.3,16.3 15,11.4 l 46.9,-29.7 a 8.2,8.2 0 0 1 8.8,0 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12201)"
+       id="g1020-4-1"
+       transform="matrix(-0.08222395,-0.1365417,-0.12979037,0.08650101,913.75277,590.78965)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.21102358,-0.36681795,-0.33310036,0.23238411,2744.976,1660.5159)"
        id="g1020-4-1"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12201)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4232,12 +4777,21 @@
          d="M 228.1,121.2 84.2,33.2 A 8,8 0 0 0 72,40 v 176 a 8,8 0 0 0 12.2,6.8 l 143.9,-88 a 7.9,7.9 0 0 0 0,-13.6 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12205)"
+       id="g1034-1-2"
+       transform="matrix(-0.27409568,0,0,0.28835337,1361.9654,697.05851)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.4083107,0,0,0.46972352,3815.0471,2029.2328)"
        id="g1034-1-2"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12205)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4255,12 +4809,21 @@
          d="m 158.7,163.5 -23.2,63.8 a 8,8 0 0 1 -15,0 L 97.3,163.5 a 8.1,8.1 0 0 0 -4.8,-4.8 L 28.7,135.5 a 8,8 0 0 1 0,-15 L 92.5,97.3 a 8.1,8.1 0 0 0 4.8,-4.8 l 23.2,-63.8 a 8,8 0 0 1 15,0 l 23.2,63.8 a 8.1,8.1 0 0 0 4.8,4.8 l 63.8,23.2 a 8,8 0 0 1 0,15 l -63.8,23.2 a 8.1,8.1 0 0 0 -4.8,4.8 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12209)"
+       id="g1034-8-4-5"
+       transform="matrix(-0.1402599,0,0,0.14755583,1157.5357,617.76135)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.35996987,0,0,0.39640732,3370.6329,1732.9752)"
        id="g1034-8-4-5"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12209)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4278,12 +4841,21 @@
          d="m 158.7,163.5 -23.2,63.8 a 8,8 0 0 1 -15,0 L 97.3,163.5 a 8.1,8.1 0 0 0 -4.8,-4.8 L 28.7,135.5 a 8,8 0 0 1 0,-15 L 92.5,97.3 a 8.1,8.1 0 0 0 4.8,-4.8 l 23.2,-63.8 a 8,8 0 0 1 15,0 l 23.2,63.8 a 8.1,8.1 0 0 0 4.8,4.8 l 63.8,23.2 a 8,8 0 0 1 0,15 l -63.8,23.2 a 8.1,8.1 0 0 0 -4.8,4.8 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12213)"
+       id="g1054-3-4"
+       transform="matrix(-0.15387105,0.10780631,0.10247581,0.16187501,837.80342,731.8883)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.39490228,0.28962061,0.26299891,0.43487553,2550.0558,2039.5761)"
        id="g1054-3-4"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12213)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4308,12 +4880,21 @@
          cx="128" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12217)"
+       id="g1054-1-05-6"
+       transform="matrix(-0.15103505,0.11215712,0.10661147,0.15889147,1372.5396,836.24138)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.11770519,0.08314708,0.08308487,0.11779335,1629.5728,892.75478)"
        id="g1054-1-05-6"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12217)">
+>>>>>>> develop
       <rect
          style="stroke-width:3.46155"
          transform="matrix(0.99895407,0.04572495,0.044287,0.99901885,0,0)"
@@ -4349,12 +4930,21 @@
          cx="-7647.5356" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12221)"
+       id="g1054-1-0-6-1"
+       transform="matrix(-0.15424966,0.10720582,0.10190501,0.16227331,1415.8101,645.40818)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.39587389,0.28800743,0.26153401,0.43594562,4033.4812,1807.248)"
        id="g1054-1-0-6-1"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12221)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4379,12 +4969,21 @@
          cx="128" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12225)"
+       id="g1086-1-0"
+       transform="matrix(-0.10457036,0,0,0.11000982,1457.899,770.34835)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(-0.26837455,0,0,0.29554027,4141.4993,2142.8986)"
        id="g1086-1-0"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12225)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4445,12 +5044,21 @@
          x1="164.5" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12229)"
+       id="g839-9-2-6"
+       transform="matrix(0.18933301,0,0,0.19918159,1025.8882,135.29832)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.48591348,0,0,0.53509945,3032.7655,436.84294)"
        id="g839-9-2-6"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12229)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4472,12 +5080,21 @@
          d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12233)"
+       id="g839-3-5-3-9"
+       transform="matrix(0.13133751,0,0,0.13816932,1312.5467,453.6885)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.33707108,0,0,0.3711905,3768.4599,1292.1951)"
        id="g839-3-5-3-9"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12233)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4499,12 +5116,21 @@
          d="m 64,216 a 8,8 0 0 1 -8,-8 V 165.3 A 27.6,27.6 0 0 1 41.9,167.9 28,28 0 1 1 56,114.7 V 72 a 8,8 0 0 1 8,-8 h 46.7 A 27.6,27.6 0 0 1 108.1,49.9 28,28 0 1 1 161.3,64 H 208 a 8,8 0 0 1 8,8 v 42.7 a 27.6,27.6 0 0 0 -14.1,-2.6 28,28 0 1 0 14.1,53.2 V 208 a 8,8 0 0 1 -8,8 z" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12237)"
+       id="g859-5-0-4"
+       transform="matrix(0.23394494,0,0,0.24611412,1113.8272,291.48973)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.60040773,0,0,0.66118322,3258.4575,856.44951)"
        id="g859-5-0-4"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12237)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4541,12 +5167,21 @@
          x1="160" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12241)"
+       id="g888-1-8-7"
+       transform="matrix(0.12241513,0,0,0.12878283,1250.8749,322.72802)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.31417221,0,0,0.34597381,3610.1827,940.37099)"
        id="g888-1-8-7"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12241)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4600,12 +5235,21 @@
          x1="224" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12245)"
+       id="g888-9-9-8-9"
+       transform="matrix(0.09118678,0,0,0.09593005,1036.1667,385.20458)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.23402622,0,0,0.25771514,3059.1452,1108.2137)"
        id="g888-9-9-8-9"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12245)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4659,12 +5303,21 @@
          x1="224" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12249)"
+       id="g929-4-9-8"
+       transform="matrix(0.10903156,0,0,0.11470307,1447.3102,472.9121)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.27982388,0,0,0.30814868,4114.3249,1343.8391)"
        id="g929-4-9-8"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12249)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4785,12 +5438,21 @@
          x1="104" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12253)"
+       id="g929-6-8-2-0"
+       transform="matrix(0.10903156,0,0,0.11470307,1208.0477,157.52555)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.27982388,0,0,0.30814868,3500.2689,496.55619)"
        id="g929-6-8-2-0"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12253)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -4911,12 +5573,21 @@
          x1="104" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12257)"
+       id="g929-6-7-5-5-1"
+       transform="matrix(0.10903156,0,0,0.11470307,1037.8798,473.51285)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.27982388,0,0,0.30814868,3063.5418,1345.4529)"
        id="g929-6-7-5-5-1"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12257)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -5037,12 +5708,21 @@
          x1="104" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12261)"
+       id="g952-5-6-7"
+       transform="matrix(0.14472108,0,0,0.15224907,838.58936,138.90273)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.37141932,0,0,0.40901562,2552.0726,446.5261)"
        id="g952-5-6-7"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12261)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -5084,12 +5764,21 @@
          points="104,112 104,60.4 40,72 40,112 " />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12265)"
+       id="g972-7-3-2"
+       transform="matrix(0.11349273,0,0,0.11939631,1351.3767,364.77954)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.29127333,0,0,0.32075704,3868.1158,1053.3419)"
        id="g972-7-3-2"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12265)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -5123,12 +5812,21 @@
          d="M 136,56.7 A 47.8,47.8 0 0 1 175.3,96" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12269)"
+       id="g992-2-3-0"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,1279.319,222.03746)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.20998567,-0.11711108,0.10634636,0.23124105,3683.1828,669.8668)"
        id="g992-2-3-0"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12269)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -5171,12 +5869,21 @@
          x1="51.799999" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12273)"
+       id="g992-9-0-6-9"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,983.524,238.85808)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.20998567,-0.11711108,0.10634636,0.23124105,2924.0403,715.05525)"
        id="g992-9-0-6-9"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12273)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -5219,12 +5926,21 @@
          x1="51.799999" />
     </g>
     <g
+<<<<<<< HEAD
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12277)"
+       id="g992-0-5-0-3"
+       transform="matrix(0.08181952,-0.04359259,0.04143714,0.08607556,1166.2544,440.70544)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+=======
        inkscape:export-ydpi="102.14274"
        inkscape:export-xdpi="102.14274"
        inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
        transform="matrix(0.20998567,-0.11711108,0.10634636,0.23124105,3393.0087,1257.3163)"
        id="g992-0-5-0-3"
        style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12277)">
+>>>>>>> develop
       <rect
          y="0"
          x="0"
@@ -5252,8 +5968,255 @@
          fill="none"
          y2="172"
          x2="204.2"
+<<<<<<< HEAD
+         y2="84"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="line980-7-4-3-4" />
+    </g>
+    <g
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12281)"
+       id="g1006-4-3-5"
+       transform="matrix(0.11349273,0,0,0.11939631,1378.7864,255.44555)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect994-7-8-3"
+         x="0"
+         y="0" />
+      <path
+         d="m 132.4,190.7 50.4,32 c 6.5,4.1 14.5,-2 12.6,-9.5 l -14.6,-57.4 a 8.7,8.7 0 0 1 2.9,-8.8 l 45.2,-37.7 c 5.9,-4.9 2.9,-14.8 -4.8,-15.3 l -59,-3.8 a 8.3,8.3 0 0 1 -7.3,-5.4 l -22,-55.4 a 8.3,8.3 0 0 0 -15.6,0 l -22,55.4 a 8.3,8.3 0 0 1 -7.3,5.4 l -59,3.8 c -7.7,0.5 -10.7,10.4 -4.8,15.3 L 72.3,147 a 8.7,8.7 0 0 1 2.9,8.8 L 61.7,209 c -2.3,9 7.3,16.3 15,11.4 l 46.9,-29.7 a 8.2,8.2 0 0 1 8.8,0 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path996-7-8-1" />
+    </g>
+    <g
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12285)"
+       id="g1020-4-1-1"
+       transform="matrix(0.08222395,-0.1365417,0.12979037,0.08650101,1367.8886,180.41497)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1008-7-7-8"
+         x="0"
+         y="0" />
+      <path
+         d="M 228.1,121.2 84.2,33.2 A 8,8 0 0 0 72,40 v 176 a 8,8 0 0 0 12.2,6.8 l 143.9,-88 a 7.9,7.9 0 0 0 0,-13.6 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1010-1-9-9" />
+    </g>
+    <g
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12289)"
+       id="g1034-1-2-8"
+       transform="matrix(0.27409568,0,0,0.28835337,919.67598,286.68385)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1022-0-3-5"
+         x="0"
+         y="0" />
+      <path
+         d="m 158.7,163.5 -23.2,63.8 a 8,8 0 0 1 -15,0 L 97.3,163.5 a 8.1,8.1 0 0 0 -4.8,-4.8 L 28.7,135.5 a 8,8 0 0 1 0,-15 L 92.5,97.3 a 8.1,8.1 0 0 0 4.8,-4.8 l 23.2,-63.8 a 8,8 0 0 1 15,0 l 23.2,63.8 a 8.1,8.1 0 0 0 4.8,4.8 l 63.8,23.2 a 8,8 0 0 1 0,15 l -63.8,23.2 a 8.1,8.1 0 0 0 -4.8,4.8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1024-9-3-9" />
+    </g>
+    <g
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12293)"
+       id="g1034-8-4-5-0"
+       transform="matrix(0.1402599,0,0,0.14755583,1124.1057,207.38666)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1022-2-9-1-6"
+         x="0"
+         y="0" />
+      <path
+         d="m 158.7,163.5 -23.2,63.8 a 8,8 0 0 1 -15,0 L 97.3,163.5 a 8.1,8.1 0 0 0 -4.8,-4.8 L 28.7,135.5 a 8,8 0 0 1 0,-15 L 92.5,97.3 a 8.1,8.1 0 0 0 4.8,-4.8 l 23.2,-63.8 a 8,8 0 0 1 15,0 l 23.2,63.8 a 8.1,8.1 0 0 0 4.8,4.8 l 63.8,23.2 a 8,8 0 0 1 0,15 l -63.8,23.2 a 8.1,8.1 0 0 0 -4.8,4.8 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1024-3-2-9-3" />
+    </g>
+    <g
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12297)"
+       id="g1054-3-4-3"
+       transform="matrix(0.15387105,0.10780631,-0.10247581,0.16187501,1443.8381,321.51361)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1036-2-0-8"
+         x="0"
+         y="0" />
+      <circle
+         cx="128"
+         cy="128"
+         r="12"
+         id="circle1038-1-0-0" />
+      <circle
+         cx="128"
+         cy="64"
+         r="12"
+         id="circle1040-4-9-8" />
+      <circle
+         cx="128"
+         cy="192"
+         r="12"
+         id="circle1042-8-6-2" />
+    </g>
+    <g
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12301)"
+       id="g1054-1-05-6-6"
+       transform="matrix(0.15103505,0.11215712,-0.10661147,0.15889147,909.10182,425.86671)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1036-3-3-7-2"
+         x="0"
+         y="0" />
+      <circle
+         cx="128"
+         cy="128"
+         r="12"
+         id="circle1038-4-6-2-9" />
+      <circle
+         cx="128"
+         cy="64"
+         r="12"
+         id="circle1040-1-9-8-5" />
+      <circle
+         cx="128"
+         cy="192"
+         r="12"
+         id="circle1042-0-9-0-4" />
+    </g>
+    <g
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12305)"
+       id="g1054-1-0-6-1-8"
+       transform="matrix(0.15424966,0.10720582,-0.10190501,0.16227331,865.83141,235.03349)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1036-3-8-2-7-4"
+         x="0"
+         y="0" />
+      <circle
+         cx="128"
+         cy="128"
+         r="12"
+         id="circle1038-4-2-7-6-4" />
+      <circle
+         cx="128"
+         cy="64"
+         r="12"
+         id="circle1040-1-8-5-0-3" />
+      <circle
+         cx="128"
+         cy="192"
+         r="12"
+         id="circle1042-0-6-1-4-5" />
+    </g>
+    <g
+       style="opacity:0.18;fill:#dd8bf4;filter:url(#filter12309)"
+       id="g1086-1-0-4"
+       transform="matrix(0.10457036,0,0,0.11000982,823.74251,359.97366)"
+       inkscape:export-filename="C:\xampp\htdocs\techtech\public\assets\background.png"
+       inkscape:export-xdpi="102.14274"
+       inkscape:export-ydpi="102.14274">
+      <rect
+         width="256"
+         height="256"
+         fill="none"
+         id="rect1056-3-5-7"
+         x="0"
+         y="0" />
+      <path
+         d="m 27.1,145.3 a 52,52 0 0 1 97.7,-35.6 z"
+         opacity="0.2"
+         id="path1058-0-9-4" />
+      <path
+         d="m 212.9,94.7 a 52,52 0 0 1 -97.7,35.6 z"
+         opacity="0.2"
+         id="path1060-7-5-0" />
+      <path
+         d="m 94.7,27.1 a 52,52 0 0 1 35.6,97.7 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1062-9-5-6" />
+      <path
+         d="m 27.1,145.3 a 52,52 0 0 1 97.7,-35.6 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1064-4-9-8" />
+      <path
+         d="M 145.3,212.9 A 52,52 0 0 1 109.7,115.2 Z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1066-0-5-0" />
+      <path
+         d="m 212.9,94.7 a 52,52 0 0 1 -97.7,35.6 z"
+         fill="none"
+         stroke="#dd8bf4"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="16"
+         id="path1068-7-8-5" />
+=======
          y1="84"
          x1="51.799999" />
+>>>>>>> develop
       <line
          id="line980-7-4-3-4"
          stroke-width="16"

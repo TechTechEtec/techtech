@@ -3,10 +3,10 @@
 {% block title %} Portfolio | Techtech {% endblock %}
 
 {% block body %} 
-  <div class="w-screen h-screen m-0 rounded-b-full z-[-1] py-6 px-4 bg-darkerPurple bg-[url({{BASE}}svgs/Random_shit.svg)] bg-cover bg-repeat-x absolute bg-cover" data-aos="fade-down">
+  <div class="w-screen mx-auto h-[90vh] 2sm:rounded-b-[30%] py-6 bg-darkerPurple bg-[url({{BASE}}svgs/Random_shit.svg)] bg-cover bg-cover" data-aos="fade-down">
 
     <header class="w-full"> 
-      <nav class="flex flex-row items-center gap-4 px-6 justify-between items-center w-full z-0">
+      <nav class="w-full flex flex-row items-center gap-4 px-6 justify-between items-center w-full z-0">
         <img class="flex-none w-20 h-20" src="{{BASE}}svgs/techtechlogo.svg" alt="TechTech Logo"/>
 
           <ul class="text-purple font-bold text-xl flex flex-col items-center justify-center drop-shadow-xl px-6 py-10 bg-white fixed top-0 right-0 h-screen w-screen md:items-start md:justify-start md:w-[40%] lg:h-auto lg:relative lg:flex-row lg:bg-transparent lg:p-0 lg:items-center gap-4 lg:gap-10 lg:w-auto hidden lg:flex home-menu z-[999]">
@@ -27,7 +27,7 @@
             </button>
 
             <!-- Signup Button -->
-            <a href="{{BASE}}choose-signup" class="bg-orange rounded-full px-3 h-10 text-white flex items-center group">
+            <a href="{{BASE}}choose-signup" class="text-[0.8rem] sm:text-md bg-orange rounded-full px-3 h-10 text-white flex items-center group">
               <i class="ph-user"></i>
               <span class="pl-2">Cadastre-se</span>
             </a>
@@ -54,9 +54,9 @@
     </header>
 
     <!-- Sections -->
-    <main>
+    <main class="px-6">
       <!-- TechTech -->
-      <section class="p-7 bg-white lg:p-32 mt-[8rem] lg:mt-[12rem] w-full h-full shadow-md" data-aos="fade-up" id="techtech">
+      <section class="p-3 md:p-7 bg-white lg:p-32 2sm:mt-[5rem] md:mt-[12rem] w-full h-full shadow-md" data-aos="fade-up" id="techtech">
         <h1 class="text-4xl text-lightpurple font-bold">TechTech</h1>
         
         <div class="w-full flex flex-col gap-4 items-center justify-center md:flex-row">
@@ -73,7 +73,7 @@
       <hr>
 
       <!-- Platform -->
-      <section class="p-7 lg:p-32 bg-white w-screen w-full h-full shadow-md" data-aos="fade-up" id="platform">
+      <section class="p-3 md:p-7  lg:p-32 bg-white w-full h-full shadow-md" data-aos="fade-up" id="platform">
         <h1 class="text-4xl text-darkerPurple font-bold text-left md:float-right">Plataforma</h1>
 
         <div class="w-full flex flex-col-reverse gap-4 items-center justify-center md:flex-row">
@@ -95,7 +95,7 @@
       <hr>
 
       <!-- Course Plan -->
-      <section class="p-12 lg:p-32 w-full h-full shadow-md" data-aos="fade-up" id="plan">
+      <section class="p-3 md:p-12  lg:p-32 w-full h-full shadow-md" data-aos="fade-up" id="plan">
         <h1 class="text-4xl text-darkpurple font-bold">Plano de Curso</h1>
           
         <div class="w-full flex flex-col gap-4 items-center justify-center md:flex-row">
@@ -130,57 +130,74 @@
         </div>
 
         <!-- Team profiles -->
-        <div class="flex flex-wrap gap-x-8 items-center justify-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-          <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="100">
-                <img src="{{BASE}}imgs/marina.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
-                <div>
-                    <h1 class="font-bold text-xl mt-[2rem]">Marina Nogueira</h1>
+        <div class="flex flex-wrap gap-8 items-center justify-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
 
-                    <div class="w-full h-auto flex items-start justify-left md:justify-center lg:justify-center gap-6 mt-4">
+          <div class="flex flex-col justify-center items-stretch py-4 gap-[2rem] md:gap-[1.5rem] px-8 bg-white rounded-lg border border-grey shadow-lg opacity-90 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="100">
+
+                <img src="{{BASE}}imgs/marina.png" class="w-full h-full max-w-[150px] max-h-[150px] rounded-full">
+
+                <div class="flex flex-col items-center justify-center gap-6">
+                    <h1 class="font-bold text-xl">Marina Nogueira</h1>
+
+                    <div class="w-full h-auto flex items-center justify-center justify-center gap-6">
                         <a href="linkedin.com/in/marina-lima-nogueira-92758b221"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><rect x="36" y="36" width="184" height="184" rx="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><line x1="124" y1="120" x2="124" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="84" y1="120" x2="84" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><path d="M124,148a28,28,0,0,1,56,0v28" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path><circle cx="84" cy="80" r="16"></circle></svg></a>
                         <a href="https://www.instagram.com/ma.lizzy.b/"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="34" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><rect x="32" y="32" width="192" height="192" rx="48" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><circle cx="180" cy="76" r="16"></circle></svg></a>
                     </div>
               </div>
           </div>
 
-          <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:lightpurple hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="120">
-                <img src="{{BASE}}imgs/sabrina.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
-                <div>
-                    <h1 class="font-bold text-xl mt-[2rem]">Sabrina Tavares</h1>
-                    <div class="w-full h-auto flex items-start justify-left md:justify-center lg:justify-center gap-6 mt-4">
+          <div class="flex flex-col justify-center items-stretch py-4 gap-[2rem] md:gap-[1.5rem] px-8 bg-white rounded-lg border border-grey shadow-lg opacity-90 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="120">
+
+                <img src="{{BASE}}imgs/sabrina.png" class="w-full h-full max-w-[150px] max-h-[150px] rounded-full">
+
+                <div class="flex flex-col items-center justify-center gap-6">
+
+                    <h1 class="font-bold text-xl">Sabrina Tavares</h1>
+
+                    <div class="w-full h-auto flex items-center justify-center justify-center gap-6">
                         <a href="linkedin.com/in/sabrina-tavares-teves-57189320b"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><rect x="36" y="36" width="184" height="184" rx="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><line x1="124" y1="120" x2="124" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="84" y1="120" x2="84" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><path d="M124,148a28,28,0,0,1,56,0v28" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path><circle cx="84" cy="80" r="16"></circle></svg></a>
                         <a href="https://www.instagram.com/bina_tfs/"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="34" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><rect x="32" y="32" width="192" height="192" rx="48" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><circle cx="180" cy="76" r="16"></circle></svg></a>
                     </div>
               </div>
           </div>
 
-          <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="140">
-                <img src="{{BASE}}imgs/sophia.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
-                <div>
-                    <h1 class="font-bold text-xl mt-[2rem]">Sophia Cambuim</h1>
-                    <div class="w-full h-auto flex items-start justify-left md:justify-center lg:justify-center gap-6 mt-4">
+          <div class="flex flex-col justify-center items-stretch py-4 gap-[2rem] md:gap-[1.5rem] px-8 bg-white rounded-lg border border-grey shadow-lg opacity-90 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="140">
+
+                <img src="{{BASE}}imgs/sophia.png" class="w-full h-full max-w-[150px] max-h-[150px] rounded-full">
+
+                <div class="flex flex-col items-center justify-center gap-6">
+                    <h1 class="font-bold text-xl">Sophia Cambuim</h1>
+
+                    <div class="w-full h-auto flex items-center justify-center justify-center gap-6">
                         <a href="linkedin.com/in/sophia-cambuim-07a561240"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><rect x="36" y="36" width="184" height="184" rx="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><line x1="124" y1="120" x2="124" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="84" y1="120" x2="84" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><path d="M124,148a28,28,0,0,1,56,0v28" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path><circle cx="84" cy="80" r="16"></circle></svg></a>
                         <a href="https://www.instagram.com/sophzt/"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="34" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><rect x="32" y="32" width="192" height="192" rx="48" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><circle cx="180" cy="76" r="16"></circle></svg></a>
                     </div>
               </div>
           </div>
 
-          <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="160">
-                <img src="{{BASE}}imgs/victor.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[7.5rem] lg:h-[8rem] rounded-full shadow-xl float-left">
-                <div>
-                    <h1 class="font-bold text-xl mt-[2rem]">Victor Silva</h1>
-                    <div class="w-full h-auto flex items-start justify-left md:justify-center lg:justify-center gap-6 mt-4">
+          <div  class="flex flex-col justify-center items-stretch py-4 gap-[2rem] md:gap-[1.5rem] px-8 bg-white rounded-lg border border-grey shadow-lg opacity-90 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="160">
+
+                <img src="{{BASE}}imgs/victor.png" class="w-full h-full max-w-[150px] max-h-[150px] rounded-full">
+
+                <div class="flex flex-col items-center justify-center gap-6">
+                    <h1 class="font-bold text-xl">Victor Silva</h1>
+
+                    <div class="w-full h-auto flex items-center justify-center justify-center gap-6">
                         <a href="https://www.linkedin.com/in/victorsilvadev/"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><rect x="36" y="36" width="184" height="184" rx="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><line x1="124" y1="120" x2="124" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="84" y1="120" x2="84" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><path d="M124,148a28,28,0,0,1,56,0v28" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path><circle cx="84" cy="80" r="16"></circle></svg></a>
                         <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="34" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><rect x="32" y="32" width="192" height="192" rx="48" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><circle cx="180" cy="76" r="16"></circle></svg></a>
                     </div>
               </div>
           </div>
 
-          <div class="flex flex-wrap md:flex-col lg:flex-col items-left md:items-center lg:items-center mt-[1rem] justify-centerspace-x-15 gap-x-12 bg-white rounded-lg border border-grey shadow-lg w-[25rem] h-[10rem] md:w-[15rem]  md:h-[17rem] lg:w-[15rem]  lg:h-[17rem] opacity-90 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="180">
-                <img src="{{BASE}}imgs/vitor.png" class="ml-[1rem] mt-[1rem] w-[8rem] h-[8rem] md:w-[8rem] md:h-[8rem] lg:w-[8rem] lg:h-[8rem] rounded-full shadow-xl float-left">
-                <div>
-                    <h1 class="font-bold text-xl mt-[2rem]">Vitor Aquino</h1>
-                    <div class="w-full h-auto flex items-start justify-left md:justify-center lg:justify-center gap-6 mt-4">
+          <div class="flex flex-col justify-center items-stretch py-4 gap-[2rem] md:gap-[1.5rem] px-8 bg-white rounded-lg border border-grey shadow-lg opacity-90 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:lightpurple duration-300 hover:border-white hover:border-2 hover:opacity-100" data-aos="fade-down" data-aos-duration="180">
+
+                <img src="{{BASE}}imgs/vitor.png" class="w-full h-full max-w-[150px] max-h-[150px] rounded-full">
+
+                <div class="flex flex-col items-center justify-center gap-6">
+
+                    <h1 class="font-bold text-xl">Vitor Aquino</h1>
+
+                    <div class="w-full h-auto flex items-center justify-center justify-center gap-6">
                         <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><rect x="36" y="36" width="184" height="184" rx="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><line x1="124" y1="120" x2="124" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="84" y1="120" x2="84" y2="176" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><path d="M124,148a28,28,0,0,1,56,0v28" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path><circle cx="84" cy="80" r="16"></circle></svg></a>
                         <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="34" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><rect x="32" y="32" width="192" height="192" rx="48" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><circle cx="180" cy="76" r="16"></circle></svg></a>
                     </div>
@@ -191,64 +208,19 @@
     </main>
 
     <!-- Feedback -->
-    <section class="px-6 mt-10 py-6 w-[90%] m-auto" data-aos="fade-up">
+    <section class="px-6 my-10 py-6 w-[90%] mx-auto" data-aos="fade-up">
       <div class="bg-darkerPurple p-6 flex flex-col md:flex-row rounded-md text-white font-bold items-center justify-center gap-6 max-w-[900px] w-full mx-auto drop-shadow-md">
         
         <a href="{{BASE}}feedback" class="relative text-darkpurple bg-orange rounded-md p-4 hover:-translate-y-1 transition duration-300 after:content[''] after:block after:absolute after:bg-orange after:w-[25px] after:h-[25px] after:rounded-md after:rotate-45 after:bottom-[-8px] after:left-[20px]">
           Dê-nos seu Feedback
         </a>
 
-        <p class="flex-1 text-purple font-bold text-xl text-justify">Sua Opinião é muito importante para nós assim podemos melhorar a sua experiência na nossa plataforma.</p>
+        <p class="flex-1 text-white font-bold text-xl text-justify">Sua Opinião é muito importante para nós assim podemos melhorar a sua experiência na nossa plataforma.</p>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-darkerPurple bg-[url({{BASE}}svgs/Random_shit.svg)] shadow-xl flex flex-col-reverse lg:flex-row flex-wrap justify-evenly items-center w-screen m-0 h-auto gap-10 md:gap-4 p-6"  data-aos="fade-up">
-      <!-- Logo -->
-      <div class="flex flex-col justify-center items-center gap-8 h-[20rem] w-[20rem]">
-        <img class=" w[10rem] h-[9rem]" src="{{BASE}}svgs/techtechlogo.svg" alt="TechTech Logo">
-        <img class="w-[10rem]" src="{{BASE}}imgs/logoscps.png" alt="Etec e CPS Logo">
-      </div>
-
-      <!-- Links -->
-      <div class="flex-1 flex flex-row gap-4 w-full p-4 w-full flex-wrap items-start justify-center">
-        <ul class="w-auto flex flex-col items-stretch justify-center gap-2">
-          <li><h3 class="text-orange font-extrabold font-clean">Tech Tech</h3></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Escolas Participantes</a></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Equipe</a></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Feedback</a></li>
-        </ul>
-
-        <ul class="w-auto flex flex-col items-stretch justify-center gap-2">
-          <li><h3 class="text-orange font-extrabold font-clean">Curso</h3></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Plano de Curso</a></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Didática</a></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Atividades</a></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Professores</a></li>
-        </ul>
-
-        <div class="w-full h-auto flex items-start justify-center gap-6 mt-4">
-          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#4267b2" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="96" fill="none" stroke="#4267b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><path d="M168,88H152a23.9,23.9,0,0,0-24,24V224" fill="none" stroke="#4267b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path><line x1="96" y1="144" x2="160" y2="144" fill="none" stroke="#4267b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line></svg></a> 
-          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#1da1f2" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><path d="M128,88c0-22,18.5-40.3,40.5-40a40,40,0,0,1,36.2,24H240l-32.3,32.3A127.9,127.9,0,0,1,80,224c-32,0-40-12-40-12s32-12,48-36c0,0-64-32-48-120,0,0,40,40,88,48Z" fill="none" stroke="#1da1f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path></svg></a>
-          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#0e76a8" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><rect x="36" y="36" width="184" height="184" rx="8" fill="none" stroke="#0e76a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><line x1="124" y1="120" x2="124" y2="176" fill="none" stroke="#0e76a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="84" y1="120" x2="84" y2="176" fill="none" stroke="#0e76a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><path d="M124,148a28,28,0,0,1,56,0v28" fill="none" stroke="#0e76a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path><circle cx="84" cy="80" r="16"></circle></svg></a>
-          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#e1306c" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="34" fill="none" stroke="#e1306c" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><rect x="32" y="32" width="192" height="192" rx="48" fill="none" stroke="#e1306c" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><circle cx="180" cy="76" r="16"></circle></svg></a>
-        </div>
-      </div>
-
-
-      <!-- Form -->
-      <form method="post" class="flex-1 flex w-full lg:w-auto flex-col items-center justify-start gap-6">
-          <input type="text" id="name" name="name" placeholder="Seu nome" class="w-[25rem] h-[2rem] rounded-lg bg-white border-black border-[1px] border-solid p-2 text-black"/>
-
-          <input type="email" id="name" name="name" placeholder="Seu E-mail" class="w-[25rem] h-[2rem]  rounded-lg bg-white border-black border-[1px] border-solid p-2 text-black"/>
-
-          <textarea placeholder="Sua mensagem..." rows="5" class="w-[25rem] h-[6rem] max-h-[100px] min-h-[100px] rounded-lg bg-white border-black border-[1px] border-solid p-2 text-black"></textarea>
-
-          <button class="bg-darkpurple w-[25rem] p-2 rounded-xl drop-shadow-xl hover:-translate-y-1 transition ease duration-300 cursor-pointer text-white font-extrabold font-clean tracking-wider">
-            Enviar
-          </button>
-      </form>
-    </footer>
+    {% embed "components/footer.twig.php" %}{% endembed %}
   </div>
 
 {% endblock %}

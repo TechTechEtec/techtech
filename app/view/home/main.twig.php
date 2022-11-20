@@ -7,7 +7,8 @@
     <div class="hidden md:block relative w-full h-full bg-lightpurple brightness-[1.15]"></div>
   </div>
 
-<div class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-cover bg-center">
+  <!-- bg-[url({{BASE}}svgs/background.svg)] bg-cover  bg-center  -->
+<div class="w-screen h-auto relative overflow-x-hidden" >
 
   <!-- HEADER CONTENT --> 
   <header class="flex justify-between p-4 items-center w-full">
@@ -48,13 +49,11 @@
   <main>
 
     <!-- first section -->
-    <section class="px-4 w-[90vw] min-h-[75vh] m-auto relative p-4 flex flex-col items-stretch justify-between gap-10" data-aos="fade-up">
+    <section class="px-4 w-[90vw] min-h-[75vh] mx-auto relative p-4 flex flex-col items-stretch justify-between gap-10" data-aos="fade-up">
       <div class="flex flex-col justify-around items-start m-auto w-full gap-6 2md:flex-col lg:flex-row lg:items-start lg:justify-around">
         <div class="flex flex-1 flex-col items-start justify-evenly">
 
-          <h1 class="text-4xl text-darkpurple font-mukta font-bold min-h-[50px]">
-            <span id="typed"></span>
-          </h1>
+          <h1 class="text-4xl text-darkpurple font-mukta font-bold min-h-[50px]">TECHTECH ⭐</h1>
 
           <p class="text-gray-600 text-justify mt-10 mb-5 text-lg w-full max-w-[35rem] font-medium font-roboto subpixel-antialiased">Ensino tecnológico acessível para crianças, um projeto sem fins lucrativos desenvolvido por estudantes, para auxiliar estudantes, com a finalidade de apresentar o mundo tecnológico de outra forma para crianças, e assim ampliar seus horizontes.</p>
 
@@ -77,7 +76,7 @@
     </section>
 
     <!-- second section -->
-    <section class="px-6 pb-10 mt-14 w-[90vw] m-auto" id="second_section" data-aos="fade-up">
+    <section class="px-6 pb-10 mt-14 w-[90vw] mx-auto" id="second_section" data-aos="fade-up">
 
       <h1 class="text-3xl font-extrabold text-darkpurple mb-8 font-clean">Saiba mais!</h1>
 
@@ -107,15 +106,62 @@
     </section>
 
     <!-- Parallax Effect -->
-    <div class="hidden md:block bg-[url({{BASE}}imgs/parallax.png)] min-h-[200px] md:min-h-[400px] bg-fixed bg-center bg-repeat-y bg-contain parallax"></div>
+    <section class="hidden md:block bg-[url({{BASE}}imgs/parallax.png)] min-h-[200px] md:min-h-[400px] bg-fixed bg-center bg-contain"></section>
 
     <!-- Alternative parallax Effect to mobile devices -->
-  
-    <img class="block md:hidden" src="{{BASE}}imgs/parallax.png" alt="parallax static image used on mobile devices" class="w-full h-auto"/>
-    
+    <img class="block my-6 md:hidden" src="{{BASE}}imgs/parallax.png" alt="parallax static image used on mobile devices" class="w-full"/>
 
     <!-- third section -->
-    <section class="px-6 mt-14 py-6 w-[90vw] m-auto" data-aos="fade-up">
+    <section class="px-6 pb-4 mt-[8rem] w-[90vw] mx-auto flex flex-col md:flex-row items-start justify-evenly gap-[3rem]" id="second_section">
+
+      <div class="flex flex-col flex-1 items-center jusfify-start gap-[4rem]" data-aos="fade-up">
+        <h2 class="text-6xl font-extrabold text-purple font-nerko uppercase">Acesse de qualquer lugar!</h2>
+
+        <p class="w-full mx-auto my-4 text-justify font-medium text-[#202020] text-2xl font-mukta"> A plataforma TechTech foi desenvolvida por uma equipe eficiente e capacitada para oferecer à seus usuários a melhor da acessibilidade e usabilidade. Você pode usufruir da plataforma em qualquer dispositivo desde que haja uma conexão de internet.</p>
+      </div>
+
+      <div class="flex flex-col flex-1 items-center jusfify-start gap-4 relative" data-aos="fade-up">
+        <img src="{{BASE}}imgs/devices.png" class="w-full max-w-[62.5rem]" alt="Laptop" />
+      </div>
+      
+    </section>
+
+   <hr class="drop-shadow-lg"/>
+
+    <!-- forth section -->
+    <section class="px-[1rem] md:px-[3rem] py-[5rem] mt-[4rem] w-screen mx-auto flex flex-col-reverse md:flex-row items-start justify-evenly gap-[3rem]" id="second_section">
+
+      <div class="flex flex-col flex-1 items-center jusfify-start gap-[4rem]" data-aos="fade-up">
+        <img src="{{BASE}}imgs/terminal.png" class="w-full max-w-[62.5rem] rounded-xl" alt="Laptop" />
+      </div>
+
+      <div class="flex flex-col flex-1 items-start jusfify-start gap-6 relative" data-aos="fade-up">
+        <h2 class="text-6xl font-extrabold text-orange font-nerko uppercase">Playground</h2>
+
+        <p class="w-full mx-auto my-4 text-justify font-medium text-[#202020] text-2xl font-mukta">Caso você queira, você pode utilizar do nosso editor de código embutido na aba <span class="text-darkpurple text-bold font-nerko">playground</span>. Lá você conseguirá rodar códigos em Portugol e receber o resultado da execução em tempo real. Além disos é possível importar e exportar os códigos que você estiver testando.</p>
+      </div>
+
+    </section>
+
+    <hr class="drop-shadow-lg"/>
+
+      <!-- fifth section -->
+    <section class="pb-4 mt-[8rem] w-[90vw] mx-auto flex flex-col md:flex-row items-start justify-evenly gap-[3rem]" id="second_section">
+
+      <div class="flex flex-col flex-1 items-start jusfify-start gap-6 relative" data-aos="fade-up">
+        <h2 class="text-6xl font-extrabold text-purple font-nerko uppercase">Mapas Mentais</h2>
+
+        <p class="w-full mx-auto my-4 text-justify font-medium text-[#202020] text-2xl font-mukta">Procuramos a melhor metodologia de ensino que promova majoritariamente a fixação do conteúdo para nossos alunos. Portanto, cada módulo contém um mapa mental que irá resumir todo conteúdo apresentado, mapas esses que estarão disponíveis para download em suas respectivas páginas.</p>
+      </div>
+
+      <div class="flex flex-col flex-1 items-center jusfify-start gap-[4rem]" data-aos="fade-up">
+        <img src="{{BASE}}gifs/user.gif" class="w-full max-w-[25rem] rounded-xl" alt="Laptop" />
+      </div>
+
+    </section>
+
+    <!-- third section -->
+    <section class="px-6 my-10 py-6 w-[90vw] m-auto" data-aos="fade-up">
       <div class="bg-darkpurple p-6 flex flex-col sm:flex-row flex-wrap rounded-md text-white font-bold items-center justify-center gap-4 max-w-[900px] w-full mx-auto drop-shadow-md">
         <a href="{{BASE}}feedback" class="relative text-darkpurple bg-orange rounded-md p-4 hover:-translate-y-1 transition duration-300 after:content[''] after:block after:absolute after:bg-orange after:w-[25px] after:h-[25px] after:rounded-md after:rotate-45 after:bottom-[-8px] after:left-[20px]">
           Dê-nos seu Feedback
@@ -125,68 +171,23 @@
     </section>
   </main>
 
-  <!-- FOOTER CONTENT --> 
-  <footer class="bg-darkerPurple bg-[url({{BASE}}svgs/Random_shit.svg)] shadow-xl flex flex-col-reverse lg:flex-row flex-wrap justify-evenly items-center w-screen m-0 h-auto gap-10 md:gap-4 p-6"  data-aos="fade-up">
-      <!-- Logo -->
-      <div class="flex flex-col justify-center items-center gap-8 h-[20rem] w-[20rem]">
-        <img class=" w[10rem] h-[9rem]" src="{{BASE}}svgs/techtechlogo.svg" alt="TechTech Logo">
-        <img class="w-[10rem]" src="{{BASE}}imgs/logoscps.png" alt="Etec e CPS Logo">
-      </div>
-
-      <!-- Links -->
-      <div class="flex-1 flex flex-row gap-4 w-full p-4 w-full flex-wrap items-start justify-center">
-        <ul class="w-auto flex flex-col items-stretch justify-center gap-2">
-          <li><h3 class="text-orange font-extrabold font-clean">Tech Tech</h3></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Escolas Participantes</a></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Equipe</a></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Feedback</a></li>
-        </ul>
-
-        <ul class="w-auto flex flex-col items-stretch justify-center gap-2">
-          <li><h3 class="text-orange font-extrabold font-clean">Curso</h3></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Plano de Curso</a></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Didática</a></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Atividades</a></li>
-          <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-darkpurple cursor-pointer hover:text-purple font-medium font-roboto">Professores</a></li>
-        </ul>
-
-        <div class="w-full h-auto flex items-start justify-center gap-6 mt-4">
-          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#4267b2" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="96" fill="none" stroke="#4267b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><path d="M168,88H152a23.9,23.9,0,0,0-24,24V224" fill="none" stroke="#4267b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path><line x1="96" y1="144" x2="160" y2="144" fill="none" stroke="#4267b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line></svg></a> 
-          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#1da1f2" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><path d="M128,88c0-22,18.5-40.3,40.5-40a40,40,0,0,1,36.2,24H240l-32.3,32.3A127.9,127.9,0,0,1,80,224c-32,0-40-12-40-12s32-12,48-36c0,0-64-32-48-120,0,0,40,40,88,48Z" fill="none" stroke="#1da1f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path></svg></a>
-          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#0e76a8" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><rect x="36" y="36" width="184" height="184" rx="8" fill="none" stroke="#0e76a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><line x1="124" y1="120" x2="124" y2="176" fill="none" stroke="#0e76a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><line x1="84" y1="120" x2="84" y2="176" fill="none" stroke="#0e76a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></line><path d="M124,148a28,28,0,0,1,56,0v28" fill="none" stroke="#0e76a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></path><circle cx="84" cy="80" r="16"></circle></svg></a>
-          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#e1306c" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="34" fill="none" stroke="#e1306c" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><rect x="32" y="32" width="192" height="192" rx="48" fill="none" stroke="#e1306c" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></rect><circle cx="180" cy="76" r="16"></circle></svg></a>
-        </div>
-      </div>
-
-
-      <!-- Form -->
-      <form method="post" class="flex-1 flex w-full lg:w-auto flex-col items-center justify-start gap-6">
-          <input type="text" id="name" name="name" placeholder="Seu nome" class="w-[25rem] h-[2rem] rounded-lg bg-white border-black border-[1px] border-solid p-2 text-black"/>
-
-          <input type="email" id="name" name="name" placeholder="Seu E-mail" class="w-[25rem] h-[2rem]  rounded-lg bg-white border-black border-[1px] border-solid p-2 text-black"/>
-
-          <textarea placeholder="Sua mensagem..." rows="5" class="w-[25rem] h-[6rem] max-h-[100px] min-h-[100px] rounded-lg bg-white border-black border-[1px] border-solid p-2 text-black"></textarea>
-
-          <button class="bg-darkpurple w-[25rem] p-2 rounded-xl drop-shadow-xl hover:-translate-y-1 transition ease duration-300 cursor-pointer text-white font-extrabold font-clean tracking-wider">
-            Enviar
-          </button>
-      </form>
-    </footer>
+  <!-- Footer -->
+  {% embed "components/footer.twig.php" %}{% endembed %}
 
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 <script>
-  var typed = new Typed('#typed', {
-    strings: ['Trabalho de conclusão de curso!', "TECHTECH ⭐", "Comece a aprender agora mesmo!"],
+  new Typed('#playground', {
+    strings: ['Playground'],
     typeSpeed: 40,
     backSpeed: 15,
     backDelay: 2000,
-    loop: true,
+    loop: false,
     loopCount: Infinity,
     showCursor: false,
   });
-</script>
+</script> -->
 
 {% endblock %}
