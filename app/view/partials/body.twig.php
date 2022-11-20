@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" translate id="page" class="dark">
+<html lang="pt-br" translate id="html" class="dark">
     <head>
         <!-- Fonts Google Preconnect -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,9 +59,9 @@
         </script>
     </head>
     
-    <body class="overflow-x-hidden">
+    <body class="overflow-x-hidden dark:bg-eerie select-none">
 
-        <div id="loading">
+        <div id="loading" class="bg-lightpurple text-purple dark:bg-lighteerie">
         <img class="w-full h-full max-w-[80px] max-h-[80px]" src="{{BASE}}svgs/loading.svg" alt="loading spinner"/>
             Carregando ...
         </div> 

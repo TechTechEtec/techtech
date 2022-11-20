@@ -33,7 +33,9 @@ Spring.prototype.update = function () {
 
 function createPath(strength) {
   var path = new Path({
-    fillColor: "#101241",
+    fillColor: document.getElementById("html").classList.contains("dark")
+      ? "#332F37"
+      : "#101241",
   });
   springs = [];
   for (var i = 0; i <= values.amount; i++) {
@@ -55,7 +57,7 @@ function createPath(strength) {
 
 function onResize() {
   if (path) path.remove();
-  size = view.bounds.size * [2, 1];
+  size = view.bounds.size * [4, 1];
   path = createPath(0.1);
 }
 
@@ -83,7 +85,7 @@ function onFrame(event) {
 }
 
 function updateWave(path) {
-  var force = 1 - values.friction * values.timeStep * values.timeStep;
+  var force = 1 - values.friction * values.timeStep * values.timeStep - 0.15;
   for (var i = 0, l = path.segments.length; i < l; i++) {
     var point = path.segments[i].point;
     var dy = (point.y - point.py) * force;
@@ -95,11 +97,4 @@ function updateWave(path) {
     springs[j].update();
   }
   path.smooth({ type: "continuous" });
-}
-
-function onKeyDown(event) {
-  if (event.key == "space") {
-    path.fullySelected = !path.fullySelected;
-    path.fillColor = path.fullySelected ? null : "#101241";
-  }
 }
