@@ -17,7 +17,7 @@
         {% block userInfo %}{% endblock %}
 
         <!-- MAIN CONTENT -->
-        <div class="flex-1 w-full p-4 md:ml-[17.5rem]" >
+        <div class="flex-1 w-full p-4" >
             {% block main %}
 
             {% endblock %}   

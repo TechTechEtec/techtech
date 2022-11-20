@@ -7,7 +7,7 @@
 {% endblock %}
 
 {% block main %}
-<div>
+<div class="md:ml-[17.5rem]">
   <sl-tab-group id="tab-group">
 
     <!-- TABS -->
@@ -161,6 +161,10 @@
     border: 1px solid hsl(255, 45%, 41%);
   }
 
+  html.dark #tab-group::part(active-tab-indicator){
+    border: 1px solid hsl(252, 100%, 68%);
+  }
+
   .tab::part(base):hover {
     color:hsl(255, 45%, 41%);
   }
@@ -184,7 +188,7 @@
 
   html.dark .tab[active]::part(base){
     color: white;
-    background-color: #332F37;
+    background-color: hsl(255, 45%, 41%);
     height:2.5rem;
   }
 

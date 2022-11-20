@@ -1,7 +1,7 @@
 <div id="layout-menu" tabindex="0" onblur="closeMenu()" class="fixed z-[100] top-0 left-[-230px] w-[280px] h-screen flex justify-start items-stretch flex-col transitiom-all ease-out gap-[0.5rem] duration-300 bg-lightpurple border-r-[1px] shadow-sm dark:border-eerie dark:bg-lighteerie text-darkerPurple overflow-y-auto drop-shadow-lg pr-[4px]">
 
     <!-- TOGGLE BUTTON -->
-    <div class="sticky pt-4 top-0 left-0 bg-lightpurple dark:bg-lighteerie flex items-center justify-between w-full px-2 text-darkerPurple dark:text-grey text-4xl font-bold dark:font-normal font-mukita mb-4">
+    <div class="sticky pt-4 top-0 left-0 bg-lightpurple dark:bg-lighteerie flex items-center justify-between w-full px-2 md:pr-[4px] text-darkerPurple dark:text-grey text-4xl font-bold dark:font-normal font-mukita mb-4">
         <h2>Menu</h2>
 
         <button onclick="toggleMenu()" class="ease-linear transition-all duration-300" id="openMenuButton">
