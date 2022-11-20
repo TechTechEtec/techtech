@@ -4,8 +4,8 @@
 
 {% block main %}
 
-<main class="w-screen h-auto bg-[url({{BASE}}svgs/background.svg)] bg-repeat-y bg-center relative overflow-x-hidden">
-       <div class="items-center justify-center lg:ml-[14rem] md:ml-[5rem]  md:mr-[5rem]" data-aos="fade-up">
+<section class="w-full h-auto flex flex-col items-center justify-center bg-[url({{BASE}}svgs/Random_shit.svg)] bg-repeat bg-center">
+       <div class="flex items-center justify-center mt-[3rem] ml-[2rem]" data-aos="fade-up">
         <sl-breadcrumb>
             <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/01">Módulo 1</sl-breadcrumb-item>
             <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/02">Módulo 2</sl-breadcrumb-item>
@@ -17,7 +17,7 @@
         </sl-breadcrumb>
        </div>
 
-        <div class="items-center justify-center w-[25rem] lg:w-[60rem] md:w-[40rem] lg:ml-[9rem] md:ml-[3rem] bg-white">    
+       <div class="items-center justify-center w-[25rem] lg:w-[60rem] md:w-[40rem] bg-white">    
             <h1 class="text-2xl font-bold font-clean text-purple uppercase px-4 my-8">Módulo 4</h1>
 
             <img class="" src="{{BASE}}imgs/MindMap-04.png" alt="Mapa mental Declarações" data-aos="fade-up">
@@ -36,7 +36,7 @@
             </div>
 
             <div class="flex flex-row">
-                <a href><p class="flex justify-center items-center font-mukta font-bold"><sl-icon-button name="file-text" label="Edit" style="font-size: 2.5rem;"></sl-icon-button>Exame <sl-icon name="arrow-right-short"></sl-icon></p></a>
+                <a href="{{BASE}}modules/04/exam"><p class="flex justify-center items-center font-mukta font-bold"><sl-icon-button name="file-text" label="Edit" style="font-size: 2.5rem;"></sl-icon-button>Exame <sl-icon name="arrow-right-short"></sl-icon></p></a>
             </div>
 
             <div class="flex flex-row gap-x-3 lg:gap-x-96 md:gap-x-96 font-mukta font-bold text-2xl justify-center items-center text-blue mt-[2rem]">
@@ -44,7 +44,7 @@
                 <p><a href="{{BASE}}modules/05">Próximo <sl-icon name="arrow-bar-right"></sl-icon></a></p>
             </div>
         </div>
- <main>
+</section>
 
     <style>
         .module-summary::part(base)
@@ -52,9 +52,11 @@
             font-size: 1.2rem;
             
         }
-        #content h2, #content h3 {
-            font-family: 'Nerko One', "Mukta", "Roboto", Arial, Helvetica, sans-serif;
-            text-transform: uppercase;
+        .module-summary::part(base):hover
+        {
+            font-size: 1.3rem;
+            transition: ease-in 0.5s;
+            
         }
         #content h1 {
             font-size: 2.8rem;

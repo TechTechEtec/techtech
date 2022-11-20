@@ -219,7 +219,6 @@
       </div>
     </section>
 
-
     <!-- Footer -->
     {% embed "components/footer.twig.php" %}{% endembed %}
   </div>
