@@ -37,7 +37,7 @@
             </div>
 
             <div class="flex flex-row">
-                <a href><p class="flex justify-center items-center font-mukta font-bold"><sl-icon-button name="file-text" label="Edit" style="font-size: 2.5rem;"></sl-icon-button>Exame <sl-icon name="arrow-right-short"></sl-icon></p></a>
+                <a href="{{BASE}}modules/01/exam"><p class="flex justify-center items-center font-mukta font-bold"><sl-icon-button name="file-text" label="Edit" style="font-size: 2.5rem;"></sl-icon-button>Exame <sl-icon name="arrow-right-short"></sl-icon></p></a>
             </div>
 
             <div class="float-right flex flex-row gap-x-3 lg:gap-x-96 md:gap-x-96 font-mukta font-bold text-2xl text-blue mt-[2rem]">
@@ -65,7 +65,7 @@
             text-transform: uppercase;
         }
         #content h1 {
-            font-size: 2.8rem;
+            font-size: 0.8rem;
             width: 100%;
             text-align: left;
             margin: 1rem 0;

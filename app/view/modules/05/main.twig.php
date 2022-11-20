@@ -27,7 +27,7 @@
             </div>
 
             <div class="flex flex-row">
-                <a href><p class="flex justify-center items-center font-mukta font-bold"><sl-icon-button name="file-text" label="Edit" style="font-size: 2.5rem;"></sl-icon-button>Exame <sl-icon name="arrow-right-short"></sl-icon></p></a>
+                <a href="{{BASE}}modules/05/exam"><p class="flex justify-center items-center font-mukta font-bold"><sl-icon-button name="file-text" label="Edit" style="font-size: 2.5rem;"></sl-icon-button>Exame <sl-icon name="arrow-right-short"></sl-icon></p></a>
             </div>
 
             <div class="flex flex-row gap-x-3 lg:gap-x-96 md:gap-x-96 font-mukta font-bold text-2xl justify-center items-center text-blue mt-[2rem]">
@@ -41,6 +41,13 @@
         .module-summary::part(base)
         {
             font-size: 1.2rem;
+            
+            
+        }
+        .module-summary::part(base):hover
+        {
+            font-size: 1.3rem;
+            transition: ease-in 0.5s;
             
         }
         #content h2, #content h3 {
