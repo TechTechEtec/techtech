@@ -5,7 +5,7 @@
             <h2 class="flex flex-row items-center justify-start gap-[1.5rem]">
                 <span class="font-bold text-lg uppercase font-mukta">Total de Pontos:</span>
                 <span class="text-xl font-roboto flex flex-row items-center justify-start gap-[0.5rem] ">
-                    <span class="text-md font-normal text-[#303030]">{{session.totalScore}}</span>  
+                    <span class="text-md font-normal text-eerie dark:text-grey">{{session.totalScore}}</span>  
                     <sl-icon name="fire" style="color: #e25822"></sl-icon> 
                 </span>
             </h2>
@@ -13,7 +13,7 @@
             <h2 class="flex flex-row items-center justify-start gap-[1.5rem]">
                 <span  class="font-bold text-lg uppercase font-mukta">Módulo atual:</span>
                 <span class="text-xl font-roboto flex flex-row items-center justify-start gap-[0.5rem] ">
-                    <span class="text-md font-normal text-[#303030]">{{session.actualModule}}</span>  
+                    <span class="text-md font-normal text-eerie dark:text-grey">{{session.actualModule}}</span>  
 
                     <sl-icon name="book" style="color:hsl(252, 100%, 68%)"></sl-icon> 
                 </span>
@@ -48,22 +48,22 @@
 
         {% for module in modules %}
             <li data-tilt  data-tilt-speed="2000" data-tilt-perspective="5000" data-tilt-scale="1.05">
-                <div class="flex flex-row items-center justify-between gap-[1.5rem] flex-wrap cursor-default p-6 border-2 border-darkpurple rounded-xl drop-shadow-xl bg-lightpurple">
+                <div class="flex flex-row items-center justify-between gap-[1.5rem] flex-wrap cursor-default p-6 border-2 border-darkpurple rounded-xl drop-shadow-xl bg-lightpurple dark:bg-lighteerie">
 
-                    <span class="font-bold text-lg uppercase font-mukta">Módulo {{loop.index}}</span>
+                    <span class="font-bold text-lg dark:text-white uppercase font-mukta">Módulo {{loop.index}}</span>
 
                     <div class="text-xl font-roboto flex flex-row items-center justify-start gap-[0.5rem] ">
                         <span class="text-[{{module ? '#228B22' : '#ff8a05' }}] flex flex-row items-center">
                             <sl-icon name="{{module ? 'check-circle-fill' : 'clock-history' }}"></sl-icon> 
                         </span>
 
-                        <span class="text-md font-normal text-[#303030]">{{module ? 'concluído' : 'pendente'}} | <strong> pontos:</strong> {{module ?: '?'}}</span>  
+                        <span class="text-md font-normal text-eerie dark:text-grey">{{module ? 'concluído' : 'pendente'}} | <strong>{{module ?: '?'}}</strong>/80</span>  
                     </div>
 
                    <div class="flex flex-row items-center justify-start gap-[1rem]">
-                        <a href="{{BASE}}modules/0{{loop.index}}" class="text-[#0050EE] underline underline-offset-4">Estudar</a>
+                        <a href="{{BASE}}modules/0{{loop.index}}" class="text-[#0050EE] dark:text-blue underline underline-offset-4">Estudar</a>
                         <span> | </span>
-                        <a href="{{BASE}}modules/0{{loop.index}}/exam" class="text-[#0050EE] underline underline-offset-4">Exame</a>
+                        <a href="{{BASE}}modules/0{{loop.index}}/exam" class="text-[#0050EE] dark:text-blue underline underline-offset-4">Exame</a>
                    </div>
 
                 </div>  
@@ -73,3 +73,25 @@
 
     <sl-button slot="footer" variant="danger">Fechar</sl-button>
 </sl-dialog>
+
+<style>
+
+    .dialog-scrolling::part(close-button__base):hover {
+        color: hsl(252, 100%, 68%);
+    }
+
+    html.dark .dialog-scrolling::part(panel) {
+        background-color: #27242A;
+        color: white;
+    }
+
+    html.dark .dialog-scrolling::part(title) {
+        color: white;
+    }
+
+    html.dark .dialog-scrolling::part(close-button__base) {
+        color: white;
+    }
+
+
+</style>

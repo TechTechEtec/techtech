@@ -60,3 +60,32 @@
 
     <sl-button slot="footer" variant="danger">Fechar</sl-button>
 </sl-dialog>
+
+<style>
+
+    .dialog-scrolling::part(close-button__base):hover {
+        color: hsl(252, 100%, 68%);
+    }
+
+    html.dark .dialog-scrolling::part(panel) {
+        background-color: #27242A;
+        color: white;
+    }
+
+    html.dark .dialog-scrolling::part(title) {
+        color: white;
+    }
+
+    html.dark .dialog-scrolling::part(close-button__base) {
+        color: white;
+    }
+
+    .avatar::part(base){
+        border: 2px solid hsl(252, 100%, 68%);
+    }
+        
+    html.dark .avatar::part(base){
+        border: 2px solid white;
+    }
+
+</style>

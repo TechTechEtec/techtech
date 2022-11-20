@@ -1,12 +1,11 @@
 {% extends "partials/layout.twig.php" %}
 
-
 {% block title %} Módulo 1 | Techtech {% endblock %}
 
 {% block main %}
 
-<section class="w-full h-auto flex flex-col items-center justify-center bg-[url({{BASE}}svgs/Random_shit.svg)] bg-repeat bg-center">
-       <div class="flex items-center justify-center mt-[3rem] ml-[2rem]" data-aos="fade-up">
+    <section class="w-full h-auto flex flex-col items-center justify-start">
+       <div class="w-full flex items-center justify-center my-[3rem]" data-aos="fade-up">
             <sl-breadcrumb>
                 <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/01">Módulo 1</sl-breadcrumb-item>
                 <sl-breadcrumb-item class="module-summary" href="{{BASE}}modules/02">Módulo 2</sl-breadcrumb-item>
@@ -18,13 +17,13 @@
             </sl-breadcrumb>
        </div>
 
-        <div class="items-center justify-center w-[25rem] lg:w-[60rem] md:w-[40rem] bg-white">    
+        <div class="items-center justify-center p-4 2sm:px-2 w-full lg:w-[60rem]">    
             <h1 class="text-2xl font-bold font-clean text-purple uppercase px-4 my-8">Módulo 1</h1>
 
             <img class="" src="{{BASE}}imgs/MindMap-01.png" alt="Mapa mental Lógica de Programação" data-aos="fade-up">
 
             <div class="w-full items-center justify-center md:justify-end gap-4 mt-[2rem]">
-                <a href="{{BASE}}imgs/MindMap-01.png" download class="font-bold text-lg flex flex-row gap-4 items-center justify-center" >
+                <a href="{{BASE}}imgs/MindMap-01.png" download class="font-bold text-lg flex flex-row gap-4 items-center justify-center text-eerie dark:text-grey">
                     <span>Faça o download do mapa aqui!</span>
                     <span class="material-icons">file_open</span>
                 </a>
@@ -36,28 +35,45 @@
                 {% endapply %}
             </div>
 
-            <div class="flex flex-row">
-                <a href="{{BASE}}modules/01/exam"><p class="flex justify-center items-center font-mukta font-bold"><sl-icon-button name="file-text" label="Edit" style="font-size: 2.5rem;"></sl-icon-button>Exame <sl-icon name="arrow-right-short"></sl-icon></p></a>
+            <hr class="my-8"/>
+
+            <div class="flex flex-row flex-wrap items-center justify-between mt-8">
+                <a href="{{BASE}}modules/01/exam">
+                    <p class="flex justify-center items-center text-xl gap-2 justify-start text-eerie dark:text-grey font-mukta font-bold">
+                        <i class="ph-exam text-5xl"></i>
+                        <span>Exame</span>
+                        <i class="ph-arrow-right"></i> 
+                    </p>
+                </a>
+
+            
+                <a class="text-[#0284c7] flex flex-row items-center gap-2 text-3xl font-mukita font-bold" href="{{BASE}}modules/02">
+                    <span>Próximo</span>
+                    <i class="ph-arrow-line-right"></i>
+                </a>
             </div>
 
-            <div class="float-right flex flex-row gap-x-3 lg:gap-x-96 md:gap-x-96 font-mukta font-bold text-2xl text-blue mt-[2rem]">
-                <p class=""><a href="{{BASE}}modules/02">Próximo <sl-icon name="arrow-bar-right"></sl-icon></a></p>
-            </div>
         </div>
-</section>
+    </section>
 
     <style>
+
+        #content img {
+            margin: 1rem;
+            border-radius: 0.35rem;
+        }
+
         .module-summary::part(base)
         {
             font-size: 1.2rem;
-            
-            
+            color: #0284c7;
+            transition: ease-in 0.2s;
         }
+
         .module-summary::part(base):hover
         {
-            font-size: 1.3rem;
-            transition: ease-in 0.5s;
-            
+            font-size: 1.25rem;
+            color: #1094c7;
         }
 
         #content h2, #content h3 {
@@ -78,8 +94,12 @@
             font-size: 2rem;
             width: 100%;
             text-align: left;
-            margin: 1rem 0;
+            margin: 2rem 0 1rem;
             color: #101241;
+        }
+
+        html.dark #content h2 {
+            color: hsl(281, 100%, 88%)
         }
 
         #content h3 {
@@ -93,12 +113,16 @@
 
         #content p {
             font-size: 1.4rem;
-            color: #181818;
+            color: #27242A;
             line-height: 2.5rem;
             width: 95%;
             margin: 1.2rem auto;
             text-align: justify;
             font-family: 'Roboto', Arial, Helvetica, sans-serif;
+        }
+
+        html.dark #content p {
+            color: #DADDE1
         }
 
         #content ul, #content ol {
@@ -111,6 +135,10 @@
             width: 85%;
             margin: 0.5rem auto;
 
+        }
+
+        html.dark #content ul, html.dark #content ul ol {
+            color: #DADDE1
         }
 
         #content ul {
@@ -145,24 +173,25 @@
             justify-content: flex-start;
             align-items: flex-start;
             flex-direction: column;
+            background-color: #FFFFFFdd;
+            border-radius: 0.25rem;
+            padding:1rem;
             gap:0.7rem;
-            width: 85%;
+            width: 90%;
             margin: 0.5rem auto;
         }
 
         #content pre code {
             font-size: 1rem;
-            color: #181818;
+            color: #27242A;
             font-weight: 400;
         }
 
         #cotent p code {
             font-size: 1.1rem;
-            color: hsl(252, 100%, 68%);
+            background-color: white;
             font-weight: 400;
         }
-
-        
 
     </style>
 {% endblock %}

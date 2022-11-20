@@ -1,6 +1,6 @@
-<canvas id="myCanvas" resize class="h-[15rem] w-full"></canvas>
+<canvas id="myCanvas" resize class="h-[12rem] w-full"></canvas>
 
-<footer class="bg-darkerPurple bg-[url({{BASE}}svgs/Random_shit.svg)] bg-cover shadow-xl flex flex-col-reverse lg:flex-row flex-wrap justify-evenly items-center w-screen m-0 h-auto gap-10 md:gap-4 pb-6 pt-[3rem] px-8" >
+<footer class="bg-darkerPurple dark:bg-lighteerie bg-[url({{BASE}}svgs/Random_shit.svg)] bg-cover shadow-xl flex flex-col-reverse lg:flex-row flex-wrap justify-evenly items-center w-screen m-0 h-auto gap-10 md:gap-4 pb-6 pt-[3rem] px-8" >
 
   <!-- Logo -->
   <div class="flex flex-col justify-center items-center gap-8 h-[20rem] w-[20rem]">

@@ -8,14 +8,14 @@ function toggleMenu() {
     menu.getAttribute("style") === "left:-230px"
   ) {
     menu.setAttribute("style", "left:0");
-    button.innerHTML = '<i class="ph-x" style="color:#101241"></i>';
+    button.innerHTML = '<i class="ph-x"></i>';
 
     document.getElementById("layout-menu").focus();
     return;
   }
 
   menu.setAttribute("style", "left:-230px");
-  button.innerHTML = '<i class="ph-list" style="color:#101241"></i>';
+  button.innerHTML = '<i class="ph-list"></i>';
 }
 
 function closeMenu() {
