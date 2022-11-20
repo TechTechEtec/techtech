@@ -53,9 +53,7 @@
       <div class="flex flex-col justify-around items-start m-auto w-full gap-6 2md:flex-col lg:flex-row lg:items-start lg:justify-around">
         <div class="flex flex-1 flex-col items-start justify-evenly">
 
-          <h1 class="text-4xl text-darkpurple font-mukta font-bold min-h-[50px]">
-            <span id="typed"></span>
-          </h1>
+          <h1 class="text-4xl text-darkpurple font-mukta font-bold min-h-[50px]">TECHTECH ⭐</h1>
 
           <p class="text-gray-600 text-justify mt-10 mb-5 text-lg w-full max-w-[35rem] font-medium font-roboto subpixel-antialiased">Ensino tecnológico acessível para crianças, um projeto sem fins lucrativos desenvolvido por estudantes, para auxiliar estudantes, com a finalidade de apresentar o mundo tecnológico de outra forma para crianças, e assim ampliar seus horizontes.</p>
 
@@ -111,14 +109,13 @@
     <section class="hidden md:block bg-[url({{BASE}}imgs/parallax.png)] min-h-[200px] md:min-h-[400px] bg-fixed bg-center bg-contain"></section>
 
     <!-- Alternative parallax Effect to mobile devices -->
-  
     <img class="block my-6 md:hidden" src="{{BASE}}imgs/parallax.png" alt="parallax static image used on mobile devices" class="w-full"/>
 
-
+    <!-- third section -->
     <section class="px-6 pb-4 mt-[8rem] w-[90vw] mx-auto flex flex-col md:flex-row items-start justify-evenly gap-[3rem]" id="second_section">
 
       <div class="flex flex-col flex-1 items-center jusfify-start gap-[4rem]" data-aos="fade-up">
-        <h2 class="text-6xl font-extrabold text-darkpurple font-nerko uppercase">Acesse de qualquer lugar!</h2>
+        <h2 class="text-6xl font-extrabold text-purple font-nerko uppercase">Acesse de qualquer lugar!</h2>
 
         <p class="w-full mx-auto my-4 text-justify font-medium text-[#202020] text-2xl font-mukta"> A plataforma TechTech foi desenvolvida por uma equipe eficiente e capacitada para oferecer à seus usuários a melhor da acessibilidade e usabilidade. Você pode usufruir da plataforma em qualquer dispositivo desde que haja uma conexão de internet.</p>
       </div>
@@ -127,6 +124,40 @@
         <img src="{{BASE}}imgs/devices.png" class="w-full max-w-[62.5rem]" alt="Laptop" />
       </div>
       
+    </section>
+
+   <hr class="drop-shadow-lg"/>
+
+    <!-- forth section -->
+    <section class="px-[1rem] md:px-[3rem] py-[5rem] mt-[4rem] w-screen mx-auto flex flex-col-reverse md:flex-row items-start justify-evenly gap-[3rem]" id="second_section">
+
+      <div class="flex flex-col flex-1 items-center jusfify-start gap-[4rem]" data-aos="fade-up">
+        <img src="{{BASE}}imgs/terminal.png" class="w-full max-w-[62.5rem] rounded-xl" alt="Laptop" />
+      </div>
+
+      <div class="flex flex-col flex-1 items-start jusfify-start gap-6 relative" data-aos="fade-up">
+        <h2 class="text-6xl font-extrabold text-orange font-nerko uppercase">Playground</h2>
+
+        <p class="w-full mx-auto my-4 text-justify font-medium text-[#202020] text-2xl font-mukta">Caso você queira, você pode utilizar do nosso editor de código embutido na aba <span class="text-darkpurple text-bold font-nerko">playground</span>. Lá você conseguirá rodar códigos em Portugol e receber o resultado da execução em tempo real. Além disos é possível importar e exportar os códigos que você estiver testando.</p>
+      </div>
+
+    </section>
+
+    <hr class="drop-shadow-lg"/>
+
+      <!-- fifth section -->
+    <section class="pb-4 mt-[8rem] w-[90vw] mx-auto flex flex-col md:flex-row items-start justify-evenly gap-[3rem]" id="second_section">
+
+      <div class="flex flex-col flex-1 items-start jusfify-start gap-6 relative" data-aos="fade-up">
+        <h2 class="text-6xl font-extrabold text-purple font-nerko uppercase">Mapas Mentais</h2>
+
+        <p class="w-full mx-auto my-4 text-justify font-medium text-[#202020] text-2xl font-mukta">Procuramos a melhor metodologia de ensino que promova majoritariamente a fixação do conteúdo para nossos alunos. Portanto, cada módulo contém um mapa mental que irá resumir todo conteúdo apresentado, mapas esses que estarão disponíveis para download em suas respectivas páginas.</p>
+      </div>
+
+      <div class="flex flex-col flex-1 items-center jusfify-start gap-[4rem]" data-aos="fade-up">
+        <img src="{{BASE}}gifs/user.gif" class="w-full max-w-[25rem] rounded-xl" alt="Laptop" />
+      </div>
+
     </section>
 
     <!-- third section -->
@@ -145,18 +176,18 @@
 
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 <script>
-  var typed = new Typed('#typed', {
-    strings: ['Trabalho de conclusão de curso!', "TECHTECH ⭐", "Comece a aprender agora mesmo!"],
+  new Typed('#playground', {
+    strings: ['Playground'],
     typeSpeed: 40,
     backSpeed: 15,
     backDelay: 2000,
-    loop: true,
+    loop: false,
     loopCount: Infinity,
     showCursor: false,
   });
-</script>
+</script> -->
 
 {% endblock %}
