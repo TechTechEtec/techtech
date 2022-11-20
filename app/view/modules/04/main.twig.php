@@ -51,7 +51,6 @@
         {
             font-size: 1.2rem;
             
-            
         }
         .module-summary::part(base):hover
         {
