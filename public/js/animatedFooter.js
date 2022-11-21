@@ -32,7 +32,7 @@ Spring.prototype.update = function () {
 };
 
 function createPath(strength) {
-  var path = new Path({
+  path = new Path({
     fillColor: document.getElementById("html").classList.contains("dark")
       ? "#332F37"
       : "#101241",
@@ -98,3 +98,9 @@ function updateWave(path) {
   }
   path.smooth({ type: "continuous" });
 }
+
+// in another js file, far, far away
+$("#html").on("classChange", function () {
+  if (path) path.remove();
+  createPath(0.1);
+});

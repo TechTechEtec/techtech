@@ -8,13 +8,19 @@
 
 {% block main %}
 
-<h1 class="my-2 text-darkpurple uppercase font-bold tex-2xl md:text-3xl">Playground</h1>
+<h1 class="my-2 text-darkpurple dark:text-purple uppercase font-bold tex-2xl md:text-3xl">Playground</h1>
 
 <!-- Header with some actions -->
-<div class="w-full my-[1rem] mx-auto rounded-lg border-2 border-solid border-lightpurple bg-lightpurple p-1">
+<div class="w-full my-[1rem] mx-auto rounded-lg border-2 border-solid border-lightpurple bg-lightpurple dark:bg-lighteerie dark:border-lighteerie p-1">
 
 	<div id="header">
 		<div id="doc-metas">
+			<ul class="flex flex-row gap-2">
+				<li class="w-[15px] h-[15px] bg-[#D61919] rounded-full cursor-pointer"></li>
+				<li class="w-[15px] h-[15px] bg-[#CFAA5A] rounded-full cursor-pointer"></li>
+				<li class="w-[15px] h-[15px] bg-[#068906] rounded-full cursor-pointer"></li>		
+			</ul>
+
 			<input type="text" id="fld-title" value="" placeholder="Nome do arquivo">		
 		</div>
 

@@ -50,5 +50,6 @@
 
 <script type="text/javascript" src="{{BASE}}paper/dist/paper-full.js"></script>
 
-<script type="text/paperscript" src="{{BASE}}js/animatedFooter.js"canvas="myCanvas"></script>
+<script type="text/paperscript" src="{{BASE}}js/animatedFooter.js" canvas="myCanvas"></script>
+
 
