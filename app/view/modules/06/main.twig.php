@@ -20,6 +20,15 @@
         <div class="items-center justify-center p-4 2sm:px-2 w-full lg:w-[60rem]">    
             <h1 class="text-2xl font-bold font-clean text-purple uppercase px-4 my-8">Módulo 6</h1>
 
+            <img class="" src="{{BASE}}imgs/MindMap-06.png" alt="Mapa mental Nomeando Decisões" data-aos="fade-up">
+
+            <div class="w-full flex items-center justify-center md:justify-end gap-4 mt-[2rem]">
+                <a href="{{BASE}}imgs/MindMap-04.png" download class="font-bold text-lg flex flex-row gap-4 items-center justify-center text-eerie dark:text-grey">
+                    <span>Faça o download do mapa aqui!</span>
+                    <span class="material-icons">file_open</span>
+                </a>
+            </div>
+
             <div class="px-4" id="content">
                 {% apply markdown_to_html %}
                 {{ getMarkdown('https://raw.githubusercontent.com/TechTechEtec/modules/main/06/index.md') }}
@@ -30,9 +39,9 @@
 
             <hr class="my-8"/>
 
-            <div class="flex flex-row flex-wrap items-center justify-between mt-8">
-                <a href="{{BASE}}modules/06/exam">
-                    <p class="flex justify-center items-center text-xl gap-2 justify-start text-eerie dark:text-grey font-mukta font-bold">
+            <div class="flex flex-col flex-wrap mt-8">
+                <a href="{{BASE}}modules/02/exam">
+                    <p class="flex items-center text-xl gap-2 justify-start text-eerie dark:text-grey font-mukta font-bold">
                         <i class="ph-exam text-5xl"></i>
                         <span>Exame</span>
                         <i class="ph-arrow-right"></i> 
@@ -40,10 +49,10 @@
                 </a>
 
 
-                <a class="text-[#0284c7] flex flex-row items-center gap-2 text-3xl font-mukita font-bold" href="{{BASE}}modules/07">
-                    <span>Próximo</span>
-                    <i class="ph-arrow-line-right"></i>
-                </a>
+                <div class="flex flex-row gap-x-3 lg:gap-x-11 md:gap-x-96 font-mukta font-bold text-3xl text-[#0284c7] justify-center items-center text-blue mt-[2rem]">
+                     <a class="flex justify-center items-center" href="{{BASE}}modules/05"><sl-icon name="arrow-bar-left"></sl-icon> Anterior</a>
+                     <a class="flex justify-center items-center" href="{{BASE}}modules/07">Próximo <sl-icon name="arrow-bar-right"></sl-icon></a>
+                 </div>
             </div>
         </div>
     </section>

@@ -51,5 +51,8 @@ tailwind.config = {
     lineHeight: {
       eloose: "4.5",
     },
+    gap: {
+      '11': '42rem',
+    }
   },
 };

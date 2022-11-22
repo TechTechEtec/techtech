@@ -20,6 +20,15 @@
         <div class="items-center justify-center p-4 2sm:px-2 w-full lg:w-[60rem]">     
             <h1 class="text-2xl font-bold font-clean text-purple uppercase px-4 my-8">Módulo 7</h1>
 
+            <img class="" src="{{BASE}}imgs/MindMap-04.png" alt="Mapa mental Programação para Web" data-aos="fade-up">
+
+            <div class="w-full flex items-center justify-center md:justify-end gap-4 mt-[2rem]">
+                <a href="{{BASE}}imgs/MindMap-07.png" download class="font-bold text-lg flex flex-row gap-4 items-center justify-center text-eerie dark:text-grey">
+                    <span>Faça o download do mapa aqui!</span>
+                    <span class="material-icons">file_open</span>
+                </a>
+            </div>
+
             <div class="px-4" id="content">
                 {% apply markdown_to_html %}
                 {{ getMarkdown('https://raw.githubusercontent.com/TechTechEtec/modules/main/07/index.md') }}
@@ -28,16 +37,19 @@
 
             <hr class="my-8"/>
 
-            <div class="flex flex-row flex-wrap items-center justify-between mt-8">
-                <a href="{{BASE}}modules/07/exam">
-                    <p class="flex justify-center items-center text-xl gap-2 justify-start text-eerie dark:text-grey font-mukta font-bold">
+            <div class="flex flex-row items-center justify-center gap-x-3 lg:gap-x-11 md:gap-x-11 flex-wrap mt-8">
+                 <a class="flex font-mukta font-bold text-3xl text-[#0284c7] justify-center items-center text-blue" href="{{BASE}}modules/01"><sl-icon name="arrow-bar-left"></sl-icon> Anterior</a>
+                  
+
+                 <a href="{{BASE}}modules/02/exam">
+                    <p class="flex items-center justify-center text-xl gap-2 text-eerie dark:text-grey font-mukta font-bold">
                         <i class="ph-exam text-5xl"></i>
                         <span>Exame</span>
                         <i class="ph-arrow-right"></i> 
                     </p>
-                </a>
+                 </a>
+
             </div>
-        </div>
     </section>
 
     <style>

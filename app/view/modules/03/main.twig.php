@@ -37,9 +37,9 @@
 
             <hr class="my-8"/>
 
-            <div class="flex flex-row flex-wrap items-center justify-between mt-8">
-                <a href="{{BASE}}modules/03/exam">
-                    <p class="flex justify-center items-center text-xl gap-2 justify-start text-eerie dark:text-grey font-mukta font-bold">
+            <div class="flex flex-col flex-wrap mt-8">
+                <a href="{{BASE}}modules/02/exam">
+                    <p class="flex items-center text-xl gap-2 justify-start text-eerie dark:text-grey font-mukta font-bold">
                         <i class="ph-exam text-5xl"></i>
                         <span>Exame</span>
                         <i class="ph-arrow-right"></i> 
@@ -47,10 +47,10 @@
                 </a>
 
 
-                <a class="text-[#0284c7] flex flex-row items-center gap-2 text-3xl font-mukita font-bold" href="{{BASE}}modules/04">
-                    <span>Próximo</span>
-                    <i class="ph-arrow-line-right"></i>
-                </a>
+                <div class="flex flex-row gap-x-3 lg:gap-x-11 md:gap-x-96 font-mukta font-bold text-3xl text-[#0284c7] justify-center items-center text-blue mt-[2rem]">
+                     <a class="flex justify-center items-center" href="{{BASE}}modules/02"><sl-icon name="arrow-bar-left"></sl-icon> Anterior</a>
+                     <a class="flex justify-center items-center" href="{{BASE}}modules/04">Próximo <sl-icon name="arrow-bar-right"></sl-icon></a>
+                 </div>
             </div>
 
         </div>
