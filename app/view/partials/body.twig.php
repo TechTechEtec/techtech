@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" translate>
+<html lang="pt-br" translate id="html" >
     <head>
         <!-- Fonts Google Preconnect -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,15 +59,18 @@
         </script>
     </head>
     
-    <body class="overflow-x-hidden">
+    <body class="overflow-x-hidden dark:bg-eerie select-none">
 
-        <div id="loading">
+        <div id="loading" class="bg-lightpurple text-purple dark:bg-lighteerie">
         <img class="w-full h-full max-w-[80px] max-h-[80px]" src="{{BASE}}svgs/loading.svg" alt="loading spinner"/>
             Carregando ...
         </div> 
 
         {% block menu %}{% endblock %}
-        {% block body %}{% endblock %}  <!-- Here will be included the main body of the page -->
+        {% block body %}{% endblock %} 
+        
+         <!-- Toogle Dark/Light Button -->
+        {% embed "components/toggleDarkModeButton.twig.php" %} {% endembed%}<!-- Here will be included the main body of the page -->
     </body>
 
     <script src="https://cdn.jsdelivr.net/npm/ace-builds@1/src-noconflict/ace.min.js"></script>
@@ -78,6 +81,8 @@
     <script>
         AOS.init();
     </script>
+
+    <script src="{{BASE}}js/toggleDarkMode.js"></script>
 
     <!-- SCRIPT to Open Progress Modal  -->
     <script>

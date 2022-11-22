@@ -1,5 +1,6 @@
 tailwind.config = {
   content: ["../../app/**/*.{php,html,js}"],
+  darkMode: "class",
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
@@ -16,9 +17,15 @@ tailwind.config = {
         "pink-500": "#D71C6D",
         orange: "hsl(32, 100%, 61%)",
         black: "#181818",
-        white: "#fff",
+        white: "#ffffff",
         ghostwhite: "#F5F5F5",
         grey: "#DADDE1",
+
+        // Dark Colors:
+        eerie: "#27242A",
+        lighteerie: "#332F37",
+        violet: "#B353F3",
+        darkwhite: "#f7f7f7",
       },
     },
     screens: {
@@ -26,7 +33,7 @@ tailwind.config = {
 
       "2sm": "595px",
 
-      md: "768px",
+      md: "870px",
 
       "2md": "900px",
 
@@ -44,5 +51,8 @@ tailwind.config = {
     lineHeight: {
       eloose: "4.5",
     },
+    gap: {
+      '11': '42rem',
+    }
   },
 };
