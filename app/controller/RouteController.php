@@ -20,12 +20,10 @@ class RouteController extends Controller {
 
             $progress  = $this->studentHandler->fetchProgress($_SESSION['extra']->id);
             
-            if($_SESSION["perfil"] === "student"){
-                $_SESSION['progress'] = $progress->totalScoreAndActualModule;
-                $_SESSION['progressInPorcentage'] = $progress->progressInPorcentage;
-                $_SESSION['actualModule'] = $progress->actualModule;
-                $_SESSION['totalScore'] = $progress->totalScore;
-            }
+            $_SESSION['progress'] = $progress->progress;
+            $_SESSION['progressInPorcentage'] = $progress->progressInPorcentage;
+            $_SESSION['actualModule'] = $progress->actualModule;
+            $_SESSION['totalScore'] = $progress->totalScore;
 
 
             $this->load("dashboard/main");

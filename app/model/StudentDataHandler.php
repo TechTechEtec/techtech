@@ -17,7 +17,6 @@ class StudentDataHandler extends Model {
         $this->query = $connection->initializeDatabase("student", "id");
     }
 
-
     # STUDENTS
     public function fetchProgress(string $id) {
 
@@ -36,23 +35,16 @@ class StudentDataHandler extends Model {
 
 
             if(sizeof($progress) === 1){
-                $totalScoreAndActualModule =  $this->sumScorePoints((array) $progress);
+                $totalScoreAndActualModule =  $this->sumScore((array) $progress[0]);
 
+        
                 $progressInPorcentage = round($totalScoreAndActualModule->totalScore * 100 / 560);
                 $actualModule = $totalScoreAndActualModule->actualModule;
                 $totalScore = $totalScoreAndActualModule->totalScore;
 
 
-                console_log((object)[
-                    "totalScoreAndActualModule" =>  $totalScoreAndActualModule,
-                    "progressInPorcentage"      => $progressInPorcentage,
-                    "actualModule"              => $actualModule,
-                    "totalScore"                => $totalScore
-                ]);
-
-
                 return (object)[
-                    "totalScoreAndActualModule" =>  $totalScoreAndActualModule,
+                    "progress"                  =>   $progress[0],
                     "progressInPorcentage"      => $progressInPorcentage,
                     "actualModule"              => $actualModule,
                     "totalScore"                => $totalScore
@@ -66,7 +58,7 @@ class StudentDataHandler extends Model {
     }
 
 
-    public function sumScorePoints(array $scores) {
+    public function sumScore(array $scores) {
 
         $totalScore = 0;
         $actualModule = 1;
