@@ -58,9 +58,17 @@ class SessionController extends Controller {
         $_SESSION['extra'] = $user[0];
         $_SESSION['loggedIn'] = true;
 
-        // Redirection
+
+        if($user[0]->perfil === "student"){
+            $_SESSION['progress'] = $user[0]->progress;
+            $_SESSION['progressInPorcentage'] = $user[0]->progressInPorcentage;
+            $_SESSION['actualModule'] = $user[0]->actualModule;
+            $_SESSION['totalScore'] = $user[0]->totalScore;
+        }
+
+        //Redirection
         if($_SESSION['perfil'] === "student" || $_SESSION['perfil'] === "admin"){
-            header("Location: " . BASE . "@progress");
+            header("Location: " . BASE . "dashboard");
         }else if($_SESSION['perfil'] === "school" || $_SESSION['perfil'] === "admin"){
             header("Location: " . BASE . "dashboard-school");
         }else if($_SESSION['perfil'] === "teacher" || $_SESSION['perfil'] === "admin"){

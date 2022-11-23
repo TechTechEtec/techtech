@@ -3,16 +3,31 @@
 namespace app\controller;
 
 use app\core\Controller;
+use app\model\StudentDataHandler;
 
 # Controller that manages our routes
-
 class RouteController extends Controller {
 
-    public function __construct() {}
+    private $studentHandler;
+
+    public function __construct() {
+        $this->studentHandler = new StudentDataHandler();
+    }
 
     public function dashboard() {
         
         if(isset($_SESSION['loggedIn']) && ($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin')){
+
+            $progress  = $this->studentHandler->fetchProgress($_SESSION['extra']->id);
+            
+            if($_SESSION["perfil"] === "student"){
+                $_SESSION['progress'] = $progress->totalScoreAndActualModule;
+                $_SESSION['progressInPorcentage'] = $progress->progressInPorcentage;
+                $_SESSION['actualModule'] = $progress->actualModule;
+                $_SESSION['totalScore'] = $progress->totalScore;
+            }
+
+
             $this->load("dashboard/main");
             
             return;
