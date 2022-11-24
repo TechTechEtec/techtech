@@ -49,11 +49,15 @@ class SessionController extends Controller {
         $_SESSION['email'] = $user[0]->email;
         $_SESSION['perfil'] = $user[0]->perfil;
         $_SESSION['avatar'] = $user[0]->avatar;
+        $_SESSION['bio'] = $user[0]->bio;
+
 
         unset($user[0]->name);
         unset($user[0]->email);
         unset($user[0]->perfil);
         unset($user[0]->avatar);
+        unset($user[0]->bio);
+
 
         $_SESSION['extra'] = $user[0];
         $_SESSION['loggedIn'] = true;

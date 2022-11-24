@@ -222,13 +222,13 @@ class RouteController extends Controller {
     public function examModule1() {
         if(isset($_SESSION['loggedIn'])){
 
-           // if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
+           if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
                 $this->load("modules/01/exam");
                 return;
-        //    }
+           }
  
-        //     $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
-        //     return;
+            $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
+            return;
         }
         header('Location: ' . BASE . 'signin');
     }
@@ -251,14 +251,14 @@ class RouteController extends Controller {
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
 
-                //if($_SESSION['progress']->module1 !== null){
+                if($_SESSION['progress']->module1 !== null){
                     $this->load("modules/02/exam");
                     return;
-                //}
+                }
 
-                // $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 01", BASE . "dashboard", 400);
+                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 01", BASE . "dashboard", 400);
 
-                // return;
+                return;
             }
 
             $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
@@ -285,14 +285,14 @@ class RouteController extends Controller {
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
                
-                //if($_SESSION['progress']->module2 !== null){
+                if($_SESSION['progress']->module2 !== null){
                     $this->load("modules/03/exam");
                     return;
-                //}
+                }
 
-               // $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 02", BASE . "dashboard", 400);
+               $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 02", BASE . "dashboard", 400);
 
-                //return;
+                return;
             }
 
             $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
@@ -318,12 +318,12 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-               // if($_SESSION['progress']->module3 !== null){
+               if($_SESSION['progress']->module3 !== null){
                     $this->load("modules/04/exam");
-                 //   return;
-                // }
+                   return;
+                }
 
-                // $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 03", BASE . "dashboard", 400);
+                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 03", BASE . "dashboard", 400);
 
                 return;
             }
@@ -351,14 +351,14 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                //if($_SESSION['progress']->module4 !== null){
+                if($_SESSION['progress']->module4 !== null){
                     $this->load("modules/05/exam");
                     return;
-                //}
+                }
 
-                // $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 04", BASE . "dashboard", 400);
+                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 04", BASE . "dashboard", 400);
 
-                // return;
+                return;
             }
 
             $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
@@ -384,14 +384,14 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                //if($_SESSION['progress']->module5 !== null){
+                if($_SESSION['progress']->module5 !== null){
                     $this->load("modules/06/exam");
                     return;
-                //}
+                }
 
-                // $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 05", BASE . "dashboard", 400);
+                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 05", BASE . "dashboard", 400);
 
-                // return;
+                return;
             }
 
             $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
@@ -417,14 +417,14 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                //if($_SESSION['progress']->module6 !== null){
+                if($_SESSION['progress']->module6 !== null){
                     $this->load("modules/07/exam");
                     return;
-                // }
+                }
 
-                // $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 06", BASE . "dashboard", 400);
+                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 06", BASE . "dashboard", 400);
 
-                // return;
+                return;
             }
 
             $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);

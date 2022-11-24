@@ -36,7 +36,7 @@ class Controller {
         return $this->load('partials/message', [
             'title'    => $title ? $title : "[ERROR]: Algum Erro Intero ocorreu.",
             'message' => $message ? $message : "Sua internet pode estar lenta demais. Pressione a tecla F5 ou tente mais tarde",
-            'link'      => $link ? $link : BASE . "/dashboard" 
+            'link'      => $link ? $link : BASE . "dashboard" 
         ]);
     }
 }

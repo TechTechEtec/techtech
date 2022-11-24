@@ -1,9 +1,3 @@
-
-<!-- MODAL TO SHOW PROGRESS INFORMATION  -->
-{% if session.perfil == 'student' %}
-    {% embed "components/studentProgressInformation.twig.php" %}{% endembed %}
-{% endif %}
-
 <div class="bg-white text-black md:dark:bg-lighteerie dark:bg-eerie dark:text-grey md:min-h-screen h-full flex-1 md:fixed overflow-y-auto top-0 bottom-0 z-1 overflow-y-auto overflow-x-hidden border-r-[1px] flex flex-col 2sm:flex-row md:flex-col items-start justify-start gap-0 2sm:gap-8 md:gap-0 shadow-md dark:border-eerie p-4 m-r-4 min-w-[260px] w-full py-[2rem] px-[3rem] md:p-4 md:max-w-[260px] scroll-less-visible">
 
     <div id="user_information_session" class="w-full 2sm:w-[40%] md:w-full text-center flex flex-1 md:flex-none flex-col gap-[1rem] items-center justify-stretch md:justify-start">
@@ -20,7 +14,7 @@
 
         <sl-badge variant="primary" pill pulse>{{session.perfil == 'student' ? "Estudante" : session.perfil == 'school' ? "Escola": session.perfil == 'teacher' ? "Professor" : 'Administrador'}}</sl-badge>
 
-        <p class="my-6 w-full text-left text-xl leading-[1.5rem] text-eerie dark:text-[#bdbdbd] font-medium  font-mukta">Desumilde jamais. Não é orgulho, é postura!</p>
+        <p class="my-4 w-full text-justify text-xl leading-[1.5rem] text-eerie dark:text-[#bdbdbd] font-medium  font-mukta">{{session.bio}}</p>
     </div>
 
     {% if session.perfil == 'student' %}
