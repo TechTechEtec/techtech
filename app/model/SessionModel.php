@@ -3,19 +3,21 @@
 namespace app\model;
 
 use app\core\Model;
+use app\model\StudentDataHandler;
 use Exception;
 
 class SessionModel extends Model {
 
     private $db;
-    private $progress;
+    private $studentHandler;
 
     public function __construct(){
 
         $connection = $this->connect();
 
         $this->db = $connection->initializeQueryBuilder();
-        $this->progress = $connection->initializeDatabase('modules_progress', 'id');
+        $this->studentHandler = new StudentDataHandler();
+
     }
 
     public function signIn(object $user) {
@@ -46,19 +48,12 @@ class SessionModel extends Model {
 
                 if($idAndPerfil[0]->perfil === "student"){
                     // GET THE PROGRESS OF STUDENT
-                    $progress = $this->getProgressModules($idAndPerfil[0]->id)[0];
-
-                    $totalScoreAndActualModule = $this->sumScorePoints((array) $progress);
-
-                    $progressInPorcentage = round($totalScoreAndActualModule->totalScore * 100 / 560);
-                    $actualModule = $totalScoreAndActualModule->actualModule;
-                    $totalScore = $totalScoreAndActualModule->totalScore;
+                    $progress = $this->studentHandler->fetchProgress($idAndPerfil[0]->id);
 
                     $user[0]->progress =  $progress;
-                    $user[0]->progressInPorcentage = $progressInPorcentage;
-                    $user[0]->actualModule = $actualModule;
-                    $user[0]->totalScore =  $totalScore;
-
+                    $user[0]->progressInPorcentage = $progress->progressInPorcentage;
+                    $user[0]->actualModule = $progress->actualModule;
+                    $user[0]->totalScore =  $progress->totalScore;
                 }
 
                 return $user;
@@ -72,46 +67,6 @@ class SessionModel extends Model {
     }
 
 
-    public function sumScorePoints(array $scores) {
-
-        $totalScore = 0;
-        $actualModule = 1;
-
-        for($i = 1; $i < count($scores) - 2; $i++){
-            if(!empty($scores["module" . $i])){
-                $totalScore += $scores["module" . $i];
-                $actualModule = $i + 1;
-            }
-        }
-
-        return (object)[
-            "totalScore" => $totalScore,
-            "actualModule"         => $actualModule 
-        ];
-    }
-
-
-    public function getProgressModules(string $id) {
-
-        $query = [
-            'select' => 'module1, module2, module3, module4, module5, module6, module7, total, updated_at',
-            'from'   => 'modules_progress',
-            'where' => 
-            [
-                'id' => 'eq.' . $id
-            ]
-        ];
-
-        try {
-            
-            $progress = $this->progress->createCustomQuery($query)->getResult();
-
-            return $progress;
-
-        }catch(Exception $e) {
-            return $e->getMessage();
-        }
-    }
 
     public function logOut() {
         try{

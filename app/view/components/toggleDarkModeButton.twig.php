@@ -1,8 +1,8 @@
-<div class="fixed bottom-[10px] right-[10px] z-10">
-    <sl-switch id="toggleDarkModeButton" style="--width: 3.125rem; --height: 1.5rem; --thumb-size: 1rem;">
-        Dark
-    </sl-switch>
-</div>
+
+<sl-switch id="toggleDarkModeButton" style="--width: 3.125rem; --height: 1.5rem; --thumb-size: 1rem;">
+    Dark
+</sl-switch>
+
 
 <style>
     #toggleDarkModeButton::part(thumb) {

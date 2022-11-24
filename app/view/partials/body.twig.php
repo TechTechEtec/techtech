@@ -11,22 +11,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <link rel="shortcut icon" href="{{BASE}}svgs/techtechlogo.svg">
 
-        <!-- Fonts --> 
+        <!-- Fonts -->
 
         <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&family=Nerko+One&family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
-    
+
         <!-- TAILWIND Import -->
         <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 
         <!--AOS-->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-        <!-- PHOSPOR ICONS --> 
+        <!-- PHOSPOR ICONS -->
         <script src="https://unpkg.com/phosphor-icons"></script>
 
         <!-- Tailwind configuration -->
         <script src="{{BASE}}vendor/tailwindcss.js"></script>
-        
+
         <!-- Lottie animations-->
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
@@ -48,27 +48,27 @@
         <!-- COMPONENTS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/themes/light.css" />
         <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.83/dist/shoelace.js"></script>
-        
+
         {% block aditionalStyle %}{% endblock %}
 
         <!-- ON LOAD PAGE -->
         <script>
-            $(document).ready(function() { 
+            $(document).ready(function() {
                 document.querySelector("#loading").setAttribute("style", "display:none");
             })
         </script>
     </head>
-    
+
     <body class="overflow-x-hidden dark:bg-eerie select-none">
 
         <div id="loading" class="bg-lightpurple text-purple dark:bg-lighteerie">
         <img class="w-full h-full max-w-[80px] max-h-[80px]" src="{{BASE}}svgs/loading.svg" alt="loading spinner"/>
             Carregando ...
-        </div> 
+        </div>
 
         {% block menu %}{% endblock %}
-        {% block body %}{% endblock %} 
-        
+        {% block body %}{% endblock %}
+
          <!-- Toogle Dark/Light Button -->
         {% embed "components/toggleDarkModeButton.twig.php" %} {% endembed%}<!-- Here will be included the main body of the page -->
     </body>
@@ -88,7 +88,7 @@
     <script>
         const dialogProgress = document.querySelector('.dialog-scrolling');
         const openButtonProgress = document.querySelector('#showProgressInfo');
-        
+
         let closeButtonProgress = null;
 
         if(dialogProgress){
@@ -100,7 +100,7 @@
         }
 
         if(closeButtonProgress && dialogProgress){
-            closeButtonProgress.addEventListener('click', () => dialogProgress.hide());    
+            closeButtonProgress.addEventListener('click', () => dialogProgress.hide());
         }
     </script>
 
@@ -108,7 +108,7 @@
     <script>
         const dialogAvatar = document.querySelector('.dialog-scrolling');
         const openButtonAvatar = document.querySelector('#chosseAvatar');
-        let closeButtonAvatar = null; 
+        let closeButtonAvatar = null;
 
         if(dialogAvatar){
             closeButtonAvatar = dialogAvatar.querySelector('sl-button[slot="footer"]');
@@ -119,7 +119,7 @@
         }
 
         if(closeButtonAvatar && dialogAvatar){
-            closeButtonAvatar.addEventListener('click', () => dialogAvatar.hide());   
+            closeButtonAvatar.addEventListener('click', () => dialogAvatar.hide());
         }
 
         const avatars = document.querySelectorAll(".avatar");
@@ -135,12 +135,12 @@
                         inputAvatar.setAttribute("value", event.target.getAttribute("image"));
                         chooseAvatar.setAttribute("image", event.target.getAttribute("image"));
                     }
-                    
+
                     dialogAvatar.hide();
                 })
             })
         }
-       
+
     </script>
 
     <!-- SCRIPTS TO HIGHLIGHT THE MENU ITEM-->
