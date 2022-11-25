@@ -149,7 +149,7 @@
         const urls = ['dashboard', 'playground', 'modules', 'activities', 'configurations', 'help'];
 
         urls.forEach((url)=> {
-            if(window.location.pathname.endsWith(url)){
+            if(window.location.pathname.includes(url)){
                 const menu_link = document.getElementById(`menu-${url}`);
 
                 if(menu_link){

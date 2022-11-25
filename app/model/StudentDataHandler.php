@@ -63,7 +63,12 @@ class StudentDataHandler extends Model {
         $totalScore = 0;
         $actualModule = 1;
 
-        for($i = 1; $i < count($scores) - 2; $i++){
+
+
+        for($i = 1; $i < count($scores) - 1; $i++){
+
+            console_log("module" . $i);
+
             if(!empty($scores["module" . $i])){
                 $totalScore += $scores["module" . $i];
                 $actualModule = $i + 1;

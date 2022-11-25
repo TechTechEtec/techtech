@@ -14,7 +14,7 @@
 
         <sl-badge variant="primary" pill pulse>{{session.perfil == 'student' ? "Estudante" : session.perfil == 'school' ? "Escola": session.perfil == 'teacher' ? "Professor" : 'Administrador'}}</sl-badge>
 
-        <p class="my-4 w-full text-justify text-xl leading-[1.5rem] text-eerie dark:text-[#bdbdbd] font-medium  font-mukta">{{session.bio}}</p>
+        <p class="mt-[1.5rem] w-full text-left text-md leading-[1.5rem] text-eerie dark:text-[#bdbdbd] font-medium  font-mukta">{{session.bio}}</p>
     </div>
 
     {% if session.perfil == 'student' %}
@@ -38,7 +38,7 @@
             </li> 
         </ul>
 
-        <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025" class="w-full mt-4 text-center text-purple font-bold mt-4 p-4 py-8 border-2 border-lightpurple rounded-md drop-shadow-sm cursor-pointer" id="showProgressInfo">
+        <div data-tilt  data-tilt-speed="2000" data-tilt-perspective="5000" data-tilt-scale="1.05" class="w-full mt-4 text-center text-purple font-bold mt-4 p-4 py-8 border-2 border-lightpurple rounded-md drop-shadow-sm cursor-pointer" id="showProgressInfo">
             <sl-progress-ring value="{{session.progressInPorcentage}}" class="progress-ring-values" style=" 
             --track-color: hsl(281, 100%, 95%); 
             --track-width:0.5rem;

@@ -7,6 +7,36 @@
 {% endblock %}
 
 {% block main %}
+
+{% set modules = [
+    session.progress.module1,
+    session.progress.module2,
+    session.progress.module3,
+    session.progress.module4,
+    session.progress.module5,
+    session.progress.module6,
+    session.progress.module7
+  ]
+%}
+
+{% set descriptions = [
+    'Apresentação do curso de lógica de programação. Você aprenderá o que é algoritmo, lógica de programação quais os tipos de desenvolvedores que existem e muito mais',
+
+    'Se você está curioso sobre os tipos de dados que existem dentro da programação, esse é o módulo certo para você. O Módulo 2 aborda os principais tipos de dados e métodos dentro do portugol',
+
+    'Os Operadores aritméticos são usados constantemente em nossa vida escolar e também profissional como programadores. Aqui você irá estudar e aprender quais são eles, treinando assim sua lógica',
+
+    'A partir daqui você começara a escrever seus primeiros códigos com manipulação de dados. Se você teve dúvida até agora de como armazenar os valores em algum lugar, você aprenderá como declarar constantes váriaveis, matrizes e muito mais',
+    
+    'As vezes queremos que nosso código execute procedimentos diferentes dependendo do resultado de uma operação. Aqui você aprenderá o que são as condicões, laços de repetição e casos de escolha',
+
+    'Os Operadores relacionais são constantementes usados para validar mais de uma informação, da mesma forma, podemos criar condições aninhadas para diferentes casos. Aqui você aprenderá as Decições Simples e múltiplas',
+
+    'Se você chegou até aqui e quer expandir seu conhecimento chegou a hora de aprender um pouco sobre o que é HTML CSS e Python'
+  ]
+%}
+
+
 <div class="md:ml-[17.5rem]">
   <sl-tab-group id="tab-group">
 
@@ -29,74 +59,51 @@
         
     <!-- PERFIL TAB CONTENT -->
     <sl-tab-panel name="dashboard">
-      <div class="flex flex-col items-stretch justify-start md:flex-row md:justify-center md:items-center gap-[1rem] w-full">
-          <div class="flex flex-col justify-center items-start">
-              <h2 class="flex flex-row items-center justify-start gap-[1.5rem]">
-                  <span class="font-bold text-lg uppercase font-mukta">Total de Pontos:</span>
-                  <span class="text-xl font-roboto flex flex-row items-center justify-start gap-[0.5rem] ">
-                      <span class="text-md font-normal text-eerie dark:text-grey">{{session.totalScore}}</span>  
-                      <sl-icon name="fire" style="color: #e25822"></sl-icon> 
+      <div class="my-[1rem] mx-[1rem] md:mx-[1.5rem]">
+
+        <div class="w-full flex flex-row flex-wrap items-stretch justify-start gap-[1rem] my-[1rem] mx-auto">
+            {% for module in modules %}
+              <sl-card class="card-footer w-full min-w-[19rem] md:max-w-[19rem] flex-1 relative" data-tilt  data-tilt-speed="2000" data-tilt-perspective="5000" data-tilt-scale="1.05">
+
+                <!-- Block Layer -->
+
+                {%  if loop.index != 1 and not modules[loop.index - 2] %}
+                  <div class="bg-[#0000007F] dark:bg-[#0000009F] absolute w-full h-full top-0 left-0 right-0 bottom-0 flex items-center justify-center flex-col z-[5] text-5xl font-bold text-white">
+                  <i class="ph-lock"></i>
+                  </div>
+                {% endif %}
+
+                <div class="w-full flex flex-row items-center justify-between flex-wrap">
+                  <h2 class="font-bold text-xl dark:text-white uppercase font-mukta">Módulo {{loop.index}}</h2>
+
+                  <div class="text-xl font-roboto flex flex-row items-center justify-start gap-[0.5rem] ">
+                      <span class="text-[{{module ? '#228B22' : '#ff8a05' }}] flex flex-row items-center">
+                          <sl-icon name="{{module ? 'check-circle-fill' : 'clock-history' }}"></sl-icon> 
+                      </span>
+
+                      <span class="text-md font-normal text-eerie dark:text-grey">{{module ? 'concluído' : 'pendente'}}   
+                  </div>
+                </div>
+
+                <p class="w-full pt-[2rem] px-[0.8rem] text-eerie dark:text-grey text-left text-sm font-mukta font-normal">
+                  {{descriptions[loop.index - 1]}}
+                </p>
+
+                <div slot="footer">
+                  <span class="text-eerie dark:text-grey">
+                    <strong>{{module != null ? module : '-'}}</strong> / 80
                   </span>
-              </h2>
 
-              <h2 class="flex flex-row items-center justify-start gap-[1.5rem]">
-                  <span  class="font-bold text-lg uppercase font-mukta">Módulo atual:</span>
-                  <span class="text-xl font-roboto flex flex-row items-center justify-start gap-[0.5rem] ">
-                      <span class="text-md font-normal text-eerie dark:text-grey">{{session.actualModule}}</span>  
-
-                      <sl-icon name="book" style="color:hsl(252, 100%, 68%)"></sl-icon> 
-                  </span>
-              </h2> 
-          </div>
-
-          <div class="flex flex-col flex-1 justify-start items-stretch">
-              <h2  class="font-bold text-lg uppercase font-mukta">Progresso:</h2>
-              <sl-progress-bar value="{{session.progressInPorcentage}}" class="progress-bar-values"  style="
-                  --track-color: hsl(281, 100%, 95%); 
-                  --indicator-color: hsl(252, 100%, 68%);
-                  --width:100%;
-                  --height: 1.5rem;
-                  flex: 1;
-              ">{{session.progressInPorcentage}} %</sl-progress-bar>
-          </div>
+                  <div class="flex flex-row items-center justify-start gap-[1rem]">
+                    <a href="{{BASE}}modules/0{{loop.index}}" class="text-[#0050EE] dark:text-blue underline underline-offset-4">Estudar</a>
+                  
+                    <a href="{{BASE}}modules/0{{loop.index}}/exam" class="text-[#0050EE] dark:text-blue underline underline-offset-4">Exame</a>
+                  </div>
+                </div>
+              </sl-card>
+            {% endfor %}
+        </div>
       </div>
-
-      <ul class="w-full list-none flex flex-col items-stretch justify-start gap-[1rem] my-6 mx-auto">
-          {% set modules = [
-                  session.progress.module1,
-                  session.progress.module2,
-                  session.progress.module3,
-                  session.progress.module4,
-                  session.progress.module5,
-                  session.progress.module6,
-                  session.progress.module7
-              ]
-          %}
-
-          {% for module in modules %}
-              <li data-tilt  data-tilt-speed="2000" data-tilt-perspective="5000" data-tilt-scale="1.05">
-                  <div class="flex flex-row items-center justify-between gap-[1.5rem] flex-wrap cursor-default p-6 border-2 border-darkpurple rounded-xl drop-shadow-xl bg-lightpurple dark:bg-lighteerie">
-
-                      <span class="font-bold text-lg dark:text-white uppercase font-mukta">Módulo {{loop.index}}</span>
-
-                      <div class="text-xl font-roboto flex flex-row items-center justify-start gap-[0.5rem] ">
-                          <span class="text-[{{module ? '#228B22' : '#ff8a05' }}] flex flex-row items-center">
-                              <sl-icon name="{{module ? 'check-circle-fill' : 'clock-history' }}"></sl-icon> 
-                          </span>
-
-                          <span class="text-md font-normal text-eerie dark:text-grey">{{module ? 'concluído' : 'pendente'}} | <strong>{{module ?: '?'}}</strong>/80</span>  
-                      </div>
-
-                    <div class="flex flex-row items-center justify-start gap-[1rem]">
-                          <a href="{{BASE}}modules/0{{loop.index}}" class="text-[#0050EE] dark:text-blue underline underline-offset-4">Estudar</a>
-                          <span> | </span>
-                          <a href="{{BASE}}modules/0{{loop.index}}/exam" class="text-[#0050EE] dark:text-blue underline underline-offset-4">Exame</a>
-                    </div>
-
-                  </div>  
-              </li>
-          {% endfor %}
-      </ul>
     </sl-tab-panel>
 
     <!-- CLASS TAB CONTENT -->
@@ -237,6 +244,40 @@
 </div>
 
 <style>
+
+  .card-footer::part(body){
+    height: 100%;
+  }
+
+  .card-footer::part(base){
+    background-color: #F5F5F5;
+    border: 0.0625rem solid hsl(255, 45%, 41%);
+    color: #27242A;
+    box-shadow: 0.3px 0.3px 0.3px grey;
+    flex: 1;
+    height: 100%;
+  }
+
+  .card-footer:hover::part(base){
+    border: 0.0625rem solid hsl(252, 100%, 68%);
+  }
+
+  html.dark .card-footer::part(base){
+    background-color: #332F37;
+    color: #DADDE1;
+    border: 0.0625rem solid hsl(252, 100%, 68%)
+  }
+
+  html.dark .card-footer:hover::part(base){
+    border-color: hsl(32, 100%, 61%);
+  }
+
+  .card-footer [slot='footer'] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height:4rem;
+  }
 
   #tab-group::part(active-tab-indicator){
     border: 1px solid hsl(255, 45%, 41%);
