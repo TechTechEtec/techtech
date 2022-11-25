@@ -16,7 +16,7 @@
     <img class="flex-none w-20 h-20" src="{{BASE}}svgs/techtechlogo.svg" alt="TechTech Logo">	
     <!-- NAVIGATION -->	
     <nav class="flex flex-row items-center gap-4">	
-      <ul class="text-darkpurple font-bold text-3xl flex flex-col items-center justify-center drop-shadow-xl px-6 py-10 z-10 bg-darkwhite fixed top-0 right-0 h-screen w-screen md:items-start md:justify-start md:w-[40%] lg:h-auto lg:relative lg:flex-row lg:bg-transparent lg:p-0 lg:items-center gap-4 lg:gap-10 lg:w-auto hidden lg:flex home-menu dark:bg-lighteerie dark:lg:bg-transparent dark:text-purple">
+      <ul class="text-darkpurple font-bold text-3xl flex flex-col items-center justify-center drop-shadow-xl px-6 py-10 z-10 bg-darkwhite fixed top-0 right-0 h-screen w-screen md:items-start md:justify-start md:w-[40%] lg:h-auto lg:relative lg:flex-row lg:bg-transparent lg:p-0 lg:items-center gap-[1rem] lg:gap-10 lg:w-auto hidden lg:flex home-menu dark:bg-lighteerie dark:lg:bg-transparent dark:text-purple">
 
         <li class="hover:translate-y-[-3px] ease duration-300 cursor-pointer absolute top-6 right-6 lg:hidden text-darkpurple text-5xl dark:text-purple" onclick="toggleHomeMenu()">	
           <i class="ph-x-circle"></i>
