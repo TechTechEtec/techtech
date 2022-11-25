@@ -33,7 +33,6 @@ class StudentDataHandler extends Model {
             
             $progress = $this->query->createCustomQuery($query)->getResult();
 
-
             if(sizeof($progress) === 1){
                 $totalScoreAndActualModule =  $this->sumScore((array) $progress[0]);
 
@@ -63,11 +62,7 @@ class StudentDataHandler extends Model {
         $totalScore = 0;
         $actualModule = 1;
 
-
-
         for($i = 1; $i < count($scores) - 1; $i++){
-
-            console_log("module" . $i);
 
             if(!empty($scores["module" . $i])){
                 $totalScore += $scores["module" . $i];

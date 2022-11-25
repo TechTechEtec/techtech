@@ -26,6 +26,8 @@ class SessionController extends Controller {
 
         $user = $this->sessionModel->signIn($user);
 
+        console_log($user);
+
         if (!is_array($user)) {
             $this->showMessage(
                 'Erro ao fazer signIn', 

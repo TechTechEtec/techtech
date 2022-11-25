@@ -108,5 +108,3 @@ $this->get("/@logout", 'SessionController@logout');
 
 # Controller GetProgress
 
-$this->get("/@progress", 'GetStudentProgressController@GetProgress');
-
