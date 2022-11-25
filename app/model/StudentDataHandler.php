@@ -1,6 +1,5 @@
 <?php 
 
-
 namespace app\model;
 
 use app\core\Model;
@@ -17,7 +16,6 @@ class StudentDataHandler extends Model {
         $this->query = $connection->initializeDatabase("student", "id");
     }
 
-    # STUDENTS
     public function fetchProgress(string $id) {
 
         $query = [

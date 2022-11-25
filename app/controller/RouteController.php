@@ -4,7 +4,6 @@ namespace app\controller;
 
 use app\core\Controller;
 use app\model\StudentDataHandler;
-use GuzzleHttp\Promise\Promise;
 
 # Controller that manages our routes
 class RouteController extends Controller {
@@ -16,27 +15,18 @@ class RouteController extends Controller {
     }
 
     public function dashboard() {
-        
+
         if(isset($_SESSION['loggedIn']) && ($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin')){
 
-            $promiser = new Promise();
-
-            $promiser->then(function($result) {
-
-                $_SESSION["progress"] = $result->progress;
-                $_SESSION['progressInPorcentage'] = $result->progressInPorcentage;
-                $_SESSION['actualModule'] = $result->actualModule;
-                $_SESSION['totalScore'] = $result->totalScore;
-                
-                return $this->load("dashboard/main");
+            $result = $this->studentHandler->fetchProgress($_SESSION['extra']->id);
             
-            }, function() {
-                return "página não carregou";
-            })->then(function ($value) {
-                console_log($value);
-            });
+            $_SESSION["progress"] = $result->progress;
+            $_SESSION['progressInPorcentage'] = $result->progressInPorcentage;
+            $_SESSION['actualModule'] = $result->actualModule;
+            $_SESSION['totalScore'] = $result->totalScore;
+     
+            return $this->load("dashboard/main");
 
-            $promiser->resolve($this->studentHandler->fetchProgress($_SESSION['extra']->id));
         };
 
         header('Location: ' . BASE . 'signin');
