@@ -9,10 +9,10 @@
 
 <div class="w-full relative">
    <header class="w-full"> 
-    <nav class="w-full flex flex-row items-center gap-4 px-6 justify-between items-center w-full z-0">
+    <nav class="w-full flex flex-row items-center gap-[1rem] px-6 justify-between items-center w-full z-0">
       <img class="flex-none w-20 h-20" src="{{BASE}}svgs/techtechlogo.svg" alt="TechTech Logo"/>
 
-        <ul class="text-darkpurple font-bold text-3xl flex flex-col items-center justify-center drop-shadow-xl px-6 py-10 z-10 bg-darkwhite fixed top-0 right-0 h-screen w-screen md:items-start md:justify-start md:w-[40%] lg:h-auto lg:relative lg:flex-row lg:bg-transparent lg:p-0 lg:items-center gap-[1rem] lg:gap-10 lg:w-auto hidden lg:flex home-menu dark:bg-lighteerie dark:lg:bg-transparent dark:text-purple">
+        <ul class="text-darkpurple font-bold text-3xl flex flex-col items-center justify-center drop-shadow-xl px-6 py-10 z-10 bg-darkwhite fixed top-0 right-0 h-screen w-screen md:items-start md:justify-start md:w-[40%] lg:h-auto lg:relative lg:flex-row lg:bg-transparent lg:p-0 lg:items-center gap-[1rem] lg:gap-[2.5rem] lg:w-auto hidden lg:flex home-menu dark:bg-lighteerie dark:lg:bg-transparent dark:text-purple">
 
           <li class="hover:translate-y-[-3px] ease duration-300 cursor-pointer absolute top-6 right-6 lg:hidden text-darkpurple text-5xl" onclick="toggleHomeMenu()" >
           <i class="ph-x-circle"></i>
@@ -62,7 +62,7 @@
     <section class="p-3 md:p-7 lg:p-32 mt-[3rem] 2sm:mt-[5rem] md:mt-[12rem] w-full h-full shadow-md" data-aos="fade-up" id="techtech">
       <h1 class="text-4xl text-purple font-extrabold font-nerko mt-8">TechTech</h1>
       
-      <div class="w-full flex flex-col gap-4 items-center justify-center md:flex-row">
+      <div class="w-full flex flex-col gap-[1rem] items-center justify-center md:flex-row">
         <lottie-player src="https://lottie.host/726cfe36-37c2-495b-b50e-719740134a8d/2go1Vp4tyZ.json" background="transparent" speed="1" loop autoplay class="w-[250px] h-[250px] md:w-[350px] md:h-[350px] mt-[7rem]"></lottie-player>
 
         <div class="space-y-5 w-[90%] md:w-[70%] dark:text-grey">
@@ -79,7 +79,7 @@
     <section class="p-3 md:p-7  lg:p-32  w-full h-full shadow-md" data-aos="fade-up" id="platform">
       <h1 class="text-4xl text-purple font-extrabold font-nerko font-bold text-left md:float-right mt-8">Plataforma</h1>
 
-      <div class="w-full flex flex-col-reverse gap-4 items-center justify-center md:flex-row">
+      <div class="w-full flex flex-col-reverse gap-[1rem] items-center justify-center md:flex-row">
 
         <div class="space-y-5 w-[90%] md:w-[70%] dark:text-grey">
           <p class="w-full  font-clean text-xl text-justify">O sistema é totalmente online, conta com a dinâmica de logins, o que permite o acesso de qualquer lugar ou dispositivo. A plataforma também possui um design intuitivo para que o aluno possa utilizar todas as funcionalidades.  </p>
@@ -101,7 +101,7 @@
     <section class="p-3 md:p-12  lg:p-32 w-full h-full shadow-md" data-aos="fade-up" id="plan">
       <h1 class="text-4xl text-purple font-extrabold font-nerko font-bold mt-8">Plano de Curso</h1>
         
-      <div class="w-full flex flex-col gap-4 items-center justify-center md:flex-row">
+      <div class="w-full flex flex-col gap-[1rem] items-center justify-center md:flex-row">
         <lottie-player src="https://lottie.host/5f1b8566-eb71-4861-82f5-1379e29fc48a/hJ99ijOAbk.json" background="transparent" speed="1" loop autoplay class="w-[250px] h-[250px] md:w-[350px] md:h-[350px] mt-[7rem]"></lottie-player>
 
         <div class="space-y-5 w-[90%] md:w-[70%] dark:text-grey">
@@ -113,8 +113,8 @@
         </div>
       </div>
 
-      <div class="w-full flex items-center justify-center md:justify-end gap-4 mt-[3rem]">
-        <a href="https://drive.google.com/file/d/1dc2U7pMU75sO6Dx--TtHIjdDy8XmtxKt/view?usp=sharing" class="font-bold text-lg flex flex-row gap-4 items-center justify-center text-eerie dark:text-pink-500">
+      <div class="w-full flex items-center justify-center md:justify-end gap-[1rem] mt-[3rem]">
+        <a href="https://drive.google.com/file/d/1dc2U7pMU75sO6Dx--TtHIjdDy8XmtxKt/view?usp=sharing" class="font-bold text-lg flex flex-row gap-[1.rem] items-center justify-center text-eerie dark:text-pink-500">
           <span>Plano de Curso</span>
           <i class="ph-file-pdf text-3xl"></i>
         </a>
@@ -133,17 +133,17 @@
       </div>
 
       <!-- Team profiles -->
-      <div class="flex flex-wrap gap-8 items-center justify-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+      <div class="flex flex-wrap gap-[2rem] items-center justify-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
 
         <!-- Marina Nogueira -->
         <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025" class="flex flex-col justify-center items-stretch py-4 gap-[2rem] md:gap-[1.5rem] px-8 bg-white dark:bg-lighteerie rounded-lg border border-grey dark:border-purple shadow-lg opacity-90 transition-all ease-linear duration-200 delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-lightpurple dark:hover:border-lightpurple hover:opacity-100" data-aos="fade-down" data-aos-duration="100">
 
               <img src="{{BASE}}imgs/marina.png" class="w-full h-full max-w-[150px] max-h-[150px] rounded-full">
 
-              <div class="flex flex-col items-center justify-center gap-6 text-eerie dark:text-grey">
+              <div class="flex flex-col items-center justify-center gap-[1.5rem] text-eerie dark:text-grey">
                   <h1 class="font-bold text-xl">Marina Nogueira</h1>
 
-                  <div class="w-full h-auto flex items-center justify-center justify-center gap-6 text-3xl font-bold">
+                  <div class="w-full h-auto flex items-center justify-center justify-center gap-[1.5rem] text-3xl font-bold">
                       <a href="linkedin.com/in/marina-lima-nogueira-92758b221">
                         <i class="ph-linkedin-logo"></i>
                       </a>
@@ -159,11 +159,11 @@
 
               <img src="{{BASE}}imgs/sabrina.png" class="w-full h-full max-w-[150px] max-h-[150px] rounded-full">
 
-              <div class="flex flex-col items-center justify-center gap-6 text-eerie dark:text-grey">
+              <div class="flex flex-col items-center justify-center gap-[1.5rem]text-eerie dark:text-grey">
 
                   <h1 class="font-bold text-xl">Sabrina Tavares</h1>
 
-                  <div class="w-full h-auto flex items-center justify-center justify-center gap-6 text-3xl font-bold">
+                  <div class="w-full h-auto flex items-center justify-center justify-center gap-[1.5rem] text-3xl font-bold">
                       <a href="linkedin.com/in/sabrina-tavares-teves-57189320b">
                         <i class="ph-linkedin-logo"></i>
                       </a>
@@ -179,10 +179,10 @@
 
               <img src="{{BASE}}imgs/sophia.png" class="w-full h-full max-w-[150px] max-h-[150px] rounded-full">
 
-              <div class="flex flex-col items-center justify-center gap-6 text-eerie dark:text-grey">
+              <div class="flex flex-col items-center justify-center gap-[1.5rem] text-eerie dark:text-grey">
                   <h1 class="font-bold text-xl">Sophia Cambuim</h1>
 
-                  <div class="w-full h-auto flex items-center justify-center justify-center gap-6 text-3xl font-bold">
+                  <div class="w-full h-auto flex items-center justify-center justify-center gap-[1.5rem] text-3xl font-bold">
                       <a href="linkedin.com/in/sophia-cambuim-07a561240">
                         <i class="ph-linkedin-logo"></i>
                       </a>
@@ -198,10 +198,10 @@
 
               <img src="{{BASE}}imgs/victor.png" class="w-full h-full max-w-[150px] max-h-[150px] rounded-full">
 
-              <div class="flex flex-col items-center justify-center gap-6 text-eerie dark:text-grey">
+              <div class="flex flex-col items-center justify-center gap-[1.5rem] text-eerie dark:text-grey">
                   <h1 class="font-bold text-xl">Victor Silva</h1>
 
-                  <div class="w-full h-auto flex items-center justify-center justify-center gap-6 text-3xl font-bold">
+                  <div class="w-full h-auto flex items-center justify-center justify-center gap-[1.5rem] text-3xl font-bold">
                       <a href="https://www.linkedin.com/in/victorsilvadev/">
                         <i class="ph-linkedin-logo"></i>
                       </a>
@@ -217,11 +217,11 @@
 
               <img src="{{BASE}}imgs/vitor.png" class="w-full h-full max-w-[150px] max-h-[150px] rounded-full">
 
-              <div class="flex flex-col items-center justify-center gap-6 text-eerie dark:text-grey">
+              <div class="flex flex-col items-center justify-center gap-[1.5rem] text-eerie dark:text-grey">
 
                   <h1 class="font-bold text-xl">Vitor Aquino</h1>
 
-                  <div class="w-full h-auto flex items-center justify-center justify-center gap-6 text-3xl font-bold">
+                  <div class="w-full h-auto flex items-center justify-center justify-center gap-[1.5rem] text-3xl font-bold">
                       <a href="">
                         <i class="ph-linkedin-logo"></i>
                       </a>
@@ -237,7 +237,7 @@
 
   <!-- Feedback -->
   <section class="px-6 my-10 py-6 w-[90%] mx-auto" data-aos="fade-up">
-    <div class="bg-darkerPurple p-6 flex flex-col md:flex-row rounded-md text-white font-bold items-center justify-center gap-6 max-w-[900px] w-full mx-auto drop-shadow-md">
+    <div class="bg-darkerPurple p-6 flex flex-col md:flex-row rounded-md text-white font-bold items-center justify-center gap-[1.5rem] max-w-[900px] w-full mx-auto drop-shadow-md">
       
       <a href="{{BASE}}feedback" class="relative text-darkpurple bg-orange rounded-md p-4 hover:-translate-y-1 transition duration-300 after:content[''] after:block after:absolute after:bg-orange after:w-[25px] after:h-[25px] after:rounded-md after:rotate-45 after:bottom-[-8px] after:left-[20px]">
         Dê-nos seu Feedback

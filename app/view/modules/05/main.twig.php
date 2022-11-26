@@ -30,7 +30,7 @@
 
             <div class="flex flex-col flex-wrap mt-8">
                 <a href="{{BASE}}modules/02/exam">
-                    <p class="flex items-center text-xl gap-2 justify-start text-eerie dark:text-grey font-mukta font-bold">
+                    <p class="flex items-center text-xl gap-[0.5rem] justify-start text-eerie dark:text-grey font-mukta font-bold">
                         <i class="ph-exam text-5xl"></i>
                         <span>Exame</span>
                         <i class="ph-arrow-right"></i> 
