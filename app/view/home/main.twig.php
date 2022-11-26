@@ -113,7 +113,7 @@
         <p class="w-full mx-auto my-4 text-justify font-medium text-[#202020] dark:text-grey text-2xl font-mukta"> A plataforma TechTech foi desenvolvida por uma equipe eficiente e capacitada para oferecer à seus usuários a melhor da acessibilidade e usabilidade. Você pode usufruir da plataforma em qualquer dispositivo desde que haja uma conexão de internet.</p>
       </div>
 
-      <div class="flex flex-col flex-1 items-center jusfify-start gap-4 relative" data-aos="fade-up">
+      <div class="flex flex-col flex-1 items-center jusfify-start gap-[1rem] relative" data-aos="fade-up">
         <img src="{{BASE}}imgs/devices.png" class="w-full max-w-[62.5rem]" alt="Laptop" />
       </div>
       
