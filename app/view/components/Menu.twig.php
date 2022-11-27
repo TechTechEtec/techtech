@@ -64,7 +64,7 @@
     </a>
 
      <!-- HELP -->
-    <a href="#" title="Ajuda" class="flex flex-row items-center justify-between w-full pl-2 py-[6px]  pr-[4px] cursor-pointer hover:bg-[#7c5cff6a] border-2 border-transparent hover:border-purple rounded-r-lg text-darkerPurple dark:text-grey font-bold dark:font-normal font-mukita" id="menu-help">
+    <a href="{{BASE}}dashboard#help" title="Ajuda" class="flex flex-row items-center justify-between w-full pl-2 py-[6px]  pr-[4px] cursor-pointer hover:bg-[#7c5cff6a] border-2 border-transparent hover:border-purple rounded-r-lg text-darkerPurple dark:text-grey font-bold dark:font-normal font-mukita" id="menu-help">
         <p class="text-2xl">Ajuda</p>
 
         <span class="text-4xl text-center flex items-center justify-center">

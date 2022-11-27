@@ -35,7 +35,7 @@
 
 
   <!-- Form -->
-  <form method="post" class="flex-1 flex w-full lg:w-auto flex-col items-center justify-start gap-6 max-w-[25rem]">
+  <form method="post" action="send.php" class="flex-1 flex w-full lg:w-auto flex-col items-center justify-start gap-6 max-w-[25rem]">
       <input type="text" id="name" name="name" placeholder="Seu nome" class="w-full h-10 rounded-lg bg-white border-black border-[1px] border-solid p-2 text-black" autocomplete="off"/>
 
       <input type="email" id="name" name="name" placeholder="Seu E-mail" class="w-full h-10  rounded-lg bg-white border-black border-[1px] border-solid p-2 text-black" autocomplete="off"/>
