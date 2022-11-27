@@ -33,7 +33,7 @@
     </div>
 
 
-    <ul class="w-full list-none grid grid-flow-row gap-4 my-6 mx-auto">
+    <ul class="w-full list-none flex flex-col items-stretch justify-start gap-[1rem] my-6 mx-auto">
 
         {% set modules = [
                 session.progress.module1,
