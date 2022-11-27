@@ -14,53 +14,6 @@ class TeacherController extends Controller{
         $this->teacherModel = new TeacherModel();
     }
 
-    // AJAX Controller
-    public function fetchAll() {
-
-        $typelist = Input::get('typelist');
-
-        $result = $this->teacherModel->fetchAll();
-
-        if(is_array($result)){
-             switch ($typelist) {
-                case "1":
-                    return $this->load("components/list", [
-                        'teachers' => $result
-                    ]);       
-                break;
-                case "2":
-                    return $this->load("components/list", [
-                        'teachers_type2' => $result
-                    ]);
-                 
-                break;
-                default:
-                    return $this->load("components/list", [
-                        'teachers' => $result
-                    ]);    
-                break;
-            }
-         }
- 
-        return  $this->showMessage('Erro para buscar professores', $result, BASE);
-
-    }
-
-    // AJAX Controller
-    public function fetchById() {
-        $id = Input::get('id');
-
-        $result = $this->teacherModel->fetchById($id);
-
-        if(is_array($result)){
-            return $this->load("components/item", [
-                'teacher' => $result
-            ]);
-         }
-
-        return  $this->showMessage('Erro para buscar estudante pelo ID', $result, BASE);
-    }
-
     // Router Controller
     public function register(){
         $teacher = (object)[
@@ -88,14 +41,24 @@ class TeacherController extends Controller{
 
             die();
         }
+
+        if($_SESSION['perfil'] === 'school') {
+            return $this->showMessage(
+                'Cadastrado com sucesso', 
+                'Professor registrado dentro do sistema. clique no botão em baixo para retornar para tela de registro de professor!',
+                BASE . "signup-teacher-byschool",
+                200
+            );
+
         
-        $this->showMessage(
+        }
+        
+        return $this->showMessage(
             'Cadastrado com sucesso', 
             'você foi registrado dentro do sistema. clique no botão em baixo para seguir para tela de signIn!',
             BASE . "signin",
             200
         );
-
     }
 
     // Router Controller

@@ -29,6 +29,11 @@
             <sl-icon name="arrow-left-square"></sl-icon>
         </button>
 
+        <!-- Toogle Dark/Light Button -->
+        <div class="fixed bottom-[10px] right-[10px] z-10">
+            {% embed "components/toggleDarkModeButton.twig.php" %} {% endembed%}
+        </div>
+
         <main class="flex flex-wrap flex-col 2sm:flex-row space-y-2 gap-4 rounded-md items-start justify-center bg-white dark:bg-eerie mt-[3rem] px-8 py-8 shadow-lg w-full max-w-[600px] min-h-[350px]" data-aos="fade-up" data-aos-mirror="true" data-aos-once="true" data-aos-duration="800">
 
             <div class="flex w-full h-full min-h-[350px] items-center justify-around flex-1 flex-col">

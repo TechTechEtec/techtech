@@ -16,26 +16,29 @@ class TeacherModel extends Model{
         $this->db = $connection->initializeDatabase("teacher", "id");
     }
 
-    public function fetchAll(){   # Get All Teachers from DataBase
-        try {
-            $listTeachers = $this->db->fetchAll()->getResult(); 
-            return $listTeachers;
-        }
-        catch(Exception $e) {
-            return $e->getMessage();
-        }
-       
-    
-    }
+    public function fetchByEmail(string $email) {
 
-    public function fetchById(string $id){   # Get All Teachers from DataBase
+        $query = [
+            'select' => '*',
+            'from'   => 'teacher',
+            'where' => 
+            [
+                'email' => 'eq.' . $email
+            ]
+        ];
+
         try {
-            $teacher= $this->db->findBy("id", $id)->getResult();
-            return $teacher;
-        }
-        catch(Exception $e) {
+            
+            $result = $this->db->createCustomQuery($query)->getResult();
+
+            if(sizeof($result) === 1){
+                $_SESSION['teacher'] = $result[0];
+            }
+
+        }catch(Exception $e) {
             return $e->getMessage();
         }
+
     }
 
     public function register(object $teacher){ # Register Teacher on DataBase

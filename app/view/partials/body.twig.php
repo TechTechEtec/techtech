@@ -68,9 +68,6 @@
 
         {% block menu %}{% endblock %}
         {% block body %}{% endblock %}
-
-         <!-- Toogle Dark/Light Button -->
-        {% embed "components/toggleDarkModeButton.twig.php" %} {% endembed%}<!-- Here will be included the main body of the page -->
     </body>
 
     <script src="https://cdn.jsdelivr.net/npm/ace-builds@1/src-noconflict/ace.min.js"></script>
@@ -84,23 +81,13 @@
 
     <script src="{{BASE}}js/toggleDarkMode.js"></script>
 
-    <!-- SCRIPT to Open Progress Modal  -->
+    <!-- SCRIPT to Open Class Modal  -->
     <script>
-        const dialogProgress = document.querySelector('.dialog-scrolling');
-        const openButtonProgress = document.querySelector('#showProgressInfo');
+        const dialogRegisterIntoClass = document.querySelector('.dialog-scrolling');
+        const openButtonProgress = document.querySelector('#enterInClassRoom');
 
-        let closeButtonProgress = null;
-
-        if(dialogProgress){
-            closeButton = dialogProgress.querySelector('sl-button[slot="footer"]');
-        }
-
-        if(openButtonProgress && dialogProgress){
-            openButtonProgress.addEventListener('click', () => dialogProgress.show());
-        }
-
-        if(closeButtonProgress && dialogProgress){
-            closeButtonProgress.addEventListener('click', () => dialogProgress.hide());
+        if(openButtonProgress && dialogRegisterIntoClass){
+            openButtonProgress.addEventListener('click', () => dialogRegisterIntoClass.show());
         }
     </script>
 

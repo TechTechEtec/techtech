@@ -3,33 +3,67 @@
 namespace app\controller;
 
 use app\core\Controller;
-use app\model\StudentDataHandler;
+
+use app\model\StudentModel;
+use app\model\SchoolModel;
+use app\model\ClassModel;
+use app\model\TeacherModel;
+
+
+
 
 # Controller that manages our routes
 class RouteController extends Controller {
 
-    private $studentHandler;
+    private $studentModel;
+    private $schoolModel;
+    private $classModel;
+    private $teacherModel;
+
 
     public function __construct() {
-        $this->studentHandler = new StudentDataHandler();
+        $this->studentModel = new StudentModel();
+        $this->schoolModel = new SchoolModel();
+        $this->classModel = new ClassModel();
+        $this->teacherModel = new TeacherModel();
+
     }
 
     public function dashboard() {
 
         if(isset($_SESSION['loggedIn']) && ($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin')){
 
-            $result = $this->studentHandler->fetchProgress($_SESSION['extra']->id);
-            
-            $_SESSION["progress"] = $result->progress;
-            $_SESSION['progressInPorcentage'] = $result->progressInPorcentage;
-            $_SESSION['actualModule'] = $result->actualModule;
-            $_SESSION['totalScore'] = $result->totalScore;
-     
-            return $this->load("dashboard/main");
+           $this->studentModel->fetchProgress($_SESSION['extra']->id);
 
+            if($_SESSION['classcode']) {
+                // CLASS ROOM
+                $this->classModel->fetchByCode($_SESSION['classcode']);
+                
+                // SCHOOL
+                $this->schoolModel->fetchById($_SESSION['classroom']->createdBy);
+     
+                // CLASSMATES
+                $this->studentModel->fetchClassMates($_SESSION['classcode']);
+
+                // TEACHER
+                $this->teacherModel->fetchByEmail($_SESSION['classroom']->teacher_email);
+
+            }
+
+            return $this->dashboardPage(); 
         };
 
         header('Location: ' . BASE . 'signin');
+    }
+
+    public function dashboardPage(){
+
+        $loader = new \Twig\Loader\FilesystemLoader('../app/view');
+        $twig = new \Twig\Environment($loader);
+
+        $twig->addGlobal("session", $_SESSION);
+
+        return $this->load("dashboard/main");
     }
 
     public function dashboardSchool() {
@@ -121,7 +155,7 @@ class RouteController extends Controller {
             return;
         }
 
-        if((isset($_SESSION['perfil']) && $_SESSION['perfil'] === 'school')  || $_SESSION['perfil'] === 'admin'){
+        if((isset($_SESSION['perfil']) && ($_SESSION['perfil'] === 'school')  || $_SESSION['perfil'] === 'admin' || $_SESSION['perfil'] === 'teacher')){
             $this->load("signup-class/main");
             return;
         }   
@@ -160,7 +194,8 @@ class RouteController extends Controller {
     
     public function signupTeacher() {
        
-        if(!isset($_SESSION['loggedIn'])  || $_SESSION['perfil'] === 'admin'){
+        if(!isset($_SESSION['loggedIn'])  || $_SESSION['perfil'] === 'admin')
+        {
             $this->load("signup-teacher/main");
             return;
         }
@@ -175,9 +210,9 @@ class RouteController extends Controller {
 
     }
 
-    public function teacherSchool() {
+    public function signupTeacherByschool() {
 
-        if(!isset($_SESSION['loggedIn'])  || $_SESSION['perfil'] === 'admin'){
+        if(!isset($_SESSION['loggedIn'])){
 
            $this->showMessage(
                 'Você não tem permissão para acessar essa página', 
@@ -189,8 +224,8 @@ class RouteController extends Controller {
             return;
         }
 
-        if(isset($_SESSION['perfil']) && $_SESSION['perfil'] === 'school'){
-            $this->load("teacher-school/main");
+        if(($_SESSION['perfil'] === 'school' || $_SESSION['perfil'] === 'admin')){
+            $this->load("signup-teacher-byschool/main");
             return;
         }   
 
@@ -237,7 +272,7 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if(
-                $_SESSION['progress']->module1 !== null 
+                $_SESSION['modules'][0] !== null
                 || $_SESSION['perfil'] === 'admin' 
                 || $_SESSION['perfil'] === 'teacher' 
                 || $_SESSION['perfil'] === 'school'
@@ -259,7 +294,7 @@ class RouteController extends Controller {
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
 
-                if($_SESSION['progress']->module1 !== null){
+                if($_SESSION['modules'][0] !== null){
                     $this->load("modules/02/exam");
                     return;
                 }
@@ -281,7 +316,7 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if(
-                $_SESSION['progress']->module2 !== null 
+                $_SESSION['modules'][1] !== null 
                 || $_SESSION['perfil'] === 'admin' 
                 || $_SESSION['perfil'] === 'teacher' 
                 || $_SESSION['perfil'] === 'school'
@@ -303,7 +338,7 @@ class RouteController extends Controller {
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
                
-                if($_SESSION['progress']->module2 !== null){
+                if($_SESSION['modules'][1] !== null){
                     $this->load("modules/03/exam");
                     return;
                 }
@@ -325,7 +360,7 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if(
-                $_SESSION['progress']->module3 !== null 
+                $_SESSION['modules'][2] !== null 
                 || $_SESSION['perfil'] === 'admin' 
                 || $_SESSION['perfil'] === 'teacher' 
                 || $_SESSION['perfil'] === 'school'
@@ -346,7 +381,7 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-               if($_SESSION['progress']->module3 !== null){
+               if($_SESSION['modules'][2] !== null){
                     $this->load("modules/04/exam");
                    return;
                 }
@@ -368,7 +403,7 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if(
-                $_SESSION['progress']->module4 !== null 
+                $_SESSION['modules'][3] !== null 
                 || $_SESSION['perfil'] === 'admin' 
                 || $_SESSION['perfil'] === 'teacher' 
                 || $_SESSION['perfil'] === 'school'
@@ -391,7 +426,7 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                if($_SESSION['progress']->module4 !== null){
+                if($_SESSION['modules'][3] !== null){
                     $this->load("modules/05/exam");
                     return;
                 }
@@ -409,11 +444,11 @@ class RouteController extends Controller {
 
     // 06
 
-     public function module6() {
+    public function module6() {
         if(isset($_SESSION['loggedIn'])){
 
             if(
-                $_SESSION['progress']->module5 !== null 
+                $_SESSION['modules'][4] !== null 
                 || $_SESSION['perfil'] === 'admin' 
                 || $_SESSION['perfil'] === 'teacher' 
                 || $_SESSION['perfil'] === 'school'
@@ -434,7 +469,7 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                if($_SESSION['progress']->module5 !== null){
+                if($_SESSION['modules'][4] !== null){
                     $this->load("modules/06/exam");
                     return;
                 }
@@ -456,7 +491,7 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if(
-                $_SESSION['progress']->module6 !== null 
+                $_SESSION['modules'][5] !== null 
                 || $_SESSION['perfil'] === 'admin' 
                 || $_SESSION['perfil'] === 'teacher' 
                 || $_SESSION['perfil'] === 'school'
@@ -477,7 +512,7 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                if($_SESSION['progress']->module6 !== null){
+                if($_SESSION['modules'][5] !== null){
                     $this->load("modules/07/exam");
                     return;
                 }

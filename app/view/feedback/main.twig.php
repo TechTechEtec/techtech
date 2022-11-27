@@ -6,9 +6,14 @@
 
 <div class="w-full min-h-screen bg-[url({{BASE}}imgs/background.png)] bg-contain bg-no-repeat bg-center bg-lightpurple dark:bg-eerie relative overflow-x-hidden flex flex-row items-center justify-center px-6 py-4 overflow-y-auto md:overflow-y-[none]">
 
-        <a title="Início" href="{{BASE}}" class="text-4xl text-purple absolute z-10 top-[10px] left-[10px]">
-            <sl-icon name="arrow-left-square"></sl-icon>
-        </a>
+    <a title="Início" href="{{BASE}}" class="text-4xl text-purple absolute z-10 top-[10px] left-[10px]">
+        <sl-icon name="arrow-left-square"></sl-icon>
+    </a>
+
+    <!-- Toogle Dark/Light Button -->
+    <div class="fixed bottom-[10px] right-[10px] z-10">
+        {% embed "components/toggleDarkModeButton.twig.php" %} {% endembed%}
+    </div>
  
     <div class="w-full text-xl md:text-lg flex flex-col items-center  justify-start md:flex-row md:items-center md:justify-center gap-[4rem] flex-wrap mt-[3rem] md:mt-0 px-2 md:px-8">
  

@@ -16,27 +16,6 @@ class StudentModel extends Model{
         $this->db = $connection->initializeDatabase("student", "id");
     }
 
-    public function fetchAll(){   # Get All Students from DataBase
-        try {
-            $listStudents = $this->db->fetchAll()->getResult(); 
-            return $listStudents;
-        }
-        catch(Exception $e) {
-            return $e->getMessage();
-        }
-    
-    }
-
-    public function fetchById(string $id){   # Get All Students from DataBase
-        try {
-            $student = $this->db->findBy("id", $id)->getResult();
-            return $student;
-        }
-        catch(Exception $e) {
-            return $e->getMessage();
-        }
-    }
-
     public function register(object $student){ # Register Student on DataBase
         $newStudent = [
             'name'      => $student->name,
@@ -71,6 +50,9 @@ class StudentModel extends Model{
     
         if(property_exists($student, "bio"))
             $updatedData["bio"] = $student->bio;
+
+        if(property_exists($student, "classcode"))
+            $updatedData["classcode"] = $student->classcode;
         
         try {
             // Case to change the password
@@ -93,8 +75,73 @@ class StudentModel extends Model{
             return $data;
                       
         }
+        
         catch(Exception $e) {
             return $e->getMessage();
         }
     }
+
+    public function fetchProgress(string $id) {
+
+        $query = [
+            'select' => 'scores, modules',
+            'from'   => 'student',
+            'where' => 
+            [
+                'id' => 'eq.' . $id
+            ]
+        ];
+
+        try {
+            
+            $progress = $this->db->createCustomQuery($query)->getResult();
+
+            if(sizeof($progress) === 1){
+                $actualModule =  $this->actualModule((array) $progress[0]->modules);
+
+                $_SESSION["scores"] = $progress[0]->scores;
+                $_SESSION['modules'] = $progress[0]->modules;
+                $_SESSION['actualModule'] = $actualModule;  
+            }
+
+        }catch(Exception $e) {
+            return $e->getMessage();
+        }
+
+    }
+
+    public function fetchClassMates(string $code) {
+
+        $query = [
+            'select' => '*',
+            'from'   => 'student',
+            'where' => 
+            [
+                'classcode' => 'eq.' . $code,
+            ]
+        ];
+
+        try {
+            $classmates = $this->db->createCustomQuery($query)->getResult();
+            $_SESSION['classmates'] = $classmates;
+
+        }catch(Exception $e) {
+            return $e->getMessage();
+        }
+
+    }
+
+    public function actualModule(array $scores) {
+
+        $actualModule = 1;
+
+        for($i = 1; $i < sizeof($scores); $i++){
+            if($scores[$i] !== 0){
+                $actualModule = $i + 2;
+            }
+        }
+
+        return  $actualModule;
+    }
+
 }

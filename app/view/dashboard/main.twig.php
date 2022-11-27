@@ -9,13 +9,13 @@
 {% block main %}
 
 {% set modules = [
-    session.progress.module1,
-    session.progress.module2,
-    session.progress.module3,
-    session.progress.module4,
-    session.progress.module5,
-    session.progress.module6,
-    session.progress.module7
+    session.modules[0],
+    session.modules[1],
+    session.modules[2],
+    session.modules[3],
+    session.modules[4],
+    session.modules[5],
+    session.modules[6]
   ]
 %}
 
@@ -59,185 +59,20 @@
         
     <!-- PERFIL TAB CONTENT -->
     <sl-tab-panel name="dashboard">
-      <div class="my-[1rem] mx-[1rem] md:mx-[1.5rem]">
-
-        <div class="w-full flex flex-row flex-wrap items-stretch justify-start gap-[1rem] my-[1rem] mx-auto">
-            {% for module in modules %}
-              <sl-card class="card-footer w-full min-w-[19rem] md:max-w-[19rem] flex-1 relative" data-tilt  data-tilt-speed="2000" data-tilt-perspective="5000" data-tilt-scale="1.05">
-
-                <!-- Block Layer -->
-
-                {%  if loop.index != 1 and not modules[loop.index - 2] %}
-                  <div class="bg-[#0000007F] dark:bg-[#0000009F] absolute w-full h-full top-0 left-0 right-0 bottom-0 flex items-center justify-center flex-col z-[5] text-5xl font-bold text-white">
-                  <i class="ph-lock"></i>
-                  </div>
-                {% endif %}
-
-                <div class="w-full flex flex-row items-center justify-between flex-wrap">
-                  <h2 class="font-bold text-xl dark:text-white uppercase font-mukta">Módulo {{loop.index}}</h2>
-
-                  <div class="text-xl font-roboto flex flex-row items-center justify-start gap-[0.5rem] ">
-                      <span class="text-[{{module ? '#228B22' : '#ff8a05' }}] flex flex-row items-center">
-                          <sl-icon name="{{module ? 'check-circle-fill' : 'clock-history' }}"></sl-icon> 
-                      </span>
-
-                      <span class="text-md font-normal text-eerie dark:text-grey">{{module ? 'concluído' : 'pendente'}}   
-                  </div>
-                </div>
-
-                <p class="w-full pt-[2rem] px-[0.8rem] text-eerie dark:text-grey text-left text-sm font-mukta font-normal">
-                  {{descriptions[loop.index - 1]}}
-                </p>
-
-                <div slot="footer">
-                  <span class="text-eerie dark:text-grey">
-                    <strong>{{module != null ? module : '-'}}</strong> / 80
-                  </span>
-
-                  <div class="flex flex-row items-center justify-start gap-[1rem]">
-                    <a href="{{BASE}}modules/0{{loop.index}}" class="text-[#0050EE] dark:text-blue underline underline-offset-4">Estudar</a>
-                  
-                    <a href="{{BASE}}modules/0{{loop.index}}/exam" class="text-[#0050EE] dark:text-blue underline underline-offset-4">Exame</a>
-                  </div>
-                </div>
-              </sl-card>
-            {% endfor %}
-        </div>
-      </div>
+      {% embed "partials/dashboard_student/painel.twig.php" %} {% endembed %}
     </sl-tab-panel>
 
     <!-- CLASS TAB CONTENT -->
     <sl-tab-panel name="classroom">
-      <div class="flex gap-[6rem] justify-around">
-        <h1 class="text-4xl text-orange font-nerko">
-          Administradores
-        </h1>
-
-        <h1 class="text-4xl text-orange font-nerko">
-          5ª Série
-        </h1>
-
-      </div>
-
-      <div class="flex gap-[2rem] justify-around">
-        <p class="text-lg font-bold">Roberto Neri</p>       
-        <p class="text-lg font-bold">Professor Xavier</p>
-      </div>
-
-      <div class="flex gap-[15rem] justify-start mt-[5rem]">
-          <h2 class="text-4xl text-orange font-nerko">
-            Alunos
-          </h2>
-
-          <h2 class="text-4xl text-orange font-nerko">
-            3° Módulo
-          </h2>
-      </div>
-
-      <div class="flex justify-start mt-6">
-        <div class="grid gap-[240px] grid-cols-2 grid-row-2">
-          <div class="space-y-4">
-            <p class="text-lg font-bold mt-2">
-              Aleksander Morozova
-              <sl-progress-bar value="67"></sl-progress-bar>
-            </p>
-
-            <p class="text-lg font-bold mt-2">
-              Giovana Nocera
-              <sl-progress-bar value="59"></sl-progress-bar>
-            </p>
-
-            <p class="text-lg font-bold mt-2">
-              Thiago Muratian
-              <sl-progress-bar value="48"></sl-progress-bar>
-            </p>               
-          </div>
-
-          <div class="space-y-8 mt-8">
-            <p class="text-lg font-bold mt-2">67%</p>
-            <p class="text-lg font-bold mt-2">59%</p>
-            <p class="text-lg font-bold mt-2">48%</p>
-          </div>
-
-        </div>
-      </div>
+      {% embed "partials/dashboard_student/classroom.twig.php" %} {% endembed %}
     </sl-tab-panel>
 
     <sl-tab-panel name="configuration"> 
-
-      <h1 class="text-3xl text-lightpurple my-4 font-nerko uppercase">Gerais</h1>
-
-      <form method="post" action="{{BASE}}@update-student">
-
-        <div class="flex flex-col items-start justify-start md:flex-row flex-wrap md:items-center md:justify-between gap-[1rem] py-[1rem] w-full">
-          <div class="flex flex-col gap-[0.5rem] flex-1">
-            <label class=" text-xl font-bold text-eerie dark:text-grey" for="nome">Nome</label>
-            <input class="bg-grey rounded-lg h-[2rem] w-full max-w-[16rem]" type="text" id="nome" name="name" value="{{session.name}}">
-          </div>  
-          
-          <div class="flex flex-col gap-[0.5rem] flex-1">
-            <label class=" text-xl font-bold text-eerie dark:text-grey" for="email">E-mail</label>
-            <input class="bg-grey rounded-lg h-[2rem] w-full max-w-[16rem]" type="email" id="email" name="email" value="{{session.email}}">
-          </div>
-        </div>
-
-        <div class="flex flex-col items-start justify-start md:flex-row flex-wrap md:items-start md:justify-between gap-1rem md:gap-[2rem] py-[1rem] w-full">
-          <div class="flex flex-col gap-[0.5rem] flex-1">
-            <label class="mt-4 text-xl font-bold text-eerie dark:text-grey" for="bio">Biografia</label>
-            <textarea class="bg-grey rounded-lg h-[8rem] min-h-[8rem] w-full min-w-[24rem] max-w-[24rem]" type="text" id="bio" name="bio">{{session.bio}}
-            </textarea>
-          </div>
-
-          <div class="flex-1">
-              <div class="flex flex-col gap-[0.5rem]  mt-4">
-                <label class="text-xl font-bold text-eerie dark:text-grey" for="old_password">Senha Antiga</label>
-                <input class="bg-grey rounded-lg h-[2rem] w-full max-w-[16rem]" type="password" name="old_password" id="new_password">
-              </div>
-
-              <div class="flex flex-col gap-[0.5rem] mt-4">
-                <label class="text-xl font-bold text-eerie dark:text-grey" for="new_password">Nova Senha</label>
-                <input class="bg-grey rounded-lg h-[2rem] w-full max-w-[16rem]" type="password" name="new_password" id="new_password">
-              </div>
-          </div>
-        </div>
-                    
-        <button class="w-full max-w-[9rem] rounded-md shadow-sm cursor-pointer transition-all ease-linear duration-200 hover:-translate-y-[2px] bg-pink-500 text-white font-bold text-sm py-2 mt-8">Confirmar</button>
-      </form>
-
-      <hr class="shadow-md my-6">
-
-      <!-- Conta -->
-      <h2 class="text-3xl text-lightpurple my-4 font-nerko uppercase">Conta</h2>
-
-      <div class="grid grid-cols-1 2sm:grid-cols-2 text-eerie dark:text-grey gap-8">
-        <div class="flex flex-col items-start justify-start gap-2">
-          <h2 class="text-xl mt-[1rem] font-bold">Categoria</h2>
-          <p>{{session.perfil == 'student' ? "Estudante" : session.perfil == 'school' ? "Escola": session.perfil == 'teacher' ? "Professor" : 'Administrador'}}</p>
-        </div>
-
-        <div class="flex flex-col items-start justify-start gap-2">
-          <h2 class="text-xl mt-2 font-bold ">Data de nascimento</h2>
-          <p>{{session.extra.birthday|date("d/m/Y")}}</p>
-        </div>
-
-        <div class="flex flex-col items-start justify-start gap-2">
-          <h2 class="text-xl mt-2 font-bold ">Escola</h2>
-          <p>ETEC de Carapicuíba</p>
-        </div>
-
-        <div class="flex flex-col items-start justify-start gap-2">
-          <h2 class="text-xl mt-2 font-bold ">Turma</h2>
-          <p>5ª Série</p>
-        </div>
-      </div>
-
-      <h2 class="text-3xl text-lightpurple my-4 font-nerko uppercase">Dark Mode</h2>
-
-      {% embed "components/toggleDarkModeButton.twig.php" %}{% endembed %}
-
+      {% embed "partials/dashboard_student/configuration.twig.php" %} {% endembed %}
     </sl-tab-panel>
 
     <sl-tab-panel name="help">
+      {% embed "partials/dashboard_student/help.twig.php" %} {% endembed %}
     </sl-tab-panel>
 
   </sl-tab-group>   

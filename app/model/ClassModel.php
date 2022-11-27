@@ -29,30 +29,49 @@ class ClassModel extends Model{
     
     }
 
-    public function fetchById(string $id){   # Get All Classes from DataBase
+    public function fetchByCode(string $code) {
+
+        $query = [
+            'select' => '*',
+            'from'   => 'class',
+            'where' => 
+            [
+                'code' => 'eq.' . $code
+            ]
+        ];
+
         try {
-            $class= $this->db->findBy("id", $id)->getResult();
-            return $class;
-        }
-        catch(Exception $e) {
+            
+            $result = $this->db->createCustomQuery($query)->getResult();
+
+            if(sizeof($result) === 1){
+                $_SESSION['classroom'] = $result[0];
+            }
+
+        }catch(Exception $e) {
             return $e->getMessage();
         }
+
     }
 
     public function register(object $class){ # Register Class on DataBase
+
         $newClass = [
             'name'     => $class->name,
             'code'    => $class->code,
             'teacher_email' => $class->teacher_email,
-            'createdBy' => $_SESSION['extra']->id 
         ];
-        
+
+        if($class->createdBy) {
+           $newClass['createdBy'] = $class->createdBy;
+        }
+
         try {
             $data = $this->db->insert($newClass);
             return $data;
         }
-        catch(Exception $e) {
 
+        catch(Exception $e) {
             return $e->getMessage();
         }
         

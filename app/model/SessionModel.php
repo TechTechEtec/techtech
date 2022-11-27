@@ -3,27 +3,27 @@
 namespace app\model;
 
 use app\core\Model;
-use app\model\StudentDataHandler;
+use app\model\StudentModel;
 use Exception;
 
 class SessionModel extends Model {
 
     private $db;
-    private $studentHandler;
+    private $studentModel;
 
     public function __construct(){
 
         $connection = $this->connect();
 
         $this->db = $connection->initializeQueryBuilder();
-        $this->studentHandler = new StudentDataHandler();
+        $this->studentModel = new StudentModel();
 
     }
 
     public function signIn(object $user) {
 
         $user = (object)[
-            "email" => strtolower($user->email),
+            "email" => $user->email,
             'password' => $user->password, # as has
         ];
 
@@ -48,12 +48,7 @@ class SessionModel extends Model {
 
                 if($idAndPerfil[0]->perfil === "student"){
                     // GET THE PROGRESS OF STUDENT
-                    $progress = $this->studentHandler->fetchProgress($idAndPerfil[0]->id);
-
-                    $user[0]->progress =  $progress;
-                    $user[0]->progressInPorcentage = $progress->progressInPorcentage;
-                    $user[0]->actualModule = $progress->actualModule;
-                    $user[0]->totalScore =  $progress->totalScore;
+                    $this->studentModel->fetchProgress($idAndPerfil[0]->id);
                 }
 
                 return $user;
@@ -65,8 +60,6 @@ class SessionModel extends Model {
             return $e->getMessage();
         }
     }
-
-
 
     public function logOut() {
         try{

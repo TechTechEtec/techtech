@@ -19,8 +19,8 @@ class StudentDataHandler extends Model {
     public function fetchProgress(string $id) {
 
         $query = [
-            'select' => 'module1, module2, module3, module4, module5, module6, module7, total, updated_at',
-            'from'   => 'modules_progress',
+            'select' => 'scores, modules',
+            'from'   => 'student',
             'where' => 
             [
                 'id' => 'eq.' . $id
@@ -32,20 +32,11 @@ class StudentDataHandler extends Model {
             $progress = $this->query->createCustomQuery($query)->getResult();
 
             if(sizeof($progress) === 1){
-                $totalScoreAndActualModule =  $this->sumScore((array) $progress[0]);
+                $actualModule =  $this->actualModule((array) $progress[0]->modules);
 
-        
-                $progressInPorcentage = round($totalScoreAndActualModule->totalScore * 100 / 560);
-                $actualModule = $totalScoreAndActualModule->actualModule;
-                $totalScore = $totalScoreAndActualModule->totalScore;
-
-
-                return (object)[
-                    "progress"                  =>   $progress[0],
-                    "progressInPorcentage"      => $progressInPorcentage,
-                    "actualModule"              => $actualModule,
-                    "totalScore"                => $totalScore
-                ];
+                $_SESSION["scores"] = $progress[0]->scores;
+                $_SESSION['modules'] = $progress[0]->modules;
+                $_SESSION['actualModule'] = $actualModule;  
             }
 
         }catch(Exception $e) {
@@ -54,24 +45,89 @@ class StudentDataHandler extends Model {
 
     }
 
+    public function fetchClassRoom(string $code) {
 
-    public function sumScore(array $scores) {
+        $query = [
+            'select' => '*',
+            'from'   => 'class',
+            'where' => 
+            [
+                'code' => 'eq.' . $code
+            ]
+        ];
 
-        $totalScore = 0;
+        try {
+            
+            $result = $this->query->createCustomQuery($query)->getResult();
+
+            if(sizeof($result) === 1){
+                $_SESSION['classroom'] = $result[0];
+            }
+
+        }catch(Exception $e) {
+            return $e->getMessage();
+        }
+
+    }
+
+    public function fetchSchool(string $id) {
+
+        $query = [
+            'select' => '*',
+            'from'   => 'school',
+            'where' => 
+            [
+                'id' => 'eq.' . $id
+            ]
+        ];
+
+        try {
+            
+            $result = $this->query->createCustomQuery($query)->getResult();
+
+            if(sizeof($result) === 1){
+                $_SESSION['school'] = $result[0];
+            }
+
+        }catch(Exception $e) {
+            return $e->getMessage();
+        }
+
+    }
+
+    public function fetchClassMates(string $code) {
+
+        $query = [
+            'select' => '*',
+            'from'   => 'student',
+            'where' => 
+            [
+                'classcode' => 'eq.' . $code,
+                "id" => 'neq.' . $_SESSION['extra']->id
+            ]
+        ];
+
+        try {
+            $classmates = $this->query->createCustomQuery($query)->getResult();
+            $_SESSION['classmates'] = $classmates;
+
+        }catch(Exception $e) {
+            return $e->getMessage();
+        }
+
+    }
+
+    public function actualModule(array $scores) {
+
         $actualModule = 1;
 
-        for($i = 1; $i < count($scores) - 1; $i++){
-
-            if(!empty($scores["module" . $i])){
-                $totalScore += $scores["module" . $i];
-                $actualModule = $i + 1;
+        for($i = 1; $i < sizeof($scores); $i++){
+            if($scores[$i] !== 0){
+                $actualModule = $i + 2;
             }
         }
 
-        return (object)[
-            "totalScore" => $totalScore,
-            "actualModule"         => $actualModule 
-        ];
+        return  $actualModule;
     }
 
 }

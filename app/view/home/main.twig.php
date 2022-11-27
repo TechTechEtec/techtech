@@ -7,6 +7,11 @@
     <div class="hidden md:block relative w-full h-full bg-lightpurple dark:bg-lighteerie brightness-[1.15]"></div>
   </div>
 
+    <!-- Toogle Dark/Light Button -->
+    <div class="fixed bottom-[10px] right-[10px] z-10">
+      {% embed "components/toggleDarkModeButton.twig.php" %} {% endembed%}
+    </div>
+
   <!-- bg-[url({{BASE}}svgs/background.svg)] bg-cover  bg-center  -->
 <div class="w-screen h-auto relative overflow-x-hidden" >
 
@@ -101,9 +106,6 @@
     <!-- Parallax Effect -->
     <section class="bg-[url({{BASE}}imgs/parallax.png)] min-h-[12.5rem] md:min-h-[25rem] bg-fixed bg-center bg-contain"></section>
 
-    <!-- Alternative parallax Effect to mobile devices -->
-    <!-- <img class="block my-6 md:hidden" src="{{BASE}}imgs/parallax.png" alt="parallax static image used on mobile devices" class="w-full"/> -->
-
     <!-- third section -->
     <section class="px-6 pb-4 mt-[8rem] w-[90vw] mx-auto flex flex-col md:flex-row items-start justify-evenly gap-[3rem]" id="second_section">
 
@@ -168,19 +170,5 @@
   {% embed "components/footer.twig.php" %}{% endembed %}
 
 </div>
-
-<!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-<script>
-  new Typed('#playground', {
-    strings: ['Playground'],
-    typeSpeed: 40,
-    backSpeed: 15,
-    backDelay: 2000,
-    loop: false,
-    loopCount: Infinity,
-    showCursor: false,
-  });
-</script> -->
 
 {% endblock %}

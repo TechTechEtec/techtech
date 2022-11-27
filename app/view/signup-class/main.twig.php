@@ -5,16 +5,21 @@
 {% block body %}
     <div class="w-screen h-screen bg-[url({{BASE}}imgs/background.png)] bg-contain bg-no-repeat bg-center bg-darkerPurple relative overflow-x-hidden flex flex-row items-start md:items-center justify-center p-4">
 
-        <a title="Início" href="{{BASE}}" class="text-4xl text-purple absolute top-[10px] left-[10px]">
+        <button title="Início" onclick="window.history.go(-1); return false;" class="text-4xl text-purple absolute top-[10px] left-[10px]">
             <sl-icon name="arrow-left-square"></sl-icon>
-        </a>
+        </button>
 
-        <main class="flex flex-wrap space-y-2 gap-4 rounded-md items-start justify-center bg-white px-8 py-8 shadow-lg w-full max-w-[900px] min-h-[350px]" data-aos="fade-up" data-aos-mirror="true"
+         <!-- Toogle Dark/Light Button -->
+        <div class="fixed bottom-[10px] right-[10px] z-10">
+            {% embed "components/toggleDarkModeButton.twig.php" %} {% endembed%}
+        </div>
+
+        <main class="flex flex-wrap space-y-2 gap-[1rem] rounded-md items-start justify-center bg-white px-8 py-8 shadow-lg w-full max-w-[900px] min-h-[350px]" data-aos="fade-up" data-aos-mirror="true"
         data-aos-once="true" data-aos-duration="800">
 
             <form class="flex flex-col flex-1 items-center justify-between w-full min-h-[350px]" method="post" action="{{BASE}}@signup-class">
                 
-                <div class="mt-2 font-bold flex flex-col w-full">
+                <div class="mt-[1rem] font-bold flex gap-[0.5rem] flex-col w-full">
                     <label for="name">Nome da Turma</label>
                     <input class="bg-grey rounded-md h-10 w-full"
                     id="name"
@@ -24,15 +29,20 @@
                     >
                 </div>
 
-                <div class="mt-2 font-bold flex flex-col w-full">
+                <div class="{{ session.perfil == 'teacher' ? 'hidden' : 'flex' }} mt-[0.5rem] font-bold flex flex-col gap-[0.5rem] w-full">
                     <label for="teacherclass">Professor da Turma</label>
-                    <select name="teachers" id="teachers" class="bg-grey rounded-md h-10 w-full" required>
+                    <select name="teachers" id="teachers" class="bg-grey rounded-md h-10 w-full" required value="{{ session.perfil == 'teacher' ?: session.email}}">
                         <!-- List of Teachers -->
                     </select>
                 </div>
 
+                <a href="{{BASE}}signup-teacher-byschool" title="Adicionar Professor" class=" flex flex-row flex-wrap items-center justify-start gap-[1rem] w-full max-[9.375rem] text-[#c4c4c4] font-bold transition-all ease duration-200 hover:-translate-y-[0.0625rem] my-[1rem] {{session.perfil == 'teacher' ? 'hidden' : 'flex'}}">
+                    <i class="ph-plus text-xl"></i>
+                    <span>Novo Professor</span>
+                </a>
 
-                <div class="mt-2 font-bold flex flex-col w-full">
+
+                <div class="mt-[0.5rem] font-bold flex flex-col gap-[0.5rem] w-full">
                     <label for="code">Código da Turma</label>
                     <input class="bg-grey rounded-md h-10 w-full"
                     id="code"
@@ -42,7 +52,7 @@
                     >
                 </div>
 
-                <div class="mt-2 font-bold flex flex-col w-full">
+                <div class="mt-[0.5rem] font-bold flex flex-col gap-[0.5rem] w-full">
                     <label for="confirmcode">Confirmar código da turma</label>
                     <input class="bg-grey rounded-md h-10 w-full"
                     id="confirmcode"
@@ -73,35 +83,4 @@
         </main>  
         
     </div>
-    
-    <script defer>
-
-        // TEACHERS AJAX REQUEST
-        $.ajax({
-            url: "@teachers",
-            method: 'GET',
-            data:"typelist=2"
-        }).done((response)=>{
-
-            document.querySelector("#teachers").innerHTML = response;
-            
-        }).fail((response)=>{
-            console.log("Error:", response);
-        })
-
-
-        // CLASSES AJAX REQUEST
-        $.ajax({
-        url: "@classes",
-        method: 'GET',
-        }).done((response)=>{
-
-            document.querySelector("#classes").innerHTML = response;
-    
-        }).fail((response)=>{
-            console.log("Error:", response);
-        })
-
-    </script>
-
 {% endblock %}

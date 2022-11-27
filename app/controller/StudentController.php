@@ -14,51 +14,6 @@ class StudentController extends Controller {
         $this->studentModel = new StudentModel();
     }
 
-    // AJAX Controller
-    public function fetchAll() {
-
-        $typelist = Input::get('typelist');
-
-        $result = $this->studentModel->fetchAll();
-
-        if(is_array($result)){
-            switch ($typelist) {
-               case "1":
-                   return $this->load("components/list", [
-                       'students' => $result
-                   ]);       
-               break;
-               case "2":
-                   return $this->load("components/list", [
-                       'students_type2' => $result
-                   ]);
-                
-               break;
-               default:
-                   return $this->load("components/list", [
-                       'students' => $result
-                   ]);    
-               break;
-           }
-        }
-
-        return  $this->showMessage('Erro para buscar estudantes', $result, BASE);
-    }
-
-    // AJAX Controller
-    public function fetchById() {
-        $id = Input::get('id');
-
-        $result = $this->studentModel->fetchById($id);
-
-        if(is_array($result)){
-            return $this->load("components/item", [
-                'student' => $result
-            ]);
-         }
-
-        return  $this->showMessage('Erro para buscar estudante pelo ID', $result, BASE);
-    }
 
     // Router Controller
     public function register(){
@@ -103,7 +58,7 @@ class StudentController extends Controller {
         ];
 
         $student_filtered = $this->updateValidate($student);
-    
+
         $result = $this->studentModel->update($student_filtered);
 
         if ($result <= 0) {
@@ -111,8 +66,6 @@ class StudentController extends Controller {
                 'Erro para atualizar estudante', 
                 'Verifique se a senha antiga coincide com a cadastrada. Se o erro persistir tente mais tarde ou reporte o administrador em projetotechtech@gmail.com',
             );
-
-            die();
         }
 
         if(property_exists($result[0], "email")){
@@ -127,12 +80,57 @@ class StudentController extends Controller {
             $_SESSION['bio'] = $result[0]->bio;
         }
 
-        $this->showMessage(
+       return $this->showMessage(
             'Atualizado com sucesso!', 
             'Os dados fornecidos sobrescreveram os dados anteriores. Você será redirecionado para tela de dashboard',
         );
+    }
 
-        die();
+    public function leaveClassRoom() {
+        $class = (object)[
+            'classcode'     => null
+        ];
+
+        $result = $this->studentModel->update($class);
+
+        if ($result <= 0) {
+            return  $this->showMessage(
+                'Erro para atualizar estudante', 
+                'Verifique se a senha antiga coincide com a cadastrada. Se o erro persistir tente mais tarde ou reporte o administrador em projetotechtech@gmail.com',
+            );
+        }
+
+   
+        $_SESSION['classcode'] = $result[0]->classcode;
+
+        return $this->showMessage(
+            'Você saiu da turma', 
+            'Você será redirecionado para a tela principal',
+        );
+
+    }
+
+    public function enterClassRoom() {
+        $class = (object)[
+            'classcode'     => Input::post("classcode")
+        ];
+
+        $result = $this->studentModel->update($class);
+
+        if (sizeof($result) !== 1) {
+            return  $this->showMessage(
+                'Erro para atualizar estudante', 
+                'Verifique se a senha antiga coincide com a cadastrada. Se o erro persistir tente mais tarde ou reporte o administrador em projetotechtech@gmail.com',
+            );
+        }
+
+   
+        $_SESSION['classcode'] = $result[0]->classcode;
+
+        return $this->showMessage(
+            'Você entrou em uma Turma', 
+            'Agora você pode acessar a aba "sala de aula" para interagir e disputar o primeiro lugar no rank',
+        ); 
     }
 
     private function registerValidate(Object $student){
@@ -267,6 +265,20 @@ class StudentController extends Controller {
             $student_filtered->old_password = $student->old_password;
             $student_filtered->new_password = $student->new_password;
 
+        }
+
+        if(property_exists($student, "classcode") && strlen($student->classcode) >= 1) {
+            if (strlen($student->classcode) > 10) {
+
+                return $this->showMessage(
+                    'Formulário inválido', 
+                    'O código da turma não pode passar de 10 caracteres',
+                );
+    
+                die();
+            }
+
+            $student_filtered->classcode = $student->classcode;
         }
 
         return $student_filtered;
