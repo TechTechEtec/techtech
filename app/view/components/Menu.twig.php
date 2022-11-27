@@ -19,7 +19,7 @@
     </a>
 
     <!-- MODULES -->
-    <a href="#" title="Módulos" class="flex flex-row items-center justify-between w-full pl-2 py-[6px] pr-[4px] cursor-pointer hover:bg-[#7c5cff6a] border-2 border-transparent hover:border-purple rounded-r-lg text-darkerPurple dark:text-grey font-bold dark:font-normal font-mukita" id="menu-modules">
+    <a href="{{BASE}}summary" title="Módulos" class="flex flex-row items-center justify-between w-full pl-2 py-[6px] pr-[4px] cursor-pointer hover:bg-[#7c5cff6a] border-2 border-transparent hover:border-purple rounded-r-lg text-darkerPurple dark:text-grey font-bold dark:font-normal font-mukita" id="menu-modules">
         <p class="text-2xl">Módulos</p>
 
         <span class="text-4xl text-center flex items-center justify-center">
@@ -71,7 +71,6 @@
             <i class="ph-question"></i>
         </span>
     </a>
-
 
     <!-- LOGOUT BUTTON -->
     <a href="{{BASE}}@logout" title="logout" class="p-4 sticky top-[110%] rounded-tr-lg z-[101] flex flex-row justify-between items-center gap-[0.5rem] transition-all ease-linear duration-200 hover:bg-darkpurple text-darkerPurple dark:text-grey hover:text-white text-lg font-bold">
