@@ -3,7 +3,6 @@
     Dark
 </sl-switch>
 
-
 <style>
     #toggleDarkModeButton::part(thumb) {
         background: #DADDE1

@@ -22,8 +22,8 @@
 
             <img class="" src="{{BASE}}imgs/MindMap-01.png" alt="Mapa mental Lógica de Programação" data-aos="fade-up">
 
-            <div class="w-full items-center justify-center md:justify-end gap-4 mt-[2rem]">
-                <a href="{{BASE}}imgs/MindMap-01.png" download class="font-bold text-lg flex flex-row gap-4 items-center justify-center text-eerie dark:text-grey">
+            <div class="w-full items-center justify-center md:justify-end gap-[1rem] mt-[2rem]">
+                <a href="{{BASE}}imgs/MindMap-01.png" download class="font-bold text-lg flex flex-row gap-[1rem] items-center justify-center text-eerie dark:text-grey">
                     <span>Faça o download do mapa aqui!</span>
                     <span class="material-icons">file_open</span>
                 </a>
@@ -39,7 +39,7 @@
 
             <div class="flex flex-row flex-wrap items-center justify-between mt-8">
                 <a href="{{BASE}}modules/01/exam">
-                    <p class="flex justify-center items-center text-xl gap-2 justify-start text-eerie dark:text-grey font-mukta font-bold">
+                    <p class="flex justify-center items-center text-xl gap-[0.5rem] justify-start text-eerie dark:text-grey font-mukta font-bold">
                         <i class="ph-exam text-5xl"></i>
                         <span>Exame</span>
                         <i class="ph-arrow-right"></i> 
@@ -47,7 +47,7 @@
                 </a>
 
             
-                <a class="text-[#0284c7] flex flex-row items-center gap-2 text-3xl font-mukita font-bold" href="{{BASE}}modules/02">
+                <a class="text-[#0284c7] flex flex-row items-center gap-[0.5rem] text-3xl font-mukita font-bold" href="{{BASE}}modules/02">
                     <span>Próximo</span>
                     <i class="ph-arrow-line-right"></i>
                 </a>

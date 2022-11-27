@@ -6,12 +6,14 @@
     }
   },
   "require": {
+    "phpmailer/phpmailer": "^6.6",
     "rafaelwendel/phpsupabase": "^0.0.2",
     "twig/twig": "^3.4",
     "twig/intl-extra": "^3.4",
     "twig/extra-bundle": "^3.4",
     "twig/markdown-extra": "^3.4",
     "twig/cssinliner-extra": "^3.4",
-    "league/commonmark": "^2.3"
+    "league/commonmark": "^2.3",
+    "phpmailer/phpmailer": "~6.0"
   }
 }

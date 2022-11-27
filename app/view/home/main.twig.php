@@ -20,8 +20,8 @@
     <!-- Logo -->	
     <img class="flex-none w-20 h-20" src="{{BASE}}svgs/techtechlogo.svg" alt="TechTech Logo">	
     <!-- NAVIGATION -->	
-    <nav class="flex flex-row items-center gap-4">	
-      <ul class="text-darkpurple font-bold text-3xl flex flex-col items-center justify-center drop-shadow-xl px-6 py-10 z-10 bg-darkwhite fixed top-0 right-0 h-screen w-screen md:items-start md:justify-start md:w-[40%] lg:h-auto lg:relative lg:flex-row lg:bg-transparent lg:p-0 lg:items-center gap-4 lg:gap-10 lg:w-auto hidden lg:flex home-menu dark:bg-lighteerie dark:lg:bg-transparent dark:text-purple">
+    <nav class="flex flex-row items-center gap-[1rem]">	
+      <ul class="text-darkpurple font-bold text-3xl flex flex-col items-center justify-center drop-shadow-xl px-6 py-10 z-10 bg-darkwhite fixed top-0 right-0 h-screen w-screen md:items-start md:justify-start md:w-[40%] lg:h-auto lg:relative lg:flex-row lg:bg-transparent lg:p-0 lg:items-center gap-[1rem] lg:gap-[1rem] lg:w-auto hidden lg:flex home-menu dark:bg-lighteerie dark:lg:bg-transparent dark:text-purple">
 
         <li class="hover:translate-y-[-3px] ease duration-300 cursor-pointer absolute top-6 right-6 lg:hidden text-darkpurple text-5xl dark:text-purple" onclick="toggleHomeMenu()">	
           <i class="ph-x-circle"></i>
@@ -47,22 +47,23 @@
   <main class="mt-[4rem] md:mt-[2rem]">
 
     <!-- first section -->
-    <section class="px-4 w-[90vw] min-h-[75vh] mx-auto relative p-4 flex flex-col items-stretch justify-between gap-10" data-aos="fade-up">
-      <div class="flex flex-col justify-around items-start m-auto w-full gap-6 2md:flex-col lg:flex-row lg:items-start lg:justify-around">
+    <section class="px-4 w-[90vw] min-h-[75vh] mx-auto relative p-4 flex flex-col items-stretch justify-between gap-[2.5rem]" data-aos="fade-up">
+      <div class="flex flex-col justify-around items-start m-auto w-full gap-[1.5rem] 2md:flex-col lg:flex-row lg:items-start lg:justify-around">
         <div class="flex flex-1 flex-col items-start justify-evenly">
 
           <h1 class="text-4xl text-darkpurple dark:text-purple font-mukta font-bold min-h-[50px]">TECHTECH ⭐</h1>
 
           <p class="text-gray-600 dark:text-grey text-justify mt-10 mb-5 text-lg w-full max-w-[35rem] font-medium font-roboto subpixel-antialiased">Ensino tecnológico acessível para crianças, um projeto sem fins lucrativos desenvolvido por estudantes, para auxiliar estudantes, com a finalidade de apresentar o mundo tecnológico de outra forma para crianças, e assim ampliar seus horizontes.</p>
 
-          <div class="flex flex-row gap-4 justify-start items-center w-full mt-6 ">
+          <div class="flex flex-row gap-[1rem] justify-start items-center w-full mt-6 ">
             <a href="{{BASE}}choose-signup" class="bg-orange text-darkerPurple font-bold p-2 rounded-xl hover:-translate-y-1 transition-all ease-linear duration-100 ring-2 ring-orange ring-offset-4 ring-offset-lightpurple dark:ring-offset-lighteerie">Cadastre-se</a>
           </div>
 
         </div>
 
-        <div class="flex-1 flex items-center justify-center w-full">
-          <img class="w-full" src="{{BASE}}imgs/techbo_showingvideo.png" alt="techbo mostrando vídeo">
+        <div class="flex-1 items-center justify-center flex w-full relative">
+          <img class="w-[full] mt-[-6rem]" src="{{BASE}}svgs/techbo-home.svg" alt="techbo mostrando vídeo">
+          <iframe src="https://streamable.com/e/t9nntn?nocontrols=1&loop=0" width="479.8px" height="220px" frameborder="0" allowfullscreen style="position:absolute;z-index:50;top:0;right:1px;flex:1;display:flex;align-items:stretch;"></iframe>
         </div>
       </div>
 
@@ -77,7 +78,7 @@
 
       <h1 class="text-3xl font-extrabold text-darkpurple dark:text-purple mb-8 font-clean">Saiba mais!</h1>
 
-      <div class="flex flex-col  2sm:flex-row  w-full justify-between items-center text-pink-500 dark:text-pink gap-6">
+      <div class="flex flex-col  2sm:flex-row  w-full justify-between items-center text-pink-500 dark:text-pink gap-[1.5rem]">
 
         <a href="{{BASE}}portfolio#platform" class="hover:-translate-y-2 transition duration-300">
           <div class="text-center">
@@ -115,7 +116,7 @@
         <p class="w-full mx-auto my-4 text-justify font-medium text-[#202020] dark:text-grey text-2xl font-mukta"> A plataforma TechTech foi desenvolvida por uma equipe eficiente e capacitada para oferecer à seus usuários a melhor da acessibilidade e usabilidade. Você pode usufruir da plataforma em qualquer dispositivo desde que haja uma conexão de internet.</p>
       </div>
 
-      <div class="flex flex-col flex-1 items-center jusfify-start gap-4 relative" data-aos="fade-up">
+      <div class="flex flex-col flex-1 items-center jusfify-start gap-[1rem] relative" data-aos="fade-up">
         <img src="{{BASE}}imgs/devices.png" class="w-full max-w-[62.5rem]" alt="Laptop" />
       </div>
       
@@ -143,7 +144,7 @@
       <!-- fifth section -->
     <section class="pb-4 mt-[8rem] w-[90vw] mx-auto flex flex-col md:flex-row items-start justify-evenly gap-[3rem]" id="second_section">
 
-      <div class="flex flex-col flex-1 items-start jusfify-start gap-6 relative" data-aos="fade-up">
+      <div class="flex flex-col flex-1 items-start jusfify-start gap-[1.5rem] relative" data-aos="fade-up">
         <h2 class="text-6xl font-extrabold text-purple font-nerko uppercase">Mapas Mentais</h2>
 
         <p class="w-full mx-auto my-4 text-justify font-medium text-[#202020] dark:text-grey text-2xl font-mukta">Procuramos a melhor metodologia de ensino que promova majoritariamente a fixação do conteúdo para nossos alunos. Portanto, cada módulo contém um mapa mental que irá resumir todo conteúdo apresentado, mapas esses que estarão disponíveis para download em suas respectivas páginas.</p>
@@ -157,7 +158,7 @@
 
     <!-- third section -->
     <section class="px-6 my-10 py-6 w-[90vw] m-auto" data-aos="fade-up">
-      <div class="bg-darkpurple p-6 flex flex-col sm:flex-row flex-wrap rounded-md text-white font-bold items-center justify-center gap-4 max-w-[900px] w-full mx-auto drop-shadow-md">
+      <div class="bg-darkpurple p-6 flex flex-col sm:flex-row flex-wrap rounded-md text-white font-bold items-center justify-center gap-[1rem] max-w-[900px] w-full mx-auto drop-shadow-md">
         <a href="{{BASE}}feedback" class="relative text-darkpurple bg-orange rounded-md p-4 hover:-translate-y-1 transition duration-300 after:content[''] after:block after:absolute after:bg-orange after:w-[25px] after:h-[25px] after:rounded-md after:rotate-45 after:bottom-[-8px] after:left-[20px]">
           Dê-nos seu Feedback
         </a>

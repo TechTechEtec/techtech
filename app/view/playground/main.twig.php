@@ -15,7 +15,7 @@
 
 	<div id="header">
 		<div id="doc-metas">
-			<ul class="flex flex-row gap-2">
+			<ul class="flex flex-row gap-[0.5rem]">
 				<li class="w-[15px] h-[15px] bg-[#D61919] rounded-full cursor-pointer"></li>
 				<li class="w-[15px] h-[15px] bg-[#CFAA5A] rounded-full cursor-pointer"></li>
 				<li class="w-[15px] h-[15px] bg-[#068906] rounded-full cursor-pointer"></li>		

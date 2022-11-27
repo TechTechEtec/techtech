@@ -29,7 +29,7 @@
 
             <sl-rating label="Rating" precision="0.5" value="0" style="--symbol-size: 1.7rem;"></sl-rating>
             
-            <form method="post" class="mt-2 font-bold flex flex-col w-full">
+            <form method="post" action="send.php" class="mt-2 font-bold flex flex-col w-full">
 
                 <label for="nome" class="mt-4 mb-2 text-eerie dark:text-grey">Nome</label>
                 <input class="bg-grey rounded-md h-10 w-full"
@@ -43,12 +43,12 @@
                 <input class="bg-grey rounded-md h-10 w-full"
                 id="name"
                 type="email"
-                name="name"
+                name="email"
                 required
                 >
 
                 <label for="mensagem" class="mt-4 mb-2 text-eerie dark:text-grey">Feedback</label>
-                <textarea placeholder="Sua mensagem..." rows="5" class="bg-grey rounded-md h-[6.25rem] min-h-[6.25rem] w-full min-w-[100%] bg-white" required></textarea>
+                <textarea name="msg" placeholder="Sua mensagem..." rows="5" class="bg-grey rounded-md h-[6.25rem] min-h-[6.25rem] w-full min-w-[100%] bg-white" required></textarea>
                 
                 <button type="submit" class="bg-orange rounded-md w-full h-9 text-white flex items-center justify-center group mt-8">
                    Enviar
