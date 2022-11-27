@@ -35,31 +35,28 @@
     'Se você chegou até aqui e quer expandir seu conhecimento chegou a hora de aprender um pouco sobre o que é HTML CSS e Python'
   ]
 %}
-
-
 <div class="md:ml-[17.5rem]">
   <sl-tab-group id="tab-group">
-
     <!-- TABS -->
     <sl-tab slot="nav" panel="dashboard" class="tab">
       <h1 class="text-3xl font-nerko">Painel</h1>
     </sl-tab>
 
     <sl-tab slot="nav" panel="classroom" class="tab">
-      <h1 class="text-3xl font-nerko" >Sala de aula</h1>
+      <h1 class="text-3xl font-nerko">Sala de aula</h1>
     </sl-tab>
 
     <sl-tab slot="nav" panel="configuration" class="tab">
-      <h1 class="text-3xl font-nerko" >Configurações</h1>
+      <h1 class="text-3xl font-nerko">Configurações</h1>
     </sl-tab>
 
     <sl-tab slot="nav" panel="help" class="tab">
-      <h1 class="text-3xl font-nerko" >Ajuda</h1>
+      <h1 class="text-3xl font-nerko">Ajuda</h1>
     </sl-tab>
         
     <!-- PERFIL TAB CONTENT -->
     <sl-tab-panel name="dashboard">
-      {% embed "partials/dashboard_student/painel.twig.php" %} {% endembed %}
+      {% embed "partials/dashboard_student/dashboard.twig.php" %} {% endembed %}
     </sl-tab-panel>
 
     <!-- CLASS TAB CONTENT -->
