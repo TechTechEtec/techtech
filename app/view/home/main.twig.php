@@ -56,8 +56,9 @@
 
         </div>
 
-        <div class="flex-1 items-center justify-center flex w-full">
-          <img class="w-[full] mt-[-2rem]" src="{{BASE}}svgs/techbo-home.svg" alt="techbo mostrando vídeo">
+        <div class="flex-1 items-center justify-center flex w-full relative">
+          <img class="w-[full] mt-[-6rem]" src="{{BASE}}svgs/techbo-home.svg" alt="techbo mostrando vídeo">
+          <iframe src="https://streamable.com/e/t9nntn?nocontrols=1&loop=0" width="479.8px" height="220px" frameborder="0" allowfullscreen style="position:absolute;z-index:50;top:0;right:1px;flex:1;display:flex;align-items:stretch;"></iframe>
         </div>
       </div>
 
