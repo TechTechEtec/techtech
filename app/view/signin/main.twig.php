@@ -9,6 +9,11 @@
             <sl-icon name="arrow-left-square"></sl-icon>
         </a>
 
+        <!-- Toogle Dark/Light Button -->
+        <div class="fixed bottom-[10px] right-[10px] z-10">
+            {% embed "components/toggleDarkModeButton.twig.php" %} {% endembed%}
+        </div>
+
         <div class="text-2xl flex flex-col items-center justify-start p-8 mt-[3rem] w-full max-w-[400px] bg-white dark:bg-eerie rounded-xl"  data-aos="fade-up" data-aos-mirror="true"
         data-aos-once="true" data-aos-duration="800">
 

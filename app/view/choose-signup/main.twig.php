@@ -9,6 +9,11 @@
             <sl-icon name="arrow-left-square"></sl-icon>
         </button>
 
+        <!-- Toogle Dark/Light Button -->
+        <div class="fixed bottom-[10px] right-[10px] z-10">
+            {% embed "components/toggleDarkModeButton.twig.php" %} {% endembed%}
+        </div>
+
         <div class="flex flex-col gap-16 w-full max-w-[68.75rem]">
             <h1 class="text-purple text-5xl font-extrabold text-center w-full mt-[3rem]">Como você quer se cadastrar?</h1>
 

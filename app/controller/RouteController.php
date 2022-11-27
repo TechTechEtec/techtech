@@ -3,32 +3,50 @@
 namespace app\controller;
 
 use app\core\Controller;
-use app\model\StudentDataHandler;
+
+use app\model\StudentModel;
+use app\model\SchoolModel;
+use app\model\ClassModel;
+use app\model\TeacherModel;
 
 # Controller that manages our routes
 class RouteController extends Controller {
 
-    private $studentHandler;
+    private $studentModel;
+    private $schoolModel;
+    private $classModel;
+    private $teacherModel;
 
     public function __construct() {
-        $this->studentHandler = new StudentDataHandler();
+        $this->studentModel = new StudentModel();
+        $this->schoolModel = new SchoolModel();
+        $this->classModel = new ClassModel();
+        $this->teacherModel = new TeacherModel();
+
     }
 
     public function dashboard() {
-        
+
         if(isset($_SESSION['loggedIn']) && ($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin')){
 
-            $progress  = $this->studentHandler->fetchProgress($_SESSION['extra']->id);
-            
-            $_SESSION['progress'] = $progress->progress;
-            $_SESSION['progressInPorcentage'] = $progress->progressInPorcentage;
-            $_SESSION['actualModule'] = $progress->actualModule;
-            $_SESSION['totalScore'] = $progress->totalScore;
+           $this->studentModel->fetchProgress($_SESSION['extra']->id);
 
+            if($_SESSION['classcode']) {
+                // CLASS ROOM
+                $this->classModel->fetchByCode($_SESSION['classcode']);
+                
+                // SCHOOL
+                $this->schoolModel->fetchById($_SESSION['classroom']->createdBy);
+     
+                // CLASSMATES
+                $this->studentModel->fetchClassMates($_SESSION['classcode']);
 
-            $this->load("dashboard/main");
-            
-            return;
+                // TEACHER
+                $this->teacherModel->fetchByEmail($_SESSION['classroom']->teacher_email);
+
+            }
+
+            return $this->load("dashboard/main");
         };
 
         header('Location: ' . BASE . 'signin');
@@ -87,7 +105,20 @@ class RouteController extends Controller {
             return;
         };
 
-        header('Location: ' . BASE . 'dashboard');
+        if($_SESSION['perfil'] === 'teacher' || $_SESSION['perfil'] === 'admin'){
+            header('Location: ' . BASE . 'dashboard-teacher');
+            return;
+        }
+
+        if($_SESSION['perfil'] === 'school' || $_SESSION['perfil'] === 'admin'){
+            header('Location: ' . BASE . 'dashboard-school');
+            return;
+        }
+
+        if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
+            header('Location: ' . BASE . 'dashboard');
+            return;
+        }
        
     }
 
@@ -123,7 +154,18 @@ class RouteController extends Controller {
             return;
         }
 
-        if((isset($_SESSION['perfil']) && $_SESSION['perfil'] === 'school')  || $_SESSION['perfil'] === 'admin'){
+        if((isset($_SESSION['perfil']) && ($_SESSION['perfil'] === 'school')  || $_SESSION['perfil'] === 'admin' || $_SESSION['perfil'] === 'teacher')){
+
+            if($_SESSION['perfil'] === 'school'){
+                $this->classModel->fetchBySchool($_SESSION['extra']->id);
+                $this->teacherModel->fetchBySchool($_SESSION['name']);
+            }else if($_SESSION['perfil'] === 'teacher'){
+                $this->classModel->fetchByTeacher($_SESSION['email']);
+            }else{
+                $this->classModel->fetchBySchool($_SESSION['extra']->id);
+                $this->teacherModel->fetchBySchool($_SESSION['name']);
+            }
+
             $this->load("signup-class/main");
             return;
         }   
@@ -162,7 +204,8 @@ class RouteController extends Controller {
     
     public function signupTeacher() {
        
-        if(!isset($_SESSION['loggedIn'])  || $_SESSION['perfil'] === 'admin'){
+        if(!isset($_SESSION['loggedIn'])  || $_SESSION['perfil'] === 'admin')
+        {
             $this->load("signup-teacher/main");
             return;
         }
@@ -177,9 +220,9 @@ class RouteController extends Controller {
 
     }
 
-    public function teacherSchool() {
+    public function signupTeacherByschool() {
 
-        if(!isset($_SESSION['loggedIn'])  || $_SESSION['perfil'] === 'admin'){
+        if(!isset($_SESSION['loggedIn'])){
 
            $this->showMessage(
                 'Você não tem permissão para acessar essa página', 
@@ -191,8 +234,8 @@ class RouteController extends Controller {
             return;
         }
 
-        if(isset($_SESSION['perfil']) && $_SESSION['perfil'] === 'school'){
-            $this->load("teacher-school/main");
+        if(($_SESSION['perfil'] === 'school' || $_SESSION['perfil'] === 'admin')){
+            $this->load("signup-teacher-byschool/main");
             return;
         }   
 
@@ -222,13 +265,13 @@ class RouteController extends Controller {
     public function examModule1() {
         if(isset($_SESSION['loggedIn'])){
 
-           // if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
+           if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
                 $this->load("modules/01/exam");
                 return;
-        //    }
+           }
  
-        //     $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
-        //     return;
+            $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
+            return;
         }
         header('Location: ' . BASE . 'signin');
     }
@@ -238,8 +281,18 @@ class RouteController extends Controller {
     public function module2() {
         if(isset($_SESSION['loggedIn'])){
 
-            $this->load("modules/02/main");
-            
+            if(
+                $_SESSION['modules'][0] !== null
+                || $_SESSION['perfil'] === 'admin' 
+                || $_SESSION['perfil'] === 'teacher' 
+                || $_SESSION['perfil'] === 'school'
+            ){
+                $this->load("modules/02/main");
+                return;
+            }
+
+            $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 01", BASE . "dashboard", 400);
+        
             return;
         }
 
@@ -251,14 +304,14 @@ class RouteController extends Controller {
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
 
-                //if($_SESSION['progress']->module1 !== null){
+                if($_SESSION['modules'][0] !== null){
                     $this->load("modules/02/exam");
                     return;
-                //}
+                }
 
-                // $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 01", BASE . "dashboard", 400);
+                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 01", BASE . "dashboard", 400);
 
-                // return;
+                return;
             }
 
             $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
@@ -272,8 +325,18 @@ class RouteController extends Controller {
     public function module3() {
         if(isset($_SESSION['loggedIn'])){
 
-            $this->load("modules/03/main");
-            
+            if(
+                $_SESSION['modules'][1] !== null 
+                || $_SESSION['perfil'] === 'admin' 
+                || $_SESSION['perfil'] === 'teacher' 
+                || $_SESSION['perfil'] === 'school'
+            ){
+                $this->load("modules/03/main");
+                return;
+            }
+
+            $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 02", BASE . "dashboard", 400);
+        
             return;
         }
 
@@ -285,14 +348,14 @@ class RouteController extends Controller {
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
                
-                //if($_SESSION['progress']->module2 !== null){
+                if($_SESSION['modules'][1] !== null){
                     $this->load("modules/03/exam");
                     return;
-                //}
+                }
 
-               // $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 02", BASE . "dashboard", 400);
+               $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 02", BASE . "dashboard", 400);
 
-                //return;
+                return;
             }
 
             $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
@@ -306,8 +369,18 @@ class RouteController extends Controller {
     public function module4() {
         if(isset($_SESSION['loggedIn'])){
 
-            $this->load("modules/04/main");
-            
+            if(
+                $_SESSION['modules'][2] !== null 
+                || $_SESSION['perfil'] === 'admin' 
+                || $_SESSION['perfil'] === 'teacher' 
+                || $_SESSION['perfil'] === 'school'
+            ){
+                $this->load("modules/04/main");
+                return;
+            }
+
+            $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 03", BASE . "dashboard", 400);
+        
             return;
         }
 
@@ -318,12 +391,12 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-               // if($_SESSION['progress']->module3 !== null){
+               if($_SESSION['modules'][2] !== null){
                     $this->load("modules/04/exam");
-                 //   return;
-                // }
+                   return;
+                }
 
-                // $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 03", BASE . "dashboard", 400);
+                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 03", BASE . "dashboard", 400);
 
                 return;
             }
@@ -339,7 +412,19 @@ class RouteController extends Controller {
     public function module5() {
         if(isset($_SESSION['loggedIn'])){
 
-            $this->load("modules/05/main");
+            if(
+                $_SESSION['modules'][3] !== null 
+                || $_SESSION['perfil'] === 'admin' 
+                || $_SESSION['perfil'] === 'teacher' 
+                || $_SESSION['perfil'] === 'school'
+            ){
+                $this->load("modules/05/main");
+                return;
+            }
+
+            $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 04", BASE . "dashboard", 400);
+        
+            return;
             
             return;
         }
@@ -351,14 +436,14 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                //if($_SESSION['progress']->module4 !== null){
+                if($_SESSION['modules'][3] !== null){
                     $this->load("modules/05/exam");
                     return;
-                //}
+                }
 
-                // $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 04", BASE . "dashboard", 400);
+                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 04", BASE . "dashboard", 400);
 
-                // return;
+                return;
             }
 
             $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
@@ -369,11 +454,21 @@ class RouteController extends Controller {
 
     // 06
 
-     public function module6() {
+    public function module6() {
         if(isset($_SESSION['loggedIn'])){
 
-            $this->load("modules/06/main");
-            
+            if(
+                $_SESSION['modules'][4] !== null 
+                || $_SESSION['perfil'] === 'admin' 
+                || $_SESSION['perfil'] === 'teacher' 
+                || $_SESSION['perfil'] === 'school'
+            ){
+                $this->load("modules/06/main");
+                return;
+            }
+
+            $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 05", BASE . "dashboard", 400);
+        
             return;
         }
 
@@ -384,14 +479,14 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                //if($_SESSION['progress']->module5 !== null){
+                if($_SESSION['modules'][4] !== null){
                     $this->load("modules/06/exam");
                     return;
-                //}
+                }
 
-                // $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 05", BASE . "dashboard", 400);
+                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 05", BASE . "dashboard", 400);
 
-                // return;
+                return;
             }
 
             $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
@@ -405,8 +500,18 @@ class RouteController extends Controller {
     public function module7() {
         if(isset($_SESSION['loggedIn'])){
 
-            $this->load("modules/07/main");
-            
+            if(
+                $_SESSION['modules'][5] !== null 
+                || $_SESSION['perfil'] === 'admin' 
+                || $_SESSION['perfil'] === 'teacher' 
+                || $_SESSION['perfil'] === 'school'
+            ){
+                $this->load("modules/07/main");
+                return;
+            }
+
+            $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 06", BASE . "dashboard", 400);
+        
             return;
         }
 
@@ -417,14 +522,14 @@ class RouteController extends Controller {
         if(isset($_SESSION['loggedIn'])){
 
             if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                //if($_SESSION['progress']->module6 !== null){
+                if($_SESSION['modules'][5] !== null){
                     $this->load("modules/07/exam");
                     return;
-                // }
+                }
 
-                // $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 06", BASE . "dashboard", 400);
+                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 06", BASE . "dashboard", 400);
 
-                // return;
+                return;
             }
 
             $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);

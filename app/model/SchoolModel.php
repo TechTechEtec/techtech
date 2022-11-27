@@ -27,14 +27,29 @@ class SchoolModel extends Model{
         }
     }
 
-    public function fetchById(string $id){   # Get All Schools from DataBase
+    public function fetchById(string $id) {
+
+        $query = [
+            'select' => '*',
+            'from'   => 'school',
+            'where' => 
+            [
+                'id' => 'eq.' . $id
+            ]
+        ];
+
         try {
-            $school = $this->db->findBy("id", $id)->getResult();
-            return $school;
-        }
-        catch(Exception $e) {
+            
+            $result = $this->db->createCustomQuery($query)->getResult();
+
+            if(sizeof($result) === 1){
+                $_SESSION['school'] = $result[0];
+            }
+
+        }catch(Exception $e) {
             return $e->getMessage();
         }
+
     }
 
     public function register(object $school){ # Register School on DataBase

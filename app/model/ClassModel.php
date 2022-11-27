@@ -18,10 +18,20 @@ class ClassModel extends Model{
         $this->query = $connection->initializeQueryBuilder();
     }
 
-    public function fetchAll(){   # Get All Classes from DataBase
+    public function fetchBySchool($schoolId){   
+        
+        $query = [
+            'select' => '*',
+            'from'   => 'class',
+            'where' => 
+            [
+                'createdBy' => 'eq.' . $schoolId
+            ]
+        ];
+        # Get All Classes from DataBase
         try {
-            $listClasses = $this->query->select("*")->from('class')->where("createdBy", "eq." . $_SESSION['extra']->id)->execute()->getResult();
-            return $listClasses;
+            $result = $this->db->createCustomQuery($query)->getResult();
+            $_SESSION['classroom'] = $result;
         }
         catch(Exception $e) {
             return $e->getMessage();
@@ -29,30 +39,70 @@ class ClassModel extends Model{
     
     }
 
-    public function fetchById(string $id){   # Get All Classes from DataBase
+    public function fetchByTeacher($teacherEmail){   
+        
+        $query = [
+            'select' => '*',
+            'from'   => 'class',
+            'where' => 
+            [
+                'teacher_email' => 'eq.' . $teacherEmail
+            ]
+        ];
+        # Get All Classes from DataBase
         try {
-            $class= $this->db->findBy("id", $id)->getResult();
-            return $class;
+            $classes = $this->db->createCustomQuery($query)->getResult();
+            $_SESSION['classroom'] = $classes;
         }
         catch(Exception $e) {
             return $e->getMessage();
         }
+    
+    }
+
+    public function fetchByCode(string $code) {
+
+        $query = [
+            'select' => '*',
+            'from'   => 'class',
+            'where' => 
+            [
+                'code' => 'eq.' . $code
+            ]
+        ];
+
+        try {
+            
+            $result = $this->db->createCustomQuery($query)->getResult();
+
+            if(sizeof($result) === 1){
+                $_SESSION['classroom'] = $result[0];
+            }
+
+        }catch(Exception $e) {
+            return $e->getMessage();
+        }
+
     }
 
     public function register(object $class){ # Register Class on DataBase
+
         $newClass = [
             'name'     => $class->name,
             'code'    => $class->code,
             'teacher_email' => $class->teacher_email,
-            'createdBy' => $_SESSION['extra']->id 
         ];
-        
+
+        if(property_exists($class, 'createdBy')) {
+           $newClass['createdBy'] = $class->createdBy;
+        }
+
         try {
             $data = $this->db->insert($newClass);
             return $data;
         }
-        catch(Exception $e) {
 
+        catch(Exception $e) {
             return $e->getMessage();
         }
         

@@ -14,52 +14,6 @@ class ClassController extends Controller{
         $this->classModel = new ClassModel();
     }
 
-     // AJAX Controller
-     public function fetchAll() {
-
-        $typelist = Input::get('typelist');
-
-        $result = $this->classModel->fetchAll();
-
-        if(is_array($result)){
-            switch ($typelist) {
-               case "1":
-                   return $this->load("components/list", [
-                       'classes' => $result
-                   ]);       
-               break;
-               case "2":
-                   return $this->load("components/list", [
-                       'classes_type2' => $result
-                   ]);
-                
-               break;
-               default:
-                   return $this->load("components/list", [
-                       'classes' => $result
-                   ]);    
-               break;
-           }
-        }
-
-        return  $this->showMessage('Erro para buscar turmas', $result, BASE);
-    }
-
-     // AJAX Controller
-     public function fetchById() {
-        $id = Input::get('id');
-
-        $result = $this->classModel->fetchById($id);
-
-        if(is_array($result)){
-            return $this->load("components/item", [
-                'class' => $result
-            ]);
-         }
-
-        return  $this->showMessage('Erro para buscar turma pelo ID', $result, BASE);
-    }
-
     public function register(){
         $class = (object)[
             'name'           => Input::post('name'),
@@ -67,6 +21,10 @@ class ClassController extends Controller{
             'code'           => Input::post('code'),
             'confirmCode'    => Input::post('confirmcode')
         ];
+
+        if($_SESSION['perfil'] === 'school') {
+            $class->createdBy = $_SESSION['extra']->id;
+        }
 
 
         $this->registerValidate($class);
@@ -133,10 +91,10 @@ class ClassController extends Controller{
         }
 
 
-        if (strlen($class->code) !== 6) {
+        if (strlen($class->code) > 10) {
             $this->showMessage(
                 'Formulário inválido', 
-                'O código da turma tem menos do que deve ter 6 caractéres',
+                'O código da turma tem menos deve ter menos de 10 caracteres',
             );
 
             die();

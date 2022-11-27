@@ -1,5 +1,5 @@
 <?php
-
+   
 require_once("../vendor/autoload.php"); # Autoload necessário para rodar as bibliotecas de terceiros.
 require_once('../app/config/config.php'); # Importando as Constantes 
 require_once("../app/functions/dd.php"); # Para usar função de debug na aplicação

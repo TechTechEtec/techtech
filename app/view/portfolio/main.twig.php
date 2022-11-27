@@ -7,6 +7,11 @@
 <div class="w-full mx-auto h-[90vh] 2sm:rounded-b-[30%] py-6 bg-darkerPurple dark:bg-lighteerie bg-[url({{BASE}}svgs/Random_shit.svg)] bg-cover bg-cover absolute z-[-1]" data-aos="fade-down">
 </div>
 
+<!-- Toogle Dark/Light Button -->
+<div class="fixed bottom-[10px] right-[10px] z-10">
+  {% embed "components/toggleDarkModeButton.twig.php" %} {% endembed%}
+</div>
+
 <div class="w-full relative">
    <header class="w-full"> 
     <nav class="w-full flex flex-row items-center gap-[1rem] px-6 justify-between items-center w-full z-0">

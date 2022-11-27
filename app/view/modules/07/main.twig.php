@@ -38,11 +38,16 @@
             <hr class="my-8"/>
 
             <div class="flex flex-row items-center justify-center gap-x-3 lg:gap-x-11 md:gap-x-11 flex-wrap mt-8">
-                 <a class="flex font-mukta font-bold text-3xl text-[#0284c7] justify-center items-center text-blue" href="{{BASE}}modules/01"><sl-icon name="arrow-bar-left"></sl-icon> Anterior</a>
+                 <a class="flex font-mukta font-bold text-3xl text-[#0284c7] justify-center items-center text-blue" href="{{BASE}}modules/06"><sl-icon name="arrow-bar-left"></sl-icon> Anterior</a>
                   
 
+<<<<<<< HEAD
+                 <a href="{{BASE}}modules/07/exam">
+                    <p class="flex items-center justify-center text-xl gap-2 text-eerie dark:text-grey font-mukta font-bold">
+=======
                  <a href="{{BASE}}modules/02/exam">
                     <p class="flex items-center justify-center text-xl gap-[0.5rem] text-eerie dark:text-grey font-mukta font-bold">
+>>>>>>> main
                         <i class="ph-exam text-5xl"></i>
                         <span>Exame</span>
                         <i class="ph-arrow-right"></i> 

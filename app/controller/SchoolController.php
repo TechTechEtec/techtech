@@ -14,52 +14,6 @@ class SchoolController extends Controller{
         $this->schoolModel = new SchoolModel();
     }
 
-     // AJAX Controller
-     public function fetchAll() {
-
-        $typelist = Input::get('typelist');
-
-        $result = $this->schoolModel->fetchAll();
-
-        if(is_array($result)){
-            switch ($typelist) {
-               case "1":
-                   return $this->load("components/list", [
-                       'schools' => $result
-                   ]);       
-               break;
-               case "2":
-                   return $this->load("components/list", [
-                       'schools_type2' => $result
-                   ]);
-                
-               break;
-               default:
-                   return $this->load("components/list", [
-                       'schools' => $result
-                   ]);    
-               break;
-           }
-        }
- 
-        return  $this->showMessage('Erro para buscar escolas', $result, BASE);
-    }
-
-    // AJAX Controller
-    public function fetchById() {
-        $id = Input::get('id');
-
-        $result = $this->schoolModel->fetchById($id);
-
-        if(is_array($result)){
-            return $this->load("components/item", [
-                'school' => $result
-            ]);
-         }
-
-        return  $this->showMessage('Erro para buscar escola pelo ID', $result, BASE);
-    }
-
     public function register(){
         $school = (object)[
             'name'      => Input::post('name'),

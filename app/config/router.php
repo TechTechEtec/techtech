@@ -26,7 +26,7 @@ $this->get('/portfolio', 'RouteController@portfolio');
 
 $this->get('/feedback', 'RouteController@feedback');
 
-$this->get('/teacher-school', 'RouteController@teacherSchool');
+$this->get('/signup-teacher-byschool', 'RouteController@signupTeacherByschool');
 
 $this->get("/summary", 'RouteController@summary');
 
@@ -70,6 +70,10 @@ $this->get('/@signup-student', 'StudentController@register'); # needs queries NA
 
 $this->get('/@update-student', 'StudentController@update'); # needs queries NAME, EMAIL, PASSWORD, BIRTHDAY and ID in POST submission
 
+$this->get('/@leave-classroom', 'StudentController@leaveClassRoom'); 
+$this->get('/@enter-classroom', 'StudentController@enterClassRoom'); 
+
+
 # Controller SCHOOL
 
 $this->get('/@schools', 'SchoolController@fetchAll'); # ----
@@ -105,8 +109,3 @@ $this->get('/@update-class', 'ClassController@update'); # needs queries NAME, EM
 $this->get("/@signin", 'SessionController@signIn');
 
 $this->get("/@logout", 'SessionController@logout');
-
-# Controller GetProgress
-
-$this->get("/@progress", 'GetStudentProgressController@GetProgress');
-

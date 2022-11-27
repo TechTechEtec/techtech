@@ -24,7 +24,7 @@
     
     <!-- SIGNUP PAGE -->
 
-    <div class="w-screen h-screen bg-[url({{BASE}}imgs/background.png)] bg-contain bg-no-repeat bg-center bg-lightpurple dark:bg-lighteerie relative overflow-x-hidden flex flex-row items-start md:items-center justify-center py-8 px-4">
+    <div class="w-screen h-screen bg-[url({{BASE}}imgs/background.png)] bg-contain bg-no-repeat bg-center bg-lightpurple dark:bg-lighteerie relative overflow-x-hidden flex flex-col justify-start md:justify-center items-center py-8 px-4">
 
         <button title="Início" onclick="window.history.go(-1); return false;" class="text-4xl text-purple absolute top-[10px] left-[10px]">
             <sl-icon name="arrow-left-square"></sl-icon>
@@ -34,6 +34,8 @@
         <div class="fixed bottom-[10px] right-[10px] z-10">
             {% embed "components/toggleDarkModeButton.twig.php" %} {% endembed%}
         </div>
+
+        <h1 class="font-nerko font-normal uppercase text-4xl text-pink-500 w-full text-center mt-[3rem]">Cadastro de Professor por Escola</h1>
 
         <main class="flex flex-wrap flex-col 2sm:flex-row space-y-2 gap-4 rounded-md items-start justify-center bg-white dark:bg-eerie mt-[3rem] px-8 py-8 shadow-lg w-full max-w-[700px] min-h-[350px]" data-aos="fade-up" data-aos-mirror="true" data-aos-once="true" data-aos-duration="800">
 
@@ -51,7 +53,7 @@
 
                 <sl-badge id="teacher_badge" variant="danger" pill pulse>Professor</sl-badge>
 
-                <p class="text-eerie dark:text-grey">Já tem uma conta ? <a href="{{BASE}}signin" title="Signin" class="text-blue">Entre</a> </p>
+                <p class="text-eerie dark:text-grey">Ou cadastre uma <a href="{{BASE}}signup-class" title="Signin" class="text-blue">Turma</a> </p>
             </div>
 
             <!-- DIVIDER -->
@@ -62,18 +64,19 @@
 
                 <input class="hidden" name="avatar" value="" id="inputAvatar"/>
         
-                <div class="mt-2 font-bold flex flex-col">
+                <div class="mt-2 font-bold flex flex-col hidden">
                     <label class="text-eerie dark:text-grey" for="schoolname">Nome da Instituição</label>
                     <input class="bg-grey rounded-md h-10 w-full caret-purple focus:outline-purple focus:outline-1"
                     id="schoolname"
                     type="text"
                     name="schoolName"
+                    value="{{session.name}}"
                     required
                     >
                 </div>
 
                 <div class="mt-2 font-bold flex flex-col">
-                    <label class="text-eerie dark:text-grey" for="name">Nome</label>
+                    <label class="text-eerie dark:text-grey" for="name">Nome do professor</label>
                     <input class="bg-grey rounded-md h-10 w-full caret-purple focus:outline-purple focus:outline-1"
                     id="name"
                     type="text"

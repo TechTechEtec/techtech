@@ -44,27 +44,7 @@ class SessionController extends Controller {
             die();
         }
 
-        // Storing Name Email and Perfil informations
-        $_SESSION['name'] = $user[0]->name;
-        $_SESSION['email'] = $user[0]->email;
-        $_SESSION['perfil'] = $user[0]->perfil;
-        $_SESSION['avatar'] = $user[0]->avatar;
-
-        unset($user[0]->name);
-        unset($user[0]->email);
-        unset($user[0]->perfil);
-        unset($user[0]->avatar);
-
-        $_SESSION['extra'] = $user[0];
-        $_SESSION['loggedIn'] = true;
-
-
-        if($user[0]->perfil === "student"){
-            $_SESSION['progress'] = $user[0]->progress;
-            $_SESSION['progressInPorcentage'] = $user[0]->progressInPorcentage;
-            $_SESSION['actualModule'] = $user[0]->actualModule;
-            $_SESSION['totalScore'] = $user[0]->totalScore;
-        }
+        $this->setSession($user[0]);
 
         //Redirection
         if($_SESSION['perfil'] === "student" || $_SESSION['perfil'] === "admin"){
@@ -74,6 +54,26 @@ class SessionController extends Controller {
         }else if($_SESSION['perfil'] === "teacher" || $_SESSION['perfil'] === "admin"){
             header("Location: " . BASE . "dashboard-teacher");
         }
+    }
+
+    private function setSession(object $user) {
+        // Storing Name Email and Perfil informations
+        $_SESSION['name'] = $user->name;
+        $_SESSION['email'] = $user->email;
+        $_SESSION['perfil'] = $user->perfil;
+        $_SESSION['avatar'] = $user->avatar;
+        $_SESSION['bio'] = $user->bio;
+        $_SESSION['classcode'] = $user->classcode;
+
+        unset($user->name);
+        unset($user->email);
+        unset($user->perfil);
+        unset($user->avatar);
+        unset($user->bio);
+        unset($user->classcode);
+
+        $_SESSION['extra'] = $user;
+        $_SESSION['loggedIn'] = true;
     }
 
     public function validateCredentials(object $user) {
@@ -98,7 +98,7 @@ class SessionController extends Controller {
         }
 
         return  (object)[
-            'email'     => $user->email,
+            'email'     => strtolower($user->email),
             'password'    => hash('sha256', $user->password),
         ];
     }
