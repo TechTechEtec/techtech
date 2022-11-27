@@ -53,6 +53,7 @@ tailwind.config = {
     },
     gap: {
       '11': '42rem',
+      '97': '20rem'
     }
   },
 };
