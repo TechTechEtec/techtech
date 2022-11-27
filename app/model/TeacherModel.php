@@ -16,6 +16,27 @@ class TeacherModel extends Model{
         $this->db = $connection->initializeDatabase("teacher", "id");
     }
 
+    public function fetchBySchool($schoolName) {
+
+        $query = [
+            'select' => '*',
+            'from'   => 'teacher',
+            'where' => [
+                "schoolName" => 'eq.' . $schoolName
+            ]
+        ];
+
+        try {
+        
+            $result = $this->db->createCustomQuery($query)->getResult();
+            $_SESSION['teacher'] = $result; 
+
+        }catch(Exception $e) {
+            return $e->getMessage();
+        }
+
+    }
+
     public function fetchByEmail(string $email) {
 
         $query = [

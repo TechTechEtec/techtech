@@ -18,10 +18,41 @@ class ClassModel extends Model{
         $this->query = $connection->initializeQueryBuilder();
     }
 
-    public function fetchAll(){   # Get All Classes from DataBase
+    public function fetchBySchool($schoolId){   
+        
+        $query = [
+            'select' => '*',
+            'from'   => 'class',
+            'where' => 
+            [
+                'createdBy' => 'eq.' . $schoolId
+            ]
+        ];
+        # Get All Classes from DataBase
         try {
-            $listClasses = $this->query->select("*")->from('class')->where("createdBy", "eq." . $_SESSION['extra']->id)->execute()->getResult();
-            return $listClasses;
+            $result = $this->db->createCustomQuery($query)->getResult();
+            $_SESSION['classroom'] = $result;
+        }
+        catch(Exception $e) {
+            return $e->getMessage();
+        }
+    
+    }
+
+    public function fetchByTeacher($teacherEmail){   
+        
+        $query = [
+            'select' => '*',
+            'from'   => 'class',
+            'where' => 
+            [
+                'teacher_email' => 'eq.' . $teacherEmail
+            ]
+        ];
+        # Get All Classes from DataBase
+        try {
+            $classes = $this->db->createCustomQuery($query)->getResult();
+            $_SESSION['classroom'] = $classes;
         }
         catch(Exception $e) {
             return $e->getMessage();
@@ -62,7 +93,7 @@ class ClassModel extends Model{
             'teacher_email' => $class->teacher_email,
         ];
 
-        if($class->createdBy) {
+        if(property_exists($class, 'createdBy')) {
            $newClass['createdBy'] = $class->createdBy;
         }
 

@@ -9,9 +9,6 @@ use app\model\SchoolModel;
 use app\model\ClassModel;
 use app\model\TeacherModel;
 
-
-
-
 # Controller that manages our routes
 class RouteController extends Controller {
 
@@ -19,7 +16,6 @@ class RouteController extends Controller {
     private $schoolModel;
     private $classModel;
     private $teacherModel;
-
 
     public function __construct() {
         $this->studentModel = new StudentModel();
@@ -50,20 +46,10 @@ class RouteController extends Controller {
 
             }
 
-            return $this->dashboardPage(); 
+            return $this->load("dashboard/main");
         };
 
         header('Location: ' . BASE . 'signin');
-    }
-
-    public function dashboardPage(){
-
-        $loader = new \Twig\Loader\FilesystemLoader('../app/view');
-        $twig = new \Twig\Environment($loader);
-
-        $twig->addGlobal("session", $_SESSION);
-
-        return $this->load("dashboard/main");
     }
 
     public function dashboardSchool() {
@@ -119,7 +105,20 @@ class RouteController extends Controller {
             return;
         };
 
-        header('Location: ' . BASE . 'dashboard');
+        if($_SESSION['perfil'] === 'teacher' || $_SESSION['perfil'] === 'admin'){
+            header('Location: ' . BASE . 'dashboard-teacher');
+            return;
+        }
+
+        if($_SESSION['perfil'] === 'school' || $_SESSION['perfil'] === 'admin'){
+            header('Location: ' . BASE . 'dashboard-school');
+            return;
+        }
+
+        if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
+            header('Location: ' . BASE . 'dashboard');
+            return;
+        }
        
     }
 
@@ -156,6 +155,17 @@ class RouteController extends Controller {
         }
 
         if((isset($_SESSION['perfil']) && ($_SESSION['perfil'] === 'school')  || $_SESSION['perfil'] === 'admin' || $_SESSION['perfil'] === 'teacher')){
+
+            if($_SESSION['perfil'] === 'school'){
+                $this->classModel->fetchBySchool($_SESSION['extra']->id);
+                $this->teacherModel->fetchBySchool($_SESSION['name']);
+            }else if($_SESSION['perfil'] === 'teacher'){
+                $this->classModel->fetchByTeacher($_SESSION['email']);
+            }else{
+                $this->classModel->fetchBySchool($_SESSION['extra']->id);
+                $this->teacherModel->fetchBySchool($_SESSION['name']);
+            }
+
             $this->load("signup-class/main");
             return;
         }   
