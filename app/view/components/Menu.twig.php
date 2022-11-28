@@ -1,4 +1,4 @@
-<div id="layout-menu" tabindex="0" onblur="closeMenu()" class="fixed z-[100] top-0 left-[-14.375rem] w-[17.5rem] h-screen flex justify-start items-stretch flex-col transitiom-all ease-out gap-[0.5rem] duration-200 bg-lightpurple border-r-[0.0625rem] shadow-sm dark:border-eerie dark:bg-lighteerie text-darkerPurple overflow-y-auto drop-shadow-lg pr-[0.25rem]">
+<div id="layout-menu" tabindex="0" onblur="closeMenu()" class="fixed z-[100] top-0 left-[-230px] w-[280px] h-screen flex justify-start items-stretch flex-col transitiom-all ease-out gap-[0.5rem] duration-200 bg-lightpurple border-r-[0.0625rem] shadow-sm dark:border-eerie dark:bg-lighteerie text-darkerPurple overflow-y-auto drop-shadow-lg pr-[0.25rem]">
 
     <!-- TOGGLE BUTTON -->
     <div class="sticky pt-[1rem] top-0 left-0 bg-lightpurple dark:bg-lighteerie transition-all ease-out duration-200 flex items-center justify-between w-full px-[0.5rem] md:pr-[0.25rem] text-darkerPurple dark:text-grey text-4xl font-bold dark:font-normal font-mukita mb-[0.5rem]">
