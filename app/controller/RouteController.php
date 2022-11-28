@@ -42,8 +42,12 @@ class RouteController extends Controller {
                 $this->studentModel->fetchClassMates($_SESSION['classcode']);
 
                 // TEACHER
+                
                 $this->teacherModel->fetchByEmail($_SESSION['classroom']->teacher_email);
-
+            }else{
+                unset($_SESSION['classroom']);
+                unset($_SESSION['teacher']);
+                unset($_SESSION['school']);
             }
 
             return $this->load("dashboard/main");

@@ -67,6 +67,13 @@
 
         {% block menu %}{% endblock %}
         {% block body %}{% endblock %}
+
+        <div id="downloading_message" class="w-screen h-screen fixed bg-[rgba(0,0,0,0.4)] top-0 right-0 left-0 bottom-0 flex items-center justify-center z-[999] hidden">
+            <div class="border-2 borde-purple rounded-lg shadow-md px-[1rem] py-[1.5rem] flex flex-col items-center justify-center gap-1rem bg-white dark:bg-lighteerie text-eerie dark:text-grey w-full max-w-[31.25rem]">
+                <img src="{{BASE}}svgs/spinner.svg" class="w-[9.375rem] h-[9.375rem]" alt="carregando"/>
+                <p class="text-nerko font-normal text-2xl w-full text-center text-purple">Processando</p>
+            </div>
+        </div>
     </body>
 
     <script src="https://cdn.jsdelivr.net/npm/ace-builds@1/src-noconflict/ace.min.js"></script>

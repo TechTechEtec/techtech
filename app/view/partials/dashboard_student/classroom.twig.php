@@ -2,7 +2,7 @@
     <!-- Content if the student is into a classcode -->
 
     <section class="w-full">
-        <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="3000" data-tilt-scale="1.025" class="w-full flex flex-col items-around justify-center 2sm:flex-row 2sm:items-center 2sm:justify-around gap-[1rem] rounded-md shadow-lg max-w-[56.25rem] mx-auto p-[1rem]">
+        <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="5000" data-tilt-scale="1.025" class="w-full flex flex-col items-around justify-center 2sm:flex-row 2sm:items-center 2sm:justify-around gap-[1rem] rounded-md shadow-lg max-w-[56.25rem] mx-auto p-[1rem]">
             <div class="w-full flex-1 p-[0.5rem] flex flex-col items-start justify-start">
                 <h1 class="font-nerko font-normal text-4xl text-orange my-[0.8rem]">Administrador</h1>
                 <div class="flex flex-row items-center justify-start gap-[1rem]">
@@ -17,9 +17,15 @@
                 </div>
             </div>
 
-            <div class="w-full flex-1 p-[0.5rem] flex flex-col items-start justify-start ">
-                <h2 class="font-nerko font-normal text-4xl text-orange my-[0.8rem]">Turma</h2>
-                <p class="text-roboto font-bold text-xl text-eerie dark:text-grey h-[4rem] flex items-center">{{session.classroom.name}}</p>
+            <div class="w-full flex-1 p-[0.5rem] flex flex-col items-start justify-start gap-[1rem]">
+                <div>
+                    <h2 class="font-nerko font-normal text-4xl text-orange my-[0.8rem]">Turma</h2>
+                    <p class="text-roboto font-bold text-xl text-eerie dark:text-grey  flex items-center">{{session.classroom.name}}</p>
+                </div>
+                <div>
+                    <h2 class="font-nerko font-normal text-4xl text-orange my-[0.8rem]">Código</h2>
+                    <p class="text-roboto font-bold text-xl text-eerie dark:text-grey  flex items-center">{{session.classroom.code}}</p>
+                </div>
             </div>
         </div>
 
