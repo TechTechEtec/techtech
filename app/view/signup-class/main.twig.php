@@ -75,7 +75,7 @@
                     Criar Turma
                 </button>
 
-                <p class="text-eerie dark:text-grey mt-[1rem]">voltar para ? <a href="{{BASE}}" title="Signin" class="text-blue">dashboard</a> </p>
+                <p class="text-eerie dark:text-grey mt-[1rem]">voltar para <a href="{{BASE}}" title="Signin" class="text-blue">dashboard</a> </p>
             </form>
 
             <!-- DIVIDER -->

@@ -70,7 +70,7 @@
 
         <div id="downloading_message" class="w-screen h-screen fixed bg-[rgba(0,0,0,0.4)] top-0 right-0 left-0 bottom-0 flex items-center justify-center z-[999] hidden">
             <div class="border-2 borde-purple rounded-lg shadow-md px-[1rem] py-[1.5rem] flex flex-col items-center justify-center gap-1rem bg-white dark:bg-lighteerie text-eerie dark:text-grey w-full max-w-[31.25rem]">
-                <img src="{{BASE}}svgs/spinner.svg" class="w-[9.375rem] h-[9.375rem]" alt="carregando"/>
+                <sl-spinner style="font-size: 50px; --track-width: 0.625rem; --indicator-color: hsl(252, 100%, 68%); --track-color: hsl(281, 100%, 88%);"></sl-spinner>
                 <p class="text-nerko font-normal text-2xl w-full text-center text-purple">Processando</p>
             </div>
         </div>

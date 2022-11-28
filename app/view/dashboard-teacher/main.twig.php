@@ -8,17 +8,17 @@
 
 {% block main %}
     <div class="md:ml-[17.5rem]">
-        <sl-tab-group>
+        <sl-tab-group id="tab-group-teacher">
 
-            <sl-tab slot="nav"panel="dashboard">
+            <sl-tab slot="nav" panel="dashboard" class="tab">
                 <h1 class="text-3xl font-nerko">Painel</h1>
             </sl-tab>
 
-            <sl-tab slot="nav" panel="configurations">
+            <sl-tab slot="nav" panel="configurations" class="tab">
                 <h1 class="text-3xl font-nerko">Configurações</h1>
             </sl-tab>
 
-            <sl-tab slot="nav" panel="help">
+            <sl-tab slot="nav" panel="help" class="tab">
                 <h1 class="text-3xl font-nerko">Ajuda</h1>
             </sl-tab>
                 
@@ -33,7 +33,45 @@
             <sl-tab-panel name="help">
                 {% embed "partials/dashboard_teacher/help.twig.php" %} {% endembed %}
             </sl-tab-panel>
-
         </sl-tab-group>   
     </div>
+
+    <style>
+
+        #tab-group-teacher::part(active-tab-indicator){
+            border: 1px solid hsl(255, 45%, 41%);
+        }
+
+        html.dark #tab-group-teacher::part(active-tab-indicator){
+            border: 1px solid hsl(252, 100%, 68%);
+        }
+
+        .tab::part(base):hover {
+            color:hsl(255, 45%, 41%);
+        }
+
+        .tab::part(base){
+            height:2.5rem;
+            margin-right: 0.25rem;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem 0.25rem 0 0;
+        }
+
+        .tab[active]::part(base){
+            color: #101241;
+            background-color: hsl(281, 100%, 88%);
+            height:2.5rem;
+        }
+
+        html.dark .tab::part(base):hover {
+            color: white;
+        }
+
+        html.dark .tab[active]::part(base){
+            color: white;
+            background-color: hsl(255, 45%, 41%);
+            height:2.5rem;
+        }
+
+    </style>
 {% endblock %}

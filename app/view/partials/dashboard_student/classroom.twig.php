@@ -125,7 +125,7 @@
             </form>
         </sl-dialog>
 
-        <button id="enterInClassRoom" class="my-[1rem] p-[1rem] w-full max-w-[11.25rem] rounded-md shadow-sm text-white bg-pink-500 transition-all ease-linear duration-200 hover:-translate-y-[0.1875rem]">
+        <button id="enterInClassRoom" class="my-[1rem] p-[1rem] w-full max-w-[11.25rem] rounded-md shadow-sm text-white bg-pink-500 transition-all ease-linear duration-200 text-center hover:-translate-y-[0.1875rem]">
             Entrar
         </button>
     </section>

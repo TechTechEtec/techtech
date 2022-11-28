@@ -70,6 +70,13 @@ class RouteController extends Controller {
     public function dashboardTeacher() {
         
         if(isset($_SESSION['loggedIn']) && ($_SESSION['perfil'] === 'teacher' || $_SESSION['perfil'] === 'admin')){
+
+            $this->classModel->fetchByTeacher($_SESSION['email']);
+
+            $this->schoolModel->fetchByName($_SESSION['extra']->schoolName);
+
+            $this->studentModel->fetchAll();
+            
             $this->load("dashboard-teacher/main");
             
             return;
