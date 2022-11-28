@@ -31,7 +31,7 @@ class RouteController extends Controller {
 
            $this->studentModel->fetchProgress($_SESSION['extra']->id);
 
-            if($_SESSION['classcode']) {
+            if(isset($_SESSION['classcode']) && $_SESSION['classcode']) {
                 // CLASS ROOM
                 $this->classModel->fetchByCode($_SESSION['classcode']);
                 
