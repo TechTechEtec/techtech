@@ -24,7 +24,7 @@
     
     <!-- SIGNUP PAGE -->
 
-    <div class="w-screen h-screen bg-[url({{BASE}}imgs/background.png)] bg-contain bg-no-repeat bg-center bg-lightpurple dark:bg-lighteerie relative overflow-x-hidden flex flex-col justify-start md:justify-center items-center py-[2rem] px-[1rem]">
+    <div class="w-full  h-full min-h-screen bg-[url({{BASE}}imgs/background.png)] bg-contain bg-no-repeat bg-center bg-lightpurple dark:bg-lighteerie relative overflow-x-hidden flex flex-col justify-start md:justify-center items-center py-[2rem] px-[1rem]">
 
         <button title="Início" onclick="window.history.go(-1); return false;" class="text-4xl text-purple absolute top-[0.625rem] left-[0.625rem]">
             <sl-icon name="arrow-left-square"></sl-icon>
@@ -120,7 +120,7 @@
                     >
                 </div>
 
-                <button class="bg-orange rounded-md w-[9rem] h-[2.25rem] text-center text-white flex items-center group mt-[2rem]" type="submit">
+                <button class="bg-orange rounded-md w-[9rem] h-[2.25rem] text-center text-white flex items-center justify-center group mt-[2rem]" type="submit">
                     Cadastrar
                 </button>
             </form>

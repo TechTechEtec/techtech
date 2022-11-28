@@ -14,7 +14,7 @@
             {% embed "components/toggleDarkModeButton.twig.php" %} {% endembed%}
         </div>
 
-        <main class="flex flex-wrap space-y-2 gap-[1rem] rounded-md items-start justify-center bg-white dark:bg-lighteerie px-[2rem] py-[2rem] shadow-lg w-full max-w-[56.25rem] min-h-[21.875rem]" data-aos="fade-up" data-aos-mirror="true"
+        <main class="flex flex-col 2sm:flex-row mt-[3rem] flex-wrap space-y-2 gap-[1rem] rounded-md items-start justify-center bg-white dark:bg-lighteerie px-[2rem] py-[2rem] shadow-lg w-full max-w-[56.25rem] min-h-[21.875rem]" data-aos="fade-up" data-aos-mirror="true"
         data-aos-once="true" data-aos-duration="800">
             <form class="flex flex-col flex-1 items-center justify-between w-full min-h-[21.875rem]" method="post" action="{{BASE}}@signup-class">
                 <div class="mt-[1rem] font-bold flex gap-[0.5rem] flex-col w-full">
@@ -82,9 +82,9 @@
             <div id="divider" class="hidden 2sm:block min-h-[350px] w-[0.125rem] bg-grey text-grey drop-shadow-sm rounded-md mx-[0.5rem]">
             </div>
 
-            <div class="flex w-full h-full min-h-[21.875rem] max-w-[25rem]  items-center justify-stretch gap-[0.5rem] flex-1 flex-col">
+            <div class="flex w-full h-full min-h-[21.875rem] max-w-[25rem]  items-center justify-center gap-[0.5rem] flex-1 flex-col">
                 <div id="classes" class="max-h-[20rem] overflow-y-auto w-full h-full min-h-[21.875rem] flex-1 flex flex-col items-center justify-center gap-[2rem]">
-                    <ul class="students w-full h-auto min-h-[20rem] p-2 list-none flex flex-col items-stretch justify-start gap-[1rem] cursor-default">
+                    <ul class="students w-full h-auto min-h-[20rem] p-2 list-none flex flex-col items-stretch justify-start gap-[1rem] cursor-default mx-auto">
                         {% if session.classroom|length > 0 %}
                             {% for class in session.classroom %}
                                 <li data-tilt  data-tilt-speed="1000" data-tilt-perspective="2000" data-tilt-scale="1.025" class="p-[0.5rem] rounded-lg border-2 border-solid border-purple bg-[#f0f2f5] dark:bg-eerie ease-in duration-200" id={{class.id}}>
@@ -97,7 +97,7 @@
                                 </li>
                             {% endfor %}
                         {% else %}
-                            <div class="w-full text-center flex flex-col items-center justify-center h-full gap-[1rem]">
+                            <div class="w-full text-center flex flex-col items-center justify-center h-full gap-[1rem] mx-auto">
                                 <p class="text-purple font-roboto font-extrabold w-full text-center text-xl uppercase"> Não há nenhuma classe cadastrada!</p>
                                 <img src="{{BASE}}svgs/techbo_error.svg" alt="techbo error image" class="w-full h-full max-w-[7.5rem] max-h-[7.5rem]"/>
                             </div>

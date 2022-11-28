@@ -29,7 +29,7 @@
 
             <sl-rating label="Rating" precision="0.5" value="0" style="--symbol-size: 1.7rem;"></sl-rating>
             
-            <form method="post" action="send.php" class="mt-2 font-bold flex flex-col w-full">
+            <form class="mt-2 font-bold flex flex-col w-full">
 
                 <label for="nome" class="mt-[1rem] mb-[0.5rem] text-eerie dark:text-grey">Nome</label>
                 <input class="bg-grey rounded-md h-10 w-full"

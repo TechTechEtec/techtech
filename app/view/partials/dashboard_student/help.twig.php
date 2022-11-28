@@ -8,22 +8,22 @@
             </div>
 
             <div class="flex flex-col gap-y-[1rem] items-center justify-center">
-                <p class="text-xl font-bold dark:text-white">O que vou encontrar na sidebar? </p>
+                <p class="text-xl font-bold dark:text-white">O que vou encontrar na sidebar?</p>
                 <span data-tilt  data-tilt-speed="1000" data-tilt-perspective="3000" data-tilt-scale="1.025"><img src="{{BASE}}imgs/Msidebar.png"></span>
             </div>
 
             <div class="flex flex-col gap-y-[1rem] items-center justify-center">
-                <p class="text-xl font-bold dark:text-white">Onde posso dar meu feedback? </p>
+                <p class="text-xl font-bold dark:text-white">Onde posso dar meu feedback?</p>
                 <span data-tilt  data-tilt-speed="1000" data-tilt-perspective="3000" data-tilt-scale="1.025"><img src="{{BASE}}imgs/Mfeedback.png"></span>
             </div>
 
             <div class="flex flex-col gap-y-[1rem] items-center justify-center">
-                <p class="text-xl font-bold dark:text-white">O que é o Playground? </p>
+                <p class="text-xl font-bold dark:text-white">O que é o Playground?</p>
                 <span data-tilt  data-tilt-speed="1000" data-tilt-perspective="3000" data-tilt-scale="1.025"><img src="{{BASE}}imgs/Mplayground.png"></span>
             </div>
 
             <div class="flex flex-col gap-y-[1rem] items-center justify-center">
-                <p class="text-xl font-bold dark:text-white">Como funciona o playground? </p>
+                <p class="text-xl font-bold dark:text-white">Como funciona o playground?</p>
                 <span data-tilt  data-tilt-speed="1000" data-tilt-perspective="3000" data-tilt-scale="1.025"><img src="{{BASE}}imgs/Mplayground_ajuda.png"></span>
             </div>
 

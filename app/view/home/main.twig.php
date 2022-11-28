@@ -51,7 +51,7 @@
       <div class="flex flex-col justify-around items-start m-auto w-full gap-[3rem] md:gap-[1.5rem] 2md:flex-col lg:flex-row lg:items-start lg:justify-around">
         <div class="flex flex-1 flex-col items-start justify-evenly">
 
-          <h1 class="text-4xl text-darkpurple dark:text-purple font-mukta font-bold min-h-[3.125rem]">TECHTECH ⭐</h1>
+          <h1 class="text-4xl text-darkpurple dark:text-purple font-mukta font-bold min-h-[3.125rem]">Comece a aprender agora mesmo!</h1>
 
           <p class="text-gray-600 dark:text-grey text-justify mt-[2.5rem] mb-[1.25rem] text-lg w-full max-w-[35rem] font-medium font-roboto subpixel-antialiased">Ensino tecnológico acessível para crianças, um projeto sem fins lucrativos desenvolvido por estudantes, para auxiliar estudantes, com a finalidade de apresentar o mundo tecnológico de outra forma para crianças, e assim ampliar seus horizontes.</p>
 
