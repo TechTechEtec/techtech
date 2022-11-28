@@ -105,7 +105,7 @@
 
     <!-- Parallax Effect -->
     <section class="bg-[url({{BASE}}imgs/parallax.png)] dark:bg-[url({{BASE}}imgs/parallax-dark.png)] min-h-[12.5rem] md:min-h-[25rem] bg-fixed bg-center bg-contain relative transition-all duration-200 ease shadow-md">
-      <div class="hidden dark:block w-full h-full absolute top-0 left-0 right-0 bottom-0 z-[10] backdrop-contrast-[0.85] backdrop-brightness-[2] bg-[rgba(236, 194, 255,0.2)]"></div>
+      <div class="hidden dark:block w-full h-full absolute top-0 left-0 right-0 bottom-0 z-[10] backdrop-contrast-[0.75] backdrop-brightness-[2] bg-[rgba(236, 194, 255,0.2)]"></div>
     </section>
 
     <!-- third section -->

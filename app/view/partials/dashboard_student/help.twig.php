@@ -34,12 +34,12 @@
 
             <div class="flex flex-col gap-y-[1rem] items-center justify-center">
                 <p class="text-xl font-bold dark:text-white">Como eu entro em uma turma? </p>
-                <span data-tilt  data-tilt-speed="1000" data-tilt-perspective="3000" data-tilt-scale="1.025"><img src="{{BASE}}imgs/M.png"></span>   
+                <span data-tilt  data-tilt-speed="1000" data-tilt-perspective="3000" data-tilt-scale="1.025"><img class="w-[34.375rem]" src="{{BASE}}imgs/Mentrarturma.png"></span>   
             </div>
 
             <div class="flex flex-col gap-y-[1rem] items-center justify-center">
                 <p class="text-xl font-bold dark:text-white">Como eu saio de uma turma? </p>
-                <span data-tilt  data-tilt-speed="1000" data-tilt-perspective="3000" data-tilt-scale="1.025"><img src="{{BASE}}imgs/M.png"></span>
+                <span data-tilt  data-tilt-speed="1000" data-tilt-perspective="3000" data-tilt-scale="1.025"><img class="w-[34.375rem]" src="{{BASE}}imgs/Msairturma.png"></span>
             </div>
 
             <div class="flex flex-col gap-y-[1rem] items-center justify-center">

@@ -68,6 +68,7 @@
                     type="text"
                     name="name"
                     required
+                    placeholder="@name"
                     autocomplete="off"
                     >
                 </div>

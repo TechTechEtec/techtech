@@ -94,6 +94,11 @@ class StudentController extends Controller {
         $this->studentModel->update($class);
 
         unset($_SESSION['classroom']);
+        unset($_SESSION['teacher']);
+        unset($_SESSION['school']);
+        unset($_SESSION['classmates']);
+        unset($_SESSION['students']);
+        unset($_SESSION['classcode']);
 
         return $this->showMessage(
             'Você saiu da turma', 

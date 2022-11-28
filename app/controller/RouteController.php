@@ -35,18 +35,16 @@ class RouteController extends Controller {
                 $this->classModel->fetchByCode($_SESSION['classcode']);
                 
                 // SCHOOL
-                $this->schoolModel->fetchById($_SESSION['classroom']->createdBy);
-     
+                if(isset($_SESSION['classroom']->createdBy) && $_SESSION['classroom']->createdBy){
+                    $this->schoolModel->fetchById($_SESSION['classroom']->createdBy);
+                }
+               
                 // CLASSMATES
                 $this->studentModel->fetchClassMates($_SESSION['classcode']);
 
                 // TEACHER
                 
                 $this->teacherModel->fetchByEmail($_SESSION['classroom']->teacher_email);
-            }else{
-                unset($_SESSION['classroom']);
-                unset($_SESSION['teacher']);
-                unset($_SESSION['school']);
             }
 
             return $this->load("dashboard/main");
@@ -97,8 +95,10 @@ class RouteController extends Controller {
 
             $this->classModel->fetchByTeacher($_SESSION['email']);
 
-            $this->schoolModel->fetchByName($_SESSION['extra']->schoolName);
-
+           if(isset($_SESSION['extra']->schoolName) && $_SESSION['extra']->schoolName) {
+                $this->schoolModel->fetchByName($_SESSION['extra']->schoolName);
+           }
+          
             $this->studentModel->fetchAll();
             
             $this->load("dashboard-teacher/main");
