@@ -14,8 +14,8 @@
     
     <iframe data-tally-src="https://tally.so/embed/nWJRoR?dynamicHeight=1&userId={{session.extra.id}}&profile={{session.perfil}}" width="100%" height="3281" frameborder="0" marginheight="0" marginwidth="0" title="Prova Do Módulo 04"></iframe>
         
-    <button onclick="window.location.replace('{{BASE}}'); return false" title="Voltar para dashboard" class="px-4 py-0 rounded-lg drop-shadow-lg bg-purple text-white font-bold w-[120px] text-center text-lg mx-auto flex flex-row items-center justify-around gap-[1rem] hover:translate-y-[-3px] eas-linear duration-300 cursor-pointer absolute top-[10px] left-[10px]">
-        <sl-icon style="font-size: 3rem" slot="prefix" name="arrow-left-short"></sl-icon>
+    <button onclick="window.location.replace('{{BASE}}'); return false" title="Voltar para dashboard" class="px-[0.5rem] py-[0.5rem] rounded-lg drop-shadow-lg bg-purple text-white font-bold w-full max-w-[8.125rem] text-center text-lg mx-auto flex flex-row items-center justify-start gap-[0.5rem] hover:translate-y-[-0.1875rem] eas-linear duration-200 cursor-pointer absolute top-[0.625rem] left-[0.625rem]">
+        <i class="ph-arrow-left"></i>
         <span>Conteúdo</span>
     </button>
     
