@@ -72,8 +72,12 @@
         </span>
     </a>
 
+    <div class="p-4 sticky mt-[10rem]">
+        {% embed "components/toggleDarkModeButton.twig.php" %}{% endembed %}
+    </div>
+
     <!-- LOGOUT BUTTON -->
-    <a href="{{BASE}}@logout" title="logout" class="p-4 sticky top-[110%] rounded-tr-lg z-[101] flex flex-row justify-between items-center gap-[0.5rem] transition-all ease-linear duration-200 hover:bg-darkpurple text-darkerPurple dark:text-grey hover:text-white text-lg font-bold">
+    <a href="{{BASE}}@logout" title="logout" class="p-4 sticky top-[150%] rounded-tr-lg z-[101] flex flex-row justify-between items-center gap-[0.5rem] transition-all ease-linear duration-200 hover:bg-darkpurple text-darkerPurple dark:text-grey hover:text-white text-lg font-bold">
         <span>Desconectar</span>
         <sl-icon 
             name="box-arrow-left" id="logout" 

@@ -101,6 +101,7 @@
             text-align: left;
             margin: 2rem 0 1rem;
             color: #101241;
+
         }
 
         html.dark #content h2 {
