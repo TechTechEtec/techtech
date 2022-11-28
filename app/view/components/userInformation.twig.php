@@ -14,6 +14,8 @@
 
         <sl-badge variant="primary" pill pulse>{{session.perfil == 'student' ? "Estudante" : session.perfil == 'school' ? "Escola": session.perfil == 'teacher' ? "Professor" : 'Administrador'}}</sl-badge>
 
+        <hr class="border-1 mt-[1rem] border-solid border-grey w-full"/>
+
         <p class="mt-[1rem] w-full text-left text-md text-eerie dark:text-[#bdbdbd] font-medium  font-mukta">{{session.bio}}</p>
     </div>
 

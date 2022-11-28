@@ -18,8 +18,8 @@
         </span>
     </a>
 
-    <!-- MODULES -->
-    <a href="{{BASE}}summary" title="Módulos" class="flex flex-row items-center justify-between w-full pl-[0.5rem] py-[0.375rem] pr-[0.25rem] cursor-pointer hover:bg-[#7c5cff6a] border-[0.5rem] border-transparent hover:border-purple rounded-r-lg text-darkerPurple dark:text-grey font-bold dark:font-normal font-mukita" id="menu-modules">
+        <!-- MODULES -->
+    <a href="{{BASE}}summary" title="Módulos" class="flex flex-row items-center justify-between w-full pl-[0.5rem] py-[0.375rem] pr-[0.25rem] cursor-pointer hover:bg-[#7c5cff6a] border-2 border-transparent hover:border-purple rounded-r-lg text-darkerPurple dark:text-grey font-bold dark:font-normal font-mukita" id="menu-modules">
         <p class="text-2xl">Módulos</p>
 
         <span class="text-4xl text-center flex items-center justify-center">
@@ -27,23 +27,26 @@
         </span>
     </a>
 
-     <!-- ACTIVITIES -->
-    <a href="#" title="Atividades" class="flex flex-row items-center justify-between w-full pl-[0.5rem] py-[0.375rem] pr-[0.25rem] cursor-pointer hover:bg-[#7c5cff6a] border-[0.5rem] border-transparent hover:border-purple rounded-r-lg text-darkerPurple dark:text-grey font-bold dark:font-normal font-mukita" id="menu-activities">
-        <p class="text-2xl">Atividades</p>
+     <!-- CREATE CLASS -->
+    {% if session.perfil == 'teacher' or session.perfil == 'school' %}
+        <a href="{{BASE}}signup-class" title="Criar Turma" class="flex flex-row items-center justify-between w-full pl-[0.5rem] py-[0.375rem] pr-[0.25rem] cursor-pointer hover:bg-[#7c5cff6a] border-2 border-transparent hover:border-purple rounded-r-lg text-darkerPurple dark:text-grey font-bold dark:font-normal font-mukita" id="menu-activities">
+            <p class="text-2xl">Criar Turma</p>
 
-        <span class="text-4xl text-center flex items-center justify-center">
-            <i class="ph-file-search"></i>
-        </span>
-    </a>
+            <span class="text-4xl text-center flex items-center justify-center">
+                <i class="ph-file-search"></i>
+            </span>
+        </a>
+    {% endif %}
 
-     <!-- CLASS -->
-    <a href="#" title="Turma" class="flex flex-row items-center justify-between w-full pl-[0.5rem] py-[0.375rem] pr-[0.25rem] cursor-pointer hover:bg-[#7c5cff6a] border-[0.5rem] border-transparent hover:border-purple rounded-r-lg text-darkerPurple dark:text-grey font-bold dark:font-normal font-mukita" id="menu-class">
-        <p class="text-2xl">Turma</p>
+    {% if session.perfil == 'school' %}
+        <a href="{{BASE}}signup-teacher-byschool" title="Criar Turma" class="flex flex-row items-center justify-between w-full pl-[0.5rem] py-[0.375rem] pr-[0.25rem] cursor-pointer hover:bg-[#7c5cff6a] border-2 border-transparent hover:border-purple rounded-r-lg text-darkerPurple dark:text-grey font-bold dark:font-normal font-mukita" id="menu-activities">
+            <p class="text-2xl">Criar Professor</p>
 
-        <span class="text-4xl text-center flex items-center justify-center">
-            <i class="ph-users"></i>
-        </span>
-    </a>
+            <span class="text-4xl text-center flex items-center justify-center">
+                <i class="ph-file-search"></i>
+            </span>
+        </a>
+    {% endif %}
 
     <!-- PLAYGROUND -->
     <a href="{{BASE}}playground" title="Turma" class="flex flex-row items-center justify-between w-full pl-[0.5rem] py-[0.375rem] pr-[0.25rem] cursor-pointer hover:bg-[#7c5cff6a] border-2 border-transparent hover:border-purple rounded-r-lg text-darkerPurple dark:text-grey font-bold dark:font-normal font-mukita" id="menu-playground">
@@ -51,24 +54,6 @@
 
         <span class="text-4xl text-center flex items-center justify-center">
             <i class="ph-terminal-window"></i>
-        </span>
-    </a>
-
-     <!-- CONFIGURATIONS -->
-    <a href="#" title="Configurações" class="flex flex-row items-center justify-between w-full pl-[0.5rem] py-[0.375rem] pr-[0.25rem] cursor-pointer hover:bg-[#7c5cff6a] border-2 border-transparent hover:border-purple rounded-r-lg text-darkerPurple dark:text-grey font-bold dark:font-normal font-mukita" id="menu-configurations">
-        <p class="text-2xl">Configurações</p>
-
-        <span class="text-4xl text-center flex items-center justify-center">
-            <i class="ph-gear-six"></i>
-        </span>
-    </a>
-
-     <!-- HELP -->
-    <a href="{{BASE}}dashboard#help" title="Ajuda" class="flex flex-row items-center justify-between w-full pl-[0.5rem] py-[0.375rem] pr-[0.25rem] cursor-pointer hover:bg-[#7c5cff6a] border-2 border-transparent hover:border-purple rounded-r-lg text-darkerPurple dark:text-grey font-bold dark:font-normal font-mukita" id="menu-help">
-        <p class="text-2xl">Ajuda</p>
-
-        <span class="text-4xl text-center flex items-center justify-center">
-            <i class="ph-question"></i>
         </span>
     </a>
 

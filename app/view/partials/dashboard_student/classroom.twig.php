@@ -32,7 +32,7 @@
                 </thead>
                 <tbody>
                     {% for student in session.classmates|sort((a, b) => b.scores[0] - a.scores[0]) %}
-                        <tr class="p-[2rem] border-y-[0.5rem] border-[#808080] border-collapse">
+                        <tr class="p-[2rem] border-y-2 border-[#808080] border-collapse">
                             <td class="flex flex-row flex-wrap items-center gap-[2rem] justify-start my-[1rem] relative">
                                 <sl-avatar
                                     data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025"

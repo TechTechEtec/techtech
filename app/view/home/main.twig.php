@@ -21,7 +21,7 @@
     <img class="flex-none w-[5rem h-[5rem]" src="{{BASE}}svgs/techtechlogo.svg" alt="TechTech Logo">	
     <!-- NAVIGATION -->	
     <nav class="flex flex-row items-center gap-[1rem]">	
-      <ul class="text-darkpurple font-bold text-3xl flex flex-col items-center justify-center drop-shadow-xl px-[1.5rem] py-[2.5rem] z-10 bg-darkwhite fixed top-0 right-0 h-screen w-screen md:items-start md:justify-start md:w-[40%] lg:h-auto lg:relative lg:flex-row lg:bg-transparent lg:p-0 lg:items-center gap-[1rem] lg:gap-[1rem] lg:w-auto hidden lg:flex home-menu dark:bg-lighteerie dark:lg:bg-transparent dark:text-purple">
+      <ul class="text-darkpurple font-bold text-3xl flex flex-col items-center justify-center drop-shadow-xl px-[1.5rem] py-[2.5rem] z-10 bg-darkwhite fixed top-0 right-0 h-screen w-screen md:items-start md:justify-start md:w-[40%] lg:h-auto lg:relative lg:flex-row lg:bg-transparent lg:p-0 lg:items-center gap-[1rem] lg:gap-[1.5rem] lg:w-auto hidden lg:flex home-menu dark:bg-lighteerie dark:lg:bg-transparent dark:text-purple">
 
         <li class="hover:translate-y-[-0.1875rem] ease duration-300 cursor-pointer absolute top-[1.5rem] right-[1.5rem] lg:hidden text-darkpurple text-5xl dark:text-purple" onclick="toggleHomeMenu()">	
           <i class="ph-x-circle"></i>
@@ -36,7 +36,7 @@
         <i class="ph-list"></i>
       </button>	
       <!-- Login Button -->	
-      <a href="{{BASE}}signin" class="bg-orange rounded-full px-[0.75rem] h-10 ml-[1rem] text-white dark:text-darkerPurple flex items-center group hover:-translate-y-1 transition-all ease-linear duration-100  ring-[0.5rem] ring-orange ring-offset-[1rem] ring-offset-lightpurple dark:ring-offset-lighteerie">	
+      <a href="{{BASE}}signin" class="bg-orange rounded-full px-[0.75rem] h-10 ml-[1rem] text-white dark:text-darkerPurple flex items-center group hover:-translate-y-1 transition-all ease-linear duration-100  ring-2 ring-orange ring-offset-4 ring-offset-lightpurple dark:ring-offset-lighteerie">	
         <i class="ph-user"></i>	
         <span class="pl-[0.5rem]">Entrar</span>	
       </a>	
@@ -56,14 +56,16 @@
           <p class="text-gray-600 dark:text-grey text-justify mt-[2.5rem] mb-[1.25rem] text-lg w-full max-w-[35rem] font-medium font-roboto subpixel-antialiased">Ensino tecnológico acessível para crianças, um projeto sem fins lucrativos desenvolvido por estudantes, para auxiliar estudantes, com a finalidade de apresentar o mundo tecnológico de outra forma para crianças, e assim ampliar seus horizontes.</p>
 
           <div class="flex flex-row gap-[1rem] justify-start items-center w-full mt-[1.5rem]">
-            <a href="{{BASE}}choose-signup" class="bg-orange text-darkerPurple font-bold p-[0.5rem] rounded-xl hover:-translate-y-1 transition-all ease-linear duration-100 ring-[0.5rem] ring-orange ring-offset-4 ring-offset-lightpurple dark:ring-offset-lighteerie">Cadastre-se</a>
+            <a href="{{BASE}}choose-signup" class="bg-orange text-darkerPurple font-bold p-[0.5rem] rounded-xl hover:-translate-y-1 transition-all ease-linear duration-100 ring-2 ring-orange ring-offset-4 ring-offset-lightpurple dark:ring-offset-lighteerie">Cadastre-se</a>
           </div>
 
         </div>
 
         <div class="flex-1 items-center justify-center flex w-full relative">
-          <img class="w-[full] mt-[-6rem]" src="{{BASE}}svgs/techbo-home.svg" alt="techbo mostrando vídeo">
-          <iframe src="https://streamable.com/e/t9nntn?nocontrols=1&loop=0" width="29.9875rem" height="13.75rem" frameborder="0" allowfullscreen style="position:absolute;z-index:50;top:0;right:1px;flex:1;display:flex;align-items:stretch;"></iframe>
+          <img class="w-[500px] mt-[-6rem]" src="{{BASE}}svgs/techbo-home.svg" alt="techbo mostrando vídeo">
+  
+          <iframe src="https://streamable.com/e/t9nntn?nocontrols=1&loop=0" width="100%" height="100%" style="position:absolute; top:0; right:8px; max-width:440px;border-radius:0.5rem;transform:translateY(-30px); margin:0; padding:0; display:block" frameborder="0" allowfullscreen></iframe>
+  
         </div>
       </div>
 
@@ -105,7 +107,9 @@
     </section>
 
     <!-- Parallax Effect -->
-    <section class="bg-[url({{BASE}}imgs/parallax.png)] min-h-[12.5rem] md:min-h-[25rem] bg-fixed bg-center bg-contain"></section>
+    <section class="bg-[url({{BASE}}imgs/parallax.png)] dark:bg-[url({{BASE}}imgs/parallax-dark.png)] min-h-[12.5rem] md:min-h-[25rem] bg-fixed bg-center bg-contain relative transition-all duration-200 ease shadow-md">
+      <div class="hidden dark:block w-full h-full absolute top-0 left-0 right-0 bottom-0 z-[10] backdrop-contrast-[0.85] backdrop-brightness-[1.5] bg-[rgba(236, 194, 255,0.2)]"></div>
+    </section>
 
     <!-- third section -->
     <section class="px-[1.5rem] pb-[1rem] mt-[8rem] w-[90vw] mx-auto flex flex-col md:flex-row items-start justify-evenly gap-[3rem]" id="second_section">

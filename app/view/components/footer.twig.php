@@ -1,6 +1,6 @@
 <canvas id="myCanvas" resize class="h-[12rem] w-full"></canvas>
 
-<footer class="bg-darkerPurple dark:bg-lighteerie bg-[url({{BASE}}svgs/Random_shit.svg)] bg-cover shadow-xl flex flex-col-reverse lg:flex-row flex-wrap justify-evenly items-center w-screen m-0 h-auto gap-10 md:gap-4 pb-6 pt-[3rem] px-8" >
+<footer class="bg-darkerPurple dark:bg-lighteerie bg-[url({{BASE}}svgs/Random_shit.svg)] bg-cover shadow-xl flex flex-col-reverse lg:flex-row flex-wrap justify-evenly items-center w-screen m-0 h-auto gap-[2.5rem] md:gap-[1rem] pb-[1.5rem] pt-[3rem] px-[2rem]" >
 
   <!-- Logo -->
   <div class="flex flex-col justify-center items-center gap-8 h-[20rem] w-[20rem]">
@@ -12,17 +12,13 @@
   <div class="flex-1 flex flex-row gap-4 w-full p-4 w-full flex-wrap items-start justify-center">
     <ul class="w-auto flex flex-col items-stretch justify-center gap-2">
       <li><h3 class="text-orange font-extrabold font-mukta text-xl">TECH TECH</h3></li>
-      <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-purple cursor-pointer hover:text-lightpurple font-medium font-roboto">Escolas Participantes</a></li>
-      <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-purple cursor-pointer hover:text-lightpurple font-medium font-roboto">Equipe</a></li>
-      <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-purple cursor-pointer hover:text-lightpurple font-medium font-roboto">Feedback</a></li>
+      <li><a href="{{BASE}}portfolio#team" class="hover:-translate-y-2 transition duration-300 text-purple cursor-pointer hover:text-lightpurple font-medium font-roboto">Equipe</a></li>
+      <li><a href="{{BASE}}feedback" class="hover:-translate-y-2 transition duration-300 text-purple cursor-pointer hover:text-lightpurple font-medium font-roboto">Feedback</a></li>
     </ul>
 
     <ul class="w-auto flex flex-col items-stretch justify-center gap-2">
       <li><h3 class="text-orange font-extrabold font-mukta text-xl">CURSO</h3></li>
-      <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-purple cursor-pointer hover:text-lightpurple font-medium font-roboto">Plano de Curso</a></li>
-      <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-purple cursor-pointer hover:text-lightpurple font-medium font-roboto">Didática</a></li>
-      <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-purple cursor-pointer hover:text-lightpurple font-medium font-roboto">Atividades</a></li>
-      <li><a href="#" class="hover:-translate-y-2 transition duration-300 text-purple cursor-pointer hover:text-lightpurple font-medium font-roboto">Professores</a></li>
+      <li><a href="{{BASE}}portfolio#plan" class="hover:-translate-y-2 transition duration-300 text-purple cursor-pointer hover:text-lightpurple font-medium font-roboto">Plano de Curso</a></li>
     </ul>
 
     <div class="w-full h-auto flex items-start justify-center gap-6 mt-4">
@@ -36,11 +32,11 @@
 
   <!-- Form -->
   <form method="post" action="send.php" class="flex-1 flex w-full lg:w-auto flex-col items-center justify-start gap-[1.5rem] max-w-[25rem]">
-      <input type="text" id="name" name="name" placeholder="Seu nome" class="w-full h-[2.5rem] rounded-lg bg-white border-black border-[0.0625rem] border-solid p-[0.5rem] text-black" autocomplete="off"/>
+      <input type="text" id="name" name="name" placeholder="Seu nome" class="bg-grey rounded-md h-[2.5rem] w-full caret-purple focus:outline-purple focus:outline-1" autocomplete="off"/>
 
-      <input type="email" id="name" name="name" placeholder="Seu E-mail" class="w-full h-[2.5rem] rounded-lg bg-white border-black border-[0.0625rem] border-solid p-[0.5rem] text-black" autocomplete="off"/>
+      <input type="email" id="name" name="name" placeholder="Seu E-mail" class="bg-grey rounded-md h-[2.5rem] w-full caret-purple focus:outline-purple focus:outline-1" autocomplete="off"/>
 
-      <textarea placeholder="Sua mensagem..." rows="5" class="w-full h-[6rem] max-h-[6.25rem] min-h-[6.25rem] rounded-lg bg-white border-black border-[1px] border-solid p-[0.5rem] text-black" autocomplete="off"></textarea>
+      <textarea placeholder="Sua mensagem..." rows="5" class="w-full h-[6rem] max-h-[6.25rem] min-h-[6.25rem] p-[0.5rem] bg-grey rounded-md w-full caret-purple focus:outline-purple focus:outline-1" autocomplete="off"></textarea>
 
       <button class="bg-darkpurple w-full p-[0.5rem] rounded-xl drop-shadow-xl hover:-translate-y-1 transition ease duration-300 cursor-pointer text-white font-extrabold font-clean tracking-wider">
         Enviar
