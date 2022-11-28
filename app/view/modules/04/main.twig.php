@@ -20,10 +20,10 @@
         <div class="items-center justify-center p-4 2sm:px-2 w-full lg:w-[60rem]">    
             <h1 class="text-2xl font-bold font-clean text-purple uppercase px-4 my-8">Módulo 4</h1>
 
-            <img class="" src="{{BASE}}imgs/MindMap-04.png" alt="Mapa mental Declarações" data-aos="fade-up">
+            <img class="" src="{{BASE}}imgs/mindMap/MindMap-04.png" alt="Mapa mental Declarações" data-aos="fade-up">
 
             <div class="w-full flex items-center justify-center md:justify-end gap-[1rem] mt-[2rem]">
-                <a href="{{BASE}}imgs/MindMap-04.png" download class="font-bold text-lg flex flex-row gap-[1rem] items-center justify-center text-eerie dark:text-grey">
+                <a href="{{BASE}}imgs/mindMap/MindMap-04.png" download class="font-bold text-lg flex flex-row gap-[1rem] items-center justify-center text-eerie dark:text-grey">
                     <span>Faça o download do mapa aqui!</span>
                     <span class="material-icons">file_open</span>
                 </a>
@@ -38,13 +38,8 @@
             <hr class="my-8"/>
 
             <div class="flex flex-col flex-wrap mt-8">
-<<<<<<< HEAD
                 <a href="{{BASE}}modules/04/exam">
                     <p class="flex items-center text-xl gap-2 justify-start text-eerie dark:text-grey font-mukta font-bold">
-=======
-                <a href="{{BASE}}modules/02/exam">
-                    <p class="flex items-center text-xl gap-[0.5rem] justify-start text-eerie dark:text-grey font-mukta font-bold">
->>>>>>> main
                         <i class="ph-exam text-5xl"></i>
                         <span>Exame</span>
                         <i class="ph-arrow-right"></i> 

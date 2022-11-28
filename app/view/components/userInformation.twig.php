@@ -38,7 +38,7 @@
             </li> 
         </ul>
 
-        <div data-tilt  data-tilt-speed="2000" data-tilt-perspective="5000" data-tilt-scale="1.05" class="w-full mt-4 text-center text-purple font-bold mt-4 p-4 py-8 border-2 border-lightpurple rounded-md drop-shadow-sm cursor-pointer" id="showProgressInfo">
+        <div data-tilt  data-tilt-speed="2000" data-tilt-perspective="5000" data-tilt-scale="1.05" class="w-full mt-[1rem] text-center text-purple font-bold mt-[1rem] p-[1rem] py-[2rem] border-2 border-lightpurple rounded-md drop-shadow-sm cursor-pointer" id="showProgressInfo">
             <sl-progress-ring value="{{session.scores[1]}}" class="progress-ring-values" style=" 
             --track-color: hsl(281, 100%, 95%); 
             --track-width:0.5rem;

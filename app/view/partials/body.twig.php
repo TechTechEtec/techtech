@@ -12,7 +12,6 @@
         <link rel="shortcut icon" href="{{BASE}}svgs/techtechlogo.svg">
 
         <!-- Fonts -->
-
         <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&family=Nerko+One&family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
 
         <!-- TAILWIND Import -->
@@ -62,7 +61,7 @@
     <body class="overflow-x-hidden dark:bg-eerie select-none">
 
         <div id="loading" class="bg-lightpurple text-purple dark:bg-lighteerie">
-        <img class="w-full h-full max-w-[80px] max-h-[80px]" src="{{BASE}}svgs/loading.svg" alt="loading spinner"/>
+        <img class="w-full h-full max-w-[5rem] max-h-[5rem]" src="{{BASE}}svgs/loading.svg" alt="loading spinner"/>
             Carregando ...
         </div>
 

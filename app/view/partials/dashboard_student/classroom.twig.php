@@ -32,7 +32,7 @@
                 </thead>
                 <tbody>
                     {% for student in session.classmates|sort((a, b) => b.scores[0] - a.scores[0]) %}
-                        <tr class="p-[2rem] border-y-2 border-[#808080] border-collapse">
+                        <tr class="p-[2rem] border-y-[0.5rem] border-[#808080] border-collapse">
                             <td class="flex flex-row flex-wrap items-center gap-[2rem] justify-start my-[1rem] relative">
                                 <sl-avatar
                                     data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025"
@@ -105,14 +105,14 @@
 
         <p class="text-xl font-mukta font-medium text-eerie dark:text-grey w-full mx-auto text-center my-[1.5rem]">Deseja entrar em uma turma?</p>
 
-        <sl-dialog label="Entre em uma turma" class="dialog-scrolling" style="--width: min(500px, 95%); overflow:auto">
+        <sl-dialog label="Entre em uma turma" class="dialog-scrolling" style="--width: min(31.25rem, 95%); overflow:auto">
 
             <img src="{{BASE}}svgs/techbo_new_adventures_unlocked.svg" alt="techbô" class="w-full h-full max-w-[18.75rem] mb-[1rem] mx-auto"/>
 
             <form method="post" action="{{BASE}}@enter-classroom" class="w-full">
                 <div class="w-full flex-1">
                     <label for="classcode">Código da Turma</label>
-                    <input type="text" name="classcode" id="classcode" placeholder="ABCD123" required autocomplete="off" class="bg-grey rounded-md h-10 w-full mt-[1rem] caret-purple focus:outline-purple focus:outline-1 text-eerie uppercase font-medium"/>
+                    <input type="text" name="classcode" id="classcode" placeholder="ABC123" required autocomplete="off" class="bg-grey rounded-md h-[2.5rem] w-full mt-[1rem] caret-purple focus:outline-purple focus:outline-1 text-eerie uppercase font-medium"/>
                 </div>
 
                 <button type="submit" class="flex-1 my-[2rem] p-[1rem] w-full rounded-md shadow-sm text-white bg-orange transition-all ease-linear duration-200 hover:-translate-y-[0.1875rem] text-lg font-bold">Confirmar</button>

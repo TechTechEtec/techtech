@@ -143,7 +143,7 @@
         <!-- Marina Nogueira -->
         <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025" class="flex flex-col justify-center items-stretch py-4 gap-[2rem] md:gap-[1.5rem] px-8 bg-white dark:bg-lighteerie rounded-lg border border-grey dark:border-purple shadow-lg opacity-90 transition-all ease-linear duration-200 delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-lightpurple dark:hover:border-lightpurple hover:opacity-100" data-aos="fade-down" data-aos-duration="100">
 
-              <img src="{{BASE}}imgs/marina.png" class="w-full h-full max-w-[150px] max-h-[150px] rounded-full">
+              <img src="{{BASE}}imgs/team/marina.png" class="w-full h-full max-w-[9.375rem] max-h-[9.375rem] rounded-full">
 
               <div class="flex flex-col items-center justify-center gap-[1.5rem] text-eerie dark:text-grey">
                   <h1 class="font-bold text-xl">Marina Nogueira</h1>
@@ -162,9 +162,9 @@
         <!-- Sabrina Tavares -->
         <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025" class="flex flex-col justify-center items-stretch py-4 gap-[2rem] md:gap-[1.5rem] px-8 bg-white dark:bg-lighteerie rounded-lg border border-grey dark:border-purple shadow-lg opacity-90 transition-all ease-linear duration-200 delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-lightpurple dark:hover:border-lightpurple hover:opacity-100" data-aos="fade-down" data-aos-duration="120">
 
-              <img src="{{BASE}}imgs/sabrina.png" class="w-full h-full max-w-[150px] max-h-[150px] rounded-full">
+              <img src="{{BASE}}imgs/team/sabrina.png" class="w-full h-full max-w-[9.375rem] max-h-[9.375rem] rounded-full">
 
-              <div class="flex flex-col items-center justify-center gap-[1.5rem]text-eerie dark:text-grey">
+              <div class="flex flex-col items-center justify-center gap-[1.5rem] text-eerie dark:text-grey">
 
                   <h1 class="font-bold text-xl">Sabrina Tavares</h1>
 
@@ -182,7 +182,7 @@
         <!-- Sophia Cambuim -->
         <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025" class="flex flex-col justify-center items-stretch py-4 gap-[2rem] md:gap-[1.5rem] px-8 bg-white dark:bg-lighteerie rounded-lg border border-grey dark:border-purple shadow-lg opacity-90 transition-all ease-linear duration-200 delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-lightpurple dark:hover:border-lightpurple hover:opacity-100" data-aos="fade-down" data-aos-duration="140">
 
-              <img src="{{BASE}}imgs/sophia.png" class="w-full h-full max-w-[150px] max-h-[150px] rounded-full">
+              <img src="{{BASE}}imgs/team/sophia.png" class="w-full h-full max-w-[9.375rem] max-h-[9.375rem] rounded-full">
 
               <div class="flex flex-col items-center justify-center gap-[1.5rem] text-eerie dark:text-grey">
                   <h1 class="font-bold text-xl">Sophia Cambuim</h1>
@@ -201,7 +201,7 @@
         <!-- Victor Silva -->
         <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025" class="flex flex-col justify-center items-stretch py-4 gap-[2rem] md:gap-[1.5rem] px-8 bg-white dark:bg-lighteerie rounded-lg border border-grey dark:border-purple shadow-lg opacity-90 transition-all ease-linear duration-200 delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-lightpurple dark:hover:border-lightpurple hover:opacity-100 w-[12.8125rem]" data-aos="fade-down" data-aos-duration="160">
 
-              <img src="{{BASE}}imgs/victor.png" class="w-full h-full max-w-[150px] max-h-[150px] rounded-full">
+              <img src="{{BASE}}imgs/team/victor.png" class="w-full h-full max-w-[9.375rem] max-h-[9.375rem] rounded-full">
 
               <div class="flex flex-col items-center justify-center gap-[1.5rem] text-eerie dark:text-grey">
                   <h1 class="font-bold text-xl">Victor Silva</h1>
@@ -220,7 +220,7 @@
         <!-- Vitor Aquino -->
         <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025" class="flex flex-col justify-center items-stretch py-4 gap-[2rem] md:gap-[1.5rem] px-8 bg-white dark:bg-lighteerie rounded-lg border border-grey dark:border-purple shadow-lg opacity-90 transition-all ease-linear duration-200 delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-lightpurple dark:hover:border-lightpurple hover:opacity-100" data-aos="fade-down" data-aos-duration="180">
 
-              <img src="{{BASE}}imgs/vitor.png" class="w-full h-full max-w-[150px] max-h-[150px] rounded-full">
+              <img src="{{BASE}}imgs/team/vitor.png" class="w-full h-full max-w-[9.375rem] max-h-[9.375rem] rounded-full">
 
               <div class="flex flex-col items-center justify-center gap-[1.5rem] text-eerie dark:text-grey">
 
@@ -241,10 +241,10 @@
   </main>
 
   <!-- Feedback -->
-  <section class="px-6 my-10 py-6 w-[90%] mx-auto" data-aos="fade-up">
-    <div class="bg-darkerPurple p-6 flex flex-col md:flex-row rounded-md text-white font-bold items-center justify-center gap-[1.5rem] max-w-[900px] w-full mx-auto drop-shadow-md">
+  <section class="px-[1.5rem] my-10 py-[1.5rem] w-[90%] mx-auto" data-aos="fade-up">
+    <div class="bg-darkerPurple p-[1.5rem] flex flex-col md:flex-row rounded-md text-white font-bold items-center justify-center gap-[1.5rem] max-w-[900px] w-full mx-auto drop-shadow-md">
       
-      <a href="{{BASE}}feedback" class="relative text-darkpurple bg-orange rounded-md p-4 hover:-translate-y-1 transition duration-300 after:content[''] after:block after:absolute after:bg-orange after:w-[25px] after:h-[25px] after:rounded-md after:rotate-45 after:bottom-[-8px] after:left-[20px]">
+      <a href="{{BASE}}feedback" class="relative text-darkpurple bg-orange rounded-md p-4 hover:-translate-y-1 transition duration-300 after:content[''] after:block after:absolute after:bg-orange after:w-[25px] after:h-[25px] after:rounded-md after:rotate-45 after:bottom-[-0.5rem] after:left-[1.25rem]">
         Dê-nos seu Feedback
       </a>
 

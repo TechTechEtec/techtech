@@ -259,283 +259,234 @@ class RouteController extends Controller {
             return;
         }
 
-        header('Location: ' . BASE . 'signin');
+        return $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "signin", 400);
     }
 
     public function examModule1() {
         if(isset($_SESSION['loggedIn'])){
-
-           if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                $this->load("modules/01/exam");
-                return;
-           }
- 
-            $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
+            $this->load("modules/01/exam");
             return;
         }
-        header('Location: ' . BASE . 'signin');
+
+        return $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "signin", 400);
+        
     }
 
     // 02
 
     public function module2() {
         if(isset($_SESSION['loggedIn'])){
-
             if(
-                $_SESSION['modules'][0] !== null
+                (isset($_SESSION['modules']) && $_SESSION['modules'][0] !== null)
                 || $_SESSION['perfil'] === 'admin' 
                 || $_SESSION['perfil'] === 'teacher' 
                 || $_SESSION['perfil'] === 'school'
             ){
-                $this->load("modules/02/main");
-                return;
+                return $this->load("modules/02/main");
             }
 
-            $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 01", BASE . "dashboard", 400);
-        
-            return;
+            return $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 01", BASE . "dashboard", 400);
         }
 
-        header('Location: ' . BASE . 'signin');
+        return $this->showMessage("Perfil inválido", "você precisa estar autenticado!", BASE . "signin", 400);
     }
 
     public function examModule2() {
         if(isset($_SESSION['loggedIn'])){
-
-            if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-
-                if($_SESSION['modules'][0] !== null){
-                    $this->load("modules/02/exam");
-                    return;
-                }
-
-                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 01", BASE . "dashboard", 400);
-
-                return;
+            if(
+                (isset($_SESSION['modules']) && $_SESSION['modules'][0] !== null)
+                || $_SESSION['perfil'] === 'admin' 
+                || $_SESSION['perfil'] === 'teacher' 
+                || $_SESSION['perfil'] === 'school'
+            ){
+                return $this->load("modules/02/exam");
             }
 
-            $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
-            return;
+            return $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 01", BASE . "dashboard", 400);
         }
-        header('Location: ' . BASE . 'signin');
+
+        return $this->showMessage("Perfil inválido", "você precisa estar autenticado!", BASE . "signin", 400);
+
     }
 
     // 03
 
     public function module3() {
         if(isset($_SESSION['loggedIn'])){
-
             if(
-                $_SESSION['modules'][1] !== null 
+                (isset($_SESSION['modules']) && $_SESSION['modules'][1] !== null)
                 || $_SESSION['perfil'] === 'admin' 
                 || $_SESSION['perfil'] === 'teacher' 
                 || $_SESSION['perfil'] === 'school'
             ){
-                $this->load("modules/03/main");
-                return;
+                return $this->load("modules/03/main");
             }
 
-            $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 02", BASE . "dashboard", 400);
-        
-            return;
+            return $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 02", BASE . "dashboard", 400);
         }
 
-        header('Location: ' . BASE . 'signin');
+        return $this->showMessage("Perfil inválido", "você precisa estar autenticado!", BASE . "signin", 400);
     }
 
     public function examModule3() {
         if(isset($_SESSION['loggedIn'])){
-
-            if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-               
-                if($_SESSION['modules'][1] !== null){
-                    $this->load("modules/03/exam");
-                    return;
-                }
-
-               $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 02", BASE . "dashboard", 400);
-
-                return;
+            if(
+                (isset($_SESSION['modules']) && $_SESSION['modules'][1] !== null)
+                || $_SESSION['perfil'] === 'admin' 
+                || $_SESSION['perfil'] === 'teacher' 
+                || $_SESSION['perfil'] === 'school'
+            ){
+                return $this->load("modules/03/exam");
             }
 
-            $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
-            return;
+            return $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 02", BASE . "dashboard", 400);
         }
-        header('Location: ' . BASE . 'signin');
+
+        return $this->showMessage("Perfil inválido", "você precisa estar autenticado!", BASE . "signin", 400);
     }
 
     // 04
 
     public function module4() {
         if(isset($_SESSION['loggedIn'])){
-
             if(
-                $_SESSION['modules'][2] !== null 
+                (isset($_SESSION['modules']) && $_SESSION['modules'][2] !== null)
                 || $_SESSION['perfil'] === 'admin' 
                 || $_SESSION['perfil'] === 'teacher' 
                 || $_SESSION['perfil'] === 'school'
             ){
-                $this->load("modules/04/main");
-                return;
+                return $this->load("modules/04/main");
             }
 
-            $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 03", BASE . "dashboard", 400);
-        
-            return;
+            return $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 03", BASE . "dashboard", 400);
         }
 
-        header('Location: ' . BASE . 'signin');
+        return $this->showMessage("Perfil inválido", "você precisa estar autenticado!", BASE . "signin", 400);
     }
 
     public function examModule4() {
         if(isset($_SESSION['loggedIn'])){
-
-            if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-               if($_SESSION['modules'][2] !== null){
-                    $this->load("modules/04/exam");
-                   return;
-                }
-
-                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 03", BASE . "dashboard", 400);
-
-                return;
+            if(
+                (isset($_SESSION['modules']) && $_SESSION['modules'][2] !== null)
+                || $_SESSION['perfil'] === 'admin' 
+                || $_SESSION['perfil'] === 'teacher' 
+                || $_SESSION['perfil'] === 'school'
+            ){
+                return $this->load("modules/04/exam");
             }
 
-            $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
-            return;
+            return $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 03", BASE . "dashboard", 400);
         }
-        header('Location: ' . BASE . 'signin');
+
+        return $this->showMessage("Perfil inválido", "você precisa estar autenticado!", BASE . "signin", 400);
     }
 
     // 05
 
     public function module5() {
         if(isset($_SESSION['loggedIn'])){
-
             if(
-                $_SESSION['modules'][3] !== null 
+                (isset($_SESSION['modules']) && $_SESSION['modules'][3] !== null)
                 || $_SESSION['perfil'] === 'admin' 
                 || $_SESSION['perfil'] === 'teacher' 
                 || $_SESSION['perfil'] === 'school'
             ){
-                $this->load("modules/05/main");
-                return;
+                return $this->load("modules/05/main");
             }
 
-            $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 04", BASE . "dashboard", 400);
-        
-            return;
-            
-            return;
+            return $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 04", BASE . "dashboard", 400);
         }
 
-        header('Location: ' . BASE . 'signin');
+        return $this->showMessage("Perfil inválido", "você precisa estar autenticado!", BASE . "signin", 400);
     }
 
     public function examModule5() {
         if(isset($_SESSION['loggedIn'])){
-
-            if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                if($_SESSION['modules'][3] !== null){
-                    $this->load("modules/05/exam");
-                    return;
-                }
-
-                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 04", BASE . "dashboard", 400);
-
-                return;
+            if(
+                (isset($_SESSION['modules']) && $_SESSION['modules'][3] !== null)
+                || $_SESSION['perfil'] === 'admin' 
+                || $_SESSION['perfil'] === 'teacher' 
+                || $_SESSION['perfil'] === 'school'
+            ){
+                return $this->load("modules/05/exam");
             }
 
-            $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
-            return;
+            return $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 04", BASE . "dashboard", 400);
         }
-        header('Location: ' . BASE . 'signin');
+
+        return $this->showMessage("Perfil inválido", "você precisa estar autenticado!", BASE . "signin", 400);
     }
 
     // 06
 
     public function module6() {
         if(isset($_SESSION['loggedIn'])){
-
             if(
-                $_SESSION['modules'][4] !== null 
+                (isset($_SESSION['modules']) && $_SESSION['modules'][4] !== null)
                 || $_SESSION['perfil'] === 'admin' 
                 || $_SESSION['perfil'] === 'teacher' 
                 || $_SESSION['perfil'] === 'school'
             ){
-                $this->load("modules/06/main");
-                return;
+                return $this->load("modules/06/main");
             }
 
-            $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 05", BASE . "dashboard", 400);
-        
-            return;
+            return $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 05", BASE . "dashboard", 400);
         }
 
-        header('Location: ' . BASE . 'signin');
+        return $this->showMessage("Perfil inválido", "você precisa estar autenticado!", BASE . "signin", 400);
     }
 
     public function examModule6() {
         if(isset($_SESSION['loggedIn'])){
-
-            if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                if($_SESSION['modules'][4] !== null){
-                    $this->load("modules/06/exam");
-                    return;
-                }
-
-                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 05", BASE . "dashboard", 400);
-
-                return;
+            if(
+                (isset($_SESSION['modules']) && $_SESSION['modules'][4] !== null)
+                || $_SESSION['perfil'] === 'admin' 
+                || $_SESSION['perfil'] === 'teacher' 
+                || $_SESSION['perfil'] === 'school'
+            ){
+                return $this->load("modules/06/exam");
             }
 
-            $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
-            return;
+            return $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 05", BASE . "dashboard", 400);
         }
-        header('Location: ' . BASE . 'signin');
+
+        return $this->showMessage("Perfil inválido", "você precisa estar autenticado!", BASE . "signin", 400);
     }
 
     // 07
 
     public function module7() {
         if(isset($_SESSION['loggedIn'])){
-
             if(
-                $_SESSION['modules'][5] !== null 
+                (isset($_SESSION['modules']) && $_SESSION['modules'][5] !== null)
                 || $_SESSION['perfil'] === 'admin' 
                 || $_SESSION['perfil'] === 'teacher' 
                 || $_SESSION['perfil'] === 'school'
             ){
-                $this->load("modules/07/main");
-                return;
+                return $this->load("modules/07/main");
             }
 
-            $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 06", BASE . "dashboard", 400);
-        
-            return;
+            return $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 06", BASE . "dashboard", 400);
         }
 
-        header('Location: ' . BASE . 'signin');
+        return $this->showMessage("Perfil inválido", "você precisa estar autenticado!", BASE . "signin", 400);
     }
 
     public function examModule7() {
         if(isset($_SESSION['loggedIn'])){
-
-            if($_SESSION['perfil'] === 'student' || $_SESSION['perfil'] === 'admin'){
-                if($_SESSION['modules'][5] !== null){
-                    $this->load("modules/07/exam");
-                    return;
-                }
-
-                $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 06", BASE . "dashboard", 400);
-
-                return;
+            if(
+                (isset($_SESSION['modules']) && $_SESSION['modules'][5] !== null)
+                || $_SESSION['perfil'] === 'admin' 
+                || $_SESSION['perfil'] === 'teacher' 
+                || $_SESSION['perfil'] === 'school'
+            ){
+                return $this->load("modules/07/exam");
             }
 
-            $this->showMessage("Perfil inválido", "você não é um estudante para realizar a prova!", BASE . "dashboard", 400);
-            return;
+            return $this->showMessage("Acesso Negado", "você precisa concluir a prova do módulo 06", BASE . "dashboard", 400);
         }
-        header('Location: ' . BASE . 'signin');
+
+        return $this->showMessage("Perfil inválido", "você precisa estar autenticado!", BASE . "signin", 400);
     }
 
     public function summary() {

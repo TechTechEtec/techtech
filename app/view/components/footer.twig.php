@@ -36,13 +36,13 @@
 
   <!-- Form -->
   <form method="post" action="send.php" class="flex-1 flex w-full lg:w-auto flex-col items-center justify-start gap-[1.5rem] max-w-[25rem]">
-      <input type="text" id="name" name="name" placeholder="Seu nome" class="w-full h-10 rounded-lg bg-white border-black border-[1px] border-solid p-2 text-black" autocomplete="off"/>
+      <input type="text" id="name" name="name" placeholder="Seu nome" class="w-full h-[2.5rem] rounded-lg bg-white border-black border-[0.0625rem] border-solid p-[0.5rem] text-black" autocomplete="off"/>
 
-      <input type="email" id="name" name="name" placeholder="Seu E-mail" class="w-full h-10  rounded-lg bg-white border-black border-[1px] border-solid p-2 text-black" autocomplete="off"/>
+      <input type="email" id="name" name="name" placeholder="Seu E-mail" class="w-full h-[2.5rem] rounded-lg bg-white border-black border-[0.0625rem] border-solid p-[0.5rem] text-black" autocomplete="off"/>
 
-      <textarea placeholder="Sua mensagem..." rows="5" class="w-full h-[6rem] max-h-[6.25rem] min-h-[6.25rem] rounded-lg bg-white border-black border-[1px] border-solid p-2 text-black" autocomplete="off"></textarea>
+      <textarea placeholder="Sua mensagem..." rows="5" class="w-full h-[6rem] max-h-[6.25rem] min-h-[6.25rem] rounded-lg bg-white border-black border-[1px] border-solid p-[0.5rem] text-black" autocomplete="off"></textarea>
 
-      <button class="bg-darkpurple w-full p-2 rounded-xl drop-shadow-xl hover:-translate-y-1 transition ease duration-300 cursor-pointer text-white font-extrabold font-clean tracking-wider">
+      <button class="bg-darkpurple w-full p-[0.5rem] rounded-xl drop-shadow-xl hover:-translate-y-1 transition ease duration-300 cursor-pointer text-white font-extrabold font-clean tracking-wider">
         Enviar
       </button>
   </form>

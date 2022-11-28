@@ -2,13 +2,12 @@
 
 {% block title %} Sumário | Techtech {% endblock %}
 
-
 {% block main %}
 
 <section class="w-screen h-auto bg-repeat-y bg-center relative overflow-x-hidden bg-[url({{BASE}}svgs/Random_shit.svg)] bg-cover">
     <div class="flex flex-row items-center"> 
     <h1 class="text-3xl font-bold font-clean text-purple uppercase px-4 my-8">Módulos</h1>
-    <span data-tilt><img class="w-[90px] h-[90px]" src="{{BASE}}imgs/hexagonos.png" alt="Hexagonos"></span>
+    <span data-tilt><img class="w-[5.625rem] h-[5.625rem]" src="{{BASE}}imgs/hexagonos.png" alt="Hexagonos"></span>
     </div>
         
 
