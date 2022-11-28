@@ -1,16 +1,38 @@
-<h1 class="text-5xl font-nerko text-darkpurple">Ajuda</h1>
-<h2 class="text-3xl mt-2 font-bold dark:text-white">Estudante</h2>
-<p class="text-xl font-bold">Onde posso baixar os mapas mentais? </p>
-<p>O que vou encontrar na sidebar? </p>
-<p>Onde posso dar meu feedback? </p>
-<p>O que é o Playground? </p>
-<p>Como funciona o playground? </p>
-<p>Porque tem módulos trancados no painel? </p>
-<p>Como eu entro em uma turma? </p>
-<p>Como eu saio de uma turma? </p>
-<p>Como eu mudo minha senha? </p>
-<h2 class="text-3xl mt-2 font-bold dark:text-white">Escolas e Professores</h2>
-<p>Onde vejo os módulos? </p>
-<p>Onde eu crio uma turma? </p>
-<p>Onde eu retiro um aluno? </p>
-<p>Onde eu adiciono um aluno? </p>
+<section class="m-0 bg-[url({{BASE}}svgs/Random_shit.svg)] bg-cover">
+<h1 class="text-5xl font-nerko text-darkpurple flex item-center justify-center">Ajuda</h1>
+    <h2 class="text-3xl mt-2 font-bold dark:text-pink-500">Ajuda - Escolas e Professores</h2>
+
+     <div class="flex flex-col gap-y-[4rem]">
+            <div class="flex flex-col gap-y-[1rem] items-center justify-center">
+                <p class="text-xl font-bold dark:text-white">Onde vejo os módulos?</p>
+                <span data-tilt><img src="{{BASE}}imgs/Msumario.png"></span>
+            </div>
+
+            <div class="flex flex-col gap-y-[1rem] items-center justify-center">
+                <p class="text-xl font-bold dark:text-white">O que vou encontrar na sidebar?</p>
+                <span data-tilt><img src="{{BASE}}imgs/Msidebar.png"></span>
+            </div>
+
+            <div class="flex flex-col gap-y-[1rem] items-center justify-center">
+                <p class="text-xl font-bold dark:text-white">Onde eu crio uma turma?</p>
+                <span data-tilt><img src="{{BASE}}imgs/Mcriarturma.png"></span>
+            </div>
+
+            <div class="flex flex-col gap-y-[1rem] items-center justify-center">
+                <p class="text-xl font-bold dark:text-white">Onde eu excluo uma turma?</p>
+                <span data-tilt><img src="{{BASE}}imgs/Mexcluirturma.png"></span>
+            </div>
+
+            <div class="flex flex-col gap-y-[1rem] items-center justify-center">
+                <p class="text-xl font-bold dark:text-white">Onde eu posso ver os dados de uma turma?</p>
+                <span data-tilt><img src="{{BASE}}imgs/Mdadosturma.png"></span>
+            </div>
+
+            <div class="flex flex-col gap-y-[1rem] items-center justify-center">
+                <p class="text-xl font-bold dark:text-white">Como eu mudo minha senha? </p>
+                <span data-tilt><img src="{{BASE}}imgs/Msenha_escola.png"></span>
+            </div>
+     </div>
+</section>
+
+<script src="tilt.jquery.js"></script>

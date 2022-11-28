@@ -1,6 +1,6 @@
 
 <sl-switch id="toggleDarkModeButton" style="--width: 3.125rem; --height: 1.5rem; --thumb-size: 1rem;">
-    Dark
+    <sl-icon name="moon-stars"></sl-icon>
 </sl-switch>
 
 <style>

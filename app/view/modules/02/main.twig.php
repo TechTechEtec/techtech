@@ -29,6 +29,10 @@
                 </a>
             </div>
 
+            <audio controls class="flex justify-center w-full mt-[2rem] dark:bg-eerie">
+                <source src="{{BASE}}audios/modulo2.mp4" type="audio/mp4">
+            </audio>
+
             <div class="w-full" id="content">
               {% apply markdown_to_html %}
                  {{ getMarkdown('https://raw.githubusercontent.com/TechTechEtec/modules/main/02/index.md') }}

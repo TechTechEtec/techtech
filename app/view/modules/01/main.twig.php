@@ -22,12 +22,17 @@
 
             <img class="" src="{{BASE}}imgs/MindMap-01.png" alt="Mapa mental Lógica de Programação" data-aos="fade-up">
 
+
             <div class="w-full items-center justify-center md:justify-end gap-[1rem] mt-[2rem]">
                 <a href="{{BASE}}imgs/MindMap-01.png" download class="font-bold text-lg flex flex-row gap-[1rem] items-center justify-center text-eerie dark:text-grey">
                     <span>Faça o download do mapa aqui!</span>
                     <span class="material-icons">file_open</span>
                 </a>
             </div>
+
+            <audio controls class="flex justify-center w-full mt-[2rem] dark:bg-eerie">
+                <source src="{{BASE}}audios/modulo1.mp4" type="audio/mp4">
+            </audio>
 
             <div class="px-4" id="content">
                 {% apply markdown_to_html %}

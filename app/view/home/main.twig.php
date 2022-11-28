@@ -3,7 +3,7 @@
 {% block title %} Home | Techtech {% endblock %}
 
 {% block body %}
-  <div class="w-screen absolute h-[90px] md:w-[170vw] md:h-[60rem] md:md:h-[63rem] bg-lightpurple dark:bg-lighteerie md:top-[-80%] md:left-[-20%] md:skew-y-3 md:-rotate-[20deg] z-[-1] p-6 ">
+  <div class="w-screen bg-[({{BASE}}svgs/Random_shit.svg)] absolute h-[90px] md:w-[170vw] md:h-[60rem] md:md:h-[63rem] bg-lightpurple dark:bg-lighteerie md:top-[-80%] md:left-[-20%] md:skew-y-3 md:-rotate-[20deg] z-[-1] p-6 ">
     <div class="hidden md:block relative w-full h-full bg-lightpurple dark:bg-lighteerie brightness-[1.15]"></div>
   </div>
 
@@ -20,8 +20,8 @@
     <!-- Logo -->	
     <img class="flex-none w-20 h-20" src="{{BASE}}svgs/techtechlogo.svg" alt="TechTech Logo">	
     <!-- NAVIGATION -->	
-    <nav class="flex flex-row items-center gap-[1rem]">	
-      <ul class="text-darkpurple font-bold text-3xl flex flex-col items-center justify-center drop-shadow-xl px-6 py-10 z-10 bg-darkwhite fixed top-0 right-0 h-screen w-screen md:items-start md:justify-start md:w-[40%] lg:h-auto lg:relative lg:flex-row lg:bg-transparent lg:p-0 lg:items-center gap-[1rem] lg:gap-[1rem] lg:w-auto hidden lg:flex home-menu dark:bg-lighteerie dark:lg:bg-transparent dark:text-purple">
+    <nav class="flex flex-row items-center gap-[5rem]">	
+      <ul class="text-darkpurple font-bold text-3xl flex flex-col items-center justify-center drop-shadow-xl px-6 py-10 z-10 bg-darkwhite fixed top-0 right-0 h-screen w-screen md:items-start md:justify-start md:w-[40%] lg:h-auto lg:relative lg:flex-row lg:bg-transparent lg:p-0 lg:items-center gap-[1rem] lg:gap-[4rem] lg:w-auto hidden lg:flex home-menu dark:bg-lighteerie dark:lg:bg-transparent dark:text-purple">
 
         <li class="hover:translate-y-[-3px] ease duration-300 cursor-pointer absolute top-6 right-6 lg:hidden text-darkpurple text-5xl dark:text-purple" onclick="toggleHomeMenu()">	
           <i class="ph-x-circle"></i>
@@ -48,22 +48,21 @@
 
     <!-- first section -->
     <section class="px-4 w-[90vw] min-h-[75vh] mx-auto relative p-4 flex flex-col items-stretch justify-between gap-[2.5rem]" data-aos="fade-up">
-      <div class="flex flex-col justify-around items-start m-auto w-full gap-[1.5rem] 2md:flex-col lg:flex-row lg:items-start lg:justify-around">
+      <div class="flex flex-col justify-around items-start m-auto w-full gap-[1rem] 2md:flex-col lg:flex-row lg:items-start lg:justify-around">
         <div class="flex flex-1 flex-col items-start justify-evenly">
 
-          <h1 class="text-4xl text-darkpurple dark:text-purple font-mukta font-bold min-h-[50px]">TECHTECH ⭐</h1>
+          <h1 class="text-4xl text-darkpurple dark:text-purple font-mukta font-bold min-h-[50px]">Comece a aprender agora mesmo!</h1>
 
           <p class="text-gray-600 dark:text-grey text-justify mt-10 mb-5 text-lg w-full max-w-[35rem] font-medium font-roboto subpixel-antialiased">Ensino tecnológico acessível para crianças, um projeto sem fins lucrativos desenvolvido por estudantes, para auxiliar estudantes, com a finalidade de apresentar o mundo tecnológico de outra forma para crianças, e assim ampliar seus horizontes.</p>
 
-          <div class="flex flex-row gap-[1rem] justify-start items-center w-full mt-6 ">
+          <div class="flex flex-row gap-[1rem] justify-start items-center w-full mt-[-2] md:mt-6 ">
             <a href="{{BASE}}choose-signup" class="bg-orange text-darkerPurple font-bold p-2 rounded-xl hover:-translate-y-1 transition-all ease-linear duration-100 ring-2 ring-orange ring-offset-4 ring-offset-lightpurple dark:ring-offset-lighteerie">Cadastre-se</a>
           </div>
 
         </div>
 
-        <div class="flex-1 items-center justify-center flex w-full relative">
-          <img class="w-[full] mt-[-6rem]" src="{{BASE}}svgs/techbo-home.svg" alt="techbo mostrando vídeo">
-          <iframe src="https://streamable.com/e/t9nntn?nocontrols=1&loop=0" width="479.8px" height="220px" frameborder="0" allowfullscreen style="position:absolute;z-index:50;top:0;right:1px;flex:1;display:flex;align-items:stretch;"></iframe>
+        <div class="flex-1 items-center justify-center flex w-[30rem] h-[22rem] md:w-[24rem] md:h-[22rem] md:bg-[url({{BASE}}svgs/techbo-home.svg)] md:bg-cover">
+          <iframe src="https://streamable.com/e/t9nntn?nocontrols=1&loop=0" class="w-[25rem] h-[20rem] md:w-[12.5rem] md:h-[12.5rem] md:ml-[8rem] mt-[2rem]" frameborder="0" allowfullscreen style="z-index:50;top:0;right:1px;flex:1;display:flex;align-items:stretch; "></iframe>
         </div>
       </div>
 

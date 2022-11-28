@@ -28,6 +28,10 @@
                     <span class="material-icons">file_open</span>
                 </a>
             </div>
+
+            <audio controls class="flex justify-center w-full mt-[2rem] dark:bg-eerie">
+                <source src="{{BASE}}audios/modulo3.mp4" type="audio/mp4">
+            </audio>
             
             <div class="px-4" id="content">
                 {% apply markdown_to_html %}
@@ -38,13 +42,8 @@
             <hr class="my-8"/>
 
             <div class="flex flex-col flex-wrap mt-8">
-<<<<<<< HEAD
                 <a href="{{BASE}}modules/03/exam">
                     <p class="flex items-center text-xl gap-2 justify-start text-eerie dark:text-grey font-mukta font-bold">
-=======
-                <a href="{{BASE}}modules/02/exam">
-                    <p class="flex items-center text-xl gap-[0.5rem] justify-start text-eerie dark:text-grey font-mukta font-bold">
->>>>>>> main
                         <i class="ph-exam text-5xl"></i>
                         <span>Exame</span>
                         <i class="ph-arrow-right"></i> 

@@ -9,9 +9,6 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:export-ydpi="102"
-   inkscape:export-xdpi="102"
-   inkscape:export-filename="C:\xampp\htdocs\techtech\public\svgs\pentagono.png"
    width="72.586006mm"
    height="63.302647mm"
    viewBox="0 0 72.586007 63.302646"
@@ -52,7 +49,7 @@
        id="filter1102"
        x="-2.8168572e-06"
        width="1.0000056"
-       y="-1.6217683e-05"
+       y="-1.6217684e-05"
        height="1.0000324">
       <feGaussianBlur
          inkscape:collect="always"
@@ -67,9 +64,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="52.126677"
-     inkscape:cy="148.67159"
+     inkscape:zoom="0.7"
+     inkscape:cx="166.55294"
+     inkscape:cy="189.16713"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -87,6 +84,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -112,17 +110,17 @@
        d="M 69.547618,83.910712 29.365236,83.276543 17.551328,44.864857 50.432314,21.7593 82.567788,45.890965 Z"
        inkscape:transform-center-x="-0.010213005"
        inkscape:transform-center-y="-3.3118603"
-       transform="matrix(1.1161623,-0.0188093,0.01664841,1.0225814,-3.0380547,0.82781953)" />
+       transform="matrix(1.1161623,-0.0188093,0.01664841,1.0225814,-3.0380547,0.44984334)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:7.76111px;line-height:0.55;font-family:sans-serif;letter-spacing:0.161396px;word-spacing:0.0211667px;fill:#ff4797;fill-opacity:1;stroke:none;stroke-width:0.264583;filter:url(#filter1102)"
-       x="36.386799"
-       y="54.919315"
+       x="36.387028"
+       y="54.919296"
        id="text1094"><tspan
          sodipodi:role="line"
          id="tspan1092"
-         x="36.386799"
-         y="54.919315"
+         x="36.387028"
+         y="54.919296"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';fill:#ff4797;fill-opacity:1;stroke-width:0.264583"
          dx="0.23999999">Módulo 1</tspan></text>
   </g>

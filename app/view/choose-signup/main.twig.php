@@ -14,10 +14,10 @@
             {% embed "components/toggleDarkModeButton.twig.php" %} {% endembed%}
         </div>
 
-        <div class="flex flex-col gap-16 w-full max-w-[68.75rem]">
+        <div class="flex flex-col gap-y-[5rem] w-full max-w-[68.75rem]">
             <h1 class="text-purple text-5xl font-extrabold text-center w-full mt-[3rem]">Como você quer se cadastrar?</h1>
 
-            <div class="flex flex-col gap-6 items-stretch min-h-[400px] justify-center md:flex-row w-full">
+            <div class="flex flex-col gap-x-[4rem] items-stretch min-h-[400px] justify-center md:flex-row w-full">
 
                 <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025" class="flex-1 w-full flex flex-col items-stretch justify-center p-4 rounded-lg bg-white dark:bg-eerie dark:text-grey ease-in duration-300 transition-all hover:transform-y-[-3px] drop-shadow-lg">
                     <div class="flex flex-col items-stretch justify-start gap-4">
@@ -41,7 +41,7 @@
                 </div>
             </div>
 
-            <p class="text-eerie dark:text-grey w-full text-center">Já tem uma conta? <a href="{{BASE}}signin" class="text-blue">Entre</a></p>
+            <p class="text-eerie dark:text-grey w-full text-center font-mukta text-lg">Já tem uma conta? <a href="{{BASE}}signin" class="text-blue">Entre</a></p>
         </div>
     </div>
 {% endblock %}

@@ -20,6 +20,10 @@
        <div class="items-center justify-center p-4 2sm:px-2 w-full lg:w-[60rem]">    
             <h1 class="text-2xl font-bold font-clean text-purple uppercase px-4 my-8">Módulo 5</h1>
 
+            <audio controls class="flex justify-center w-full mt-[2rem] dark:bg-eerie">
+                <source src="{{BASE}}audios/modulo5.mp4" type="audio/mp4">
+            </audio>
+
             <div class="px-4" id="content">
                 {% apply markdown_to_html %}
                     {{ getMarkdown('https://raw.githubusercontent.com/TechTechEtec/modules/main/05/index.md') }}
@@ -29,13 +33,8 @@
             <hr class="my-8"/>
 
             <div class="flex flex-col flex-wrap mt-8">
-<<<<<<< HEAD
                 <a href="{{BASE}}modules/05/exam">
                     <p class="flex items-center text-xl gap-2 justify-start text-eerie dark:text-grey font-mukta font-bold">
-=======
-                <a href="{{BASE}}modules/02/exam">
-                    <p class="flex items-center text-xl gap-[0.5rem] justify-start text-eerie dark:text-grey font-mukta font-bold">
->>>>>>> main
                         <i class="ph-exam text-5xl"></i>
                         <span>Exame</span>
                         <i class="ph-arrow-right"></i> 

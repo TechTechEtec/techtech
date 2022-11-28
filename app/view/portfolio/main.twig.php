@@ -152,19 +152,19 @@
                       <a href="linkedin.com/in/marina-lima-nogueira-92758b221">
                         <i class="ph-linkedin-logo"></i>
                       </a>
-                      <a href="https://www.instagram.com/ma.lizzy.b/">
-                        <i class="ph-instagram-logo"></i>
+                      <a href="https://github.com/malizzy-b">
+                        <i class="ph-github-logo"></i>
                       </a>
                   </div>
             </div>
         </div>
 
         <!-- Sabrina Tavares -->
-        <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025" class="flex flex-col justify-center items-stretch py-4 gap-[2rem] md:gap-[1.5rem] px-8 bg-white dark:bg-lighteerie rounded-lg border border-grey dark:border-purple shadow-lg opacity-90 transition-all ease-linear duration-200 delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-lightpurple dark:hover:border-lightpurple hover:opacity-100" data-aos="fade-down" data-aos-duration="120">
+        <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025" class="flex flex-col justify-center items-stretch py-4 gap-[2rem] md:gap-[1.5rem] px-8 bg-white dark:bg-lighteerie rounded-lg border border-grey dark:border-purple shadow-lg opacity-90 transition-all ease-linear duration-200 delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-lightpurple dark:hover:border-lightpurple hover:opacity-100" data-aos="fade-down" data-aos-duration="140">
 
               <img src="{{BASE}}imgs/sabrina.png" class="w-full h-full max-w-[150px] max-h-[150px] rounded-full">
 
-              <div class="flex flex-col items-center justify-center gap-[1.5rem]text-eerie dark:text-grey">
+              <div class="flex flex-col items-center justify-center gap-[1.5rem] text-eerie dark:text-grey">
 
                   <h1 class="font-bold text-xl">Sabrina Tavares</h1>
 
@@ -172,8 +172,8 @@
                       <a href="linkedin.com/in/sabrina-tavares-teves-57189320b">
                         <i class="ph-linkedin-logo"></i>
                       </a>
-                      <a href="https://www.instagram.com/bina_tfs/">
-                        <i class="ph-instagram-logo"></i>
+                      <a href="https://github.com/VixiSabrina">
+                        <i class="ph-github-logo"></i>
                       </a>
                   </div>
             </div>
@@ -191,17 +191,16 @@
                       <a href="linkedin.com/in/sophia-cambuim-07a561240">
                         <i class="ph-linkedin-logo"></i>
                       </a>
-                      <a href="https://www.instagram.com/sophzt/">
-                        <i class="ph-instagram-logo"></i>
+                      <a href="https://github.com/sophzt">
+                        <i class="ph-github-logo"></i>
                       </a>
                   </div>
             </div>
         </div>
 
         <!-- Victor Silva -->
-        <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025" class="flex flex-col justify-center items-stretch py-4 gap-[2rem] md:gap-[1.5rem] px-8 bg-white dark:bg-lighteerie rounded-lg border border-grey dark:border-purple shadow-lg opacity-90 transition-all ease-linear duration-200 delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-lightpurple dark:hover:border-lightpurple hover:opacity-100 w-[12.8125rem]" data-aos="fade-down" data-aos-duration="160">
-
-              <img src="{{BASE}}imgs/victor.png" class="w-full h-full max-w-[150px] max-h-[150px] rounded-full">
+        <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025" class="flex flex-col justify-center items-stretch py-4 gap-[2rem] md:gap-[1.5rem] px-8 bg-white dark:bg-lighteerie rounded-lg border border-grey dark:border-purple shadow-lg opacity-90 transition-all ease-linear duration-200 delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-lightpurple dark:hover:border-lightpurple hover:opacity-100" data-aos="fade-down" data-aos-duration="140">
+              <img src="{{BASE}}imgs/victorr.png" class="w-full h-full max-w-[160px] max-h-[150px] rounded-full">
 
               <div class="flex flex-col items-center justify-center gap-[1.5rem] text-eerie dark:text-grey">
                   <h1 class="font-bold text-xl">Victor Silva</h1>
@@ -210,8 +209,8 @@
                       <a href="https://www.linkedin.com/in/victorsilvadev/">
                         <i class="ph-linkedin-logo"></i>
                       </a>
-                      <a href="">
-                        <i class="ph-instagram-logo"></i>
+                      <a href="https://www.github.com/VictorSilva15">
+                        <i class="ph-github-logo"></i>
                       </a>
                   </div>
             </div>
@@ -225,13 +224,9 @@
               <div class="flex flex-col items-center justify-center gap-[1.5rem] text-eerie dark:text-grey">
 
                   <h1 class="font-bold text-xl">Vitor Aquino</h1>
-
                   <div class="w-full h-auto flex items-center justify-center justify-center gap-[1.5rem] text-3xl font-bold">
-                      <a href="">
-                        <i class="ph-linkedin-logo"></i>
-                      </a>
-                      <a href="">
-                        <i class="ph-instagram-logo"></i>
+                      <a href="https://www.github.com/vitto177/">
+                        <i class="ph-github-logo"></i>
                       </a>
                   </div>
             </div>
