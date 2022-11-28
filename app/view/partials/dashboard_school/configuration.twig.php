@@ -44,23 +44,18 @@
     </div>
 
     <div class="flex flex-col items-start justify-start gap-2">
-        <h2 class="text-xl mt-[1rem] font-bold ">Data de nascimento</h2>
-        <p>{{session.extra.birthday|date("d/m/Y")}}</p>
-    </div>
-
-    <div class="flex flex-col items-start justify-start gap-2">
         <h2 class="text-xl mt-[1rem] font-bold ">Criado em</h2>
         <p>{{session.extra.created_at|date("d/m/Y")}}</p>
     </div>
 
     <div class="flex flex-col items-start justify-start gap-2">
         <h2 class="text-xl mt-[1rem] font-bold ">Turmas</h2>
-        <p>{{session.classroom|length ?? 0}}</p>
+        <p>{{session.classroom ? session.classroom|length : 0}}</p>
     </div>
 
     <div class="flex flex-col items-start justify-start gap-2">
         <h2 class="text-xl mt-[1rem] font-bold ">Professores</h2>
-        <p>{{session.teacher|length ?? 0}}</p>
+        <p>{{session.teacher ? session.teacher|length : 0}}</p>
     </div>
 
 </div>

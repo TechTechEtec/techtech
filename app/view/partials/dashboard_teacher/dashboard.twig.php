@@ -1,5 +1,3 @@
-{% set class = "oi" %}
-
 {% if session.classroom|length > 0 %}
     <section class="w-full">
         <h1 class="font-nerko font-normal text-4xl text-orange my-[0.8rem] max-w-[56.25rem] mx-auto">Turmas</h1>

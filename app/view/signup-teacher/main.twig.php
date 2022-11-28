@@ -62,17 +62,7 @@
 
                 <input class="hidden" name="avatar" value="" id="inputAvatar"/>
         
-                <div class="mt-[0.5rem] font-bold flex flex-col">
-                    <label class="text-eerie dark:text-grey" for="schoolname">Nome da Instituição</label>
-                    <input class="bg-grey rounded-md h-[2.5rem] w-full caret-purple focus:outline-purple focus:outline-1"
-                    id="schoolname"
-                    type="text"
-                    name="schoolName"
-                    required
-                    autocomplete="off"
-                    >
-                </div>
-
+            
                 <div class="mt-[0.5rem] font-bold flex flex-col">
                     <label class="text-eerie dark:text-grey" for="name">Nome</label>
                     <input class="bg-grey rounded-md h-[2.5rem] w-full caret-purple focus:outline-purple focus:outline-1"
@@ -91,6 +81,16 @@
                     type="email"
                     name="email"
                     required
+                    autocomplete="off"
+                    >
+                </div>
+
+                <div class="mt-[0.5rem] font-bold flex flex-col">
+                    <label class="text-eerie dark:text-grey" for="schoolname">Instituição (Opcional)</label>
+                    <input class="bg-grey rounded-md h-[2.5rem] w-full caret-purple focus:outline-purple focus:outline-1"
+                    id="schoolname"
+                    type="text"
+                    name="schoolName"
                     autocomplete="off"
                     >
                 </div>
@@ -117,7 +117,7 @@
                     >
                 </div>
 
-                <button class="bg-orange rounded-md w-[9rem] h-[2.25rem] text-center text-white flex items-center group mt-[2rem]" type="submit">
+                <button class="bg-orange rounded-md w-[9rem] h-[2.25rem] text-center text-white flex items-center justify-center group mt-[2rem]" type="submit">
                     Cadastrar
                 </button>
             </form>

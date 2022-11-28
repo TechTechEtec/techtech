@@ -28,7 +28,7 @@ $this->get('/feedback', 'RouteController@feedback');
 
 $this->get('/signup-teacher-byschool', 'RouteController@signupTeacherByschool');
 
-$this->get("/summary", 'RouteController@summary');
+$this->get("/modules", 'RouteController@summary');
 
 # Playground
 

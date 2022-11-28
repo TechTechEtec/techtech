@@ -95,25 +95,51 @@ class SchoolModel extends Model{
         
     }
 
-    public function update(object $school){  # Update School on DataBase
+    public function update(object $school){  # Update Student on DataBase
 
         $updatedData = [];
-
-
-        if(property_exists($school, "name"))
-            $updatedData["name"] = $school->name;
 
         if(property_exists($school, "email"))
             $updatedData["email"] = $school->email;
             
-        if(property_exists($school, "password"))
-            $updatedData["password"] = hash('sha256', $school->password);
-        
+        if(property_exists($school, "new_password"))
+            $updatedData["password"] = hash('sha256', $school->new_password);
+    
+        if(property_exists($school, "bio"))
+            $updatedData["bio"] = $school->bio;
         
         try {
-            $data = $this->db->update($school->id, $updatedData);
+            // Case to change the password
+            if(property_exists($school, "old_password")){
+
+                $old_password = hash('sha256', $school->old_password);
+
+                $query = [
+                    'select' => '*',
+                    'from'   => 'school',
+                    "where"   => [
+                        "email" => "eq." . $_SESSION['email'],
+                        "password" => "eq." . $old_password
+                    ]
+                ];
+
+                $existRegister = $this->db->createCustomQuery($query)->getResult();
+
+                if(is_array($existRegister) && sizeof($existRegister) === 1){
+                    $data = $this->db->update($_SESSION['extra']->id, $updatedData);
+                 
+                    return $data;
+                }
+
+                return "Registro correspondente não foi encontrado.";
+            }
+
+            // Update everything without password
+            $data = $this->db->update($_SESSION['extra']->id, $updatedData);
             return $data;
+                      
         }
+        
         catch(Exception $e) {
             return $e->getMessage();
         }

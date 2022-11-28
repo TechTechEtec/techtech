@@ -48,7 +48,7 @@
 
     <!-- first section -->
     <section class="px-4 w-[90vw] min-h-[75vh] mx-auto relative p-[1rem] flex flex-col items-stretch justify-between gap-[2.5rem]" data-aos="fade-up">
-      <div class="flex flex-col justify-around items-start m-auto w-full gap-[1.5rem] 2md:flex-col lg:flex-row lg:items-start lg:justify-around">
+      <div class="flex flex-col justify-around items-start m-auto w-full gap-[3rem] md:gap-[1.5rem] 2md:flex-col lg:flex-row lg:items-start lg:justify-around">
         <div class="flex flex-1 flex-col items-start justify-evenly">
 
           <h1 class="text-4xl text-darkpurple dark:text-purple font-mukta font-bold min-h-[3.125rem]">TECHTECH ⭐</h1>
@@ -61,8 +61,8 @@
 
         </div>
 
-        <div class="flex-1 items-center justify-center flex w-[30rem] h-[22rem] md:w-[24rem] md:h-[22rem] md:bg-[url({{BASE}}svgs/techbo-home.svg)] md:bg-cover">
-          <iframe src="https://streamable.com/e/t9nntn?nocontrols=1&loop=0" class="w-[25rem] h-[20rem] md:w-[12.5rem] md:h-[12.5rem] md:ml-[8rem] mt-[2rem]" frameborder="0" allowfullscreen style="z-index:50;top:0;right:1px;flex:1;display:flex;align-items:stretch; "></iframe>
+        <div class="flex flex-1 items-center items-center justify-center w-full max-w-[31.25rem] mx-auto mt-[3rem] md:mt-[0rem]">
+          <iframe src="https://streamable.com/e/mxf2z7?nocontrols=1&loop=0" width="500" height="300" style="background:#1B99AB60; border:2px solid #12688E;border-radius:0.25rem;margin-bottom: 1rem; padding: 0.8rem;"></iframe>
         </div>
       </div>
 
@@ -105,7 +105,7 @@
 
     <!-- Parallax Effect -->
     <section class="bg-[url({{BASE}}imgs/parallax.png)] dark:bg-[url({{BASE}}imgs/parallax-dark.png)] min-h-[12.5rem] md:min-h-[25rem] bg-fixed bg-center bg-contain relative transition-all duration-200 ease shadow-md">
-      <div class="hidden dark:block w-full h-full absolute top-0 left-0 right-0 bottom-0 z-[10] backdrop-contrast-[0.85] backdrop-brightness-[1.5] bg-[rgba(236, 194, 255,0.2)]"></div>
+      <div class="hidden dark:block w-full h-full absolute top-0 left-0 right-0 bottom-0 z-[10] backdrop-contrast-[0.85] backdrop-brightness-[2] bg-[rgba(236, 194, 255,0.2)]"></div>
     </section>
 
     <!-- third section -->
@@ -135,7 +135,7 @@
       <div class="flex flex-col flex-1 items-start jusfify-start gap-6 relative" data-aos="fade-up">
         <h2 class="text-6xl font-extrabold text-orange font-nerko uppercase">Playground</h2>
 
-        <p class="w-full mx-auto my-[1rem] text-justify font-medium text-[#202020] dark:text-grey text-2xl font-mukta">Caso você queira, você pode utilizar do nosso editor de código embutido na aba <span class="text-darkpurple text-bold font-nerko">playground</span>. Lá você conseguirá rodar códigos em Portugol e receber o resultado da execução em tempo real. Além disos é possível importar e exportar os códigos que você estiver testando.</p>
+        <p class="w-full mx-auto my-[1rem] text-justify font-medium text-[#202020] dark:text-grey text-2xl font-mukta">Caso você queira, você pode utilizar do nosso editor de código embutido na aba <span class="text-darkpurple text-bold font-nerko">playground</span>. Lá você conseguirá rodar códigos em Portugol e receber o resultado da execução em tempo real. Além disso é possível importar e exportar os códigos que você estiver testando.</p>
       </div>
 
     </section>
@@ -163,7 +163,7 @@
         <a href="{{BASE}}feedback" class="relative text-darkpurple bg-orange rounded-md p-4 hover:-translate-y-1 transition duration-300 after:content[''] after:block after:absolute after:bg-orange after:w-[1.5625rem] after:h-[1.5625rem] after:rounded-md after:rotate-45 after:bottom-[-0.5rem] after:left-[1.25rem]">
           Dê-nos seu Feedback
         </a>
-        <p class="flex-1">Sua Opinião é muito importante para nós assim podemos melhorar a sua experiência na nossa plataforma.
+        <p class="flex-1">Sua Opinião é muito importante para nós, assim podemos melhorar a sua experiência na nossa plataforma.
       </div>
     </section>
   </main>

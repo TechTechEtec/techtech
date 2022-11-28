@@ -22,7 +22,6 @@ class RouteController extends Controller {
         $this->schoolModel = new SchoolModel();
         $this->classModel = new ClassModel();
         $this->teacherModel = new TeacherModel();
-
     }
 
     public function dashboard() {
@@ -59,6 +58,31 @@ class RouteController extends Controller {
     public function dashboardSchool() {
         
         if(isset($_SESSION['loggedIn']) && ($_SESSION['perfil'] === 'school' || $_SESSION['perfil'] === 'admin')){
+
+            $this->classModel->fetchBySchool($_SESSION['extra']->id);
+
+            $this->teacherModel->fetchBySchool($_SESSION['name']);
+
+            $this->studentModel->fetchAll();
+
+            $studentAmount = 0;
+
+            if(isset($_SESSION['classroom']) && is_array($_SESSION['classroom']) && sizeof($_SESSION['classroom']) > 0){
+
+                if(isset($_SESSION['students']) && is_array($_SESSION['students']) && sizeof($_SESSION['students']) > 0) {
+                    foreach ($_SESSION['classroom'] as $class ) {
+                        foreach($_SESSION['students'] as $student ){
+                            if($student->classcode == $class->code) {
+                                $studentAmount += 1;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+            $_SESSION["studentAmount"] = $studentAmount;
+
             $this->load("dashboard-school/main");
             
             return;
