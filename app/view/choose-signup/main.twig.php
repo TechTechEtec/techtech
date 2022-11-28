@@ -19,8 +19,8 @@
 
             <div class="flex flex-col gap-[1.5rem] items-stretch min-h-[25rem] justify-center md:flex-row w-full">
 
-                <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025" class="flex-1 w-full flex flex-col items-stretch justify-center p-4 rounded-lg bg-white dark:bg-eerie dark:text-grey ease-in duration-300 transition-all hover:transform-y-[-3px] drop-shadow-lg">
-                    <div class="flex flex-col items-stretch justify-start gap-4">
+                <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025" class="flex-1 w-full flex flex-col items-stretch justify-center p-[1rem] rounded-lg bg-white dark:bg-eerie dark:text-grey ease-in duration-300 transition-all hover:transform-y-[-0.1875rem] drop-shadow-lg">
+                    <div class="flex flex-col items-stretch justify-start gap-[1rem]">
                         <img class="w-[11.25rem] h-[11.25rem] mx-auto" src="{{BASE}}imgs/student.png" alt="student icon image"/>
                         <a href="{{BASE}}signup-student" class="w-full max-w-[18.75rem] mx-auto py-[0.5rem] px-[1rem] bg-pink-500 text-center text-white rounded-md pointer-events-auto hover:-translate-y-1 transition-all ease duration-200">Estudante</a>
                     </div>
@@ -34,14 +34,14 @@
                 </div>
 
                 <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025" class="flex-1 w-full flex flex-col items-stretch justify-center p-[1rem] rounded-lg bg-white dark:bg-eerie dark:text-grey ease-in duration-300 transition-all hover:transform-y-[-0.1875rem] drop-shadow-lg">
-                    <div class="flex flex-col items-stretch justify-start gap-4">
+                    <div class="flex flex-col items-stretch justify-start gap-[1rem]">
                         <img class="w-[11.25rem] h-[11.25rem] mx-auto" src="{{BASE}}imgs/teacher.png" alt="student icon image"/>
-                        <a href="{{BASE}}signup-teacher" class="w-full max-w-[18.75rem] mx-auto py-2 px-4 bg-pink-500 text-center text-white rounded-md pointer-events-auto hover:-translate-y-1 transition-all ease duration-200">Professor</a>
+                        <a href="{{BASE}}signup-teacher" class="w-full max-w-[18.75rem] mx-auto py-[0.5rem] px-[1rem] bg-pink-500 text-center text-white rounded-md pointer-events-auto hover:-translate-y-1 transition-all ease duration-200">Professor</a>
                     </div>
                 </div>
             </div>
 
-            <p class="text-eerie dark:text-grey w-full text-center font-mukta text-lg">Já tem uma conta? <a href="{{BASE}}signin" class="text-blue">Entre</a></p>
+            <p class="text-[#404040] dark:text-grey w-full text-center font-medium font-mukta text-xl">Já tem uma conta? <a href="{{BASE}}signin" class="text-blue">Entre</a></p>
         </div>
     </div>
 {% endblock %}

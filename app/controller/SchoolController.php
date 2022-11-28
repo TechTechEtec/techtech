@@ -45,36 +45,40 @@ class SchoolController extends Controller{
 
     }
 
+    // Router Controller
     public function update(){
         $school = (object)[
-            "id"        => Input::post('id'),
-            'name'      => Input::post('name'),
             'email'    => Input::post('email'),
-            'password' => Input::post('password'),
+            'bio' => Input::post('bio'),
+            'old_password' => Input::post('old_password'),
+            'new_password' => Input::post('new_password'),
         ];
 
-        $this->updateValidate($school);
+        $school_filtered = $this->updateValidate($school);
 
-        $db_response = $this->schoolModel->update($school);
+        $result = $this->schoolModel->update($school_filtered);
 
-        if ($db_response <= 0) {
+        if (!is_array($result)) {
             return  $this->showMessage(
-                'Erro para atualizar escola', 
-                'Algum Erro interno está impedindo a atualização dos dados. É recomendado que atualize o navegador e tente novamente. Caso o erro persista, tente mais tarde ou informe a equipe de desenvolvimento em: techtechetec@gmail.com',
-                BASE,
-                422
+                'Erro para atualizar Escola', 
+                $result,
             );
-
-            die();
         }
 
-        $this->showMessage(
-            'Atualizado com sucesso!', 
-            'Os dados fornecidos sobrescreveram os dados anteriores. Você será redirecionado para a mesma página de edição.',
-        );
+        if(property_exists($result[0], "email")){
+            $_SESSION['email'] = $result[0]->email;
+        }
 
-        die();
+        if(property_exists($result[0], "bio")){
+            $_SESSION['bio'] = $result[0]->bio;
+        }
+
+       return $this->showMessage(
+            'Atualizado com sucesso!', 
+            'Os dados fornecidos sobrescreveram os dados anteriores. Você será redirecionado para tela de dashboard',
+        );
     }
+
 
     private function registerValidate(Object $school){
   
@@ -138,56 +142,78 @@ class SchoolController extends Controller{
     }
 
     private function updateValidate(Object $school){
-  
-        if(property_exists($school, "name")) {
-            if (strlen($school->name) < 3) {
-                $this->showMessage(
-                    'Formulário inválido', 
-                    'O nome da escola tem menos do que 3 caractéres',
-                );
-    
-                die();
-            }  
 
-            if (str_starts_with($school->name, "@") === false) {
-                $this->showMessage(
-                    'Formulário inválido', 
-                    'O nome da escola precisa começar a obrigatóriamente com @',
-                );
-            
-                die();
-            }
-        }
+        $school_filtered = (object)[];
 
-        if(property_exists($school, "email")) {
+
+        if(property_exists($school, "email") && strlen($school->email) >= 1) {
             if (strlen($school->email) < 10) {
                 $this->showMessage(
                     'Formulário inválido', 
-                    'O email da escola tem menos do que 10 caractéres',
-                );
-    
-                die();
-            }
-        }
-
-        if(property_exists($school, "password")) {
-            if (strlen($school->password) < 8) {
-                $this->showMessage(
-                    'Formulário inválido', 
-                    'Senha tem que ser igual ou maior do que 8 caracteres ',
+                    'O email não está no padrão correto',
                 );
     
                 die();
             }
 
-            if($school->password !== $school->confirmPassword) {
+            $school_filtered->email = $school->email;
+    
+        }
+
+        if(property_exists($school, "bio") && strlen($school->bio) >= 1) {
+            if (strlen($school->email) < 10) {
                 $this->showMessage(
                     'Formulário inválido', 
-                    'Senha e senha de confirmação não coincidem',
+                    'A biografia deve ter mais do que 10 caracteres',
                 );
     
                 die();
             }
+
+            $school_filtered->bio = $school->bio;
+    
         }
+
+        if(property_exists($school, "old_password") && strlen($school->old_password) >= 1) {
+
+            if (strlen($school->old_password) < 8) {
+                $this->showMessage(
+                    'Formulário inválido', 
+                    'A Senha antiga tem que ser maior do que 8 caracteres',
+                );
+    
+                die();
+            }
+              
+            if(property_exists($school, "new_password") && strlen($school->new_password) >= 1) {
+
+                if (strlen($school->new_password) < 8) {
+                    $this->showMessage(
+                        'Formulário inválido', 
+                        'A nova senha tem que ser maior do que 8 caracteres',
+                    );
+        
+                    die();
+                }
+    
+                $school_filtered->new_password = $school->new_password;
+            }
+
+            if($school->old_password == $school->new_password) {
+                $this->showMessage(
+                    'Formulário inválido', 
+                    'A senha nova não pode ser a mesma que a antiga!',
+                );
+    
+                die();                
+            }
+
+            $school_filtered->old_password = $school->old_password;
+            $school_filtered->new_password = $school->new_password;
+
+        }
+
+
+        return $school_filtered;
     }
 }

@@ -42,7 +42,7 @@ class TeacherController extends Controller{
             die();
         }
 
-        if($_SESSION['perfil'] === 'school') {
+        if(isset($_SESSION['perfil']) && $_SESSION['perfil'] === 'school') {
             return $this->showMessage(
                 'Cadastrado com sucesso', 
                 'Professor registrado dentro do sistema. clique no botão em baixo para retornar para tela de registro de professor!',
@@ -103,7 +103,7 @@ class TeacherController extends Controller{
 
     private function registerValidate(Object $teacher){
 
-        if (strlen($teacher->schoolName) < 3) {
+        if (strlen($teacher->schoolName) > 1 && strlen($teacher->schoolName) < 3) {
             $this->showMessage(
                 'Formulário inválido', 
                 'O nome da instituição tem menos do que 3 caractéres',
@@ -112,7 +112,7 @@ class TeacherController extends Controller{
             die();
         }
 
-        if (str_starts_with($teacher->schoolName, "@") === false) {
+        if (strlen($teacher->schoolName) > 1 && str_starts_with($teacher->schoolName, "@") === false) {
             $this->showMessage(
                 'Formulário inválido', 
                 'O nome da escola precisa começar a obrigatóriamente com @',

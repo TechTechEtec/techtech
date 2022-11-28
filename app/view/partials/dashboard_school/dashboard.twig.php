@@ -1,10 +1,31 @@
-<div class="mt-8 flex justify-between rounded-sm bg-white drop-shadow-lg w-[45rem] h-[3rem] items-center">
-  <h1 class="ml-4 text-4xl text-orange font-nerko">Geral</h1>
-  <p class="mr-4 font-bold text-xl">Turmas
-    <button>
-        <span class="ml-12 ph-caret-double-down"></span>
-    </button>
-  </p>
-</div>
+<h1 class="my-[1rem] font-nerko font-normal text-4xl w-full text-left text-orange">Visualização Geral</h1>
 
-<h1 class="flex justify-center mt-8 text-4xl text-orange font-nerko">Média Geral da Escola</h1>
+<sl-divider style="--color: gray;"></sl-divider>
+
+<ul class="w-full p-[1rem] flex flex-wrap flex-row items-center justify-center gap-[1.5rem]">
+
+  <li data-tilt  data-tilt-speed="1000" data-tilt-perspective="3000" data-tilt-scale="1.025" class="flex-1 w-full min-w-[18rem] max-w-[18rem] h-[20rem] rounded-md shadow-md border-2 border-solid p-[1rem] cursor-default py-[1.5rem] flex flex-col items-center justify-center gap-[1.5rem]">
+      <h1 class="uppercase text-2xl font-roboto text-pink-500">Estudantes</h1>
+
+      <sl-divider style="--color: gray;"></sl-divider>
+
+      <h2 class="font-extrabold font-mukta text-[6.5rem] text-center text-pink-500">{{session.studentAmount}}</h2>
+  </li>
+
+  <li data-tilt  data-tilt-speed="1000" data-tilt-perspective="3000" data-tilt-scale="1.025" class="flex-1 w-full min-w-[18rem] max-w-[18rem] h-[20rem] rounded-md shadow-md border-2 border-solid p-[1rem] cursor-default py-[1.5rem] flex flex-col items-center justify-center gap-[1.5rem]">
+      <h1 class="uppercase text-2xl font-roboto text-pink-500">Professores</h1>
+
+      <sl-divider style="--color: gray;"></sl-divider>
+
+      <h2 class="font-extrabold font-mukta text-[6.5rem] text-center text-pink-500">{{session.teacher ? session.teacher|length : 0}}</h2>
+  </li>
+
+  <li data-tilt  data-tilt-speed="1000" data-tilt-perspective="3000" data-tilt-scale="1.025" class="flex-1 w-full min-w-[18rem] max-w-[18rem] h-[20rem] rounded-md shadow-md border-2 border-solid p-[1rem] cursor-default py-[1.5rem] flex flex-col items-center justify-center gap-[1.5rem]">
+      <h1 class="uppercase text-2xl font-roboto text-pink-500">Turmas</h1>
+
+      <sl-divider style="--color: gray;"></sl-divider>
+
+      <h2 class="font-extrabold font-mukta text-[6.5rem] text-center text-pink-500">{{session.classroom ? session.classroom|length : 0}}</h2>
+  </li>
+
+</ul>

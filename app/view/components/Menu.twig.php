@@ -19,7 +19,7 @@
     </a>
 
         <!-- MODULES -->
-    <a href="{{BASE}}summary" title="Módulos" class="flex flex-row items-center justify-between w-full pl-[0.5rem] py-[0.375rem] pr-[0.25rem] cursor-pointer hover:bg-[#7c5cff6a] border-2 border-transparent hover:border-purple rounded-r-lg text-darkerPurple dark:text-grey font-bold dark:font-normal font-mukita" id="menu-modules">
+    <a href="{{BASE}}modules" title="Módulos" class="flex flex-row items-center justify-between w-full pl-[0.5rem] py-[0.375rem] pr-[0.25rem] cursor-pointer hover:bg-[#7c5cff6a] border-2 border-transparent hover:border-purple rounded-r-lg text-darkerPurple dark:text-grey font-bold dark:font-normal font-mukita" id="menu-modules">
         <p class="text-2xl">Módulos</p>
 
         <span class="text-4xl text-center flex items-center justify-center">
@@ -33,7 +33,7 @@
             <p class="text-2xl">Criar Turma</p>
 
             <span class="text-4xl text-center flex items-center justify-center">
-                <i class="ph-file-search"></i>
+                <i class="ph-student"></i>
             </span>
         </a>
     {% endif %}
@@ -43,7 +43,7 @@
             <p class="text-2xl">Criar Professor</p>
 
             <span class="text-4xl text-center flex items-center justify-center">
-                <i class="ph-file-search"></i>
+            <i class="ph-chalkboard-teacher"></i>
             </span>
         </a>
     {% endif %}

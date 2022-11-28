@@ -71,6 +71,10 @@ class TeacherModel extends Model{
             "avatar"   => $teacher->avatar
         ];
         
+        if(isset($teacher->schoolName)) {
+            unset($newTeacher['schoolName']);
+        }
+
         try {
             $data = $this->db->insert($newTeacher);
             return $data;

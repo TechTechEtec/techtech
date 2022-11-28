@@ -66,20 +66,52 @@
             <li class="flex flex-row items-center justify-start gap-[1.5rem]">
                 <span class="font-bold text-lg uppercase font-mukta">Turmas ativas:</span>
                 <span class="text-xl font-roboto flex flex-row items-center justify-start gap-[0.5rem] text-lighteerie dark:text-grey text-md font-normal">
-                    <span>{{session.classroom|length}}</span>  
+                    <span>{{session.classroom ? session.classroom|length : 0}}</span>  
                     <i class="ph-chalkboard-teacher text-xl"></i>
                 </span>
             </li>
-            <li class="flex flex-row items-center justify-start gap-[1.5rem]">
-                <span  class="font-bold text-lg uppercase font-mukta">Alunos:</span>
-                <span class="text-xl font-roboto flex flex-row items-center justify-start gap-[0.5rem] text-lighteerie dark:text-grey text-md font-normal">
-                    <span>37</span>  
-                    <i class="ph-student"></i>
-                </span>
-            </li> 
         </ul>
 
+        <p class="mt-[2rem] w-full text-left text-md text-eerie dark:text-[#bababa] font-medium font-mukta">
+            Como Professor você tem a responsabilidade de criar e administrar salas e alunos. Aqui você poderá monitorar
+            o progresso individual de cada aluno através das salas criadas.
+        </p>
+
+        <div class="w-full static md:absolute bottom-[1.25rem] right-[0.625rem] flex flex-col items-center justify-center gap-1rem my-[1.5rem]">
+            <img src="{{BASE}}svgs/techbo_challenges.svg" class="w-full max-w-[9.375rem] "alt="TechBô teacher"/>
+        </div>
+
         {% endif %}
+
+        {% if session.perfil == 'school' %}
+
+        <ul class="w-full list-none flex flex-col justify-start items-stretch cursor-default">
+            <li class="flex flex-row items-center justify-start gap-[1.5rem]">
+                <span class="font-bold text-lg uppercase font-mukta">Turmas ativas:</span>
+                <span class="text-xl font-roboto flex flex-row items-center justify-start gap-[0.5rem] text-lighteerie dark:text-grey text-md font-normal">
+                    <span>{{session.classroom ? session.classroom|length : 0}}</span>  
+                    <i class="ph-student text-xl"></i>
+                </span>
+            </li>
+            <li class="flex flex-row items-center justify-start gap-[1.5rem]">
+                <span class="font-bold text-lg uppercase font-mukta">Professores:</span>
+                <span class="text-xl font-roboto flex flex-row items-center justify-start gap-[0.5rem] text-lighteerie dark:text-grey text-md font-normal">
+                    <span>{{session.teacher ? session.teacher|length : 0}}</span>  
+                    <i class="ph-chalkboard-teacher text-xl"></i>
+                </span>
+            </li>
+        </ul>
+
+        <p class="mt-[2rem] w-full text-left text-md text-eerie dark:text-[#bababa] font-medium font-mukta">
+            Como escola você tem a responsabilidade de criar e administrar professores e salas. Aqui você poderá criar
+            colaboradores além de visualizar o progresso das salas
+        </p>
+
+        <div class="w-full static md:absolute bottom-[1.25rem] right-[0.625rem] flex flex-col items-center justify-center gap-1rem my-[1.5rem]">
+            <img src="{{BASE}}svgs/techbo_new_adventures_unlocked.svg" class="w-full max-w-[17.5rem] "alt="TechBô teacher"/>
+        </div>
+
+        {% endif %}        
     </div>
 </div>
 
