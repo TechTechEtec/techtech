@@ -1,4 +1,4 @@
-<section class="m-0 bg-[url({{BASE}}svgs/Random_shit.svg)] bg-cover">
+<section>
 <h1 class="text-5xl font-nerko text-darkpurple flex item-center justify-center">Ajuda</h1>
     <h2 class="text-3xl mt-2 font-bold dark:text-pink-500">Ajuda - Escolas e Professores</h2>
 
