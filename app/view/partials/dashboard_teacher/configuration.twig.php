@@ -49,6 +49,11 @@
     </div>
 
     <div class="flex flex-col items-start justify-start gap-2">
+        <h2 class="text-xl mt-[1rem] font-bold ">Data de nascimento</h2>
+        <p>{{session.extra.birthday|date("d/m/Y")}}</p>
+    </div>
+
+    <div class="flex flex-col items-start justify-start gap-2">
         <h2 class="text-xl mt-[1rem] font-bold ">Criado em</h2>
         <p>{{session.extra.created_at|date("d/m/Y")}}</p>
     </div>
@@ -66,6 +71,3 @@
 
 </div>
 
-<h2 class="text-3xl text-lightpurple my-[2rem] font-nerko uppercase">Dark Mode</h2>
-
-{% embed "components/toggleDarkModeButton.twig.php" %}{% endembed %}

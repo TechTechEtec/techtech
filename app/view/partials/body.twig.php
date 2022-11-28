@@ -29,6 +29,9 @@
         <!-- Lottie animations-->
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
+
+
+
         <!-- JavaScript files -->
         <script src="{{BASE}}js/toggleHomeMenu.js"></script>
         <script src="{{BASE}}js/toggleMenu.js"></script>

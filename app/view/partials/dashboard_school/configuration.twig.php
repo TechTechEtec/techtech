@@ -65,6 +65,3 @@
 
 </div>
 
-<h2 class="text-3xl text-lightpurple my-[2rem] font-nerko uppercase">Dark Mode</h2>
-
-{% embed "components/toggleDarkModeButton.twig.php" %}{% endembed %}
