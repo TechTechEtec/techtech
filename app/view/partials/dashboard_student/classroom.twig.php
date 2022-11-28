@@ -2,7 +2,7 @@
     <!-- Content if the student is into a classcode -->
 
     <section class="w-full">
-        <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="3000" data-tilt-scale="1.025" class="w-full flex flex-col items-around justify-center 2sm:flex-row 2sm:items-center 2sm:justify-around gap-[1rem] rounded-md shadow-lg max-w-[56.25rem] mx-auto p-[1rem]">
+        <div data-tilt  data-tilt-speed="1000" data-tilt-perspective="5000" data-tilt-scale="1.025" class="w-full flex flex-col items-around justify-center 2sm:flex-row 2sm:items-center 2sm:justify-around gap-[1rem] rounded-md shadow-lg max-w-[56.25rem] mx-auto p-[1rem]">
             <div class="w-full flex-1 p-[0.5rem] flex flex-col items-start justify-start">
                 <h1 class="font-nerko font-normal text-4xl text-orange my-[0.8rem]">Administrador</h1>
                 <div class="flex flex-row items-center justify-start gap-[1rem]">
@@ -17,9 +17,15 @@
                 </div>
             </div>
 
-            <div class="w-full flex-1 p-[0.5rem] flex flex-col items-start justify-start ">
-                <h2 class="font-nerko font-normal text-4xl text-orange my-[0.8rem]">Turma</h2>
-                <p class="text-roboto font-bold text-xl text-eerie dark:text-grey h-[4rem] flex items-center">{{session.classroom.name}}</p>
+            <div class="w-full flex-1 p-[0.5rem] flex flex-col items-start justify-start gap-[1rem]">
+                <div>
+                    <h2 class="font-nerko font-normal text-4xl text-orange my-[0.8rem]">Turma</h2>
+                    <p class="text-roboto font-bold text-xl text-eerie dark:text-grey  flex items-center">{{session.classroom.name}}</p>
+                </div>
+                <div>
+                    <h2 class="font-nerko font-normal text-4xl text-orange my-[0.8rem]">Código</h2>
+                    <p class="text-roboto font-bold text-xl text-eerie dark:text-grey  flex items-center">{{session.classroom.code}}</p>
+                </div>
             </div>
         </div>
 
@@ -105,21 +111,21 @@
 
         <p class="text-xl font-mukta font-medium text-eerie dark:text-grey w-full mx-auto text-center my-[1.5rem]">Deseja entrar em uma turma?</p>
 
-        <sl-dialog label="Entre em uma turma" class="dialog-scrolling" style="--width: min(500px, 95%); overflow:auto">
+        <sl-dialog label="Entre em uma turma" class="dialog-scrolling" style="--width: min(31.25rem, 95%); overflow:auto">
 
             <img src="{{BASE}}svgs/techbo_new_adventures_unlocked.svg" alt="techbô" class="w-full h-full max-w-[18.75rem] mb-[1rem] mx-auto"/>
 
             <form method="post" action="{{BASE}}@enter-classroom" class="w-full">
                 <div class="w-full flex-1">
                     <label for="classcode">Código da Turma</label>
-                    <input type="text" name="classcode" id="classcode" placeholder="ABCD123" required autocomplete="off" class="bg-grey rounded-md h-10 w-full mt-[1rem] caret-purple focus:outline-purple focus:outline-1 text-eerie uppercase font-medium"/>
+                    <input type="text" name="classcode" id="classcode" placeholder="ABC123" required autocomplete="off" class="bg-grey rounded-md h-[2.5rem] w-full mt-[1rem] caret-purple focus:outline-purple focus:outline-1 text-eerie uppercase font-medium"/>
                 </div>
 
                 <button type="submit" class="flex-1 my-[2rem] p-[1rem] w-full rounded-md shadow-sm text-white bg-orange transition-all ease-linear duration-200 hover:-translate-y-[0.1875rem] text-lg font-bold">Confirmar</button>
             </form>
         </sl-dialog>
 
-        <button id="enterInClassRoom" class="my-[1rem] p-[1rem] w-full max-w-[11.25rem] rounded-md shadow-sm text-white bg-pink-500 transition-all ease-linear duration-200 hover:-translate-y-[0.1875rem]">
+        <button id="enterInClassRoom" class="my-[1rem] p-[1rem] w-full max-w-[11.25rem] rounded-md shadow-sm text-white bg-pink-500 transition-all ease-linear duration-200 text-center hover:-translate-y-[0.1875rem]">
             Entrar
         </button>
     </section>

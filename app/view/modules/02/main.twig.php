@@ -20,10 +20,10 @@
        <div class="items-center justify-center p-4 2sm:px-2 w-full lg:w-[60rem]">
             <h1 class="text-2xl font-bold font-mukta text-purple uppercase px-4 my-8">Módulo 2</h1>
 
-            <img src="{{BASE}}imgs/MindMap-02.png" alt="Mapa mental Dados na Programação" data-aos="fade-up">
+            <img src="{{BASE}}imgs/mindMap/MindMap-02.png" alt="Mapa mental Dados na Programação" data-aos="fade-up">
 
             <div class="w-full flex items-center justify-center md:justify-end gap-[1rem] mt-[2rem]">
-                <a href="{{BASE}}imgs/MindMap-02.png" download class="font-bold text-lg flex flex-row gap-[1rem] items-center justify-center text-eerie dark:text-grey" >
+                <a href="{{BASE}}imgs/mindMap/MindMap-02.png" download class="font-bold text-lg flex flex-row gap-[1rem] items-center justify-center text-eerie dark:text-grey" >
                     <span>Faça o download do mapa aqui!</span>
                     <span class="material-icons">file_open</span>
                 </a>

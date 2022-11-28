@@ -52,6 +52,31 @@ class SchoolModel extends Model{
 
     }
 
+    public function fetchByName(string $name) {
+
+        $query = [
+            'select' => '*',
+            'from'   => 'school',
+            'where' => 
+            [
+                'name' => 'eq.' . $name
+            ]
+        ];
+
+        try {
+            
+            $result = $this->db->createCustomQuery($query)->getResult();
+
+            if(sizeof($result) === 1){
+                $_SESSION['school'] = $result[0];
+            }
+
+        }catch(Exception $e) {
+            return $e->getMessage();
+        }
+
+    }
+
     public function register(object $school){ # Register School on DataBase
         $newSchool = [
             'name'      => $school->name,

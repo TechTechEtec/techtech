@@ -61,10 +61,10 @@ class StudentController extends Controller {
 
         $result = $this->studentModel->update($student_filtered);
 
-        if ($result <= 0) {
+        if (!is_array($result)) {
             return  $this->showMessage(
                 'Erro para atualizar estudante', 
-                'Verifique se a senha antiga coincide com a cadastrada. Se o erro persistir tente mais tarde ou reporte o administrador em projetotechtech@gmail.com',
+                $result,
             );
         }
 
@@ -91,17 +91,9 @@ class StudentController extends Controller {
             'classcode'     => null
         ];
 
-        $result = $this->studentModel->update($class);
+        $this->studentModel->update($class);
 
-        if ($result <= 0) {
-            return  $this->showMessage(
-                'Erro para atualizar estudante', 
-                'Verifique se a senha antiga coincide com a cadastrada. Se o erro persistir tente mais tarde ou reporte o administrador em projetotechtech@gmail.com',
-            );
-        }
-
-   
-        $_SESSION['classcode'] = $result[0]->classcode;
+        unset($_SESSION['classroom']);
 
         return $this->showMessage(
             'Você saiu da turma', 

@@ -23,7 +23,7 @@
             <img class="" src="{{BASE}}imgs/MindMap-06.png" alt="Mapa mental Nomeando Decisões" data-aos="fade-up">
 
             <div class="w-full flex items-center justify-center md:justify-end gap-[1rem] mt-[2rem]">
-                <a href="{{BASE}}imgs/MindMap-04.png" download class="font-bold text-lg flex flex-row gap-[1rem] items-center justify-center text-eerie dark:text-grey">
+                <a href="{{BASE}}imgs/mindMap/MindMap-06.png" download class="font-bold text-lg flex flex-row gap-[1rem] items-center justify-center text-eerie dark:text-grey">
                     <span>Faça o download do mapa aqui!</span>
                     <span class="material-icons">file_open</span>
                 </a>

@@ -81,12 +81,9 @@ class TeacherModel extends Model{
         
     }
 
-    public function update(object $teacher){  # Update Teacher on DataBase
+    public function update(object $teacher){  # Update Student on DataBase
 
         $updatedData = [];
-
-        if(property_exists($teacher, "schoolName"))
-        $updatedData["schoolName"] = $teacher->schoolName;
 
         if(property_exists($teacher, "name"))
             $updatedData["name"] = $teacher->name;
@@ -94,17 +91,49 @@ class TeacherModel extends Model{
         if(property_exists($teacher, "email"))
             $updatedData["email"] = $teacher->email;
             
-        if(property_exists($teacher, "password"))
-            $updatedData["password"] =hash("sha256",  $teacher->password);
+        if(property_exists($teacher, "new_password"))
+            $updatedData["password"] = hash('sha256', $teacher->new_password);
+    
+        if(property_exists($teacher, "bio"))
+            $updatedData["bio"] = $teacher->bio;
         
         try {
-            $data = $this->db->update($teacher->id, $updatedData);
+            // Case to change the password
+            if(property_exists($teacher, "old_password")){
+
+                $old_password = hash('sha256', $teacher->old_password);
+
+                $query = [
+                    'select' => '*',
+                    'from'   => 'teacher',
+                    "where"   => [
+                        "email" => "eq." . $_SESSION['email'],
+                        "password" => "eq." . $old_password
+                    ]
+                ];
+
+                $existRegister = $this->db->createCustomQuery($query)->getResult();
+
+                if(is_array($existRegister) && sizeof($existRegister) === 1){
+                    $data = $this->db->update($_SESSION['extra']->id, $updatedData);
+                 
+                    return $data;
+                }
+
+                return "Registro correspondente não foi encontrado.";
+            }
+
+            // Update everything without password
+            $data = $this->db->update($_SESSION['extra']->id, $updatedData);
             return $data;
+                      
         }
+        
         catch(Exception $e) {
             return $e->getMessage();
         }
     }
+
 }
 
  # ADD LATER INFOS FROM SUPABASE 

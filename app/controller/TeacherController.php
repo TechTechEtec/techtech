@@ -63,32 +63,43 @@ class TeacherController extends Controller{
 
     // Router Controller
     public function update(){
-        $teacher = (object)[
-            "id"        => Input::post('id'),
-            'schoolName' => Input::post('schoolName'),
+        $student = (object)[
             'name'      => Input::post('name'),
             'email'    => Input::post('email'),
-            'password' => Input::post('password'),
+            'bio' => Input::post('bio'),
+            'old_password' => Input::post('old_password'),
+            'new_password' => Input::post('new_password'),
         ];
 
-        $this->updateValidate($teacher);
+        $teacher_filtered = $this->updateValidate($student);
 
-        $result = $this->teacherModel->update($teacher);
+        $result = $this->teacherModel->update($teacher_filtered);
 
-        if ($result <= 0) {
+        if (!is_array($result)) {
             return  $this->showMessage(
                 'Erro para atualizar professor', 
-                'Algum Erro interno está impedindo a atualização dos dados. É recomendado que atualize o navegador e tente novamente. Caso o erro persista, tente mais tarde ou informe a equipe de desenvolvimento em: techtechetec@gmail.com',
+                $result,
             );
         }
 
-        $this->showMessage(
-            'Atualizado com sucesso!', 
-            'Os dados fornecidos sobrescreveram os dados anteriores. Você será redirecionado para a mesma página de edição.',
-        );
+        if(property_exists($result[0], "email")){
+            $_SESSION['name'] = $result[0]->name;
+        }
 
-        die();
+        if(property_exists($result[0], "email")){
+            $_SESSION['email'] = $result[0]->email;
+        }
+
+        if(property_exists($result[0], "bio")){
+            $_SESSION['bio'] = $result[0]->bio;
+        }
+
+       return $this->showMessage(
+            'Atualizado com sucesso!', 
+            'Os dados fornecidos sobrescreveram os dados anteriores. Você será redirecionado para tela de dashboard',
+        );
     }
+
 
     private function registerValidate(Object $teacher){
 
@@ -158,67 +169,91 @@ class TeacherController extends Controller{
     }
 
     private function updateValidate(Object $teacher){
-  
-        if(property_exists($teacher, "schoolName")){
-            if (strlen($teacher->schoolName) < 3) {
-                $this->showMessage(
-                    'Formulário inválido', 
-                    'O nome da instituição tem menos do que 3 caractéres',
-                );
 
-                die();
-            }
-        }
+        $teacher_filtered = (object)[];
 
-        if(property_exists($teacher, "name")){
+        if(property_exists($teacher, "name") && strlen($teacher->name) >= 1) {
             if (strlen($teacher->name) < 3) {
+
                 $this->showMessage(
                     'Formulário inválido', 
-                    'O nome do professor tem menos do que 3 caractéres',
+                    'O nome do professor tem menos do que 3 caracteres',
                 );
-
+    
                 die();
             }
+
+            $teacher_filtered->name = $teacher->name;
         }
 
-        if(property_exists($teacher, "email")) {
-            if (strlen($teacher->email) < 10 ) {
+        if(property_exists($teacher, "email") && strlen($teacher->email) >= 1) {
+            if (strlen($teacher->email) < 10) {
                 $this->showMessage(
                     'Formulário inválido', 
-                    'O email tem menos do que 10 caracteres precisa incluir @gmail.com',
+                    'O email não está no padrão correto',
                 );
-            
+    
                 die();
             }
-               
-            if (strpos($teacher->email, "@gmail.com") === false) {
-                $this->showMessage(
-                    'Formulário inválido', 
-                    'O email tem que ser do domínio @gmail.com',
-                );
-            
-                die();
-            }
+
+            $teacher_filtered->email = $teacher->email;
+    
         }
-            
-        if(property_exists($teacher, "password")){
-            if (strlen($teacher->password) < 8) {
+
+        if(property_exists($teacher, "bio") && strlen($teacher->bio) >= 1) {
+            if (strlen($teacher->email) < 10) {
                 $this->showMessage(
                     'Formulário inválido', 
-                    'Senha tem que ser maior do que 8 caracteres e menor do que 16',
+                    'A biografia deve ter mais do que 10 caracteres',
+                );
+    
+                die();
+            }
+
+            $teacher_filtered->bio = $teacher->bio;
+    
+        }
+
+        if(property_exists($teacher, "old_password") && strlen($teacher->old_password) >= 1) {
+
+            if (strlen($teacher->old_password) < 8) {
+                $this->showMessage(
+                    'Formulário inválido', 
+                    'A Senha antiga tem que ser maior do que 8 caracteres',
                 );
     
                 die();
             }
               
-            if($teacher->password !== $teacher->confirmPassword) {
+            if(property_exists($teacher, "new_password") && strlen($teacher->new_password) >= 1) {
+
+                if (strlen($teacher->new_password) < 8) {
+                    $this->showMessage(
+                        'Formulário inválido', 
+                        'A nova senha tem que ser maior do que 8 caracteres',
+                    );
+        
+                    die();
+                }
+    
+                $teacher_filtered->new_password = $teacher->new_password;
+            }
+
+            if($teacher->old_password == $teacher->new_password) {
                 $this->showMessage(
                     'Formulário inválido', 
-                    'Senha e senha de confirmação não coincidem',
+                    'A senha nova não pode ser a mesma que a antiga!',
                 );
     
-                die();
+                die();                
             }
+
+            $teacher_filtered->old_password = $teacher->old_password;
+            $teacher_filtered->new_password = $teacher->new_password;
+
         }
+
+
+        return $teacher_filtered;
     }
 }

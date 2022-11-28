@@ -12,7 +12,6 @@
         <link rel="shortcut icon" href="{{BASE}}svgs/techtechlogo.svg">
 
         <!-- Fonts -->
-
         <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;700&family=Nerko+One&family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
 
         <!-- TAILWIND Import -->
@@ -62,12 +61,19 @@
     <body class="overflow-x-hidden dark:bg-eerie select-none">
 
         <div id="loading" class="bg-lightpurple text-purple dark:bg-lighteerie">
-        <img class="w-full h-full max-w-[80px] max-h-[80px]" src="{{BASE}}svgs/loading.svg" alt="loading spinner"/>
+        <img class="w-full h-full max-w-[5rem] max-h-[5rem]" src="{{BASE}}svgs/loading.svg" alt="loading spinner"/>
             Carregando ...
         </div>
 
         {% block menu %}{% endblock %}
         {% block body %}{% endblock %}
+
+        <div id="downloading_message" class="w-screen h-screen fixed bg-[rgba(0,0,0,0.4)] top-0 right-0 left-0 bottom-0 flex items-center justify-center z-[999] hidden">
+            <div class="border-2 borde-purple rounded-lg shadow-md px-[1rem] py-[1.5rem] flex flex-col items-center justify-center gap-1rem bg-white dark:bg-lighteerie text-eerie dark:text-grey w-full max-w-[31.25rem]">
+                <sl-spinner style="font-size: 50px; --track-width: 0.625rem; --indicator-color: hsl(252, 100%, 68%); --track-color: hsl(281, 100%, 88%);"></sl-spinner>
+                <p class="text-nerko font-normal text-2xl w-full text-center text-purple">Processando</p>
+            </div>
+        </div>
     </body>
 
     <script src="https://cdn.jsdelivr.net/npm/ace-builds@1/src-noconflict/ace.min.js"></script>

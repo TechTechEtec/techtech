@@ -1,6 +1,6 @@
 {% extends "partials/layout.twig.php" %}
 
-{% block title %} Módulo 04 | Techtech {% endblock %}
+{% block title %} Módulo 05 | Techtech {% endblock %}
 
 {% block main %}
 
@@ -20,9 +20,20 @@
        <div class="items-center justify-center p-4 2sm:px-2 w-full lg:w-[60rem]">    
             <h1 class="text-2xl font-bold font-clean text-purple uppercase px-4 my-8">Módulo 5</h1>
 
+<<<<<<< HEAD
             <audio controls class="flex justify-center w-full mt-[2rem] dark:bg-eerie">
                 <source src="{{BASE}}audios/modulo5.mp4" type="audio/mp4">
             </audio>
+=======
+            <img class="" src="{{BASE}}imgs/MindMap-05.png" alt="Mapa mental Nomeando Decisões" data-aos="fade-up">
+
+            <div class="w-full flex items-center justify-center md:justify-end gap-[1rem] mt-[2rem]">
+                <a href="{{BASE}}imgs/mindMap/MindMap-05.png" download class="font-bold text-lg flex flex-row gap-[1rem] items-center justify-center text-eerie dark:text-grey">
+                    <span>Faça o download do mapa aqui!</span>
+                    <span class="material-icons">file_open</span>
+                </a>
+            </div>
+>>>>>>> feature/teachers_dashboard
 
             <div class="px-4" id="content">
                 {% apply markdown_to_html %}

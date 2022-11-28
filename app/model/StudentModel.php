@@ -60,14 +60,23 @@ class StudentModel extends Model{
 
                 $old_password = hash('sha256', $student->old_password);
 
-                $existRegister = $this->db->findBy("password", $old_password)->getResult();
+                 $query = [
+                    'select' => '*',
+                    'from'   => 'student',
+                    "where"   => [
+                        "email" => "eq." . $_SESSION["email"],
+                        "password" => "eq." . $old_password
+                    ]
+                ];
+
+                $existRegister = $this->db->createCustomQuery($query)->getResult();
 
                 if(is_array($existRegister) && sizeof($existRegister) === 1){
                     $data = $this->db->update($_SESSION['extra']->id, $updatedData);
                     return $data;
                 }
 
-                return 0;
+                return "Registro correspondente não foi encontrado.";
             }
 
             // Update everything without password
@@ -103,6 +112,23 @@ class StudentModel extends Model{
                 $_SESSION['modules'] = $progress[0]->modules;
                 $_SESSION['actualModule'] = $actualModule;  
             }
+
+        }catch(Exception $e) {
+            return $e->getMessage();
+        }
+
+    }
+
+    public function fetchAll() {
+
+        $query = [
+            'select' => '*',
+            'from'   => 'student',
+        ];
+
+        try {
+            $classmates = $this->db->createCustomQuery($query)->getResult();
+            $_SESSION['students'] = $classmates;
 
         }catch(Exception $e) {
             return $e->getMessage();

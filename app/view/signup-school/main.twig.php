@@ -25,18 +25,18 @@
     <!-- SIGNUP PAGE -->
     <div class="w-screen h-screen bg-[url({{BASE}}imgs/background.png)] bg-contain bg-no-repeat bg-center bg-darkerPurple dark:bg-lighteerie relative overflow-x-hidden flex flex-row items-start md:items-center justify-center p-4">
 
-        <button title="Início" onclick="window.history.go(-1); return false;" class="text-4xl text-purple absolute top-[10px] left-[10px]">
+        <button title="Início" onclick="window.history.go(-1); return false;" class="text-4xl text-purple absolute top-[0.625rem] left-[0.625rem]">
             <sl-icon name="arrow-left-square"></sl-icon>
         </button>
 
         <!-- Toogle Dark/Light Button -->
-        <div class="fixed bottom-[10px] right-[10px] z-10">
+        <div class="fixed bottom-[0.625rem] right-[0.625rem] z-10">
             {% embed "components/toggleDarkModeButton.twig.php" %} {% endembed%}
         </div>
 
-        <main class="flex flex-wrap flex-col 2sm:flex-row space-y-2 gap-4 rounded-md items-start justify-center bg-white dark:bg-eerie mt-[3rem] px-8 py-8 shadow-lg w-full max-w-[600px] min-h-[350px]" data-aos="fade-up" data-aos-mirror="true" data-aos-once="true" data-aos-duration="800">
+        <main class="flex flex-wrap flex-col 2sm:flex-row space-y-2 gap-[1rem] rounded-md items-start justify-center bg-white dark:bg-eerie mt-[3rem] p-[2rem] shadow-lg w-full max-w-[37.5rem] min-h-[21.875rem]" data-aos="fade-up" data-aos-mirror="true" data-aos-once="true" data-aos-duration="800">
 
-            <div class="flex w-full h-full min-h-[350px] items-center justify-around flex-1 flex-col">
+            <div class="flex w-full h-full min-h-[21.875rem] items-center justify-around flex-1 flex-col">
                 <sl-avatar
                     data-tilt  data-tilt-speed="1000" data-tilt-perspective="800" data-tilt-scale="1.025"
                     image=""
@@ -54,55 +54,59 @@
             </div>
 
             <!-- DIVIDER -->
-            <div id="divider" class="hidden 2sm:block min-h-[350px] w-[2px] bg-grey text-grey drop-shadow-sm rounded-md mx-2">
+            <div id="divider" class="hidden 2sm:block min-h-[21.875rem] w-[0.125rem] bg-grey text-grey drop-shadow-sm rounded-md mx-2">
             </div>
 
-            <form class="h-full w-full flex-1 flex flex-col items-center px-6" method="post" action="{{BASE}}@signup-school">
+            <form class="h-full w-full flex-1 flex flex-col items-center px-[1.5rem]" method="post" action="{{BASE}}@signup-school">
 
                 <input class="hidden" name="avatar" value="" id="inputAvatar"/>
 
-                <div class="mt-2 font-bold flex flex-col">
+                <div class="mt-[0.5rem] font-bold flex flex-col">
                     <label class="text-eerie dark:text-grey" for="name">Nome da Instituição</label>
-                    <input class="bg-grey rounded-md h-10 w-full caret-purple focus:outline-purple focus:outline-1"
+                    <input class="bg-grey rounded-md h-[2.5rem] w-full caret-purple focus:outline-purple focus:outline-1"
                     id="name"
                     type="text"
                     name="name"
                     required
+                    autocomplete="off"
                     >
                 </div>
 
                 <div class="mt-2 font-bold flex flex-col">
                     <label class="text-eerie dark:text-grey" for="email">E-mail Institucional</label>
-                    <input class="bg-grey rounded-md h-10 w-full caret-purple focus:outline-purple focus:outline-1"
+                    <input class="bg-grey rounded-md h-[2.5rem] w-full caret-purple focus:outline-purple focus:outline-1"
                     id="email"
                     type="email"
                     name="email"
                     required
+                    autocomplete="off"
                     >
                 </div>
 
                 <div class="mt-2 font-bold flex flex-col">
                     <label class="text-eerie dark:text-grey" for="password">Senha</label>
-                    <input class="bg-grey rounded-md h-10 w-full caret-purple focus:outline-purple focus:outline-1"
+                    <input class="bg-grey rounded-md h-[2.5rem] w-full caret-purple focus:outline-purple focus:outline-1"
                     id="password"
                     type="password"
                     name="password"
                     required
+                    autocomplete="off"
                     >
                 </div>
 
-                <div class="mt-2 font-bold flex flex-col">
+                <div class="mt-[0.5rem] font-bold flex flex-col">
                     <label class="text-eerie dark:text-grey" for="confirmpassword">Confirmar Senha</label>
-                    <input class="bg-grey rounded-md h-10 w-full caret-purple focus:outline-purple focus:outline-1"
+                    <input class="bg-grey rounded-md h-[2.5rem] w-full caret-purple focus:outline-purple focus:outline-1"
                     id="confirmpassword"
                     type="password"
                     name="confirmpassword"
                     required
+                    autocomplete="off"
                     >
                 </div>
             
-                <button class="bg-orange rounded-md w-36 h-9 text-white flex items-center justify-center group mt-8">
-                    <span class="pl-2">Cadastrar</span>
+                <button class="bg-orange rounded-md w-[9rem] h-[2.25rem] text-center text-white flex items-center justify-center group mt-[2rem]">
+                    Cadastrar
                 </button>
             </form>
         </main>

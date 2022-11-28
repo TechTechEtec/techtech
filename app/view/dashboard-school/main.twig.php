@@ -8,7 +8,7 @@
 
 {% block main %}
     <div class="md:ml-[17.5rem]">
-        <sl-tab-group id="tab-group">
+        <sl-tab-group id="tab-group-school">
             <!-- TABS -->
             <sl-tab slot="nav" panel="dashboard" class="tab">
                 <h1 class="text-3xl font-nerko">Painel</h1>
@@ -54,12 +54,11 @@
     </div>
 
     <style>
-
-        #tab-group::part(active-tab-indicator){
+        #tab-group-school::part(active-tab-indicator){
             border: 1px solid hsl(255, 45%, 41%);
         }
 
-        html.dark #tab-group::part(active-tab-indicator){
+        html.dark #tab-group-schoolp::part(active-tab-indicator){
             border: 1px solid hsl(252, 100%, 68%);
         }
 
@@ -89,5 +88,6 @@
             background-color: hsl(255, 45%, 41%);
             height:2.5rem;
         }
+
     </style>
 {% endblock %}
