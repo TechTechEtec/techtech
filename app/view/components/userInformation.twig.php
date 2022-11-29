@@ -77,7 +77,7 @@
             o progresso individual de cada aluno através das salas criadas.
         </p>
 
-        <div class="w-full static md:absolute bottom-[1.25rem] right-[0.625rem] flex flex-col items-center justify-center gap-1rem my-[1.5rem]">
+        <div class="w-full relative bottom-[1.25rem] right-[0.625rem] flex flex-col items-center justify-center gap-1rem my-[1.5rem]">
             <img src="{{BASE}}svgs/techbo_challenges.svg" class="w-full max-w-[9.375rem] "alt="TechBô teacher"/>
         </div>
 
@@ -107,7 +107,7 @@
             colaboradores além de visualizar o progresso das salas
         </p>
 
-        <div class="w-full static md:absolute bottom-[1.25rem] right-[0.625rem] flex flex-col items-center justify-center gap-1rem my-[1.5rem]">
+        <div class="w-full relative bottom-[1.25rem] right-[0.625rem] flex flex-col items-center justify-center gap-1rem my-[1.5rem]">
             <img src="{{BASE}}svgs/techbo_new_adventures_unlocked.svg" class="w-full max-w-[17.5rem] "alt="TechBô teacher"/>
         </div>
 

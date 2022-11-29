@@ -76,7 +76,7 @@
 
         <p class="text-xl font-mukta font-medium text-eerie dark:text-grey w-full mx-auto text-center my-[1.5rem]">Deseja criar seu primeiro professor?</p>
 
-        <a href="{{BASE}}signup-class" title="Criar Turma" class="my-[1rem] p-[1rem] w-full max-w-[11.25rem] rounded-md shadow-sm text-white bg-pink-500 transition-all text-center ease-linear duration-200 hover:-translate-y-[0.1875rem]">
+        <a href="{{BASE}}signup-teacher-byschool" title="Criar Turma" class="my-[1rem] p-[1rem] w-full max-w-[11.25rem] rounded-md shadow-sm text-white bg-pink-500 transition-all text-center ease-linear duration-200 hover:-translate-y-[0.1875rem]">
             Criar Professor
         </a>
     </section>
